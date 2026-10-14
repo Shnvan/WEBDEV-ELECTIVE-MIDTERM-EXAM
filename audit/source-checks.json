@@ -1,0 +1,865 @@
+{
+  "note": "HTTP and term checks capture source evidence; manual judgments are recorded separately in audit-decisions.json.",
+  "checks": {
+    "images": {
+      "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element",
+      "resolvedUrl": "https://html.spec.whatwg.org/multipage/embedded-content.html",
+      "status": 200,
+      "ok": true,
+      "term": "alt",
+      "excerpt": "e element ✔ MDN HTML element contains zero or more elements and one element to offer alternative versions of an image for different display/device scenarios.\">Element/picture Support in all current engines. Firefox 38+ Safari 9.1+ Chrome 38+ Opera ? Edge 79+ Edge (Legacy) 13+ Internet Explorer No Firefox Android ? Safari iOS ? Chrome Android ? WebView Android ? Samsung Internet ? Opera Android ? ✔ MDN HTML eleme",
+      "sha256": "96e9468f501d3c83e6836237857b919195bbbd715956a07be38ecac4b9a0fe46",
+      "checkedAt": "2026-10-14T05:10:37.485Z"
+    },
+    "grouping": {
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html",
+      "resolvedUrl": "https://html.spec.whatwg.org/multipage/grouping-content.html",
+      "status": 200,
+      "ok": true,
+      "term": "dominant",
+      "excerpt": "me ></ p > </ figcaption > 4.4.14 The main element ✔ MDN HTML element represents the dominant content of the of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.\">Element/main Support in all current engines. Firefox 21+ Safari 7+ Chrome 26+ Opera 16+ Edge 79+ Edge (Legacy) 12+ Internet",
+      "sha256": "3558cf45aebc0e924bdf2995dbeb0c8440c329ef2314903b7bb50d7eb5218f46",
+      "checkedAt": "2026-10-14T05:10:37.557Z"
+    },
+    "forms": {
+      "url": "https://html.spec.whatwg.org/multipage/forms.html",
+      "resolvedUrl": "https://html.spec.whatwg.org/multipage/forms.html",
+      "status": 200,
+      "ok": true,
+      "term": "form controls",
+      "excerpt": "0.1.4 Client-side form validation 4.10.1.5 Enabling client-side automatic filling of form controls 4.10.1.6 Improving the user experience on mobile devices 4.10.1.7 The difference between the field type, the autofill field name, and the input modality 4.10.1.8 Date, time, and number formats 4.10.2 Categories 4.10.3 The form element 4.10.4 The label element 4.10 Forms ✔ MDN Element#Forms Support in all current en",
+      "sha256": "a7a79abde57646f146c1cb46075631a46c35d59820eb788b1953a2a83eced989",
+      "checkedAt": "2026-10-14T05:10:37.583Z"
+    },
+    "syntax": {
+      "url": "https://html.spec.whatwg.org/multipage/syntax.html",
+      "resolvedUrl": "https://html.spec.whatwg.org/multipage/syntax.html",
+      "status": 200,
+      "ok": true,
+      "term": "DOCTYPE",
+      "excerpt": "2 Parsing HTML documents → 13 The HTML syntax 13.1 Writing HTML documents 13.1.1 The DOCTYPE 13.1.2 Elements 13.1.2.1 Start tags 13.1.2.2 End tags 13.1.2.3 Attributes 13.1.2.4 Optional tags 13.1.2.5 Restrictions on content models 13.1.2.6 Restrictions on the contents of raw text and escapable raw text elements 13.1.3 Text 13.1.3.1 Newlines 13.1.4 Character references 13.1.5 CDATA sections 13.1.6 Comments 13.1.7 ",
+      "sha256": "7c43bb88c85fab71ce087bc7bbad73aa7c980a64d29c862c261cfe37d8a39cac",
+      "checkedAt": "2026-10-14T05:10:37.786Z"
+    },
+    "structure": {
+      "url": "https://html.spec.whatwg.org/multipage/sections.html",
+      "resolvedUrl": "https://html.spec.whatwg.org/multipage/sections.html",
+      "status": 200,
+      "ok": true,
+      "term": "article",
+      "excerpt": "e of Contents — 4.4 Grouping content → 4.3 Sections 4.3.1 The body element 4.3.2 The article element 4.3.3 The section element 4.3.4 The nav element 4.3.5 The aside element 4.3.6 The h1 , h2 , h3 , h4 , h5 , and h6 elements 4.3.7 The hgroup element 4.3.8 The header element 4.3.9 The footer element 4.3.10 The address element 4.3.11 Headings and outlines 4.3.11.1 Heading levels & offsets 4.3.11.2 Sample outlines 4",
+      "sha256": "a0fcadeae54f77bc5a7473c84bc0de28911107565de18147a62c17110d764ef0",
+      "checkedAt": "2026-10-14T05:10:37.793Z"
+    },
+    "anchor": {
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
+      "resolvedUrl": "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+      "status": 200,
+      "ok": true,
+      "term": "href",
+      "excerpt": "level semantics 4.5.1 The a element ✔ MDN HTML element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\">Element/a Support in all current engines. Firefox 1+ Safari 1+ Chrome 1+ Opera ? Edge 79+ Edge (Legacy) 12+ Internet Explorer Yes Firefox Android ? Safari iOS ? Chrome Android ? WebView Andro",
+      "sha256": "3e149899588eb1e1aaf82191c671b863df92b1ae9c59c59711db55646eb35f26",
+      "checkedAt": "2026-10-14T05:10:37.810Z"
+    },
+    "tables": {
+      "url": "https://html.spec.whatwg.org/multipage/tables.html",
+      "resolvedUrl": "https://html.spec.whatwg.org/multipage/tables.html",
+      "status": 200,
+      "ok": true,
+      "term": "tabular",
+      "excerpt": " Last Updated 13 October 2026 ← 4.8.15 MathML — Table of Contents — 4.10 Forms → 4.9 Tabular data 4.9.1 The table element 4.9.1.1 Techniques for describing tables 4.9.1.2 Techniques for table design 4.9.2 The caption element 4.9.3 The colgroup element 4.9.4 The col element 4.9.5 The tbody element 4.9.6 The thead element 4.9.7 The tfoot element 4.9.8 The tr element 4.9.9 The td element 4.9.10 The th element 4.9.1",
+      "sha256": "cc8d369833925984148d63bee70f22f8dd06336716b5ddc0076d307a4e8d5798",
+      "checkedAt": "2026-10-14T05:10:37.901Z"
+    },
+    "a11y": {
+      "url": "https://www.w3.org/WAI/fundamentals/accessibility-principles/",
+      "resolvedUrl": "https://www.w3.org/WAI/fundamentals/accessibility-principles/",
+      "status": 200,
+      "ok": true,
+      "term": "keyboard",
+      "excerpt": "o Accessibility Video Introduction Accessibility is About People Perspectives Videos Keyboard Compatibility Colors with Good Contrast Clear Layout and Design Text to Speech Large Links, Buttons, and Controls Video Captions Customizable Text Speech Recognition Understandable Content Notifications and Feedback How People with Disabilities Use the Web Stories of Web Users Ade&apos;s Story Ian&apos;s Story Lakshmi&a",
+      "sha256": "2aed423c762e1da2d24f22e1f167cb81ba287180d9d8d07801e2fa6771b922c8",
+      "checkedAt": "2026-10-14T05:10:37.952Z"
+    },
+    "headings": {
+      "url": "https://www.w3.org/WAI/tutorials/page-structure/headings/",
+      "resolvedUrl": "https://www.w3.org/WAI/tutorials/page-structure/headings/",
+      "status": 200,
+      "ok": true,
+      "term": "navigation",
+      "excerpt": ". Web browsers, plug-ins, and assistive technologies can use them to provide in-page navigation. Page Contents Heading ranks Exception for fixed page sections Organize passages of text Headings that reflect the page organization Main heading before navigation Main heading after navigation Heading ranks Nest headings by their rank (or level). The most important heading has the rank 1 ( <h1> ), the least important",
+      "sha256": "1dfa29848a7fa63198bdca3cc0dc6bb982224cd19465b9e0be3f4c1e95951e5f",
+      "checkedAt": "2026-10-14T05:10:37.966Z"
+    },
+    "input": {
+      "url": "https://html.spec.whatwg.org/multipage/input.html",
+      "resolvedUrl": "https://html.spec.whatwg.org/multipage/input.html",
+      "status": 200,
+      "ok": true,
+      "term": "required",
+      "excerpt": "butes 4.10.5.3.2 The size attribute 4.10.5.3.3 The readonly attribute 4.10.5.3.4 The required attribute 4.10.5.3.5 The multiple attribute 4.10.5.3.6 The pattern attribute 4.10.5.3.7 The min and max attributes 4.10.5.3.8 The step attribute 4.10.5.3.9 The list attribute 4.10.5.3.10 The placeholder attribute 4.10.5.4 Common input element APIs 4.10.5.5 Common event behaviors 4.10.5 The input element ✔ MDN HTML eleme",
+      "sha256": "10aba8b9372f3ad76c760f50b3d786e154aeb047f99445c735df3f1373f2ee62",
+      "checkedAt": "2026-10-14T05:10:37.979Z"
+    },
+    "body": {
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-body-element",
+      "resolvedUrl": "https://html.spec.whatwg.org/multipage/sections.html",
+      "status": 200,
+      "ok": true,
+      "term": "body",
+      "excerpt": "elements of HTML — Table of Contents — 4.4 Grouping content → 4.3 Sections 4.3.1 The body element 4.3.2 The article element 4.3.3 The section element 4.3.4 The nav element 4.3.5 The aside element 4.3.6 The h1 , h2 , h3 , h4 , h5 , and h6 elements 4.3.7 The hgroup element 4.3.8 The header element 4.3.9 The footer element 4.3.10 The address element 4.3.11 Headings and outlines 4.3.11.1 Heading levels & offsets 4.3",
+      "sha256": "a0fcadeae54f77bc5a7473c84bc0de28911107565de18147a62c17110d764ef0",
+      "checkedAt": "2026-10-14T05:10:38.046Z"
+    },
+    "html": {
+      "url": "https://www.w3.org/TR/html401/intro/intro.html",
+      "resolvedUrl": "https://www.w3.org/TR/html401/intro/intro.html",
+      "status": 200,
+      "ok": true,
+      "term": "HyperText Markup",
+      "excerpt": "ntially understand. The publishing language used by the World Wide Web is HTML (from HyperText Markup Language). HTML gives authors the means to: Publish online documents with headings, text, tables, lists, photos, etc. Retrieve online information via hypertext links, at the click of a button. Design forms for conducting transactions with remote services, for use in searching for information, making reservations",
+      "sha256": "48f68cd50a3cece98bda36e2f5c3f6ac7d7218e52180ab8f9ca3fb8e0469ee2e",
+      "checkedAt": "2026-10-14T05:11:53.893Z"
+    },
+    "cascade": {
+      "url": "https://www.w3.org/TR/css-cascade-5/",
+      "resolvedUrl": "https://www.w3.org/TR/css-cascade-5/",
+      "status": 200,
+      "ok": true,
+      "term": "specificity",
+      "excerpt": " so that the !important flag maintains the same “override” purpose in both settings. Specificity The Selectors module [SELECT] describes how to compute the specificity of a selector. Each declaration has the same specificity as the style rule it appears in. The declaration with the highest specificity wins. Order of Appearance The last declaration in document order wins. For this purpose: Style sheets are ordere",
+      "sha256": "1fe27cdb69e4990a801bdad630d4bea755b4d472ff9aa23bf07f743056a3a2a1",
+      "checkedAt": "2026-10-14T05:10:38.209Z"
+    },
+    "box": {
+      "url": "https://www.w3.org/TR/css-box-3/",
+      "resolvedUrl": "https://www.w3.org/TR/css-box-3/",
+      "status": 200,
+      "ok": true,
+      "term": "padding",
+      "excerpt": "e document license rules apply. Abstract This specification describes the margin and padding properties, which create spacing in and around a CSS box. CSS is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, etc. Status of this document This section describes the status of this document at the time of its publication. A list of current W3C publications an",
+      "sha256": "5330ef95e4b8ae6ee3f87ea24f52b2b23092fb0dd0f9011736e1878db96c702e",
+      "checkedAt": "2026-10-14T05:10:38.263Z"
+    },
+    "sizing": {
+      "url": "https://www.w3.org/TR/css-sizing-3/",
+      "resolvedUrl": "https://www.w3.org/TR/css-sizing-3/",
+      "status": 200,
+      "ok": true,
+      "term": "border-box",
+      "excerpt": " Box Edges for Sizing: the box-sizing property Name: box-sizing Value: content-box | border-box Initial: content-box Applies to: all elements that accept width or height Inherited: no Percentages: N/A Computed value: specified keyword Canonical order: per grammar Animation type: discrete Tests box-sizing-replaced-001.xht (live test) (source) box-sizing-replaced-002.xht (live test) (source) box-sizing-replaced-00",
+      "sha256": "ca0f1db3d5ad0c9799bf9dc04b9c30b4d9adf8d4d6f222787e4759ed81a6bbad",
+      "checkedAt": "2026-10-14T05:10:38.342Z"
+    },
+    "flex": {
+      "url": "https://www.w3.org/TR/css-flexbox-1/",
+      "resolvedUrl": "https://www.w3.org/TR/css-flexbox-1/",
+      "status": 200,
+      "ok": true,
+      "term": "column",
+      "excerpt": " or document-centric properties that can be used in block layout, such as floats and columns . In return it gains simple and powerful tools for distributing space and aligning content in ways that web apps and complex web pages often need. The contents of a flex container: can be laid out in any flow direction (leftwards, rightwards, downwards, or even upwards!) can have their display order reversed or 'order|re",
+      "sha256": "b0e3b097bc6db0688d4712968c290cda280f8f750eb998bc358c28df490ff3f5",
+      "checkedAt": "2026-10-14T05:10:38.486Z"
+    },
+    "canonical": {
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls?hl=en",
+      "resolvedUrl": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls?hl=en",
+      "status": 200,
+      "ok": true,
+      "term": "canonical",
+      "excerpt": "How to Specify a Canonical with rel=\"canonical\" and Other Methods | Google Search Central | Documentation | Google for Developers Skip to main content Google Search Central Documentation SEO fundamentals Introduction Search Essentials SEO Starter Guide Optimizing for generative AI search How Google Search Works Do you need an SEO? Crawling and i",
+      "sha256": "8ffef5d32ed9c2e64b5a3022fde48ba28412ce332875072c37e5e1bb623c17cc",
+      "checkedAt": "2026-10-14T05:11:54.326Z"
+    },
+    "snippets": {
+      "url": "https://developers.google.com/search/docs/appearance/snippet?hl=en",
+      "resolvedUrl": "https://developers.google.com/search/docs/appearance/snippet?hl=en",
+      "status": 200,
+      "ok": true,
+      "term": "description",
+      "excerpt": "How to Write Meta Descriptions | Google Search Central | Documentation | Google for Developers Skip to main content Google Search Central Documentation SEO fundamentals Introduction Search Essentials SEO Starter Guide Optimizing for generative AI search How Google Search Works Do you need an SEO? Crawling and indexing Sitemaps robots.txt Meta tag",
+      "sha256": "706c7c08d044feff9e5711174caac5b7ee9a8538ce5422731c8fa799ea051d05",
+      "checkedAt": "2026-10-14T05:11:54.334Z"
+    },
+    "grid": {
+      "url": "https://www.w3.org/TR/css-grid-2/",
+      "resolvedUrl": "https://www.w3.org/TR/css-grid-2/",
+      "status": 200,
+      "ok": true,
+      "term": "two-dimensional",
+      "excerpt": "mark and permissive document license rules apply. Abstract This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid. Level 2 expands Grid by adding “subgrid” capabilities for nested grids to participate in the sizing o",
+      "sha256": "05aa64853c4428146973943b35caf121e44c1076bdf5b8c29f8896dba9b778e2",
+      "checkedAt": "2026-10-14T05:10:38.587Z"
+    },
+    "media": {
+      "url": "https://www.w3.org/TR/mediaqueries-4/",
+      "resolvedUrl": "https://www.w3.org/TR/mediaqueries-4/",
+      "status": 200,
+      "ok": true,
+      "term": "touchpads",
+      "excerpt": "mechanism of the device includes an accurate pointing device. Examples include mice, touchpads, and drawing styluses. Both coarse and fine indicate the presence of a pointing device, but differ in accuracy. A pointing device with which it would be difficult or impossible to reliably pick one of several small adjacent targets at a zoom factor of 1 would qualify as coarse . Changing the zoom level does not affect ",
+      "sha256": "41310724809c30304b674442d35e09ec59b0b7b74ba6104bb1d90334953522e0",
+      "checkedAt": "2026-10-14T05:10:38.653Z"
+    },
+    "css-syntax": {
+      "url": "https://www.w3.org/TR/css-syntax-3/",
+      "resolvedUrl": "https://www.w3.org/TR/css-syntax-3/",
+      "status": 200,
+      "ok": true,
+      "term": "declaration",
+      "excerpt": "tylesheet’s contents 5.4.5 Parse a block’s contents 5.4.6 Parse a rule 5.4.7 Parse a declaration 5.4.8 Parse a component value 5.4.9 Parse a list of component values 5.4.10 Parse a comma-separated list of component values 5.5 Parser Algorithms 5.5.1 Consume a stylesheet’s contents 5.5.2 Consume an at-rule 5.5.3 Consume a qualified rule 5.5.4 Consume a block 5.5.5 Consume a block’s contents 5.5.6 Consume a declar",
+      "sha256": "8dc3adcc2b4e8fd8fa73c0be85cec67f006874ab42010cdf4528af4aa83f2878",
+      "checkedAt": "2026-10-14T05:10:38.675Z"
+    },
+    "css": {
+      "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+      "resolvedUrl": "https://www.w3.org/Style/CSS/Overview.en.html",
+      "status": 200,
+      "ok": true,
+      "term": "Cascading Style Sheets",
+      "excerpt": "Cascading Style Sheets Languages Cascading Style Sheets home page What is CSS? Cascading Style Sheets (CSS) is a core language of the open web platform , and is used for adding style (e.g., fonts, colors, spacing) to Web documents. These pages contain information on how to learn and use CSS and on available software. They also c",
+      "sha256": "62f8c9a78b9162c46344da696a8984af6707d07331551edbf39e3738889ee677",
+      "checkedAt": "2026-10-14T05:10:38.719Z"
+    },
+    "float": {
+      "url": "https://www.w3.org/TR/CSS22/visuren.html#floats",
+      "resolvedUrl": "https://www.w3.org/TR/CSS22/visuren.html",
+      "status": 200,
+      "ok": true,
+      "term": "float",
+      "excerpt": " formatting contexts 9.4.2 Inline formatting contexts 9.4.3 Relative positioning 9.5 Floats 9.5.1 Positioning the float: the 'float' property 9.5.2 Controlling flow next to floats: the 'clear' property 9.6 Absolute positioning 9.6.1 Fixed positioning 9.7 Relationships between 'display', 'position', and 'float' 9.8 Comparison of normal flow, floats, and absolute positioning 9.8.1 Normal flow 9.8.2 Relative positi",
+      "sha256": "ba92467c598e3d04179dc26bebcd8817395688d3dc93fbfdae34b7e82218ec68",
+      "checkedAt": "2026-10-14T05:10:38.731Z"
+    },
+    "css-values": {
+      "url": "https://www.w3.org/TR/css-values-4/",
+      "resolvedUrl": "https://www.w3.org/TR/css-values-4/",
+      "status": 200,
+      "ok": true,
+      "term": "case-insensitive",
+      "excerpt": "defined meaning appear literally. Keywords are identifiers and are interpreted ASCII case-insensitively (i.e., [a-z] and [A-Z] are equivalent). For example, here is the value definition for the border-collapse property: Value : collapse | separate And here is an example of its use: table { border-collapse : separate } 4.1.1. CSS-wide keywords: initial , inherit and unset As defined above , all properties accept ",
+      "sha256": "7b6b68c34d00d7f6945e66e4e2efa913266299f597d5825393cae85dac1cc78c",
+      "checkedAt": "2026-10-14T05:10:38.785Z"
+    },
+    "tailwind": {
+      "url": "https://tailwindcss.com/docs/styling-with-utility-classes",
+      "resolvedUrl": "https://tailwindcss.com/docs/styling-with-utility-classes",
+      "status": 200,
+      "ok": true,
+      "term": "utility",
+      "excerpt": "Styling with utility classes - Core concepts - Tailwind CSS v 4.3 ⌘K Ctrl K Docs Play Blog Showcase Partners Plus Core concepts Styling with utility classes Getting started Installation Editor setup Compatibility Upgrade guide Core concepts Styling with utility classes Hover, focus, and other states Responsive design Dark mode Theme variable",
+      "sha256": "ab9daa5f351bd20f146d25ba065087f4d36a864631d30282ea7e38a460f21fc1",
+      "checkedAt": "2026-10-14T05:10:38.922Z"
+    },
+    "bootstrap": {
+      "url": "https://getbootstrap.com/docs/5.3/getting-started/introduction/",
+      "resolvedUrl": "https://getbootstrap.com/docs/5.3/getting-started/introduction/",
+      "status": 200,
+      "ok": true,
+      "term": "mobile",
+      "excerpt": "ot. Include the <meta name=\"viewport\"> tag as well for proper responsive behavior in mobile devices. <! doctype html > < html lang = \" en \" > < head > < meta charset = \" utf-8 \" > < meta name = \" viewport \" content = \" width=device-width, initial-scale=1 \" > < title > Bootstrap demo </ title > </ head > < body > < h1 > Hello, world! </ h1 > </ body > </ html > Include Bootstrap’s CSS and JS. Place the <link> tag",
+      "sha256": "6dc02cbb04da64d0022a5d4c636819d079bfac0f317042db262867e801ff3871",
+      "checkedAt": "2026-10-14T05:10:38.962Z"
+    },
+    "input-events": {
+      "url": "https://www.w3.org/TR/input-events-2/",
+      "resolvedUrl": "https://www.w3.org/TR/input-events-2/",
+      "status": 200,
+      "ok": true,
+      "term": "input",
+      "excerpt": "Input Events Level 2 Input Events Level 2 W3C Working Draft 01 May 2026 More details about this document This version: https://www.w3.org/TR/2026/WD-input-events-2-20260501/ Latest published version: https://www.w3.org/TR/input-events-2/ Latest editor's draft: https://w3c.github.io/input-events/ History: https://www.w3.org/stand",
+      "sha256": "cceec3872f4134aa1809fc6be3f4f62b7cce4ff861f0a84cd8da00d172ac3d03",
+      "checkedAt": "2026-10-14T05:10:38.989Z"
+    },
+    "seo": {
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=en",
+      "resolvedUrl": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=en",
+      "status": 200,
+      "ok": true,
+      "term": "Search Engine Optimization",
+      "excerpt": "uTube videos Recent podcast episodes Home Search Central Documentation Send feedback Search Engine Optimization (SEO) Starter Guide When you built your website, you likely created it with your users in mind, trying to make it easy for them to find and explore your content. One of those users is a search engine, which helps people discover your content. SEO&mdash;short for search engine optimization&mdash;is abou",
+      "sha256": "c39805a249e5ca0ab4783ef5202b730174c95be8a0f7d2064f7372ebc2e84ec3",
+      "checkedAt": "2026-10-14T05:11:54.382Z"
+    },
+    "titles": {
+      "url": "https://developers.google.com/search/docs/appearance/title-link?hl=en",
+      "resolvedUrl": "https://developers.google.com/search/docs/appearance/title-link?hl=en",
+      "status": 200,
+      "ok": true,
+      "term": "title",
+      "excerpt": "Influencing Title Links in Google Search | Google Search Central | Documentation | Google for Developers Skip to main content Google Search Central Documentation SEO fundamentals Introduction Search Essentials SEO Starter Guide Optimizing for generative AI search How Google Search Works Do you need an SEO? Crawling and indexing Sitemaps rob",
+      "sha256": "fe704e7ffc395688ee847f2334fe0491e545f673bcb2b18780aa465099b77069",
+      "checkedAt": "2026-10-14T05:11:54.806Z"
+    },
+    "html-history": {
+      "url": "https://home.cern/science/computing/the-birth-of-the-web/where-web-was-born/",
+      "resolvedUrl": "https://home.cern/science/computing/the-birth-of-the-web/where-web-was-born/",
+      "status": 200,
+      "ok": true,
+      "term": "Berners",
+      "excerpt": "tdown 3 Search English English Français Where the web was born British scientist Tim Berners-Lee invented the World Wide Web while working at CERN in 1989 Tim Berners-Lee, a British scientist at CERN, invented the World Wide Web (WWW) in 1989. The web was originally conceived and developed to meet the demand for automatic information-sharing between scientists in universities and institutes around the world. Sou",
+      "sha256": "e5cbc22be23d46456363b46f0e9e5be5744a18fa6d60b325da4bddd0f9300ac4",
+      "checkedAt": "2026-10-14T05:11:54.740Z"
+    },
+    "php-vars": {
+      "url": "https://www.php.net/manual/en/language.variables.basics.php",
+      "resolvedUrl": "https://www.php.net/manual/en/language.variables.basics.php",
+      "status": 200,
+      "ok": true,
+      "term": "dollar",
+      "excerpt": "sh Ukrainian Chinese (Simplified) Other Basics Variables in PHP are represented by a dollar sign followed by the name of the variable. The variable name is case-sensitive. A valid variable name starts with a letter ( A-Z , a-z , or the bytes from 128 through 255) or underscore, followed by any number of letters, numbers, or underscores. As a regular expression, it would be expressed thus: ^[a-zA-Z_\\x80-\\xff][a-z",
+      "sha256": "3f4a532de544ad0be66a7ae889646a7f8038bc9a35f914edcfa82bcc3b9ee67a",
+      "checkedAt": "2026-10-14T05:10:39.586Z"
+    },
+    "http": {
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "resolvedUrl": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "status": 200,
+      "ok": true,
+      "term": "PUT",
+      "excerpt": "s and Caching 9.3 . Method Definitions 9.3.1 . GET 9.3.2 . HEAD 9.3.3 . POST 9.3.4 . PUT 9.3.5 . DELETE 9.3.6 . CONNECT 9.3.7 . OPTIONS 9.3.8 . TRACE 10 . Message Context 10.1 . Request Context Fields 10.1.1 . Expect 10.1.2 . From 10.1.3 . Referer 10.1.4 . TE 10.1.5 . User-Agent 10.2 . Response Context Fields 10.2.1 . Allow 10.2.2 . Location 10.2.3 . Retry-After 10.2.4 . Server 11 . HTTP Authentication 11.1 . Au",
+      "sha256": "d431760660ea44e130f6e919dab216df2d0b3a490567a98089267523368fe1e5",
+      "checkedAt": "2026-10-14T05:10:39.813Z"
+    },
+    "php-get": {
+      "url": "https://www.php.net/manual/en/reserved.variables.get.php",
+      "resolvedUrl": "https://www.php.net/manual/en/reserved.variables.get.php",
+      "status": 200,
+      "ok": true,
+      "term": "query",
+      "excerpt": "Chinese (Simplified) Other $_GET (PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8) $_GET &mdash; Query string variables Description An associative array of variables passed to the current script via the URL parameters (also known as the query string). Note that this array is populated whenever a query string is present, regardless of the HTTP request method. Examples Example #1 $_GET example <?php echo 'Hello ' . htmlspecia",
+      "sha256": "3e984506a1c6fe3d4d9df69df1db7cac15f64b10ece6937ba04d287b387c81e1",
+      "checkedAt": "2026-10-14T05:10:39.817Z"
+    },
+    "php-post": {
+      "url": "https://www.php.net/manual/en/reserved.variables.post.php",
+      "resolvedUrl": "https://www.php.net/manual/en/reserved.variables.post.php",
+      "status": 200,
+      "ok": true,
+      "term": "Form data",
+      "excerpt": "inese (Simplified) Other $_POST (PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8) $_POST &mdash; Form data from HTTP POST requests Description An associative array of variables passed to the current script via the HTTP POST method when using application/x-www-form-urlencoded or multipart/form-data as the HTTP Content-Type in the request. Examples Example #1 $_POST example <?php echo 'Hello ' . htmlspecialchars ( $_POST [ \"n",
+      "sha256": "0333d9e8d66f0eff023cfc408dadea10f66e7e6e161821a8ec29da5978b91872",
+      "checkedAt": "2026-10-14T05:10:40.002Z"
+    },
+    "php-exceptions": {
+      "url": "https://www.php.net/manual/en/control-structures.try-catch.php",
+      "resolvedUrl": "https://www.php.net/manual/en/control-structures.try-catch.php",
+      "status": 200,
+      "ok": true,
+      "term": "catch",
+      "excerpt": "PHP: try...catch - Manual Downloads Documentation Get Involved Help Search docs PHP 8.6.0 RC3 available for testing Getting Started Introduction A simple tutorial Language Reference Basic syntax Types Variables Constants Expressions Operators Control Structures Functions Classes and Objects Namespaces Enumerations Error Handling Fibers Gen",
+      "sha256": "9d82bb603d4ef70f9002932c91c7f7fc5903754801f8829b1565d5d5e3335bbe",
+      "checkedAt": "2026-10-14T05:11:54.185Z"
+    },
+    "php-classes": {
+      "url": "https://www.php.net/manual/en/language.oop5.basic.php",
+      "resolvedUrl": "https://www.php.net/manual/en/language.oop5.basic.php",
+      "status": 200,
+      "ok": true,
+      "term": "class",
+      "excerpt": " syntax Types Variables Constants Expressions Operators Control Structures Functions Classes and Objects Namespaces Enumerations Error Handling Fibers Generators Attributes References Explained Predefined Variables Predefined Exceptions Predefined Interfaces and Classes Predefined Attributes Context options and parameters Supported Protocols and Wrappers Security Introduction General considerations Installed as ",
+      "sha256": "317cbfe8aefe4b0508e20dfd88637b397105328ef622c89f7b80e64d9e53c1da",
+      "checkedAt": "2026-10-14T05:10:40.283Z"
+    },
+    "php-namespaces": {
+      "url": "https://www.php.net/manual/en/language.namespaces.rationale.php",
+      "resolvedUrl": "https://www.php.net/manual/en/language.namespaces.rationale.php",
+      "status": 200,
+      "ok": true,
+      "term": "namespaces",
+      "excerpt": "les Constants Expressions Operators Control Structures Functions Classes and Objects Namespaces Enumerations Error Handling Fibers Generators Attributes References Explained Predefined Variables Predefined Exceptions Predefined Interfaces and Classes Predefined Attributes Context options and parameters Supported Protocols and Wrappers Security Introduction General considerations Installed as CGI binary Installed",
+      "sha256": "53df505f58e681c9f0d490d489622534b4203d2fa2909578f714e4980b807f1e",
+      "checkedAt": "2026-10-14T05:10:40.506Z"
+    },
+    "php-if": {
+      "url": "https://www.php.net/manual/en/control-structures.elseif.php",
+      "resolvedUrl": "https://www.php.net/manual/en/control-structures.elseif.php",
+      "status": 200,
+      "ok": true,
+      "term": "elseif",
+      "excerpt": "PHP: elseif/else if - Manual Downloads Documentation Get Involved Help Search docs PHP 8.6.0 RC3 available for testing Getting Started Introduction A simple tutorial Language Reference Basic syntax Types Variables Constants Expressions Operators Control Structures Functions Classes and Objects Namespaces Enumerations Error Handling F",
+      "sha256": "6526d14eedf3ed324e6a7f31f223ed95f56b9b72a00646de665110b389f9b85e",
+      "checkedAt": "2026-10-14T05:10:40.508Z"
+    },
+    "php-arrays": {
+      "url": "https://www.php.net/manual/en/language.types.array.php",
+      "resolvedUrl": "https://www.php.net/manual/en/language.types.array.php",
+      "status": 200,
+      "ok": true,
+      "term": "map",
+      "excerpt": "array functions chapter in the documentation. An array in PHP is actually an ordered map. A map is a type that associates values to keys . This type is optimized for several different uses; it can be treated as an array, list (vector), hash table (an implementation of a map), dictionary, collection, stack, queue, and probably more. As array values can be other array s, trees and multidimensional array s are also",
+      "sha256": "7ee76947c093d34b1967e3f06dbe63fac72d61715c964810adb7966d14797f48",
+      "checkedAt": "2026-10-14T05:10:40.574Z"
+    },
+    "php": {
+      "url": "https://www.php.net/intro",
+      "resolvedUrl": "https://www.php.net/intro",
+      "status": 200,
+      "ok": true,
+      "term": "server",
+      "excerpt": "ss Control Extensions Other Basic Extensions Other Services Search Engine Extensions Server Specific Extensions Session Extensions Text Processing Variable and Type Related Extensions Web Services Windows Only Extensions XML Manipulation GUI Extensions Keyboard Shortcuts ? This help j Next menu item k Previous menu item g p Previous man page g n Next man page G Scroll to bottom g g Scroll to top g h Goto homepag",
+      "sha256": "a7a75183dfd38acf1f02b66e792f1d8e533d1013da310dd89a37ce1b8d691f29",
+      "checkedAt": "2026-10-14T05:11:54.437Z"
+    },
+    "php-functions": {
+      "url": "https://www.php.net/manual/en/functions.user-defined.php",
+      "resolvedUrl": "https://www.php.net/manual/en/functions.user-defined.php",
+      "status": 200,
+      "ok": true,
+      "term": "function",
+      "excerpt": "PHP: User-defined functions - Manual Downloads Documentation Get Involved Help Search docs PHP 8.6.0 RC3 available for testing Getting Started Introduction A simple tutorial Language Reference Basic syntax Types Variables Constants Expressions Operators Control Structures Functions Classes and Objects Namespaces Enumerations Error Handling Fibers",
+      "sha256": "9b36b306ab41ed38ad0528ca3b8042303392f6bb5b77f1e3436f0284b956a9fd",
+      "checkedAt": "2026-10-14T05:10:40.771Z"
+    },
+    "php-tags": {
+      "url": "https://www.php.net/manual/en/language.basic-syntax.phpmode.php",
+      "resolvedUrl": "https://www.php.net/manual/en/language.basic-syntax.phpmode.php",
+      "status": 200,
+      "ok": true,
+      "term": "<?php",
+      "excerpt": " PHP in HTML <p>This is going to be ignored by PHP and displayed by the browser.</p> <?php echo 'While this is going to be parsed.' ; ?> <p>This will also be ignored by PHP and displayed by the browser.</p> This works as expected, because when the PHP interpreter hits the ?> closing tags, it simply starts outputting whatever it finds (except for the immediately following newline - see instruction separation ) un",
+      "sha256": "51b9ee503440d55542dce8d8199e7dc86d42e6d6366b8eb1a0156822c4fc99da",
+      "checkedAt": "2026-10-14T05:10:40.826Z"
+    },
+    "es6": {
+      "url": "https://262.ecma-international.org/6.0/",
+      "resolvedUrl": "https://262.ecma-international.org/6.0/",
+      "status": 200,
+      "ok": true,
+      "term": "ECMAScript 2015",
+      "excerpt": "ECMAScript 2015 Language Specification &ndash; ECMA-262 6th Edition Standard ECMA-262 6 th Edition / June 2015 ECMAScript &reg; 2015 Language Specification This is the HTML rendering of ECMA-262 6 th Edition, The ECMAScript 2015 Language Specification . The PDF rendering of this document is located at https://ecma-international.",
+      "sha256": "4d4243dc2f04c9cdd09498f2cc2af6f6cdc07b0430da5578e7cf440d4f7846a0",
+      "checkedAt": "2026-10-14T05:10:40.913Z"
+    },
+    "php-sessions": {
+      "url": "https://www.php.net/manual/en/book.session.php",
+      "resolvedUrl": "https://www.php.net/manual/en/book.session.php",
+      "status": 200,
+      "ok": true,
+      "term": "session",
+      "excerpt": "PHP: Sessions - Manual Downloads Documentation Get Involved Help Search docs PHP 8.6.0 RC3 available for testing Getting Started Introduction A simple tutorial Language Reference Basic syntax Types Variables Constants Expressions Operators Control Structures Functions Classes and Objects Namespaces Enumerations Error Handling Fibers ",
+      "sha256": "86700c9b5f9044a8c02b3024c8969166f150a7977534cda9cbce83f6e074784d",
+      "checkedAt": "2026-10-14T05:11:54.664Z"
+    },
+    "php-history": {
+      "url": "https://www.php.net/manual/en/history.php.php",
+      "resolvedUrl": "https://www.php.net/manual/en/history.php.php",
+      "status": 200,
+      "ok": true,
+      "term": "Personal Home Page",
+      "excerpt": "inally used for tracking visits to his online resume, he named the suite of scripts \"Personal Home Page Tools,\" more frequently referenced as \"PHP Tools.\" Over time, more functionality was desired, and Rasmus rewrote PHP Tools, producing a much larger and richer implementation. This new model was capable of database interaction and more, providing a framework upon which users could develop simple dynamic web app",
+      "sha256": "e84f14b3ac0e46b152c14d793e9f684c01a46117e563d6258a243109062d17b0",
+      "checkedAt": "2026-10-14T05:10:41.060Z"
+    },
+    "php-types": {
+      "url": "https://www.php.net/manual/en/language.types.declarations.php",
+      "resolvedUrl": "https://www.php.net/manual/en/language.types.declarations.php",
+      "status": 200,
+      "ok": true,
+      "term": "strict_types",
+      "excerpt": "n. Warning Function calls from within internal functions will not be affected by the strict_types declaration. To enable strict mode, the declare statement is used with the strict_types declaration: Note : Strict typing applies to function calls made from within the file with strict typing enabled, not to the functions declared within that file. If a file without strict typing enabled makes a call to a function ",
+      "sha256": "5c43b6e1c1a8d57d7aac2d532bf94127ef2c5409fd02305aecb8266bd70a712a",
+      "checkedAt": "2026-10-14T05:10:41.076Z"
+    },
+    "php-bool": {
+      "url": "https://www.php.net/manual/en/language.types.boolean.php",
+      "resolvedUrl": "https://www.php.net/manual/en/language.types.boolean.php",
+      "status": 200,
+      "ok": true,
+      "term": "true",
+      "excerpt": "ool type only has two values, and is used to express a truth value. It can be either true or false . Syntax To specify a bool literal, use the constants true or false . Both are case-insensitive. <?php $foo = True ; // assign the value TRUE to $foo var_dump ( $foo ); // bool(true) ?> Typically, the result of an operator which returns a bool value is passed on to a control structure . <?php $action = \"show_versio",
+      "sha256": "851ab73917025740ca85f4bed118b0b033b58dd05b24e689aa45d78e70f33527",
+      "checkedAt": "2026-10-14T05:10:41.274Z"
+    },
+    "php-for": {
+      "url": "https://www.php.net/manual/en/control-structures.for.php",
+      "resolvedUrl": "https://www.php.net/manual/en/control-structures.for.php",
+      "status": 200,
+      "ok": true,
+      "term": "expr2",
+      "excerpt": "PHP. They behave like their C counterparts. The syntax of a for loop is: for (expr1; expr2; expr3) statement The first expression ( expr1 ) is evaluated (executed) once unconditionally at the beginning of the loop. At the beginning of each iteration, expr2 is evaluated. If it evaluates to true , the loop continues and the nested statement(s) are executed. If it evaluates to false , the execution of the loop ends",
+      "sha256": "3011d9b433b076d9c2b0839992d72a51389128b78ff2ad1a5bc69cbb8a67a05c",
+      "checkedAt": "2026-10-14T05:10:41.348Z"
+    },
+    "php-comparison": {
+      "url": "https://www.php.net/manual/en/language.operators.comparison.php",
+      "resolvedUrl": "https://www.php.net/manual/en/language.operators.comparison.php",
+      "status": 200,
+      "ok": true,
+      "term": "spaceship",
+      "excerpt": ">= $b Greater than or equal to true if $a is greater than or equal to $b . $a <=> $b Spaceship An int less than, equal to, or greater than zero when $a is less than, equal to, or greater than $b , respectively. If both operands are numeric strings , or one operand is a number and the other one is a numeric string , then the comparison is done numerically. These rules also apply to the switch statement. The type ",
+      "sha256": "5198eaa5eabc8d347a2a450365e8eb5757c3650685a18e69108e1855321e54f8",
+      "checkedAt": "2026-10-14T05:10:41.351Z"
+    },
+    "php-while": {
+      "url": "https://www.php.net/manual/en/control-structures.while.php",
+      "resolvedUrl": "https://www.php.net/manual/en/control-structures.while.php",
+      "status": 200,
+      "ok": true,
+      "term": "expression",
+      "excerpt": "oduction A simple tutorial Language Reference Basic syntax Types Variables Constants Expressions Operators Control Structures Functions Classes and Objects Namespaces Enumerations Error Handling Fibers Generators Attributes References Explained Predefined Variables Predefined Exceptions Predefined Interfaces and Classes Predefined Attributes Context options and parameters Supported Protocols and Wrappers Securit",
+      "sha256": "fb26ef8c848e56cc274195447352f7393b069bce175c2197a52d99273c922750",
+      "checkedAt": "2026-10-14T05:10:41.526Z"
+    },
+    "php-filter": {
+      "url": "https://www.php.net/manual/en/book.filter.php",
+      "resolvedUrl": "https://www.php.net/manual/en/book.filter.php",
+      "status": 200,
+      "ok": true,
+      "term": "validation",
+      "excerpt": "xample, this data may come from an HTML form. There are two main types of filtering: validation and sanitization . A validation filter is used to check if the data meets certain criteria. These filters are identified by the FILTER_VALIDATE_ * constants. For example, the FILTER_VALIDATE_EMAIL filter can be used to determine if the data is a valid email address. However, it will never alter the input data. Sanitiz",
+      "sha256": "f4728d8f61488f0ea03adcdc6def06f75b656faa8eae904431787476c3c6fc34",
+      "checkedAt": "2026-10-14T05:10:41.587Z"
+    },
+    "fetch": {
+      "url": "https://fetch.spec.whatwg.org/",
+      "resolvedUrl": "https://fetch.spec.whatwg.org/",
+      "status": 200,
+      "ok": true,
+      "term": "Promise",
+      "excerpt": ". Let stream be a new ReadableStream . Let pullAlgorithm be the following steps: Let promise be a new promise . Run the following steps in parallel : If the size of buffer is smaller than a lower limit chosen by the user agent and the ongoing fetch is suspended , resume the fetch. Wait until buffer is not empty. Queue a fetch task to run the following steps, with fetchParams ’s task destination . Pull from bytes",
+      "sha256": "81b021244f1b9a2c3e4b8dfd55721bb79f1ac54f5529119db166ff9f8dfa8be9",
+      "checkedAt": "2026-10-14T05:10:41.606Z"
+    },
+    "api": {
+      "url": "https://www.ibm.com/think/topics/api",
+      "resolvedUrl": "https://www.ibm.com/think/topics/api",
+      "status": 200,
+      "ok": true,
+      "term": "application programming interface",
+      "excerpt": "What Is an API (Application Programming Interface)? | IBM 15IGO > 17HMG > 20A0W > 30A3M\"/> 15IGO - Automation Platform > 17HMG - Application Development & Integration > 20A0W - Application Integration > 30A3M - API Connect\"/> Home Think Topics API IT infrastructure IT automation Business automation What is an API (application programming interf",
+      "sha256": "f46ac5fa8377305d05cd8c51665b6be786e6854a4c0d9b4ffccd189b97b0632b",
+      "checkedAt": "2026-10-14T05:10:41.675Z"
+    },
+    "dom": {
+      "url": "https://dom.spec.whatwg.org/",
+      "resolvedUrl": "https://dom.spec.whatwg.org/",
+      "status": 200,
+      "ok": true,
+      "term": "getElementById",
+      "excerpt": "istener ( \"hey\" , test ) var ev = new Event ( \"hey\" , { bubbles : true }) document . getElementById ( \"x\" ). dispatchEvent ( ev ) </ script > </ body > </ html > The debug function will be invoked twice. Each time the event ’s target attribute value will be the span element . The first time currentTarget attribute’s value will be the document , the second time the body element . eventPhase attribute’s value swit",
+      "sha256": "034b308db8482bddb37070849e9d4ab40bcb2d10e6494cffad14678a252a58b1",
+      "checkedAt": "2026-10-14T05:10:41.771Z"
+    },
+    "data-quality": {
+      "url": "https://developers.google.com/machine-learning/guides/data-traps/quality?hl=en",
+      "resolvedUrl": "https://developers.google.com/machine-learning/guides/data-traps/quality?hl=en",
+      "status": 200,
+      "ok": true,
+      "term": "outliers",
+      "excerpt": "ow readings of ozone that were detected were automatically tossed out as nonsensical outliers. 2 Instruments experience a diversity of failure modes, sometimes while still collecting data. Adam Ringler et al. provide a gallery of seismograph readings resulting from instrument failures (and the corresponding failures) in the 2021 paper \"Why Do My Squiggles Look Funny?\" 3 The activity in the example readouts doesn",
+      "sha256": "28d0073b0f91349cf0eb2ae7c49b9921e9c495924bc8c8d62c750941ad57082c",
+      "checkedAt": "2026-10-14T05:11:54.791Z"
+    },
+    "rl": {
+      "url": "https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html",
+      "resolvedUrl": "https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html",
+      "status": 200,
+      "ok": true,
+      "term": "model-based",
+      "excerpt": "cepts in RL Part 2: Kinds of RL Algorithms A Taxonomy of RL Algorithms Model-Free vs Model-Based RL What to Learn What to Learn in Model-Free RL What to Learn in Model-Based RL Links to Algorithms in Taxonomy Part 3: Intro to Policy Optimization Resources Spinning Up as a Deep RL Researcher Key Papers in Deep RL Exercises Benchmarks for Spinning Up Implementations Algorithms Docs Vanilla Policy Gradient Trust Re",
+      "sha256": "d01a270db26548138b1d435400ecfe39462f108ef6b8dfc89bf31eab584eaeeb",
+      "checkedAt": "2026-10-14T05:10:42.153Z"
+    },
+    "public-data": {
+      "url": "https://data.gov/",
+      "resolvedUrl": "https://data.gov/",
+      "status": 200,
+      "ok": true,
+      "term": "data",
+      "excerpt": "Data.gov Home - Data.gov Skip to main content An official website of the United States government Here's how you know Here's how you know The .gov means it's official. Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site. The site is secure. Th",
+      "sha256": "cf57c06536e3a1263298e1697ec82067df3df13745dc5a31ac851ad368a8cd3b",
+      "checkedAt": "2026-10-14T05:10:42.316Z"
+    },
+    "fit": {
+      "url": "https://keras.io/api/models/model_training_apis/",
+      "resolvedUrl": "https://keras.io/api/models/model_training_apis/",
+      "status": 200,
+      "ok": true,
+      "term": "epochs",
+      "excerpt": "g guide. [source] fit method Model . fit ( x = None , y = None , batch_size = None , epochs = 1 , verbose = \"auto\" , callbacks = None , validation_split = 0.0 , validation_data = None , shuffle = True , class_weight = None , sample_weight = None , initial_epoch = 0 , steps_per_epoch = None , validation_steps = None , validation_batch_size = None , validation_freq = 1 , ) Trains the model for a fixed number of ep",
+      "sha256": "389977a43ab0bcf2daafb484e020f0ae54482aa446a684a1c0b696ffc1e35e10",
+      "checkedAt": "2026-10-14T05:10:42.395Z"
+    },
+    "clustering": {
+      "url": "https://scikit-learn.org/stable/modules/clustering.html",
+      "resolvedUrl": "https://scikit-learn.org/stable/modules/clustering.html",
+      "status": 200,
+      "ok": true,
+      "term": "clusters",
+      "excerpt": "lgorithm comes in two variants: a class, that implements the fit method to learn the clusters on train data, and a function, that, given train data, returns an array of integer labels corresponding to the different clusters. For the class, the labels over the training data can be found in the labels_ attribute. Input data One important thing to note is that the algorithms implemented in this module can take diff",
+      "sha256": "3c8d5481d8092e86fe47ff269e134510dedd006360aeaf30b9b982c91a01de1c",
+      "checkedAt": "2026-10-14T05:10:42.412Z"
+    },
+    "optimizer": {
+      "url": "https://keras.io/api/optimizers/",
+      "resolvedUrl": "https://keras.io/api/optimizers/",
+      "status": 200,
+      "ok": true,
+      "term": "learning rate",
+      "excerpt": "amax Adafactor Nadam Ftrl Lion Lamb Loss Scale Optimizer MultiOptimizer OptimizerMap Learning rate schedules API Muon Metrics Losses Data loading Tree API Built-in small datasets Keras Applications Mixed precision Multi-device distribution RNG API Quantizers Scope Rematerialization Utilities Keras 2 API documentation KerasTuner: Hyperparam Tuning KerasHub: Pretrained Models KerasRS Get started Guides API Example",
+      "sha256": "6b6d49fcef1043eb44651ebb06c2cc0ea405f236919fe8372f858019ab772644",
+      "checkedAt": "2026-10-14T05:10:42.479Z"
+    },
+    "cnn": {
+      "url": "https://keras.io/api/layers/convolution_layers/convolution2d/",
+      "resolvedUrl": "https://keras.io/api/layers/convolution_layers/convolution2d/",
+      "status": 200,
+      "ok": true,
+      "term": "convolution",
+      "excerpt": "r weight initializers Layer weight regularizers Layer weight constraints Core layers Convolution layers Pooling layers Recurrent layers Preprocessing layers Normalization layers Regularization layers Attention layers Reshaping layers Merging layers Activation layers Backend-specific layers Callbacks API Ops API Optimizers Metrics Losses Data loading Tree API Built-in small datasets Keras Applications Mixed preci",
+      "sha256": "3a93b7e3787271b8168a95611b9d0544ed493fc8c0f3fe667930b7d6798a82e8",
+      "checkedAt": "2026-10-14T05:10:42.496Z"
+    },
+    "image-training": {
+      "url": "https://keras.io/examples/vision/image_classification_from_scratch/",
+      "resolvedUrl": "https://keras.io/examples/vision/image_classification_from_scratch/",
+      "status": 200,
+      "ok": true,
+      "term": "augmentation",
+      "excerpt": "r single-image super-resolution Zero-DCE for low-light image enhancement CutMix data augmentation for image classification MixUp augmentation for image classification RandAugment for Image Classification for Improved Robustness Image captioning Natural language image search with a Dual Encoder Visualizing what convnets learn Model interpretability with Integrated Gradients Investigating Vision Transformer repres",
+      "sha256": "fe9140665d34fc513bde1eb4a53431f50d1e6d9a2f81cddbe2e2d215088eb619",
+      "checkedAt": "2026-10-14T05:10:42.644Z"
+    },
+    "early": {
+      "url": "https://keras.io/api/callbacks/early_stopping/",
+      "resolvedUrl": "https://keras.io/api/callbacks/early_stopping/",
+      "status": 200,
+      "ok": true,
+      "term": "Stop training",
+      "excerpt": "= \"auto\" , baseline = None , restore_best_weights = False , start_from_epoch = 0 , ) Stop training when a monitored metric has stopped improving. Assuming the goal of a training is to minimize the loss. With this, the metric to be monitored would be 'loss' , and mode would be 'min' . A model.fit() training loop will check at end of every epoch whether the loss is no longer decreasing, considering the min_delta a",
+      "sha256": "878c21aa7dfe0100591830671ea5bf1f0c8126b3dd92e0dd6ad73e97da915fdd",
+      "checkedAt": "2026-10-14T05:10:42.647Z"
+    },
+    "unstructured": {
+      "url": "https://www.ibm.com/think/topics/unstructured-data",
+      "resolvedUrl": "https://www.ibm.com/think/topics/unstructured-data",
+      "status": 200,
+      "ok": true,
+      "term": "predefined",
+      "excerpt": "ink What is unstructured data? Unstructured data is information that does not have a predefined format. Unstructured datasets are massive (often terabytes or petabytes of data) and contain 90% of all enterprise-generated data. 1 The proliferation of unstructured data is driven by its diverse and extensive data sources—including text documents, social media, image and audio files, instant messages and smart devic",
+      "sha256": "2791c385f8412ee804c647e42a2110d16b5f3a516dfbf5e847d03d5a1512a677",
+      "checkedAt": "2026-10-14T05:10:42.813Z"
+    },
+    "classification": {
+      "url": "https://scikit-learn.org/stable/modules/multiclass.html",
+      "resolvedUrl": "https://scikit-learn.org/stable/modules/multiclass.html",
+      "status": 200,
+      "ok": true,
+      "term": "multilabel",
+      "excerpt": "uide covers functionality related to multi-learning problems, including multiclass , multilabel , and multioutput classification and regression. The modules in this section implement meta-estimators , which require a base estimator to be provided in their constructor. Meta-estimators extend the functionality of the base estimator to support multi-learning problems, which is accomplished by transforming the multi",
+      "sha256": "e4318d321453c13a3d7c3a08d272d89e64fd04825e59fc2256d5fea04dc4537b",
+      "checkedAt": "2026-10-14T05:10:42.816Z"
+    },
+    "labeling": {
+      "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/sms-automated-labeling.html",
+      "resolvedUrl": "https://docs.aws.amazon.com/sagemaker/latest/dg/sms-automated-labeling.html",
+      "status": 200,
+      "ok": true,
+      "term": "human",
+      "excerpt": " reduce the cost and time that it takes to label your dataset compared to using only humans. When you use automated labeling, you incur SageMaker training and inference costs. We recommend using automated data labeling on large datasets because the neural networks used with active learning require a significant amount of data for every new dataset. Typically, as you provide more data, the potential for high accu",
+      "sha256": "3ae9aa2f29752be13b764371a7c6a638dc10ba22f76be96e0b35caf23a4dd64f",
+      "checkedAt": "2026-10-14T05:10:43.284Z"
+    },
+    "load": {
+      "url": "https://learn.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing",
+      "resolvedUrl": "https://learn.microsoft.com/en-us/azure/app-testing/load-testing/overview-what-is-azure-load-testing",
+      "status": 200,
+      "ok": true,
+      "term": "load",
+      "excerpt": "What is Azure Load Testing? | Microsoft Learn Skip to main content Skip to Ask Learn chat experience This browser is no longer supported. Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support. Download Microsoft Edge More info about Internet Explorer and Microsoft Edge Table of contents Ex",
+      "sha256": "2545ca1606572b35bf391ab89fcbdfbb65397689a9c16d5ad23c732aa052840b",
+      "checkedAt": "2026-10-14T05:10:43.359Z"
+    },
+    "categorical": {
+      "url": "https://developers.google.com/machine-learning/crash-course/categorical-data?hl=en",
+      "resolvedUrl": "https://developers.google.com/machine-learning/crash-course/categorical-data?hl=en",
+      "status": 200,
+      "ok": true,
+      "term": "categorical",
+      "excerpt": "Working with categorical data | Machine Learning | Google for Developers Skip to main content Machine Learning ML Concepts Introduction Introduction to ML ML models Linear regression Logistic regression Classification Data Working with numerical data Working with categorical data Datasets, generalization, and overfitting Advanced ML models N",
+      "sha256": "5e26156545d0c78ee97dc67ee637d1b1b94858c91d1278f8eb0da5461c301b75",
+      "checkedAt": "2026-10-14T05:11:54.948Z"
+    },
+    "f1": {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html",
+      "resolvedUrl": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html",
+      "status": 200,
+      "ok": true,
+      "term": "harmonic",
+      "excerpt": "e, also known as balanced F-score or F-measure. The F1 score can be interpreted as a harmonic mean of the precision and recall, where an F1 score reaches its best value at 1 and worst score at 0. The relative contribution of precision and recall to the F1 score are equal. The formula for the F1 score is: \\[\\text{F1} = \\frac{2 * \\text{TP}}{2 * \\text{TP} + \\text{FP} + \\text{FN}}\\] Where \\(\\text{TP}\\) is the number",
+      "sha256": "34d8a68307726a5fc7e14575291977bba1607ea0bfdf3e4f97500700084a08e7",
+      "checkedAt": "2026-10-14T05:10:43.576Z"
+    },
+    "eda": {
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section1/eda11.htm",
+      "resolvedUrl": "https://www.itl.nist.gov/div898/handbook/eda/section1/eda11.htm",
+      "status": 200,
+      "ok": true,
+      "term": "Exploratory",
+      "excerpt": "1.1.1. What is EDA? 1. Exploratory Data Analysis 1.1. EDA Introduction 1.1.1. What is EDA? Approach Exploratory Data Analysis (EDA) is an approach/philosophy for data analysis that employs a variety of techniques (mostly graphical) to maximize insight into a data set; uncover underlying structure; extract important variables; detect outliers and anoma",
+      "sha256": "9cfa890366c3f17d6519a3a630eedad6d9e5f8ce38a65d7204a5f003c572c742",
+      "checkedAt": "2026-10-14T05:10:43.735Z"
+    },
+    "music": {
+      "url": "https://librosa.org/doc/0.10.2/feature.html",
+      "resolvedUrl": "https://librosa.org/doc/0.10.2/feature.html",
+      "status": 200,
+      "ok": true,
+      "term": "tempo",
+      "excerpt": "a.feature.tonnetz librosa.feature.zero_crossing_rate Rhythm features librosa.feature.tempo librosa.feature.tempogram librosa.feature.fourier_tempogram librosa.feature.tempogram_ratio Feature manipulation librosa.feature.delta librosa.feature.stack_memory Feature inversion librosa.feature.inverse.mel_to_stft librosa.feature.inverse.mel_to_audio librosa.feature.inverse.mfcc_to_mel librosa.feature.inverse.mfcc_to_a",
+      "sha256": "aaf977b6c795df58ec874324c86dbbb7d492b093e5f016aa46eb7af06b8fb382",
+      "checkedAt": "2026-10-14T05:11:55.073Z"
+    },
+    "zcr": {
+      "url": "https://librosa.org/doc/0.11.0/generated/librosa.feature.zero_crossing_rate.html",
+      "resolvedUrl": "https://librosa.org/doc/0.11.0/generated/librosa.feature.zero_crossing_rate.html",
+      "status": 200,
+      "ok": true,
+      "term": "zero",
+      "excerpt": "librosa.feature.zero_crossing_rate &mdash; librosa 0.11.0 documentation Getting started Installation instructions Tutorial Troubleshooting API documentation Core IO and DSP Display Feature extraction Spectral features librosa.feature.chroma_stft librosa.feature.chroma_cqt librosa.feature.chroma_cens librosa.feature.chroma_vqt librosa.feature.me",
+      "sha256": "2c29808c42d287074b26d5f6b31c86caafb832f69138af440e1136a9dad3c3b2",
+      "checkedAt": "2026-10-14T05:11:54.998Z"
+    },
+    "metrics": {
+      "url": "https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall?hl=en",
+      "resolvedUrl": "https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall?hl=en",
+      "status": 200,
+      "ok": true,
+      "term": "false",
+      "excerpt": "zed with collections Save and categorize content based on your preferences. True and false positives and negatives are used to calculate several useful metrics for evaluating models. Which evaluation metrics are most meaningful depends on the specific model and the specific task, the cost of different misclassifications, and whether the dataset is balanced or imbalanced. All of the metrics in this section are ca",
+      "sha256": "3b0b3c3ad5acd4e6de6bc18308da69a71b730cba7476ab87bfe7a12562dc65ff",
+      "checkedAt": "2026-10-14T05:11:55.094Z"
+    },
+    "pandas": {
+      "url": "https://pandas.pydata.org/docs/getting_started/overview.html",
+      "resolvedUrl": "https://pandas.pydata.org/docs/getting_started/overview.html",
+      "status": 200,
+      "ok": true,
+      "term": "manipulation",
+      "excerpt": "ionally, it seeks to become the most powerful and flexible open source data analysis/manipulation tool available in any language . It is already well on its way toward this goal. pandas is well suited for many different kinds of data: Tabular data with heterogeneously-typed columns, as in an SQL table or Excel spreadsheet Ordered and unordered (not necessarily fixed-frequency) time series data. Arbitrary matrix ",
+      "sha256": "c1e2438d3aaa1519dae5025d0636a8dd2e984b71ec894a92cca74a74f808c9e0",
+      "checkedAt": "2026-10-14T05:10:44.081Z"
+    },
+    "serving": {
+      "url": "https://www.tensorflow.org/tfx/serving/api_rest",
+      "resolvedUrl": "https://www.tensorflow.org/tfx/serving/api_rest?hl=ru",
+      "status": 200,
+      "ok": true,
+      "term": "predict",
+      "excerpt": " ModelSpec Output OutputColumnsSpec OutputExampleSpec PairedExampleSkew PodOverrides PredictOutput PredictOutputCol PushDestination RangeConfig RegressOutput RequestSpec RollingRange SecretKeySelector ServingSpec SingleSlicingSpec SplitConfig SplitsConfig StaticRange TensorFlowServing TensorFlowServingRequestSpec TrainArgs TuneArgs ValidationSpec orchestration Overview RunState testing Overview Channel types Ove",
+      "sha256": "b059cdbdcb19050514e28a05d453bf8f32ec402a37cab33ec64129ebe6424296",
+      "checkedAt": "2026-10-14T05:10:44.146Z"
+    },
+    "cross-validation": {
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "resolvedUrl": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "status": 200,
+      "ok": true,
+      "term": "validation",
+      "excerpt": "3.1. Cross-validation: evaluating estimator performance &#8212; scikit-learn 1.9.1 documentation Skip to main content Back to top Ctrl + K Install User Guide API Examples Community More Getting Started Release History Glossary Development FAQ Support Related Projects Roadmap Governance Institutional support About us System Settings Light D",
+      "sha256": "78d7587fa92ba3b3e480c9d841b50fedc14ac29d571ccb319d4068235154f0e2",
+      "checkedAt": "2026-10-14T05:10:44.210Z"
+    },
+    "loss": {
+      "url": "https://keras.io/api/losses/probabilistic_losses/",
+      "resolvedUrl": "https://keras.io/api/losses/probabilistic_losses/",
+      "status": 200,
+      "ok": true,
+      "term": "crossentropy",
+      "excerpt": "PI documentation / Losses / Probabilistic losses Probabilistic losses [source] BinaryCrossentropy class keras . losses . BinaryCrossentropy ( from_logits = False , label_smoothing = 0.0 , axis =- 1 , reduction = \"sum_over_batch_size\" , name = \"binary_crossentropy\" , dtype = None , ) Computes the cross-entropy loss between true labels and predicted labels. Use this cross-entropy loss for binary (0 or 1) classific",
+      "sha256": "0ed6e58ad900be7ff846c33948ae18480167268e0cd93cb5e2387145277d3fdf",
+      "checkedAt": "2026-10-14T05:10:44.213Z"
+    },
+    "audio": {
+      "url": "https://www.tensorflow.org/tutorials/audio/simple_audio",
+      "resolvedUrl": "https://www.tensorflow.org/tutorials/audio/simple_audio",
+      "status": 200,
+      "ok": true,
+      "term": "spectrogram",
+      "excerpt": "np . arange ( - 1.2 , 1.2 , 0.2 )) plt . ylim ([ - 1.1 , 1.1 ]) Convert waveforms to spectrograms The waveforms in the dataset are represented in the time domain. Next, you'll transform the waveforms from the time-domain signals into the time-frequency-domain signals by computing the short-time Fourier transform (STFT) to convert the waveforms to as spectrograms , which show frequency changes over time and can b",
+      "sha256": "1e7a3d56f905aef1143f06bec9fa0236a789e860916a79f8e56f0cd8be52e1f9",
+      "checkedAt": "2026-10-14T05:10:44.245Z"
+    },
+    "missing": {
+      "url": "https://scikit-learn.org/stable/modules/impute.html",
+      "resolvedUrl": "https://scikit-learn.org/stable/modules/impute.html",
+      "status": 200,
+      "ok": true,
+      "term": "missing",
+      "excerpt": "8.4. Imputation of missing values &#8212; scikit-learn 1.9.1 documentation Skip to main content Back to top Ctrl + K Install User Guide API Examples Community More Getting Started Release History Glossary Development FAQ Support Related Projects Roadmap Governance Institutional support About us System Settings Light Dark GitHub Choose version Inst",
+      "sha256": "3594b679cb922fea8e048773766b24d76aa27bd55b90360c2817a3ebd22f94c5",
+      "checkedAt": "2026-10-14T05:10:44.367Z"
+    },
+    "leakage": {
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "resolvedUrl": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "status": 200,
+      "ok": true,
+      "term": "leakage",
+      "excerpt": "ing another common pitfall: leaking the test data into the training data. 12.2. Data leakage # Data leakage occurs when information that would not be available at prediction time is used when building the model. This results in overly optimistic performance estimates, for example from cross-validation , and thus poorer performance when the model is used on actually novel data, for example during production. A co",
+      "sha256": "21fac11c181ab35624dcf8673f0475d403d4f6ecf0f9bead01a573d7642b515c",
+      "checkedAt": "2026-10-14T05:10:44.383Z"
+    },
+    "speech": {
+      "url": "https://research.google.com/audioset/ontology/speech_1.html",
+      "resolvedUrl": "https://research.google.com/audioset/ontology/speech_1.html",
+      "status": 200,
+      "ok": true,
+      "term": "Speech",
+      "excerpt": "AudioSet Home Ontology Dataset Download About Ontology Human sounds Human voice ↩ Speech Speech is the vocalized form of human communication, created out of the phonetic combination of a limited set of vowel and consonant speech sound units. 1,010,480 annotations in dataset ► ► ► ► Male speech, man speaking Speech uttered by an adult male human. 17,716 annotations in dataset ► ► ► ► ► ► ► Female speech, woman",
+      "sha256": "fc93381eb180335745325ee32d6e70a39c2b07888ef7e1667be075ba4ea13b56",
+      "checkedAt": "2026-10-14T05:10:44.401Z"
+    },
+    "generalization": {
+      "url": "https://developers.google.com/machine-learning/crash-course/overfitting/overfitting?hl=en",
+      "resolvedUrl": "https://developers.google.com/machine-learning/crash-course/overfitting/overfitting?hl=en",
+      "status": 200,
+      "ok": true,
+      "term": "overfitting",
+      "excerpt": "Overfitting | Machine Learning | Google for Developers Skip to main content Machine Learning ML Concepts Introduction Introduction to ML ML models Linear regression Logistic regression Classification Data Working with numerical data Working with categorical data Datasets, generalization, and overfitting Advanced ML models Neural",
+      "sha256": "20eb6c1357d23713c2e1817d672fcc6e17a39573aca3902ea5565c6fcb442eb3",
+      "checkedAt": "2026-10-14T05:11:55.260Z"
+    },
+    "birds": {
+      "url": "https://research.google.com/audioset/ontology/bird_1.html",
+      "resolvedUrl": "https://research.google.com/audioset/ontology/bird_1.html",
+      "status": 200,
+      "ok": true,
+      "term": "Bird",
+      "excerpt": "AudioSet Home Ontology Dataset Download About Ontology Animal Wild animals ↩ Bird Sounds associated with the large group of flying vertebrates. 26,894 annotations in dataset ► ► ► ► ► ► Bird vocalization, bird call, bird song Bird communication calls, often considered melodious to the human ear. 6,372 annotations in dataset ► ► ► ► ► ► ► ► Pigeon, dove Sounds associated with these species of birds having",
+      "sha256": "ff9c6a957ef889cb71d52003fc0152216bbb1d62969a7fad504312bf2e1484a2",
+      "checkedAt": "2026-10-14T05:11:55.088Z"
+    },
+    "testing": {
+      "url": "https://research.google/pubs/the-ml-test-score-a-rubric-for-ml-production-readiness-and-technical-debt-reduction/",
+      "resolvedUrl": "https://research.google/pubs/the-ml-test-score-a-rubric-for-ml-production-readiness-and-technical-debt-reduction/",
+      "status": 200,
+      "ok": true,
+      "term": "test",
+      "excerpt": "The ML Test Score: A Rubric for ML Production Readiness and Technical Debt Reduction Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intell",
+      "sha256": "83ef0cc1991038c74ba4845503000aa89a54515ddcc12c7b85e3b5b3ab88b7e9",
+      "checkedAt": "2026-10-14T05:10:45.064Z"
+    },
+    "mlops": {
+      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning?hl=en",
+      "resolvedUrl": "https://docs.cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning?hl=en",
+      "status": 200,
+      "ok": true,
+      "term": "monitor",
+      "excerpt": "ed, hybrid, and multicloud Industry solutions Migration Networking Observability and monitoring Security Storage / Console English Deutsch Español Español – América Latina Français Indonesia Italiano Português Português – Brasil עברית 中文 – 简体 中文 – 繁體 日本語 한국어 Sign in Documentation Cloud Architecture Center Start free Documentation More Console < Architecture Center home What's new Fundamentals Content overview We",
+      "sha256": "4c311b709c24969bd0f5636b009a19e601100d8c71fb66ba6c5840e8a1a046ab",
+      "checkedAt": "2026-10-14T05:11:55.547Z"
+    },
+    "async": {
+      "url": "https://262.ecma-international.org/8.0/#sec-async-function-definitions",
+      "resolvedUrl": "https://262.ecma-international.org/8.0/",
+      "status": 200,
+      "ok": true,
+      "term": "AsyncFunction",
+      "excerpt": ".4 Promise.prototype [ @@toStringTag ] 25.4.6 Properties of Promise Instances ◢ 25.5 AsyncFunction Objects ◢ 25.5.1 The AsyncFunction Constructor 25.5.1.1 AsyncFunction( p1 , p2 , … , pn , body ) ◢ 25.5.2 Properties of the AsyncFunction Constructor 25.5.2.1 AsyncFunction.length 25.5.2.2 AsyncFunction.prototype ◢ 25.5.3 Properties of the AsyncFunction Prototype Object 25.5.3.1 AsyncFunction.prototype.constructor ",
+      "sha256": "6ed5f0c60abfa25439a7dd3a1b56d64bd5a507681c98b6af00916e26b3a7e032",
+      "checkedAt": "2026-10-14T05:34:50.868Z"
+    }
+  }
+}

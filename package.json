@@ -1,0 +1,1 @@
+{"name":"webdev-elective-midterm-reviewer","private":true,"scripts":{"build":"node scripts/build_bank.cjs","test":"node scripts/test_review.cjs","check:sources":"node scripts/check_audit_sources.cjs"},"devDependencies":{"jsdom":"^26.1.0"}}

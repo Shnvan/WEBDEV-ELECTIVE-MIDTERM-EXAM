@@ -8,7 +8,9 @@
   <title>Study room · WebDev & Elective</title>
   <script>try{document.documentElement.dataset.theme=localStorage.getItem('study-room-theme')==='light'?'light':'dark'}catch(e){}</script>
   <link rel="stylesheet" href="styles.css">
-  <script defer src="data/quizzes.js"></script>
+  <script defer src="data/review-bank.js"></script>
+  <script defer src="art.js"></script>
+  <script defer src="progress.js"></script>
   <script defer src="app.js"></script>
 </head>
 <body>
@@ -16,11 +18,12 @@
   <div class="shell">
     <header class="topbar">
       <a class="brand" href="#/" aria-label="Study room home"><span class="brand-mark" aria-hidden="true">✳</span> Study room<span class="brand-dot">.</span></a>
-      <div class="header-actions"><span class="edition">WEBDEV + ELECTIVE</span><button class="theme-button" id="theme-toggle" type="button" aria-label="Switch to light mode"></button></div>
+      <div class="header-actions"><span class="edition">WEBDEV + ELECTIVE</span><button class="theme-button" id="theme-toggle" type="button" aria-label="Switch to light mode"></button><button class="menu-button" id="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navigation-menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button></div>
     </header>
     <main id="main" tabindex="-1"></main>
     <footer class="footer"><span>Made for the next <span class="footer-serif">“I got this.”</span></span><span id="save-status" role="status" aria-live="polite">Progress stays in this browser.</span></footer>
   </div>
+  <dialog class="menu-drawer" id="navigation-menu" aria-labelledby="menu-title"><div class="menu-heading"><h2 id="menu-title">Your study room.</h2><button type="button" id="menu-close" class="menu-button" aria-label="Close navigation menu">×</button></div><nav id="menu-links" aria-label="Main navigation"></nav><p class="menu-footer">A little practice, at your own pace.</p></dialog>
   <noscript><p class="noscript">Please enable JavaScript to use the quiz reviewer.</p></noscript>
 </body>
 </html>

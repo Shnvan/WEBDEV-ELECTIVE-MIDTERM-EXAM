@@ -1,0 +1,2418 @@
+{
+  "version": 2,
+  "reviewedOn": "2026-10-14",
+  "method": "Manual review of every source question against the linked primary references; lecture-dependent, malformed and non-unique items are not scored. A URL availability check and application tests are separate from this semantic review.",
+  "sources": {
+    "forms": {
+      "label": "WHATWG: HTML forms",
+      "url": "https://html.spec.whatwg.org/multipage/forms.html",
+      "term": "form controls"
+    },
+    "input": {
+      "label": "WHATWG: input element",
+      "url": "https://html.spec.whatwg.org/multipage/input.html",
+      "term": "required"
+    },
+    "anchor": {
+      "label": "WHATWG: hyperlinks",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
+      "term": "href"
+    },
+    "images": {
+      "label": "WHATWG: images",
+      "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element",
+      "term": "alt"
+    },
+    "structure": {
+      "label": "WHATWG: sections",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html",
+      "term": "article"
+    },
+    "grouping": {
+      "label": "WHATWG: grouping content",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html",
+      "term": "dominant"
+    },
+    "tables": {
+      "label": "WHATWG: tabular data",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html",
+      "term": "tabular"
+    },
+    "syntax": {
+      "label": "WHATWG: HTML syntax",
+      "url": "https://html.spec.whatwg.org/multipage/syntax.html",
+      "term": "DOCTYPE"
+    },
+    "body": {
+      "label": "WHATWG: document sections",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-body-element",
+      "term": "body"
+    },
+    "a11y": {
+      "label": "W3C: accessibility principles",
+      "url": "https://www.w3.org/WAI/fundamentals/accessibility-principles/",
+      "term": "keyboard"
+    },
+    "headings": {
+      "label": "W3C: heading structure",
+      "url": "https://www.w3.org/WAI/tutorials/page-structure/headings/",
+      "term": "navigation"
+    },
+    "html-history": {
+      "label": "CERN: the birth of the web",
+      "url": "https://home.cern/science/computing/the-birth-of-the-web/where-web-was-born/",
+      "term": "Berners"
+    },
+    "html": {
+      "label": "W3C: HTML introduction",
+      "url": "https://www.w3.org/TR/html401/intro/intro.html",
+      "term": "HyperText Markup"
+    },
+    "canonical": {
+      "label": "Google: canonical URLs",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls?hl=en",
+      "term": "canonical"
+    },
+    "seo": {
+      "label": "Google: SEO starter guide",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=en",
+      "term": "Search Engine Optimization"
+    },
+    "snippets": {
+      "label": "Google: search snippets",
+      "url": "https://developers.google.com/search/docs/appearance/snippet?hl=en",
+      "term": "description"
+    },
+    "titles": {
+      "label": "Google: title links",
+      "url": "https://developers.google.com/search/docs/appearance/title-link?hl=en",
+      "term": "title"
+    },
+    "cascade": {
+      "label": "W3C: CSS cascade",
+      "url": "https://www.w3.org/TR/css-cascade-5/",
+      "term": "specificity"
+    },
+    "box": {
+      "label": "W3C: CSS box model",
+      "url": "https://www.w3.org/TR/css-box-3/",
+      "term": "padding"
+    },
+    "sizing": {
+      "label": "W3C: box sizing",
+      "url": "https://www.w3.org/TR/css-sizing-3/",
+      "term": "border-box"
+    },
+    "flex": {
+      "label": "W3C: Flexbox",
+      "url": "https://www.w3.org/TR/css-flexbox-1/",
+      "term": "column"
+    },
+    "grid": {
+      "label": "W3C: Grid",
+      "url": "https://www.w3.org/TR/css-grid-2/",
+      "term": "two-dimensional"
+    },
+    "media": {
+      "label": "W3C: media queries",
+      "url": "https://www.w3.org/TR/mediaqueries-4/",
+      "term": "touchpads"
+    },
+    "css-values": {
+      "label": "W3C: CSS values and units",
+      "url": "https://www.w3.org/TR/css-values-4/",
+      "term": "case-insensitive"
+    },
+    "css-syntax": {
+      "label": "W3C: CSS syntax",
+      "url": "https://www.w3.org/TR/css-syntax-3/",
+      "term": "declaration"
+    },
+    "css": {
+      "label": "W3C: what CSS is",
+      "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+      "term": "Cascading Style Sheets"
+    },
+    "float": {
+      "label": "W3C: floats",
+      "url": "https://www.w3.org/TR/CSS22/visuren.html#floats",
+      "term": "float"
+    },
+    "tailwind": {
+      "label": "Tailwind: utility classes",
+      "url": "https://tailwindcss.com/docs/styling-with-utility-classes",
+      "term": "utility"
+    },
+    "bootstrap": {
+      "label": "Bootstrap: introduction",
+      "url": "https://getbootstrap.com/docs/5.3/getting-started/introduction/",
+      "term": "mobile"
+    },
+    "dom": {
+      "label": "WHATWG: DOM",
+      "url": "https://dom.spec.whatwg.org/",
+      "term": "getElementById"
+    },
+    "input-events": {
+      "label": "W3C: input events",
+      "url": "https://www.w3.org/TR/input-events-2/",
+      "term": "input"
+    },
+    "async": {
+      "label": "Ecma: ECMAScript 2017 async functions",
+      "url": "https://262.ecma-international.org/8.0/#sec-async-function-definitions",
+      "term": "AsyncFunction"
+    },
+    "es6": {
+      "label": "Ecma: ECMAScript 2015",
+      "url": "https://262.ecma-international.org/6.0/",
+      "term": "ECMAScript 2015"
+    },
+    "fetch": {
+      "label": "WHATWG: Fetch",
+      "url": "https://fetch.spec.whatwg.org/",
+      "term": "Promise"
+    },
+    "http": {
+      "label": "IETF: HTTP semantics",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "term": "PUT"
+    },
+    "php-vars": {
+      "label": "PHP: variables",
+      "url": "https://www.php.net/manual/en/language.variables.basics.php",
+      "term": "dollar"
+    },
+    "php-get": {
+      "label": "PHP: GET data",
+      "url": "https://www.php.net/manual/en/reserved.variables.get.php",
+      "term": "query"
+    },
+    "php-post": {
+      "label": "PHP: POST data",
+      "url": "https://www.php.net/manual/en/reserved.variables.post.php",
+      "term": "Form data"
+    },
+    "php-exceptions": {
+      "label": "PHP: try/catch",
+      "url": "https://www.php.net/manual/en/control-structures.try-catch.php",
+      "term": "catch"
+    },
+    "php-classes": {
+      "label": "PHP: classes and objects",
+      "url": "https://www.php.net/manual/en/language.oop5.basic.php",
+      "term": "class"
+    },
+    "php-namespaces": {
+      "label": "PHP: namespaces",
+      "url": "https://www.php.net/manual/en/language.namespaces.rationale.php",
+      "term": "namespaces"
+    },
+    "php-if": {
+      "label": "PHP: conditional execution",
+      "url": "https://www.php.net/manual/en/control-structures.elseif.php",
+      "term": "elseif"
+    },
+    "php-arrays": {
+      "label": "PHP: arrays",
+      "url": "https://www.php.net/manual/en/language.types.array.php",
+      "term": "map"
+    },
+    "php-functions": {
+      "label": "PHP: functions",
+      "url": "https://www.php.net/manual/en/functions.user-defined.php",
+      "term": "function"
+    },
+    "php": {
+      "label": "PHP: purpose",
+      "url": "https://www.php.net/intro",
+      "term": "server"
+    },
+    "php-tags": {
+      "label": "PHP: opening and closing tags",
+      "url": "https://www.php.net/manual/en/language.basic-syntax.phpmode.php",
+      "term": "<?php"
+    },
+    "php-sessions": {
+      "label": "PHP: sessions",
+      "url": "https://www.php.net/manual/en/book.session.php",
+      "term": "session"
+    },
+    "php-history": {
+      "label": "PHP: history",
+      "url": "https://www.php.net/manual/en/history.php.php",
+      "term": "Personal Home Page"
+    },
+    "php-types": {
+      "label": "PHP: type declarations",
+      "url": "https://www.php.net/manual/en/language.types.declarations.php",
+      "term": "strict_types"
+    },
+    "php-bool": {
+      "label": "PHP: booleans",
+      "url": "https://www.php.net/manual/en/language.types.boolean.php",
+      "term": "true"
+    },
+    "php-comparison": {
+      "label": "PHP: comparison operators",
+      "url": "https://www.php.net/manual/en/language.operators.comparison.php",
+      "term": "spaceship"
+    },
+    "php-for": {
+      "label": "PHP: for loops",
+      "url": "https://www.php.net/manual/en/control-structures.for.php",
+      "term": "expr2"
+    },
+    "php-while": {
+      "label": "PHP: while loops",
+      "url": "https://www.php.net/manual/en/control-structures.while.php",
+      "term": "expression"
+    },
+    "php-filter": {
+      "label": "PHP: filtering external data",
+      "url": "https://www.php.net/manual/en/book.filter.php",
+      "term": "validation"
+    },
+    "unstructured": {
+      "label": "IBM: unstructured data",
+      "url": "https://www.ibm.com/think/topics/unstructured-data",
+      "term": "predefined"
+    },
+    "api": {
+      "label": "IBM: application programming interfaces",
+      "url": "https://www.ibm.com/think/topics/api",
+      "term": "application programming interface"
+    },
+    "data-quality": {
+      "label": "Google ML: data quality",
+      "url": "https://developers.google.com/machine-learning/guides/data-traps/quality?hl=en",
+      "term": "outliers"
+    },
+    "categorical": {
+      "label": "Google ML: categorical data",
+      "url": "https://developers.google.com/machine-learning/crash-course/categorical-data?hl=en",
+      "term": "categorical"
+    },
+    "public-data": {
+      "label": "Data.gov: open government data",
+      "url": "https://data.gov/",
+      "term": "data"
+    },
+    "eda": {
+      "label": "NIST: exploratory data analysis",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section1/eda11.htm",
+      "term": "Exploratory"
+    },
+    "rl": {
+      "label": "OpenAI Spinning Up: model-based RL",
+      "url": "https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html",
+      "term": "model-based"
+    },
+    "clustering": {
+      "label": "scikit-learn: clustering",
+      "url": "https://scikit-learn.org/stable/modules/clustering.html",
+      "term": "clusters"
+    },
+    "fit": {
+      "label": "Keras: training API",
+      "url": "https://keras.io/api/models/model_training_apis/",
+      "term": "epochs"
+    },
+    "optimizer": {
+      "label": "Keras: optimizers",
+      "url": "https://keras.io/api/optimizers/",
+      "term": "learning rate"
+    },
+    "early": {
+      "label": "Keras: early stopping",
+      "url": "https://keras.io/api/callbacks/early_stopping/",
+      "term": "Stop training"
+    },
+    "classification": {
+      "label": "scikit-learn: multiclass and multilabel",
+      "url": "https://scikit-learn.org/stable/modules/multiclass.html",
+      "term": "multilabel"
+    },
+    "cnn": {
+      "label": "Keras: convolution layers",
+      "url": "https://keras.io/api/layers/convolution_layers/convolution2d/",
+      "term": "convolution"
+    },
+    "image-training": {
+      "label": "Keras: image classification",
+      "url": "https://keras.io/examples/vision/image_classification_from_scratch/",
+      "term": "augmentation"
+    },
+    "serving": {
+      "label": "TensorFlow: prediction REST API",
+      "url": "https://www.tensorflow.org/tfx/serving/api_rest",
+      "term": "predict"
+    },
+    "load": {
+      "label": "Microsoft: load testing",
+      "url": "https://learn.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing",
+      "term": "load"
+    },
+    "labeling": {
+      "label": "AWS: automated data labeling",
+      "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/sms-automated-labeling.html",
+      "term": "human"
+    },
+    "metrics": {
+      "label": "Google ML: classification metrics",
+      "url": "https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall?hl=en",
+      "term": "false"
+    },
+    "f1": {
+      "label": "scikit-learn: F1 score",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html",
+      "term": "harmonic"
+    },
+    "audio": {
+      "label": "TensorFlow: audio recognition",
+      "url": "https://www.tensorflow.org/tutorials/audio/simple_audio",
+      "term": "spectrogram"
+    },
+    "zcr": {
+      "label": "librosa: zero-crossing rate",
+      "url": "https://librosa.org/doc/0.11.0/generated/librosa.feature.zero_crossing_rate.html",
+      "term": "zero"
+    },
+    "music": {
+      "label": "librosa: music features",
+      "url": "https://librosa.org/doc/0.10.2/feature.html",
+      "term": "tempo"
+    },
+    "pandas": {
+      "label": "pandas: package overview",
+      "url": "https://pandas.pydata.org/docs/getting_started/overview.html",
+      "term": "manipulation"
+    },
+    "generalization": {
+      "label": "Google ML: generalization and overfitting",
+      "url": "https://developers.google.com/machine-learning/crash-course/overfitting/overfitting?hl=en",
+      "term": "overfitting"
+    },
+    "cross-validation": {
+      "label": "scikit-learn: validation and test splits",
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "term": "validation"
+    },
+    "missing": {
+      "label": "scikit-learn: missing data",
+      "url": "https://scikit-learn.org/stable/modules/impute.html",
+      "term": "missing"
+    },
+    "leakage": {
+      "label": "scikit-learn: data leakage",
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "term": "leakage"
+    },
+    "loss": {
+      "label": "Keras: losses",
+      "url": "https://keras.io/api/losses/probabilistic_losses/",
+      "term": "crossentropy"
+    },
+    "mlops": {
+      "label": "Google Cloud: ML production lifecycle",
+      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning?hl=en",
+      "term": "monitor"
+    },
+    "testing": {
+      "label": "Google: ML test score research",
+      "url": "https://research.google/pubs/the-ml-test-score-a-rubric-for-ml-production-readiness-and-technical-debt-reduction/",
+      "term": "test"
+    },
+    "speech": {
+      "label": "Google AudioSet: speech ontology",
+      "url": "https://research.google.com/audioset/ontology/speech_1.html",
+      "term": "Speech"
+    },
+    "birds": {
+      "label": "Google AudioSet: bird sounds",
+      "url": "https://research.google.com/audioset/ontology/bird_1.html",
+      "term": "Bird"
+    }
+  },
+  "decisions": {
+    "webdev-34-2-1": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "HTML Forms",
+      "references": [
+        "forms"
+      ],
+      "note": "A form groups controls that collect and submit visitor input; an individual input is one control within the form."
+    },
+    "webdev-34-2-2": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "<main>",
+      "references": [
+        "grouping"
+      ],
+      "note": "The main element represents the body’s dominant content."
+    },
+    "webdev-34-2-3": {
+      "status": "corrected",
+      "correct": 2,
+      "verifiedAnswer": "<a href=\"url\">link text</a>",
+      "references": [
+        "anchor"
+      ],
+      "note": "An anchor creates a hyperlink using href. The user-supplied screenshot highlights B with src, which is incorrect; C was already the website answer.",
+      "originalSourceAnswer": "B. <a src=\"url\">link text</a> (user-provided highlighted screenshot)"
+    },
+    "webdev-34-2-4": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "<img src=\"url\" alt=\"text\">",
+      "references": [
+        "images",
+        "syntax"
+      ],
+      "note": "Use img with src and alt. img is a void element with no closing tag; image is not conforming authoring syntax."
+    },
+    "webdev-34-2-5": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "<input type=\"text\" name=\"name\">",
+      "references": [
+        "input"
+      ],
+      "note": "The text input state uses input type=\"text\"; name identifies the submitted field."
+    },
+    "webdev-34-2-6": {
+      "status": "written-self-review",
+      "correct": null,
+      "verifiedAnswer": "Provide alternative text for meaningful images so people using screen readers can understand their purpose.",
+      "references": [
+        "a11y"
+      ],
+      "note": "A valid accessibility principle plus its benefit in one sentence is a self-reviewed written response, not an automatically scored answer."
+    },
+    "webdev-34-9-1": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Inline style > ID selector > Class selector > Element selector",
+      "references": [
+        "cascade"
+      ],
+      "note": "For the listed normal author declarations in the same cascade context, style attributes outrank selector rules, then ID, class and type specificity. Origins, importance and layers are separate earlier cascade criteria."
+    },
+    "webdev-34-9-2": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Orange, because an ID selector is more specific than a class or element selector",
+      "references": [
+        "cascade"
+      ],
+      "note": "The ID selector wins over the class and type selectors in the given normal declarations, producing orange."
+    },
+    "webdev-34-9-3": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Content → Padding → Border → Margin",
+      "references": [
+        "box"
+      ],
+      "note": "The nested box areas run content, padding, border and margin, from inside outward."
+    },
+    "webdev-34-9-4": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "It makes padding and border count inside the declared width, keeping layouts predictable",
+      "references": [
+        "sizing"
+      ],
+      "note": "border-box includes padding and border in the specified size; margin remains outside it."
+    },
+    "webdev-34-9-5": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "A one-dimensional layout system for a single row or column",
+      "references": [
+        "flex"
+      ],
+      "note": "Flexbox lays out items along a main axis, one row or column at a time; wrapping does not make it a two-axis grid system."
+    },
+    "webdev-34-9-6": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "column",
+      "references": [
+        "flex"
+      ],
+      "note": "column selects a vertical main axis in the ordinary horizontal writing mode assumed by this quiz."
+    },
+    "webdev-34-9-7": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Whole page layouts and two-dimensional designs like photo galleries or dashboards",
+      "references": [
+        "grid"
+      ],
+      "note": "Grid supplies rows and columns for two-dimensional layout."
+    },
+    "webdev-34-9-8": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Writing base styles for small screens first, then adding rules for bigger screens using min-width",
+      "references": [
+        "media",
+        "bootstrap"
+      ],
+      "note": "Mobile-first base styles cover smaller viewports; min-width queries progressively add larger-viewport styles."
+    },
+    "webdev-34-9-9": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Tailwind is utility-first (classes like flex, p-4, bg-blue-500) you combine yourself, while Bootstrap gives ready-made components",
+      "references": [
+        "tailwind",
+        "bootstrap"
+      ],
+      "note": "Tailwind composes utility classes; Bootstrap supplies reusable components as well as utilities. The technical comparison is valid without the missing comparison slide."
+    },
+    "webdev-34-9-10": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Yes — use Grid for the overall page layout, and Flexbox inside individual grid cells",
+      "references": [
+        "grid",
+        "flex"
+      ],
+      "note": "Grid and Flexbox can be nested and used together; neither forbids the other."
+    },
+    "webdev-34-5-1": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "$",
+      "references": [
+        "php-vars"
+      ],
+      "note": "PHP variable names begin with a dollar sign."
+    },
+    "webdev-34-5-2": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "$_GET -",
+      "references": [
+        "php-get"
+      ],
+      "note": "The variable is $_GET. The source choice’s trailing dash is a formatting artifact, not part of the variable name; retain choice C and explain it."
+    },
+    "webdev-34-5-3": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "website.com/search.php?search=laptop",
+      "references": [
+        "forms",
+        "php-get"
+      ],
+      "note": "A GET form serializes a named search field into the URL query string, yielding ?search=laptop."
+    },
+    "webdev-34-5-4": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Exception",
+      "references": [
+        "php-exceptions"
+      ],
+      "note": "Exception is the intended runtime-problem term among these choices. PHP also has other runtime errors; not every failure is an exception."
+    },
+    "webdev-34-5-5": {
+      "status": "unresolved",
+      "correct": 1,
+      "verifiedAnswer": null,
+      "references": [
+        "forms",
+        "php-get",
+        "php-post"
+      ],
+      "note": "Both $_GET and $_POST access submitted form data, depending on method. The stem supplies no method, so B cannot be the sole graded answer."
+    },
+    "webdev-34-5-6": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "PHP Class",
+      "references": [
+        "php-classes"
+      ],
+      "note": "A class defines the properties and methods used by its objects."
+    },
+    "webdev-34-5-7": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Namespaces",
+      "references": [
+        "php-namespaces"
+      ],
+      "note": "Namespaces organize and disambiguate names and support namespace-based autoloading conventions; they do not autoload code by themselves."
+    },
+    "webdev-34-5-8": {
+      "status": "verified",
+      "correct": null,
+      "verifiedAnswer": "Very Good",
+      "references": [
+        "php-if"
+      ],
+      "note": "85 is below 90 but at least 80, so the elseif branch echoes Very Good."
+    },
+    "webdev-34-5-9": {
+      "status": "verified",
+      "correct": null,
+      "verifiedAnswer": "16",
+      "references": [
+        "php-functions"
+      ],
+      "note": "The function returns (5 + 3) * 2 = 16, which echo prints."
+    },
+    "webdev-34-5-10": {
+      "status": "verified",
+      "correct": null,
+      "verifiedAnswer": "88",
+      "references": [
+        "php-arrays"
+      ],
+      "note": "The zero-based grades index 2 selects the third element, 88."
+    },
+    "webdev-33-1-1": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Tim Berners-Lee",
+      "references": [
+        "html-history"
+      ],
+      "note": "CERN identifies Tim Berners-Lee as the inventor of the Web and its initial HTML technology."
+    },
+    "webdev-33-1-2": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "HyperText Markup Language",
+      "references": [
+        "html"
+      ],
+      "note": "HTML expands to HyperText Markup Language."
+    },
+    "webdev-33-1-3": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "To tell the browser to render the page using modern HTML5 standards",
+      "references": [
+        "syntax"
+      ],
+      "note": "The HTML doctype is the required preamble that selects standards/no-quirks behavior for the basic HTML document example."
+    },
+    "webdev-33-1-4": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "<body>",
+      "references": [
+        "body"
+      ],
+      "note": "The body represents the content of the document; head contains document metadata."
+    },
+    "webdev-33-1-5": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "<form>",
+      "references": [
+        "forms"
+      ],
+      "note": "The form element is the HTML form container."
+    },
+    "webdev-33-1-6": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "makes field mandatory",
+      "references": [
+        "input"
+      ],
+      "note": "required makes the applicable control subject to value-missing validation."
+    },
+    "webdev-33-1-7": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Only for Tabular Data (information that naturally requires grids of rows and columns).",
+      "references": [
+        "tables"
+      ],
+      "note": "Tables represent tabular data, not page layout."
+    },
+    "webdev-33-1-8": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "<a>",
+      "references": [
+        "anchor"
+      ],
+      "note": "The a element creates a hyperlink when it has an href attribute."
+    },
+    "webdev-33-1-9": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "As a navigational outline to jump between sections",
+      "references": [
+        "headings"
+      ],
+      "note": "Heading structure supports assistive-technology navigation between sections."
+    },
+    "webdev-33-1-10": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Canonical Tag",
+      "references": [
+        "canonical"
+      ],
+      "note": "A canonical link signals the preferred representative URL. It is a signal, not a guarantee that all duplication is prevented."
+    },
+    "webdev-33-2-11": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Inline Styles -> IDs -> Classes -> Elements",
+      "references": [
+        "cascade"
+      ],
+      "note": "In the stated normal author context the order is inline style, IDs, classes, then elements; cascade layers and importance are separate criteria."
+    },
+    "webdev-33-2-12": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Orange",
+      "references": [
+        "cascade"
+      ],
+      "note": "Both rules use one class selector. Equal specificity is resolved by source order, so the later text-style rule makes the text orange."
+    },
+    "webdev-33-2-13": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "Padding, Border, Margin, Content",
+      "references": [
+        "box"
+      ],
+      "note": "The four named areas are content, padding, border and margin. The question asks for membership, not their inside-to-outside order, so D is valid."
+    },
+    "webdev-33-2-14": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "0",
+      "references": [
+        "box"
+      ],
+      "note": "The four-value padding shorthand is top, right, bottom, left. The last value is 0px."
+    },
+    "webdev-33-2-15": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "FLEX BOX",
+      "references": [
+        "flex"
+      ],
+      "note": "A row-or-column main-axis layout is Flexbox."
+    },
+    "webdev-33-2-16": {
+      "status": "unresolved",
+      "correct": 3,
+      "verifiedAnswer": null,
+      "references": [
+        "grid",
+        "css-values",
+        "css-syntax"
+      ],
+      "note": "CSS keywords are case-insensitive: B (display: GRID;), C (display: GRID) and D (display: grid) are valid declarations in a declaration block. A terminal semicolon can be omitted. There is no unique correct choice."
+    },
+    "webdev-33-2-17": {
+      "status": "unresolved",
+      "correct": 3,
+      "verifiedAnswer": null,
+      "references": [
+        "media"
+      ],
+      "note": "Media queries detect pointer accuracy and hover capabilities, not reliably mouse versus touchpad identity. Both can be fine pointers; none of these pairs is a uniquely supported detection claim."
+    },
+    "webdev-33-2-18": {
+      "status": "unresolved",
+      "correct": 3,
+      "verifiedAnswer": null,
+      "references": [
+        "media"
+      ],
+      "note": "1280+ is a possible course convention, not a universal CSS desktop breakpoint. The missing presentation is needed to verify the intended convention."
+    },
+    "webdev-33-2-19": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Serves as a visible line surrounding the content and padding",
+      "references": [
+        "box"
+      ],
+      "note": "A border surrounds the content and padding areas, with margin outside it."
+    },
+    "webdev-33-2-20": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Tailwind CSS",
+      "references": [
+        "tailwind"
+      ],
+      "note": "Tailwind’s utility classes are composed in markup to build custom designs."
+    },
+    "webdev-33-3-21": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "ES6 = ECMAScript 2015",
+      "references": [
+        "es6"
+      ],
+      "note": "The sixth edition of ECMAScript is ECMAScript 2015, commonly called ES6."
+    },
+    "webdev-33-3-22": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Template literals",
+      "references": [
+        "es6"
+      ],
+      "note": "Template literals use backticks and dollar-brace substitutions."
+    },
+    "webdev-33-3-23": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "getElementById()",
+      "references": [
+        "dom"
+      ],
+      "note": "getElementById selects an element using its ID; querySelector requires a selector string instead."
+    },
+    "webdev-33-3-24": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Edits the value of an input field",
+      "references": [
+        "input-events",
+        "input"
+      ],
+      "note": "The input event accompanies user editing of applicable input content, rather than only form submission or a click."
+    },
+    "webdev-33-3-25": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "A Promise which is fulfilled with a Response object",
+      "references": [
+        "fetch"
+      ],
+      "note": "fetch returns a Promise whose fulfillment value is a Response; decoding JSON is a later operation."
+    },
+    "webdev-33-3-26": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "PUT",
+      "references": [
+        "http"
+      ],
+      "note": "PUT requests creation or replacement of the target resource representation and is the conventional full-update method here. PATCH would be partial update but is not offered."
+    },
+    "webdev-33-3-27": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Pending, Fulfilled, Rejected",
+      "references": [
+        "es6"
+      ],
+      "note": "A Promise’s states are pending, fulfilled and rejected."
+    },
+    "webdev-33-3-28": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "It pauses the execution of the async function until the Promise is resolved or rejected",
+      "references": [
+        "async"
+      ],
+      "note": "await suspends the enclosing async function until the awaited value settles; it does not block the entire JavaScript thread."
+    },
+    "webdev-33-3-29": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "JSON.parse() converts JSON text to a JavaScript object; JSON.stringify() converts a JavaScript object to JSON text",
+      "references": [
+        "es6"
+      ],
+      "note": "JSON.parse reads JSON text into a JavaScript value; JSON.stringify serializes a value to JSON text, subject to JSON’s supported types."
+    },
+    "webdev-33-3-30": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "It makes asynchronous code read more like synchronous code",
+      "references": [
+        "async"
+      ],
+      "note": "async/await permits sequential-looking asynchronous code while retaining Promise semantics."
+    },
+    "webdev-33-4-31": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Used for web development",
+      "references": [
+        "php"
+      ],
+      "note": "PHP is commonly used for server-side web development."
+    },
+    "webdev-33-4-32": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Class",
+      "references": [
+        "php-classes"
+      ],
+      "note": "A class defines properties and methods for instances created from it."
+    },
+    "webdev-33-4-33": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "When the same task is needed in several parts of the program, possibly with different input each time",
+      "references": [
+        "php-functions"
+      ],
+      "note": "A reusable function avoids duplicating a task and can accept different arguments on each call."
+    },
+    "webdev-33-4-34": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Values can be accessed by a numeric index or a named key, and can be added, updated, or removed",
+      "references": [
+        "php-arrays"
+      ],
+      "note": "PHP arrays are ordered maps with integer or string keys whose elements can be accessed and modified."
+    },
+    "webdev-33-4-35": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "<?php... ?>",
+      "references": [
+        "php-tags"
+      ],
+      "note": "The standard opening tag is <?php and the closing tag is ?>. Closing tags may be omitted in PHP-only files."
+    },
+    "webdev-33-4-36": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "A mechanism that assigns a unique id to a user so their data can be accessed across multiple pages until the session ends",
+      "references": [
+        "php-sessions"
+      ],
+      "note": "Sessions preserve data between requests using a session identifier. Their lifetime depends on configuration, rather than being inherently permanent."
+    },
+    "webdev-33-4-37": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Input Handling",
+      "references": [
+        "php-filter",
+        "forms"
+      ],
+      "note": "Capturing, validating and sanitizing request input is input handling; sanitization and validation are distinct operations."
+    },
+    "webdev-33-4-38": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "False",
+      "references": [
+        "php-functions",
+        "php-classes",
+        "php-vars"
+      ],
+      "note": "The assertion is false: function and class names are case-insensitive. Variable names are case-sensitive, so casing rules must not be generalized to every identifier."
+    },
+    "webdev-33-4-39": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Personal Home Page",
+      "references": [
+        "php-history"
+      ],
+      "note": "PHP originated as Personal Home Page tools before the recursive Hypertext Preprocessor name."
+    },
+    "webdev-33-4-40": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "POST, because it hides the password from the URL",
+      "references": [
+        "forms",
+        "php-post",
+        "http"
+      ],
+      "note": "POST places ordinary form data in the request body instead of the URL query. HTTPS is still required for confidentiality in transit; POST alone does not encrypt a password."
+    },
+    "webdev-32-1-1": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "HyperText Markup Language",
+      "references": [
+        "html"
+      ],
+      "note": "HTML expands to HyperText Markup Language."
+    },
+    "webdev-32-1-2": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Because it provides clear meaning and structure for browsers and assistive tools.",
+      "references": [
+        "structure",
+        "a11y"
+      ],
+      "note": "Semantic elements convey the role and meaning of content to browsers and assistive technologies."
+    },
+    "webdev-32-1-3": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "<article>",
+      "references": [
+        "structure"
+      ],
+      "note": "article represents a self-contained composition such as an independent blog post."
+    },
+    "webdev-32-1-4": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "required",
+      "references": [
+        "input"
+      ],
+      "note": "required triggers built-in missing-value validation for applicable controls."
+    },
+    "webdev-32-1-5": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "<a href=”link.html” target=”_blank”>",
+      "references": [
+        "anchor"
+      ],
+      "note": "target=\"_blank\" requests a new browsing context, commonly a tab; the browser/user may choose a window. The printed curly quotation marks are typographic, not copyable HTML delimiters."
+    },
+    "webdev-32-1-6": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "alt",
+      "references": [
+        "images",
+        "a11y"
+      ],
+      "note": "alt supplies an image’s text alternative. Decorative images ordinarily use alt=\"\"; it need not always be descriptive text, and the specification has narrow exceptions to mandatory author-provided alt."
+    },
+    "webdev-32-1-7": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "<th>",
+      "references": [
+        "tables"
+      ],
+      "note": "th represents a header cell; tr is a row and td is a data cell."
+    },
+    "webdev-32-1-8": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "To provide a short summary of the page that appears in search engine results.",
+      "references": [
+        "snippets"
+      ],
+      "note": "A meta description supplies a page summary that search engines may use for snippets; they can also generate a different snippet."
+    },
+    "webdev-32-1-9": {
+      "status": "unresolved",
+      "correct": 2,
+      "verifiedAnswer": null,
+      "references": [
+        "titles",
+        "seo"
+      ],
+      "note": "title is important for title links, but no official rule makes one offered tag universally the most critical SEO ranking element. The superlative needs course context or a more precise question."
+    },
+    "webdev-32-1-10": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "<aside>",
+      "references": [
+        "structure"
+      ],
+      "note": "aside represents tangential content such as related links or a sidebar."
+    },
+    "webdev-32-8-1": {
+      "status": "unresolved",
+      "correct": 1,
+      "verifiedAnswer": null,
+      "references": [
+        "dom"
+      ],
+      "note": "Choice B visibly omits the word tree before -like in the source. The DOM is a node tree, but no complete correct definition is offered as printed."
+    },
+    "webdev-32-8-2": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "const { price } = product;",
+      "references": [
+        "es6"
+      ],
+      "note": "Object destructuring uses const { price } = product; array destructuring is a different pattern."
+    },
+    "webdev-32-8-3": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "document.querySelectorAll()",
+      "references": [
+        "dom"
+      ],
+      "note": "querySelectorAll returns a static NodeList of all matching elements; querySelector returns only the first match."
+    },
+    "webdev-32-8-4": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "It gathers multiple individual arguments into a single array.",
+      "references": [
+        "es6"
+      ],
+      "note": "In a formal parameter list, ...prices is a rest parameter collecting arguments into an array, not an array-spread expression."
+    },
+    "webdev-32-8-5": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "It separates JavaScript logic from HTML markup and allows attaching multiple functions to the same event.",
+      "references": [
+        "dom"
+      ],
+      "note": "addEventListener attaches listeners independently of inline HTML handlers and permits multiple distinct listeners for an event type."
+    },
+    "webdev-32-8-6": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "As the first automatic parameter passed into the function by the browser (e.g., function(event)).",
+      "references": [
+        "dom"
+      ],
+      "note": "The event listener callback receives the Event object as its first argument."
+    },
+    "webdev-32-8-7": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "The event triggers on the clicked element first, and then travels upward through its parent elements",
+      "references": [
+        "dom"
+      ],
+      "note": "For a bubbling click event, the target phase precedes bubbling through ancestors. A capture phase can run before the target, and stopPropagation can alter travel."
+    },
+    "webdev-32-8-8": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Asynchronous programming",
+      "references": [
+        "es6"
+      ],
+      "note": "Asynchronous work allows the program to remain responsive while pending operations complete."
+    },
+    "webdev-32-8-9": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "Promises",
+      "references": [
+        "es6"
+      ],
+      "note": "A Promise represents a future result or failure of an asynchronous computation."
+    },
+    "webdev-32-8-10": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Double quotes",
+      "references": [
+        "es6"
+      ],
+      "note": "JSON object keys and string values use double quotation marks."
+    },
+    "webdev-32-10-1": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "CSS Layout",
+      "references": [
+        "grid",
+        "flex"
+      ],
+      "note": "CSS layout determines how boxes are positioned and arranged on a page."
+    },
+    "webdev-32-10-2": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Responsiveness",
+      "references": [
+        "media"
+      ],
+      "note": "Responsive design adapts layout to viewport and device capabilities."
+    },
+    "webdev-32-10-3": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Content",
+      "references": [
+        "box"
+      ],
+      "note": "The content area contains the element’s content; it is distinct from padding, border and margin."
+    },
+    "webdev-32-10-4": {
+      "status": "unresolved",
+      "correct": 0,
+      "verifiedAnswer": null,
+      "references": [
+        "structure"
+      ],
+      "note": "Sidebar is the likely intended answer, but the unrestricted wording also permits links and information in a header or footer. No unique placement is specified."
+    },
+    "webdev-32-10-5": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Pixel",
+      "references": [
+        "css-values"
+      ],
+      "note": "px denotes a CSS pixel, a reference unit that need not equal a physical device pixel."
+    },
+    "webdev-32-10-6": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Cascading",
+      "references": [
+        "cascade"
+      ],
+      "note": "The cascade chooses the winning declarations when multiple rules apply."
+    },
+    "webdev-32-10-7": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Breakpoint",
+      "references": [
+        "media"
+      ],
+      "note": "A breakpoint is an author-chosen threshold at which responsive conditions change the applied styling."
+    },
+    "webdev-32-10-8": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Float",
+      "references": [
+        "float"
+      ],
+      "note": "Floats permit surrounding inline content to flow around the floated box."
+    },
+    "webdev-32-10-9": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Specificity",
+      "references": [
+        "cascade"
+      ],
+      "note": "Specificity compares selector weights within the applicable cascade context."
+    },
+    "webdev-32-10-10": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Bootstrap",
+      "references": [
+        "bootstrap"
+      ],
+      "note": "Bootstrap is a mobile-first toolkit with reusable components and ready styles. W3 is not the full name of a specified alternative framework in these choices."
+    },
+    "webdev-html-topic-1": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "To structure and organize content on webpages",
+      "references": [
+        "html"
+      ],
+      "note": "HTML describes the structure and semantics of document content."
+    },
+    "webdev-html-topic-2": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "<!DOCTYPE html>",
+      "references": [
+        "syntax"
+      ],
+      "note": "<!DOCTYPE html> is the standard HTML doctype declaration."
+    },
+    "webdev-html-topic-3": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "HTML elements that describe the meaning and role of content",
+      "references": [
+        "structure"
+      ],
+      "note": "Semantic elements describe content roles and meaning rather than only its appearance."
+    },
+    "webdev-html-topic-4": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "<nav>",
+      "references": [
+        "structure"
+      ],
+      "note": "nav represents a section of navigation links; menu represents a list of commands/items rather than the principal navigation landmark."
+    },
+    "webdev-html-topic-5": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "alt",
+      "references": [
+        "images"
+      ],
+      "note": "alt is the attribute for alternative text."
+    },
+    "webdev-html-topic-6": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "It requires the user to enter a value",
+      "references": [
+        "input"
+      ],
+      "note": "required marks applicable controls as requiring a non-missing value."
+    },
+    "webdev-html-topic-7": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "To present tabular data",
+      "references": [
+        "tables"
+      ],
+      "note": "HTML tables represent tabular data rather than general page layout."
+    },
+    "webdev-html-topic-8": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "<a>",
+      "references": [
+        "anchor"
+      ],
+      "note": "The a element is the hyperlink element when supplied with href."
+    },
+    "webdev-html-topic-9": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "To make websites usable by people with different abilities",
+      "references": [
+        "a11y"
+      ],
+      "note": "Accessibility makes websites usable by people with different abilities and assistive-technology needs."
+    },
+    "webdev-html-topic-10": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Search Engine Optimization",
+      "references": [
+        "seo"
+      ],
+      "note": "SEO expands to Search Engine Optimization."
+    },
+    "webdev-css-topic-1": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "Cascading Style Sheets",
+      "references": [
+        "css"
+      ],
+      "note": "CSS expands to Cascading Style Sheets."
+    },
+    "webdev-css-topic-2": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "To determine which CSS rule will be applied",
+      "references": [
+        "cascade"
+      ],
+      "note": "The cascade determines the winning declaration among applicable styles."
+    },
+    "webdev-css-topic-3": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "ID selector",
+      "references": [
+        "cascade"
+      ],
+      "note": "Among the listed selector types, an ID has greater specificity than a class, type or universal selector."
+    },
+    "webdev-css-topic-4": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": ".",
+      "references": [
+        "cascade"
+      ],
+      "note": "A class selector uses a dot prefix; an ID selector uses a hash prefix."
+    },
+    "webdev-css-topic-5": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "The rule written later",
+      "references": [
+        "cascade"
+      ],
+      "note": "Equal specificity and otherwise equal cascade precedence are resolved by later source order."
+    },
+    "webdev-css-topic-6": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Padding",
+      "references": [
+        "box"
+      ],
+      "note": "Padding separates the content area from its border."
+    },
+    "webdev-css-topic-7": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Content → Padding → Border → Margin",
+      "references": [
+        "box"
+      ],
+      "note": "The inside-to-outside sequence is content, padding, border, margin."
+    },
+    "webdev-css-topic-8": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Arranging elements in one dimension",
+      "references": [
+        "flex"
+      ],
+      "note": "Flexbox arranges items primarily along one main axis."
+    },
+    "webdev-css-topic-9": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "flex-direction",
+      "references": [
+        "flex"
+      ],
+      "note": "flex-direction chooses the direction of the flex container’s main axis."
+    },
+    "webdev-css-topic-10": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "justify-content and align-items",
+      "references": [
+        "flex"
+      ],
+      "note": "In a flex container, justify-content aligns along the main axis and align-items along the cross axis. Both must be set to suitable values such as center; their names alone do not guarantee centering."
+    },
+    "webdev-css-topic-11": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Two-dimensional layouts using rows and columns",
+      "references": [
+        "grid"
+      ],
+      "note": "Grid supports layout in two dimensions, rows and columns."
+    },
+    "webdev-css-topic-12": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "To make websites responsive to different screen sizes",
+      "references": [
+        "media"
+      ],
+      "note": "Media queries conditionally apply styles based on viewport or other media features."
+    },
+    "webdev-css-topic-13": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "@media",
+      "references": [
+        "media"
+      ],
+      "note": "The CSS rule introducing a media query is @media."
+    },
+    "webdev-css-topic-14": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Bootstrap mainly provides ready-made components, while Tailwind provides utility classes for building custom designs",
+      "references": [
+        "bootstrap",
+        "tailwind"
+      ],
+      "note": "Bootstrap provides reusable components; Tailwind focuses on composing utility classes. Both also have additional capabilities."
+    },
+    "webdev-css-topic-15": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Ready-made CSS classes and components",
+      "references": [
+        "bootstrap"
+      ],
+      "note": "Bootstrap includes ready-made CSS classes and components."
+    },
+    "webdev-php-topic-1": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "To create dynamic and interactive websites",
+      "references": [
+        "php"
+      ],
+      "note": "PHP is used to generate dynamic server-side web content."
+    },
+    "webdev-php-topic-2": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "$",
+      "references": [
+        "php-vars"
+      ],
+      "note": "PHP variables are prefixed by $."
+    },
+    "webdev-php-topic-3": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "boolean",
+      "references": [
+        "php-bool"
+      ],
+      "note": "The bool scalar type has the two Boolean values true and false."
+    },
+    "webdev-php-topic-4": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "declare(strict_types=1);",
+      "references": [
+        "php-types"
+      ],
+      "note": "declare(strict_types=1) must be the first statement in the PHP file and controls strict scalar typing for relevant calls/returns. It is not a replacement for all validation."
+    },
+    "webdev-php-topic-5": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Spaceship Operator (<=>)",
+      "references": [
+        "php-comparison"
+      ],
+      "note": "The spaceship operator <=> returns a three-way comparison result, conventionally -1, 0 or 1."
+    },
+    "webdev-php-topic-6": {
+      "status": "unresolved",
+      "correct": 3,
+      "verifiedAnswer": null,
+      "references": [
+        "php-for",
+        "php-while"
+      ],
+      "note": "while/do-while are typical condition-driven loops, but a for loop also evaluates a runtime continuation expression. The wording does not uniquely distinguish B from D."
+    },
+    "webdev-php-topic-7": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Associative Arrays",
+      "references": [
+        "php-arrays"
+      ],
+      "note": "An associative array uses meaningful string keys for its values."
+    },
+    "webdev-php-topic-8": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "POST Method",
+      "references": [
+        "forms",
+        "php-post",
+        "http"
+      ],
+      "note": "POST commonly sends login form data in the request body rather than URL query parameters. HTTPS, not POST alone, protects transmission."
+    },
+    "webdev-php-topic-9": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Sessions",
+      "references": [
+        "php-sessions"
+      ],
+      "note": "Sessions retain user data across requests/pages using an associated session identifier."
+    },
+    "webdev-php-topic-10": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "catch",
+      "references": [
+        "php-exceptions"
+      ],
+      "note": "catch handles an exception matched by a preceding try block; throw raises an exception."
+    },
+    "elective-34-1-1": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Unstructured data",
+      "references": [
+        "unstructured"
+      ],
+      "note": "Unstructured data lacks a predefined rigid tabular schema, unlike structured tables."
+    },
+    "elective-34-1-2": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Application Programming Interface",
+      "references": [
+        "api"
+      ],
+      "note": "API expands to Application Programming Interface."
+    },
+    "elective-34-1-3": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Outliers",
+      "references": [
+        "data-quality"
+      ],
+      "note": "Outliers are extreme/unusual observations and can disproportionately affect training and loss."
+    },
+    "elective-34-1-4": {
+      "status": "unresolved",
+      "correct": 3,
+      "verifiedAnswer": null,
+      "references": [
+        "missing"
+      ],
+      "note": "No universal percentage makes deleting missing records best. The 5% threshold is a course heuristic that needs the presentation; missingness mechanisms and information loss also matter."
+    },
+    "elective-34-1-5": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Gender",
+      "references": [
+        "categorical"
+      ],
+      "note": "Gender is categorical in this example; the other listed measurements are numeric quantities."
+    },
+    "elective-34-1-6": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Public datasets",
+      "references": [
+        "public-data"
+      ],
+      "note": "Public datasets are the closest offered collection. Public availability does not itself guarantee unrestricted reuse; check the dataset’s license."
+    },
+    "elective-34-1-7": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Data Exploration",
+      "references": [
+        "eda"
+      ],
+      "note": "Data exploration examines distributions, patterns and potential issues before modeling."
+    },
+    "elective-34-1-8": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "Exploratory Data Analysis",
+      "references": [
+        "eda"
+      ],
+      "note": "EDA expands to Exploratory Data Analysis."
+    },
+    "elective-34-1-9": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Model-Based RL",
+      "references": [
+        "rl"
+      ],
+      "note": "Model-based RL uses an environment dynamics model for planning, unlike model-free methods."
+    },
+    "elective-34-1-10": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "Clustering",
+      "references": [
+        "clustering"
+      ],
+      "note": "Clustering groups similar observations according to a similarity or relationship criterion."
+    },
+    "elective-34-5-1": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "One complete pass through the training dataset",
+      "references": [
+        "fit"
+      ],
+      "note": "An epoch is one iteration over the full training dataset in the ordinary finite-dataset setting."
+    },
+    "elective-34-5-2": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "How well the model does on a separate set of images it has never seen during weight updates.",
+      "references": [
+        "fit",
+        "cross-validation"
+      ],
+      "note": "Validation evaluates held-out data that is not used for fitting weight updates and can guide model choices. It is not the final unbiased test set."
+    },
+    "elective-34-5-3": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Multi-class",
+      "references": [
+        "classification"
+      ],
+      "note": "Multiclass classification chooses one of more than two mutually exclusive labels per instance."
+    },
+    "elective-34-5-4": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "CNN",
+      "references": [
+        "cnn",
+        "image-training"
+      ],
+      "note": "CNNs are a common model family for visual data among the offered alternatives; they are not the only possible image architecture."
+    },
+    "elective-34-5-5": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "To provide a specific web address that receives input and returns the model’s prediction",
+      "references": [
+        "serving"
+      ],
+      "note": "A prediction endpoint accepts inputs and returns inference outputs at a defined HTTP route."
+    },
+    "elective-34-5-6": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Load Testing",
+      "references": [
+        "load"
+      ],
+      "note": "Concurrent requests from many users exercise application load, rather than only isolated unit behavior."
+    },
+    "elective-34-5-7": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Preprocessing standardizes existing images; augmentation creates new variations of images to expand the training set",
+      "references": [
+        "image-training"
+      ],
+      "note": "Preprocessing standardizes input representation; augmentation adds transformed training examples. Both must avoid leaking information from evaluation data."
+    },
+    "elective-34-5-8": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Manual labeling scales linearly with dataset size since every label is hand-drawn; semi-automated labeling is generally faster since humans only review/correct model-generated draft labels",
+      "references": [
+        "labeling"
+      ],
+      "note": "Model-assisted labeling produces draft labels for human review and can improve throughput. Classification labels need not be hand-drawn, and speed gains depend on prediction quality."
+    },
+    "elective-34-5-9": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "When false negatives are important to avoid",
+      "references": [
+        "metrics"
+      ],
+      "note": "Recall measures how many actual positives are found and is important when false negatives are costly."
+    },
+    "elective-34-5-10": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "68.6%",
+      "references": [
+        "f1"
+      ],
+      "note": "F1 = 2PR/(P+R) = 2(0.80)(0.60)/1.40 = 0.685714..., or 68.6% rounded to one decimal place. D is correct."
+    },
+    "elective-34-3-1": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Audio Waves",
+      "references": [
+        "audio"
+      ],
+      "note": "The input is captured audio and may be split into clips/segments; Audio Waves is the intended choice here."
+    },
+    "elective-34-3-2": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Convolutional Neural Network Architecture",
+      "references": [
+        "cnn",
+        "audio"
+      ],
+      "note": "A convolutional neural network can learn local patterns in spectrograms, which are two-dimensional visual representations of audio."
+    },
+    "elective-34-3-3": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Epochs",
+      "references": [
+        "fit",
+        "generalization"
+      ],
+      "note": "The intended quantity is epochs. Raising it is not a universal remedy: inspect validation behavior to avoid overfitting."
+    },
+    "elective-34-3-4": {
+      "status": "unresolved",
+      "correct": 2,
+      "verifiedAnswer": null,
+      "references": [
+        "music"
+      ],
+      "note": "Both tempo and harmonic content are routinely represented in music analysis. The incomplete stem gives no feature or representation that selects one uniquely."
+    },
+    "elective-34-3-5": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Speech Datasets",
+      "references": [
+        "audio",
+        "speech"
+      ],
+      "note": "A speech dataset contains recordings of spoken language, unlike music-only datasets."
+    },
+    "elective-34-3-6": {
+      "status": "unresolved",
+      "correct": 2,
+      "verifiedAnswer": null,
+      "references": [
+        "pandas",
+        "audio"
+      ],
+      "note": "Pandas is not a neural-network framework, but it can support data preparation in an audio-classification pipeline. The broad phrase can be used makes C an invalid universal exclusion."
+    },
+    "elective-34-3-7": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Spectrogram",
+      "references": [
+        "audio"
+      ],
+      "note": "A spectrogram represents frequency content and magnitude over time, often visualized as a heat map."
+    },
+    "elective-34-3-8": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Zero-Crossing Rate",
+      "references": [
+        "zcr"
+      ],
+      "note": "Zero-crossing rate measures sign changes in a time-domain signal."
+    },
+    "elective-34-3-9": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Convolutional Layer",
+      "references": [
+        "cnn"
+      ],
+      "note": "Convolution layers learn filters for local receptive fields; dense layers and ReLU have different roles."
+    },
+    "elective-34-3-10": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Model training",
+      "references": [
+        "audio",
+        "fit"
+      ],
+      "note": "Model training fits model parameters from examples so a model can learn patterns in audio."
+    },
+    "elective-33-1-1": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Validation set",
+      "references": [
+        "cross-validation",
+        "fit"
+      ],
+      "note": "Validation data guides choices and hyperparameter tuning; test data should remain held out for final evaluation."
+    },
+    "elective-33-1-2": {
+      "status": "unresolved",
+      "correct": 0,
+      "verifiedAnswer": null,
+      "references": [
+        "mlops"
+      ],
+      "note": "Monitoring and maintenance is a normal post-deployment activity, but the exact final step presented in the missing materials cannot be confirmed from a general lifecycle reference."
+    },
+    "elective-33-1-3": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "Improve model accuracy and reliability",
+      "references": [
+        "data-quality"
+      ],
+      "note": "Relevant, reliable data preparation supports model reliability and accuracy; the alternatives describe harmful goals."
+    },
+    "elective-33-1-4": {
+      "status": "unresolved",
+      "correct": 0,
+      "verifiedAnswer": null,
+      "references": [
+        "cross-validation",
+        "mlops"
+      ],
+      "note": "Evaluation and tuning are iterative. The exact immediately-next pipeline step depends on the missing diagram/material, so the keyed order cannot be independently established."
+    },
+    "elective-33-1-5": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Exploration evaluates statistics, while visualization translates data into graphics.",
+      "references": [
+        "eda"
+      ],
+      "note": "Exploration examines data statistically and qualitatively, while visualization presents information graphically; the two activities overlap and are complementary."
+    },
+    "elective-33-1-6": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "Duplicates and errors",
+      "references": [
+        "data-quality"
+      ],
+      "note": "Data cleaning addresses erroneous observations and unintended duplicates; legitimate repeated observations should not be discarded indiscriminately."
+    },
+    "elective-33-1-7": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Training, validation, and test sets",
+      "references": [
+        "cross-validation",
+        "fit"
+      ],
+      "note": "Training, validation and test are the commonly separated dataset roles."
+    },
+    "elective-33-1-8": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Data Cleaning",
+      "references": [
+        "data-quality"
+      ],
+      "note": "Managing problematic outliers is part of data cleaning, while exploration can first reveal them. Outliers should be investigated rather than automatically removed."
+    },
+    "elective-33-1-9": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Data leakage",
+      "references": [
+        "leakage"
+      ],
+      "note": "Data leakage is a documented data-preparation pitfall; encoding and feature selection are procedures, not inherently problems."
+    },
+    "elective-33-1-10": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "It saves time and aids in model debugging",
+      "references": [
+        "eda",
+        "data-quality"
+      ],
+      "note": "Exploration and visualization expose patterns and issues, supporting debugging and saving wasted modeling effort."
+    },
+    "elective-33-2-11": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "early stopping",
+      "references": [
+        "early"
+      ],
+      "note": "EarlyStopping stops training when the monitored quantity fails to improve, with configurable patience and thresholds."
+    },
+    "elective-33-2-12": {
+      "status": "unresolved",
+      "correct": 0,
+      "verifiedAnswer": null,
+      "references": [
+        "optimizer"
+      ],
+      "note": "The stem defines learning rate. A learning-rate schedule changes that rate over time; learning rate itself is absent from the choices. No exact correct option is supplied."
+    },
+    "elective-33-2-13": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "One complete pass through the training dataset",
+      "references": [
+        "fit"
+      ],
+      "note": "An epoch is a pass over the full training data in the standard finite-dataset setup."
+    },
+    "elective-33-2-14": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "The model updates its weights",
+      "references": [
+        "optimizer",
+        "fit"
+      ],
+      "note": "In ordinary mini-batch training, a gradient update follows a processed batch. Gradient accumulation and other configurations can change update frequency."
+    },
+    "elective-33-2-15": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "False positive",
+      "references": [
+        "metrics"
+      ],
+      "note": "Spam is the positive class. Predicting spam for non-spam is a false positive."
+    },
+    "elective-33-2-16": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "underfitting",
+      "references": [
+        "generalization"
+      ],
+      "note": "High error on both training and evaluation data is characteristic of underfitting, potentially due to insufficient training or capacity."
+    },
+    "elective-33-2-17": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "The model begins to memorize the training data instead of learning general patterns",
+      "references": [
+        "generalization"
+      ],
+      "note": "Excessive training can fit noise or memorize the training set and impair generalization; it is a risk rather than a guaranteed outcome."
+    },
+    "elective-33-2-18": {
+      "status": "verified",
+      "correct": 3,
+      "verifiedAnswer": "model performance",
+      "references": [
+        "fit",
+        "metrics"
+      ],
+      "note": "Model performance is evaluated with task-appropriate metrics; accuracy is only one possible metric."
+    },
+    "elective-33-2-19": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "True",
+      "references": [
+        "loss",
+        "metrics"
+      ],
+      "note": "Accuracy counts thresholded correct predictions, while loss can strongly penalize a few confident errors. Thus high accuracy and relatively high loss can coexist."
+    },
+    "elective-33-2-20": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Overfitting",
+      "references": [
+        "generalization"
+      ],
+      "note": "Good training fit with poor unseen-data performance is overfitting."
+    },
+    "elective-33-3-21": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Each label is represented as present or absent for an instance",
+      "references": [
+        "classification"
+      ],
+      "note": "Multilabel classification represents each potentially co-occurring label as present or absent for an instance."
+    },
+    "elective-33-3-22": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "It enables the model to automatically recognize distinct patterns—such as the shapes and textures of the cells—and map those extracted features to the most probable learned class.",
+      "references": [
+        "cnn",
+        "image-training"
+      ],
+      "note": "Image classification learns visual features and maps them to target classes. B describes that process; A is truncated in the source and wrongly claims feature extraction is eliminated."
+    },
+    "elective-33-3-23": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Data Augmentation",
+      "references": [
+        "image-training"
+      ],
+      "note": "Data augmentation adds variations by transforming existing training images."
+    },
+    "elective-33-3-24": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "To help the model understand what each image represents.",
+      "references": [
+        "image-training"
+      ],
+      "note": "Labels supply target categories for supervised training; they do not themselves enlarge images or augment the dataset."
+    },
+    "elective-33-3-25": {
+      "status": "verified",
+      "correct": 2,
+      "verifiedAnswer": "Predicted No, actually Yes",
+      "references": [
+        "metrics"
+      ],
+      "note": "A false negative predicts negative for an actually positive case."
+    },
+    "elective-33-3-26": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Because of it's high errors on training and new data.",
+      "references": [
+        "generalization"
+      ],
+      "note": "Underfitting fails to model useful patterns and typically yields high training and evaluation error."
+    },
+    "elective-33-3-27": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "To ensure the model generalizes well to new data rather than just memorizing the training set.",
+      "references": [
+        "generalization",
+        "cross-validation"
+      ],
+      "note": "Held-out evaluation estimates generalization rather than training-set memorization; validation may also be used during model selection."
+    },
+    "elective-33-3-28": {
+      "status": "unresolved",
+      "correct": 2,
+      "verifiedAnswer": null,
+      "references": [
+        "fit"
+      ],
+      "note": "Both accuracy and loss can be plotted over epochs to assess learning and overfitting. The stem calls loss curves a metric and refers to an unavailable slide, so A and C cannot be uniquely distinguished as written."
+    },
+    "elective-33-3-29": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Integrate",
+      "references": [
+        "serving",
+        "mlops"
+      ],
+      "note": "Integrating the trained model into an application is a deployment/integration activity."
+    },
+    "elective-33-3-30": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Edge Cases",
+      "references": [
+        "testing",
+        "image-training"
+      ],
+      "note": "Blurred, dark, corrupted and wrong-format inputs are edge/robustness cases that require application testing, not just a single aggregate accuracy metric."
+    },
+    "elective-33-4-31": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Identifying the type of sound",
+      "references": [
+        "audio"
+      ],
+      "note": "Sound classification assigns a sound recording to a sound category."
+    },
+    "elective-33-4-32": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Bird sound",
+      "references": [
+        "birds"
+      ],
+      "note": "A bird vocalization is an animal/natural sound in the stated classification, unlike the listed human-made devices."
+    },
+    "elective-33-4-33": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "A collection of audio recordings",
+      "references": [
+        "audio"
+      ],
+      "note": "An audio dataset is a collection of audio examples/recordings, usually accompanied by labels or metadata."
+    },
+    "elective-33-4-34": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "To make audio data more consistent",
+      "references": [
+        "audio"
+      ],
+      "note": "Preprocessing brings waveforms/features into consistent formats, lengths and representations as needed by the model."
+    },
+    "elective-33-4-35": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "How frequencies change over time",
+      "references": [
+        "audio"
+      ],
+      "note": "A spectrogram depicts frequency components over time, with magnitudes represented visually."
+    },
+    "elective-33-4-36": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "The model learns patterns from audio examples",
+      "references": [
+        "audio",
+        "fit"
+      ],
+      "note": "Training adjusts model parameters to learn patterns from audio examples."
+    },
+    "elective-33-4-37": {
+      "status": "verified",
+      "correct": 1,
+      "verifiedAnswer": "Speech recognition",
+      "references": [
+        "speech"
+      ],
+      "note": "Speech recognition converts spoken audio to text; classification and speech synthesis are different tasks."
+    },
+    "elective-33-4-38": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Percentage of correct predictions",
+      "references": [
+        "metrics"
+      ],
+      "note": "Classification accuracy is the fraction of correct predictions, commonly expressed as a percentage."
+    },
+    "elective-33-4-39": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "To test the model using new audio",
+      "references": [
+        "testing",
+        "audio"
+      ],
+      "note": "Testing checks the application/model with new audio rather than modifying presentation design or deleting recordings."
+    },
+    "elective-33-4-40": {
+      "status": "verified",
+      "correct": 0,
+      "verifiedAnswer": "Audio → Dataset → Training → Evaluation → Testing",
+      "references": [
+        "audio",
+        "fit",
+        "testing"
+      ],
+      "note": "Among the supplied choices, collecting audio/data before training and then evaluation/testing is the coherent general order; real pipelines can iterate and must reserve evaluation data before training."
+    }
+  },
+  "duplicateGroups": [
+    {
+      "ids": [
+        "webdev-33-1-2",
+        "webdev-32-1-1"
+      ],
+      "reason": "Both ask for the expansion of HTML."
+    },
+    {
+      "ids": [
+        "webdev-33-1-6",
+        "webdev-32-1-4",
+        "webdev-html-topic-6"
+      ],
+      "reason": "All ask which attribute makes applicable form input mandatory or what required does."
+    },
+    {
+      "ids": [
+        "webdev-33-1-7",
+        "webdev-html-topic-7"
+      ],
+      "reason": "Both ask whether HTML tables are for tabular data instead of page layout."
+    },
+    {
+      "ids": [
+        "webdev-33-1-8",
+        "webdev-html-topic-8"
+      ],
+      "reason": "Both ask which HTML element creates a hyperlink; the complete-syntax question is retained separately."
+    },
+    {
+      "ids": [
+        "webdev-32-1-6",
+        "webdev-html-topic-5"
+      ],
+      "reason": "Both ask for the alternative-text attribute on an image."
+    },
+    {
+      "ids": [
+        "webdev-34-9-1",
+        "webdev-33-2-11"
+      ],
+      "reason": "Both ask the same four-way CSS specificity order in the normal author context."
+    },
+    {
+      "ids": [
+        "webdev-34-9-3",
+        "webdev-css-topic-7"
+      ],
+      "reason": "Both ask the same inside-to-outside box model ordering; the unordered-membership question is retained."
+    },
+    {
+      "ids": [
+        "webdev-34-9-5",
+        "webdev-33-2-15",
+        "webdev-css-topic-8"
+      ],
+      "reason": "All identify Flexbox as a one-dimensional main-axis layout."
+    },
+    {
+      "ids": [
+        "webdev-34-9-7",
+        "webdev-css-topic-11"
+      ],
+      "reason": "Both ask why Grid is suited to two-dimensional rows/columns."
+    },
+    {
+      "ids": [
+        "webdev-34-9-9",
+        "webdev-css-topic-14"
+      ],
+      "reason": "Both contrast Bootstrap reusable components with Tailwind utility composition."
+    },
+    {
+      "ids": [
+        "webdev-32-10-6",
+        "webdev-css-topic-2"
+      ],
+      "reason": "Both ask what the cascade does when multiple CSS rules apply."
+    },
+    {
+      "ids": [
+        "webdev-34-5-1",
+        "webdev-php-topic-2"
+      ],
+      "reason": "Both ask for the PHP variable-prefix symbol."
+    },
+    {
+      "ids": [
+        "webdev-34-5-6",
+        "webdev-33-4-32"
+      ],
+      "reason": "Both define a PHP class as the blueprint/container for properties and methods."
+    },
+    {
+      "ids": [
+        "webdev-33-4-31",
+        "webdev-php-topic-1"
+      ],
+      "reason": "Both ask PHP’s principal server-side web-development use."
+    },
+    {
+      "ids": [
+        "webdev-33-4-36",
+        "webdev-php-topic-9"
+      ],
+      "reason": "Both ask which mechanism preserves user information across requests/pages."
+    },
+    {
+      "ids": [
+        "webdev-33-4-40",
+        "webdev-php-topic-8"
+      ],
+      "reason": "Both ask for POST rather than GET for login data sent outside the URL query."
+    },
+    {
+      "ids": [
+        "elective-34-5-1",
+        "elective-33-2-13",
+        "elective-34-3-3"
+      ],
+      "reason": "All ask what an epoch counts: complete training-data passes. The audio item adds advice, not a different calculation."
+    }
+  ]
+}

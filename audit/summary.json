@@ -1,0 +1,41 @@
+{
+  "version": "audited-v2-cab32e1458a8",
+  "raw": 201,
+  "duplicateGroups": 17,
+  "duplicatesRemoved": 20,
+  "unique": 181,
+  "scored": 165,
+  "written": 1,
+  "unresolved": 15,
+  "practice": 166,
+  "scopes": {
+    "webdev-all": {
+      "unique": 113,
+      "scored": 104,
+      "written": 1,
+      "unresolved": 8,
+      "practice": 105
+    },
+    "webdev-34": {
+      "unique": 26,
+      "scored": 24,
+      "written": 1,
+      "unresolved": 1,
+      "practice": 25
+    },
+    "elective-all": {
+      "unique": 68,
+      "scored": 61,
+      "written": 0,
+      "unresolved": 7,
+      "practice": 61
+    },
+    "elective-34": {
+      "unique": 29,
+      "scored": 26,
+      "written": 0,
+      "unresolved": 3,
+      "practice": 26
+    }
+  }
+}

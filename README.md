@@ -4,7 +4,7 @@ Web Development and AI & Machine Learning practice with the DBA-inspired palette
 
 Live site: https://webdev-elect-midterm-exam.vercel.app/
 
-The flow is **Subject → All sections / BSIT 3-4 only → Quiz compilation / PPT topics & terms**. The quiz option opens the combined Practice set immediately. The PPT option opens Coming soon until presentations are supplied. Topics organize quiz questions; there is no further section or compilation chooser. Review material is also accessible from the breadcrumb, study sidebar and hamburger menu.
+The flow is **Subject → All sections / BSIT 3-4 only → Quiz compilation / PPT topics & terms**. The quiz option opens the combined Practice set immediately. The Elective PPT option opens a separate 230-entry presentation reviewer; WebDev PPTs remain Coming soon. Topics organize quiz questions; there is no further section or compilation chooser. Review material is also accessible from the breadcrumb, study sidebar and hamburger menu.
 
 Practice retains drafts, locks checked first attempts, and supports a fresh attempt for the selected topic or collection. Questions & answers shows the complete unique collection, answers, explanations, code images/transcripts, source attribution, primary references, topic filters, and search. Reading answers never submits a response. Each topic retains its practice cursor and walkthrough reading anchor.
 
@@ -31,7 +31,19 @@ Original wording and choices are retained. Explanations qualify simplified wordi
 - `scripts/build_bank.cjs`: validates coverage and generates `data/review-bank.js`, the full audit report, and `audit/summary.json` from imports plus decisions.
 - `audit/source-checks.json`: dated HTTP/term evidence. Availability checks do not establish semantic correctness; the manual judgments are in the report.
 
-Rebuild with `npm run build`. This regenerates the audited bank and copies the application and assets into the ignored `public/` deployment directory. `vercel.json` explicitly selects this static output and build command. To regenerate only the bank and report, run `node scripts/build_bank.cjs`. Review changed source material before updating decisions; the builder fails when a new question lacks a decision. No presentation-derived questions have been added.
+Rebuild with `npm run build`. This regenerates the audited bank and copies the application and assets into the ignored `public/` deployment directory. `vercel.json` explicitly selects this static output and build command. To regenerate only the bank and report, run `node scripts/build_bank.cjs`. Review changed source material before updating decisions; the builder fails when a new question lacks a decision. Presentation questions are built separately from the quiz bank as described below.
+
+## Elective PPT topics & terms
+
+The three supplied Group 3 (Audio), Group 5 (Images), and Group 1 (Datasets/ML Workflow) PDFs now provide **230 term entries across 13 topics**, following every entry and the order of the pasted main-term list. Repeated names retain their original topic context. Each entry has a curated definition, a multiple-choice identification question and verified PDF page references; broad page ranges from the outline are refined to the pages supporting the definition.
+
+Choose PPT topics & terms after selecting a section scope. Practice and Terms & definitions tabs use `#/elective/scope/terms/practice` and `#/elective/scope/terms/answers`, with optional topic IDs. The walkthrough supports term/definition search and topic filters, including a compact mobile selector. Clarification notes distinguish slide simplifications or typos from standard terminology.
+
+The supplied deck groups correspond to the existing BSIT 3-4 reported topics. Both All sections and BSIT 3-4 currently use these available decks; the All sections caption makes that coverage clear until other section presentations are supplied. Original PDFs remain in Downloads and are not republished by the site.
+
+`data/terms-outline.json` records the supplied list; `data/terms-definitions.txt` contains curated definitions and exact supporting pages; `data/terms-sources.json` records filenames, page counts and hashes. `scripts/build_terms.cjs` creates `data/terms-bank.js` and [the complete coverage report](audit/TERMS_COVERAGE.md). `npm run build` builds and packages both banks. PDF extraction/rendering is a reading/authoring step, not required by the production build.
+
+PPT drafts, answers, cursors, reading anchors and resets use `study-room-terms-v1`, independently of quiz-compilation progress. The existing theme preference applies to both.
 
 ## Saved-progress compatibility
 

@@ -1,0 +1,2846 @@
+{
+  "topics": [
+    {
+      "id": "audio-1",
+      "sourceId": "audio",
+      "title": "Sound Classification"
+    },
+    {
+      "id": "audio-2",
+      "sourceId": "audio",
+      "title": "Audio Datasets"
+    },
+    {
+      "id": "audio-3",
+      "sourceId": "audio",
+      "title": "Audio Datasets in Modern Machine Learning"
+    },
+    {
+      "id": "audio-4",
+      "sourceId": "audio",
+      "title": "Model Training"
+    },
+    {
+      "id": "images-1",
+      "sourceId": "images",
+      "title": "Image Classification"
+    },
+    {
+      "id": "images-2",
+      "sourceId": "images",
+      "title": "Image Dataset Gathering and Preparation"
+    },
+    {
+      "id": "images-3",
+      "sourceId": "images",
+      "title": "Model Training"
+    },
+    {
+      "id": "images-4",
+      "sourceId": "images",
+      "title": "Performance Assessment"
+    },
+    {
+      "id": "images-5",
+      "sourceId": "images",
+      "title": "Application Integration and Testing"
+    },
+    {
+      "id": "datasets-1",
+      "sourceId": "datasets",
+      "title": "Datasets and Machine Learning Workflow"
+    },
+    {
+      "id": "datasets-2",
+      "sourceId": "datasets",
+      "title": "Data Gathering and Preparation"
+    },
+    {
+      "id": "datasets-3",
+      "sourceId": "datasets",
+      "title": "Data Exploration and Visualization"
+    },
+    {
+      "id": "datasets-4",
+      "sourceId": "datasets",
+      "title": "Modeling and Prediction"
+    }
+  ],
+  "terms": [
+    {
+      "id": "ppt-audio-001",
+      "term": "Sound Classification",
+      "sourceId": "audio",
+      "topicId": "audio-1",
+      "pages": [
+        3
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-002",
+      "term": "Audio Wave",
+      "sourceId": "audio",
+      "topicId": "audio-1",
+      "pages": [
+        5,
+        6
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-003",
+      "term": "Spectrogram",
+      "sourceId": "audio",
+      "topicId": "audio-1",
+      "pages": [
+        7
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-004",
+      "term": "CNN Architecture",
+      "sourceId": "audio",
+      "topicId": "audio-1",
+      "pages": [
+        8
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-005",
+      "term": "Steps of CNN Architecture",
+      "sourceId": "audio",
+      "topicId": "audio-1",
+      "pages": [
+        9
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-006",
+      "term": "Input Layer",
+      "sourceId": "audio",
+      "topicId": "audio-1",
+      "pages": [
+        9
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-audio-007",
+      "term": "Convolutional Layer",
+      "sourceId": "audio",
+      "topicId": "audio-1",
+      "pages": [
+        9
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-audio-008",
+      "term": "ReLU Function",
+      "sourceId": "audio",
+      "topicId": "audio-1",
+      "pages": [
+        9
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-audio-009",
+      "term": "Pooling Layers",
+      "sourceId": "audio",
+      "topicId": "audio-1",
+      "pages": [
+        9
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-audio-010",
+      "term": "Flattening and Dense Layers",
+      "sourceId": "audio",
+      "topicId": "audio-1",
+      "pages": [
+        9
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-audio-011",
+      "term": "Feature Mapping",
+      "sourceId": "audio",
+      "topicId": "audio-1",
+      "pages": [
+        10
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-012",
+      "term": "Linear Classifier",
+      "sourceId": "audio",
+      "topicId": "audio-1",
+      "pages": [
+        11
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-013",
+      "term": "Final Output",
+      "sourceId": "audio",
+      "topicId": "audio-1",
+      "pages": [
+        12
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-014",
+      "term": "Applications of Audio Classification",
+      "sourceId": "audio",
+      "topicId": "audio-1",
+      "pages": [
+        13
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-015",
+      "term": "Audio Datasets",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        15,
+        16
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-016",
+      "term": "Types of Audio Datasets",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        17
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-017",
+      "term": "Speech Datasets",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        18
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-018",
+      "term": "Music Datasets",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        19
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-019",
+      "term": "Environmental Sound Datasets",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        20
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-020",
+      "term": "Audio Dataset Selection",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-021",
+      "term": "Technical Audio Properties",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        25
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-022",
+      "term": "Sampling Rate",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        26
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-023",
+      "term": "Bit Depth",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        26
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-024",
+      "term": "Channels",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        27
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-025",
+      "term": "Duration",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        28
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-026",
+      "term": "Dynamic Range",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        29
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-027",
+      "term": "Metadata and Labeling",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        30
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-028",
+      "term": "Labels and Annotation",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        31
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-029",
+      "term": "Derived Audio Features",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        35
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-030",
+      "term": "MFCCs",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        36
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-031",
+      "term": "Spectral Features",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        37
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-032",
+      "term": "Zero-Crossing Rate",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        38
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-033",
+      "term": "Chroma Features",
+      "sourceId": "audio",
+      "topicId": "audio-2",
+      "pages": [
+        39
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-034",
+      "term": "Structural Taxonomy",
+      "sourceId": "audio",
+      "topicId": "audio-3",
+      "pages": [
+        42
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-035",
+      "term": "Audio Modalities and Representations",
+      "sourceId": "audio",
+      "topicId": "audio-3",
+      "pages": [
+        43
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-036",
+      "term": "Cross-Modal Taxonomies",
+      "sourceId": "audio",
+      "topicId": "audio-3",
+      "pages": [
+        44
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-037",
+      "term": "Taxonomy Challenges",
+      "sourceId": "audio",
+      "topicId": "audio-3",
+      "pages": [
+        45
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-038",
+      "term": "Annotation Paradigms",
+      "sourceId": "audio",
+      "topicId": "audio-3",
+      "pages": [
+        46,
+        47
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-039",
+      "term": "Data Representations",
+      "sourceId": "audio",
+      "topicId": "audio-3",
+      "pages": [
+        48
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-040",
+      "term": "Pipeline Engineering",
+      "sourceId": "audio",
+      "topicId": "audio-3",
+      "pages": [
+        49,
+        50
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-041",
+      "term": "Feature Extraction",
+      "sourceId": "audio",
+      "topicId": "audio-3",
+      "pages": [
+        51
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-042",
+      "term": "Model Training",
+      "sourceId": "audio",
+      "topicId": "audio-4",
+      "pages": [
+        53
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-043",
+      "term": "Model Training Process",
+      "sourceId": "audio",
+      "topicId": "audio-4",
+      "pages": [
+        54
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-044",
+      "term": "Data Collection and Preparation",
+      "sourceId": "audio",
+      "topicId": "audio-4",
+      "pages": [
+        55
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-045",
+      "term": "Feature Extraction",
+      "sourceId": "audio",
+      "topicId": "audio-4",
+      "pages": [
+        56
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-046",
+      "term": "Training and Optimization",
+      "sourceId": "audio",
+      "topicId": "audio-4",
+      "pages": [
+        57,
+        58
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-047",
+      "term": "Evaluation and Validation",
+      "sourceId": "audio",
+      "topicId": "audio-4",
+      "pages": [
+        59
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-audio-048",
+      "term": "Hyperparameters",
+      "sourceId": "audio",
+      "topicId": "audio-4",
+      "pages": [
+        60
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-001",
+      "term": "Image Classification",
+      "sourceId": "images",
+      "topicId": "images-1",
+      "pages": [
+        4
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-002",
+      "term": "Types of Image Classification",
+      "sourceId": "images",
+      "topicId": "images-1",
+      "pages": [
+        5,
+        6
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-003",
+      "term": "Binary Classification",
+      "sourceId": "images",
+      "topicId": "images-1",
+      "pages": [
+        5,
+        6
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-004",
+      "term": "Multi-Class Classification",
+      "sourceId": "images",
+      "topicId": "images-1",
+      "pages": [
+        5,
+        6
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-005",
+      "term": "Single-Label Classification",
+      "sourceId": "images",
+      "topicId": "images-1",
+      "pages": [
+        5,
+        6
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-006",
+      "term": "Multi-Label Classification",
+      "sourceId": "images",
+      "topicId": "images-1",
+      "pages": [
+        5,
+        6
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-007",
+      "term": "Flat Classification",
+      "sourceId": "images",
+      "topicId": "images-1",
+      "pages": [
+        5,
+        6
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-008",
+      "term": "Hierarchical Classification",
+      "sourceId": "images",
+      "topicId": "images-1",
+      "pages": [
+        5,
+        6
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-009",
+      "term": "How Machines See Images",
+      "sourceId": "images",
+      "topicId": "images-1",
+      "pages": [
+        7
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-010",
+      "term": "Approaches to Image Classification",
+      "sourceId": "images",
+      "topicId": "images-1",
+      "pages": [
+        8
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-011",
+      "term": "Traditional Machine Learning",
+      "sourceId": "images",
+      "topicId": "images-1",
+      "pages": [
+        8
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-012",
+      "term": "Deep Learning",
+      "sourceId": "images",
+      "topicId": "images-1",
+      "pages": [
+        8
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-013",
+      "term": "CNN Architectures",
+      "sourceId": "images",
+      "topicId": "images-1",
+      "pages": [
+        9
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-014",
+      "term": "Real-World Applications",
+      "sourceId": "images",
+      "topicId": "images-1",
+      "pages": [
+        10
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-015",
+      "term": "Common Challenges",
+      "sourceId": "images",
+      "topicId": "images-1",
+      "pages": [
+        11
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-016",
+      "term": "Image Datasets",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        13
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-017",
+      "term": "Image Dataset Gathering",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-018",
+      "term": "Public Datasets",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-019",
+      "term": "Web Scraping",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-020",
+      "term": "Manual Capture",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-021",
+      "term": "Synthetic Data Generation",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-022",
+      "term": "Dataset Organization",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-023",
+      "term": "Class-Folder Structure",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-024",
+      "term": "Flat Structure",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-025",
+      "term": "Data Labeling and Annotation",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        28,
+        29,
+        30
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-026",
+      "term": "Image Labeling",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        28,
+        29,
+        30
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-027",
+      "term": "Manual Labeling",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        28,
+        29,
+        30
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-028",
+      "term": "Semi-Automated Labeling",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        28,
+        29,
+        30
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-029",
+      "term": "Data Cleaning",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-030",
+      "term": "Duplicate Detection and Removal",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-031",
+      "term": "Exact Duplicates",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-032",
+      "term": "Near-Duplicates",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-033",
+      "term": "Corrupted / Unreadable File Detection",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-034",
+      "term": "Irrelevant Image Filtering",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-035",
+      "term": "Handling Mislabeled Data",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-036",
+      "term": "Data Preprocessing",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-037",
+      "term": "Resizing",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-038",
+      "term": "Normalization",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-039",
+      "term": "Color Space Conversion",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-040",
+      "term": "Format Standardization",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-041",
+      "term": "Data Augmentation",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        43,
+        44
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-042",
+      "term": "Handling Class Imbalance",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        45,
+        46
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-043",
+      "term": "Splitting the Dataset",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        47,
+        48
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-044",
+      "term": "Training Set",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        47,
+        48
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-045",
+      "term": "Validation Set",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        47,
+        48
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-046",
+      "term": "Testing Set",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        47,
+        48
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-047",
+      "term": "Ethical and Legal Considerations",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        49,
+        50,
+        51
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-048",
+      "term": "Copyright and Licensing",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        49,
+        50,
+        51
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-049",
+      "term": "Privacy",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        49,
+        50,
+        51
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-050",
+      "term": "Dataset Bias",
+      "sourceId": "images",
+      "topicId": "images-2",
+      "pages": [
+        49,
+        50,
+        51
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-051",
+      "term": "Model Training",
+      "sourceId": "images",
+      "topicId": "images-3",
+      "pages": [
+        53,
+        54
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-052",
+      "term": "Training from Scratch",
+      "sourceId": "images",
+      "topicId": "images-3",
+      "pages": [
+        55
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-053",
+      "term": "Transfer Learning",
+      "sourceId": "images",
+      "topicId": "images-3",
+      "pages": [
+        55
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-054",
+      "term": "Training Process",
+      "sourceId": "images",
+      "topicId": "images-3",
+      "pages": [
+        56,
+        57
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-055",
+      "term": "Forward Pass",
+      "sourceId": "images",
+      "topicId": "images-3",
+      "pages": [
+        56,
+        57
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-056",
+      "term": "Loss Calculation",
+      "sourceId": "images",
+      "topicId": "images-3",
+      "pages": [
+        56,
+        57
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-057",
+      "term": "Backpropagation",
+      "sourceId": "images",
+      "topicId": "images-3",
+      "pages": [
+        56,
+        57
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-058",
+      "term": "Weight Update",
+      "sourceId": "images",
+      "topicId": "images-3",
+      "pages": [
+        56,
+        57
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-059",
+      "term": "Hyperparameters",
+      "sourceId": "images",
+      "topicId": "images-3",
+      "pages": [
+        58
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-060",
+      "term": "Training vs. Validation Performance",
+      "sourceId": "images",
+      "topicId": "images-3",
+      "pages": [
+        60
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-061",
+      "term": "Improving Training",
+      "sourceId": "images",
+      "topicId": "images-3",
+      "pages": [
+        61
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-062",
+      "term": "Regularization",
+      "sourceId": "images",
+      "topicId": "images-3",
+      "pages": [
+        61
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-063",
+      "term": "Early Stopping",
+      "sourceId": "images",
+      "topicId": "images-3",
+      "pages": [
+        61
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-064",
+      "term": "Transfer Learning Workflow",
+      "sourceId": "images",
+      "topicId": "images-3",
+      "pages": [
+        62
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-065",
+      "term": "Performance Assessment",
+      "sourceId": "images",
+      "topicId": "images-4",
+      "pages": [
+        65
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-066",
+      "term": "Confusion Matrix",
+      "sourceId": "images",
+      "topicId": "images-4",
+      "pages": [
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-067",
+      "term": "True Positive (TP)",
+      "sourceId": "images",
+      "topicId": "images-4",
+      "pages": [
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-068",
+      "term": "True Negative (TN)",
+      "sourceId": "images",
+      "topicId": "images-4",
+      "pages": [
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-069",
+      "term": "False Positive (FP)",
+      "sourceId": "images",
+      "topicId": "images-4",
+      "pages": [
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-070",
+      "term": "False Negative (FN)",
+      "sourceId": "images",
+      "topicId": "images-4",
+      "pages": [
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-071",
+      "term": "Evaluation Metrics",
+      "sourceId": "images",
+      "topicId": "images-4",
+      "pages": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-072",
+      "term": "Accuracy",
+      "sourceId": "images",
+      "topicId": "images-4",
+      "pages": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-073",
+      "term": "Precision",
+      "sourceId": "images",
+      "topicId": "images-4",
+      "pages": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-074",
+      "term": "Recall",
+      "sourceId": "images",
+      "topicId": "images-4",
+      "pages": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-075",
+      "term": "F1-Score",
+      "sourceId": "images",
+      "topicId": "images-4",
+      "pages": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-076",
+      "term": "Bias-Variance Tradeoff",
+      "sourceId": "images",
+      "topicId": "images-4",
+      "pages": [
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-077",
+      "term": "High Bias / Underfitting",
+      "sourceId": "images",
+      "topicId": "images-4",
+      "pages": [
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-078",
+      "term": "High Variance / Overfitting",
+      "sourceId": "images",
+      "topicId": "images-4",
+      "pages": [
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-079",
+      "term": "Good Generalization",
+      "sourceId": "images",
+      "topicId": "images-4",
+      "pages": [
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-images-080",
+      "term": "Application Integration",
+      "sourceId": "images",
+      "topicId": "images-5",
+      "pages": [
+        87
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-081",
+      "term": "Exporting the Trained Model",
+      "sourceId": "images",
+      "topicId": "images-5",
+      "pages": [
+        88
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-082",
+      "term": "Building a Front-End Interface",
+      "sourceId": "images",
+      "topicId": "images-5",
+      "pages": [
+        89
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-083",
+      "term": "Model Serving",
+      "sourceId": "images",
+      "topicId": "images-5",
+      "pages": [
+        90
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-084",
+      "term": "API Development",
+      "sourceId": "images",
+      "topicId": "images-5",
+      "pages": [
+        90
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-085",
+      "term": "Deployment Options",
+      "sourceId": "images",
+      "topicId": "images-5",
+      "pages": [
+        91
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-086",
+      "term": "Integration Testing",
+      "sourceId": "images",
+      "topicId": "images-5",
+      "pages": [
+        92
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-087",
+      "term": "Performance Testing",
+      "sourceId": "images",
+      "topicId": "images-5",
+      "pages": [
+        93
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-088",
+      "term": "User Acceptance Testing (UAT)",
+      "sourceId": "images",
+      "topicId": "images-5",
+      "pages": [
+        94
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-images-089",
+      "term": "Monitoring and Maintenance",
+      "sourceId": "images",
+      "topicId": "images-5",
+      "pages": [
+        95
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-001",
+      "term": "Dataset",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        5
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-002",
+      "term": "Dataset Structure",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        6
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-003",
+      "term": "Features and Labels",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        6,
+        7,
+        8
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-004",
+      "term": "Types of Data",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        7
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-005",
+      "term": "Numerical Data",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        7
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-006",
+      "term": "Categorical Data",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        7
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-007",
+      "term": "Text Data",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        7
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-008",
+      "term": "Image Data",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        7
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-009",
+      "term": "Time-Series Data",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        7
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-010",
+      "term": "Importance of Data in Machine Learning",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        9
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-011",
+      "term": "Machine Learning Workflow",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        10
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-012",
+      "term": "Steps of Machine Learning Workflow",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-013",
+      "term": "Problem Definition",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-014",
+      "term": "Data Collection",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-015",
+      "term": "Data Cleaning and Preparation",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-016",
+      "term": "Data Exploration",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-017",
+      "term": "Feature Engineering",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-018",
+      "term": "Dataset Splitting",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-019",
+      "term": "Model Training",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-020",
+      "term": "Model Evaluation",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-021",
+      "term": "Model Deployment",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-022",
+      "term": "Monitoring and Improvement",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-023",
+      "term": "Overfitting",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        19
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-024",
+      "term": "Underfitting",
+      "sourceId": "datasets",
+      "topicId": "datasets-1",
+      "pages": [
+        19
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-025",
+      "term": "Data Gathering",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        24
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-026",
+      "term": "Sources of Data",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-027",
+      "term": "Primary Data",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-028",
+      "term": "Secondary Data",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-029",
+      "term": "Types of Data Collection",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        30,
+        31,
+        32
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-030",
+      "term": "Structured Data",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        30,
+        31,
+        32
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-031",
+      "term": "Semi-Structured Data",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        30,
+        31,
+        32
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-032",
+      "term": "Unstructured Data",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        30,
+        31,
+        32
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-033",
+      "term": "Data Quality Considerations",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-034",
+      "term": "Relevance",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-035",
+      "term": "Quantity",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-036",
+      "term": "Quality",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-037",
+      "term": "Accuracy",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-038",
+      "term": "Completeness",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-039",
+      "term": "Reliability",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-040",
+      "term": "Data Preparation",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        38
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-041",
+      "term": "Data Cleaning",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-042",
+      "term": "Missing Values",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-043",
+      "term": "Duplicate Records",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-044",
+      "term": "Incorrect Values",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-045",
+      "term": "Inconsistent Formats",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-046",
+      "term": "Typographical Errors",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-047",
+      "term": "Outliers",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-048",
+      "term": "Handling Missing Data",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        43,
+        44
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-049",
+      "term": "Data Transformation",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-050",
+      "term": "Scaling",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-051",
+      "term": "Normalization",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-052",
+      "term": "Standardization",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-053",
+      "term": "Encoding Categorical Data",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-054",
+      "term": "Label Encoding",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-055",
+      "term": "One-Hot Encoding",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-056",
+      "term": "Feature Selection",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        50
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-057",
+      "term": "Data Splitting",
+      "sourceId": "datasets",
+      "topicId": "datasets-2",
+      "pages": [
+        51,
+        52
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-058",
+      "term": "Data Exploration",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        56
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-059",
+      "term": "Data Visualization",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        57
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-060",
+      "term": "Exploratory Data Analysis (EDA)",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        58
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-061",
+      "term": "Types of EDA",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        59
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-062",
+      "term": "Univariate Analysis",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-063",
+      "term": "Bivariate Analysis",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-064",
+      "term": "Multivariate Analysis",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        71,
+        72
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-065",
+      "term": "Histograms",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        62
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-066",
+      "term": "Bar Graphs",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        63
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-067",
+      "term": "Box Plots",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        65
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-068",
+      "term": "Scatter Plots",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        68
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-069",
+      "term": "Correlation",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        69
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-070",
+      "term": "Cross-Tabulation",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        69
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-071",
+      "term": "Line Graphs",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        70
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-072",
+      "term": "Covariance",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        70
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-073",
+      "term": "Pair Plots",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        72
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-074",
+      "term": "Spatial Analysis",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        72
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-075",
+      "term": "Principal Component Analysis (PCA)",
+      "sourceId": "datasets",
+      "topicId": "datasets-3",
+      "pages": [
+        72
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-076",
+      "term": "Machine Learning Model",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        74
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-077",
+      "term": "Model Training",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        75
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-078",
+      "term": "Machine Learning Algorithms",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        77
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-079",
+      "term": "Types of Machine Learning",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-080",
+      "term": "Supervised Learning",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-081",
+      "term": "Unsupervised Learning",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-082",
+      "term": "Semi-Supervised Learning",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-083",
+      "term": "Reinforcement Learning",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-084",
+      "term": "Classification",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        78
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-085",
+      "term": "Regression",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        78
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-086",
+      "term": "Clustering",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        79
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-087",
+      "term": "Dimensionality Reduction",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        79
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-088",
+      "term": "Association Rule Learning",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        79
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-089",
+      "term": "Training a Model",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        82
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-090",
+      "term": "Prediction",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        83
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-091",
+      "term": "Model Evaluation",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        84
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-datasets-092",
+      "term": "Classification Metrics",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        84
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-datasets-093",
+      "term": "Regression Metrics",
+      "sourceId": "datasets",
+      "topicId": "datasets-4",
+      "pages": [
+        84
+      ],
+      "inheritedPages": true
+    }
+  ]
+}

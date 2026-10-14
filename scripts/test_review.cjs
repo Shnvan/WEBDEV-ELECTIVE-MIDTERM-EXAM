@@ -1,9 +1,9 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),vm=require('node:vm');
 const {JSDOM}=require(process.env.STUDY_TEST_JSDOM||'jsdom');
 const root=path.resolve(__dirname,'..'),read=p=>fs.readFileSync(path.join(root,p),'utf8');
-const html=read('index.html'),scripts=['data/review-bank.js','art.js','progress.js','app.js'].map(read);
+const html=read('index.html'),scripts=['data/review-bank.js','data/terms-bank.js','art.js','progress.js','app.js'].map(read);
 const context={window:{}};vm.runInNewContext(scripts[0],context);const bank=context.window.REVIEW_BANK;
-vm.runInNewContext(scripts[2],context);const restore=context.window.StudyProgress.restore;
+vm.runInNewContext(read('progress.js'),context);const restore=context.window.StudyProgress.restore;vm.runInNewContext(read('data/terms-bank.js'),context);const terms=context.window.TERMS_BANK;
 const pause=()=>new Promise(r=>setTimeout(r,15));let passed=0;
 function open(hash='#/',saved=null,blocked=false){
  const d=new JSDOM(html,{url:'http://localhost:4173/'+hash,runScripts:'outside-only',pretendToBeVisual:true}),w=d.window;
@@ -30,11 +30,11 @@ async function check(name,fn){await fn();console.log('PASS '+name);passed++;}
   for(const subject of ['webdev','elective'])for(const scope of ['all','34']){
    const d=open('#/'+subject),w=d.window;assert.equal(w.document.querySelectorAll('.option-card').length,2);click(w,`a.option-card[href="#/${subject}/${scope}/materials"]`);await until(()=>w.document.querySelector('#quiz-material'));
    assert.equal(w.document.querySelectorAll('.option-card').length,2);assert(!w.document.querySelector('#question-title'));assert.equal(w.document.querySelector('#quiz-material h2').textContent,'Quiz compilation');assert.equal(w.document.querySelector('#ppt-material h2').textContent,'PPT topics & terms');
-   click(w,'#ppt-material');await until(()=>w.document.querySelector('.coming-panel'));assert(w.document.querySelector('h1').textContent.includes('soon'));click(w,`.back-link[href="#/${subject}/${scope}/materials"]`);await until(()=>w.document.querySelector('#quiz-material'));click(w,'#quiz-material');await until(()=>w.document.querySelector('#question-title'));
+   click(w,'#ppt-material');if(subject==='elective'){await until(()=>w.document.querySelector('#question-title'));assert(w.location.hash.includes('/terms/practice'));assert.equal(w.document.querySelector('#practice-tab span').textContent,'230');click(w,`.topic-note a[href="#/${subject}/${scope}/materials"]`);}else{await until(()=>w.document.querySelector('.coming-panel'));assert(w.document.querySelector('h1').textContent.includes('soon'));click(w,`.back-link[href="#/${subject}/${scope}/materials"]`);}await until(()=>w.document.querySelector('#quiz-material'));click(w,'#quiz-material');await until(()=>w.document.querySelector('#question-title'));
    assert.equal(w.document.querySelectorAll('.compilation-card').length,0);const total=bank.questions.filter(q=>q.subject===subject&&(scope==='all'||q.sections.includes('3-4'))).length;assert.equal(w.document.querySelector('#practice-tab span').textContent,String(total));assert.equal(w.document.querySelector('#answers-tab span').textContent,String(total));
    for(const legacy of [`#/${subject}/${scope}/quizzes`,`#/${subject}/${scope}/quiz/${subject}-33`]){await route(w,legacy);assert(w.location.hash.startsWith(`#/${subject}/${scope}/practice`));assert(w.document.querySelector('#question-title'));}
    await route(w,`#/${subject}/${scope}`);await until(()=>w.document.querySelector('#quiz-material'));assert.equal(w.location.hash,`#/${subject}/${scope}/materials`);
-   await route(w,`#/${subject}/${scope}/terms`);assert(w.document.querySelector('h1').textContent.includes('soon'));d.window.close();
+   await route(w,`#/${subject}/${scope}/terms`);if(subject==='elective'){await until(()=>w.document.querySelector('#question-title'));assert.equal(w.document.querySelector('#practice-tab span').textContent,'230');}else assert(w.document.querySelector('h1').textContent.includes('soon'));d.window.close();
   }
  });
  await check('All 201 prompts are available; supplied-key questions score with clarification notes',()=>{
@@ -97,6 +97,23 @@ async function check(name,fn){await fn();console.log('PASS '+name);passed++;}
   const rd=open('#/webdev/all/answers',snapshot),rw=rd.window;let scrolled=null;rw.scrollTo=options=>{scrolled=options.top;};rw.HTMLElement.prototype.getBoundingClientRect=function(){return {top:this.id==='review-'+q.id?1000:0,height:this.id.startsWith('review-')?600:0};};await new Promise(r=>setTimeout(r,45));assert.equal(scrolled,1014);rw.close();assert.equal(w.localStorage.getItem('study-room-theme'),theme);
   const state=JSON.parse(w.localStorage.getItem('study-room-progress-v1'));assert(!state.answers[q.id].checked);assert.equal(state.answers[q.id].value,q.options[0]);w.close();
 
+ });
+ await check('All 230 supplied-list entries have curated definitions, exact source pages and unique answer choices',()=>{
+  const outline=JSON.parse(read('data/terms-outline.json'));assert.equal(terms.questions.length,230);assert.equal(terms.topics.elective.length,13);assert.equal(terms.sources.length,3);assert.equal(new Set(terms.questions.map(q=>q.id)).size,230);
+  for(let i=0;i<230;i++){const q=terms.questions[i],entry=outline.terms[i],source=terms.sources.find(s=>s.id===q.sources[0].sourceId);assert.equal(q.id,entry.id);assert.equal(q.term,entry.term);assert(q.definition);assert.equal(q.answer,q.term);assert.equal(q.options[q.correct],q.term);assert.equal(new Set(q.options).size,4);assert(q.sources[0].pages.every(p=>p>=1&&p<=source.pages));assert(q.audit.references.every(r=>r.url.startsWith('https://')));}
+ });
+ await check('Every PPT identification question can be checked and completed independently of quiz compilations',()=>{
+  const d=open('#/elective/34/terms/practice'),w=d.window;for(let i=0;i<terms.questions.length;i++){const q=terms.questions[i];assert.equal(w.document.querySelector('#question-title').textContent,q.prompt);input(w,q.correct);click(w,'#check-answer');assert(w.document.querySelector('.feedback:not(.wrong)'));if(i<229)click(w,'[data-action=next]');}assert(w.document.querySelector('.completion'));assert.equal(Object.keys(JSON.parse(w.localStorage.getItem('study-room-terms-v1')).answers).length,230);assert.equal(w.localStorage.getItem('study-room-progress-v1'),null);w.close();
+ });
+ await check('PPT walkthrough covers all topics, searches actual definitions, filters mobile topics and never scores reading',async()=>{
+  const d=open('#/elective/all/terms/answers'),w=d.window;assert.equal(w.document.querySelectorAll('.term-card').length,230);assert.equal(w.document.querySelectorAll('.walkthrough-topic').length,13);assert.equal(w.document.querySelectorAll('#topic-select optgroup').length,3);assert.equal(w.localStorage.getItem('study-room-terms-v1'),null);
+  const search=w.document.querySelector('#review-search');search.value='MFCCs';search.dispatchEvent(new w.Event('input',{bubbles:true}));assert.equal(w.document.querySelectorAll('.term-card').length,3);assert([...w.document.querySelectorAll('.term-card')].some(e=>e.querySelector('h2').textContent==='MFCCs'));search.value='<script>alert(1)</script>';search.dispatchEvent(new w.Event('input',{bubbles:true}));assert.equal(w.document.querySelectorAll('.term-card').length,0);click(w,'#clear-search');
+  const select=w.document.querySelector('#topic-select');select.value='images-4';select.dispatchEvent(new w.Event('change',{bubbles:true}));await until(()=>w.location.hash.endsWith('/images-4'));await until(()=>w.document.querySelectorAll('.term-card').length===15);assert([...w.document.querySelectorAll('.term-card')].every(e=>terms.questions.find(q=>q.id===e.dataset.questionId).topic==='images-4'));w.close();
+ });
+ await check('Switching quiz/PPT materials keeps separate drafts, attempts, cursors and resets',async()=>{
+  const d=open('#/elective/34/practice'),w=d.window;input(w,0);click(w,'#check-answer');click(w,'[data-action=next]');input(w,1);const quiz=w.localStorage.getItem('study-room-progress-v1'),quizPrompt=w.document.querySelector('#question-title').textContent;
+  await route(w,'#/elective/34/terms/practice');input(w,terms.questions[0].correct);click(w,'#check-answer');click(w,'[data-action=next]');input(w,1);const termDraft=w.document.querySelector('#question-title').textContent;await route(w,'#/elective/34/terms/answers');assert.equal(w.localStorage.getItem('study-room-progress-v1'),quiz);await route(w,'#/elective/34/terms/practice');assert.equal(w.document.querySelector('#question-title').textContent,termDraft);assert.equal(w.document.querySelector('input[name=answer]:checked').value,'1');click(w,'[data-action=retry]');assert.equal(w.localStorage.getItem('study-room-progress-v1'),quiz);
+  await route(w,'#/elective/34/practice');assert.equal(w.document.querySelector('#question-title').textContent,quizPrompt);assert.equal(w.document.querySelector('input[name=answer]:checked').value,'1');w.close();
  });
  console.log(`${passed} suites passed. Application validation is separate from the manual answer audit.`);
 })().catch(e=>{console.error(e);process.exitCode=1;});

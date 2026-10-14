@@ -3,8 +3,9 @@ const fs=require('node:fs'),path=require('node:path'),cp=require('node:child_pro
 const root=path.resolve(__dirname,'..'),output=path.resolve(root,'public');
 assert.equal(path.dirname(output),root);assert.equal(path.basename(output),'public');
 cp.execFileSync(process.execPath,[path.join(__dirname,'build_bank.cjs')],{stdio:'inherit'});
+cp.execFileSync(process.execPath,[path.join(__dirname,'build_terms.cjs')],{stdio:'inherit'});
 fs.mkdirSync(path.join(output,'data'),{recursive:true});
-for(const file of ['index.html','styles.css','app.js','art.js','progress.js','data/review-bank.js']){
+for(const file of ['index.html','styles.css','app.js','art.js','progress.js','data/review-bank.js','data/terms-bank.js']){
  fs.copyFileSync(path.join(root,file),path.join(output,file));
  assert(fs.readFileSync(path.join(root,file)).equals(fs.readFileSync(path.join(output,file))),file);
 }

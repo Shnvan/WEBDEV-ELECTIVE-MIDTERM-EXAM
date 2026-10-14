@@ -1,5 +1,15 @@
 # Validation record — 2026-10-14
 
+## Elective presentation reviewer
+
+Read the complete text of the three supplied PDFs (60, 96 and 85 pages) and visually inspected rendered pages covering CNN inputs, training workflows, normalization/standardization, MFCC terminology, confusion-matrix orientation and evaluation formulas. The supplied outline contains 230 term entries in 13 topics. Every entry has a curated paraphrased definition, a source/page reference and an identification question. Supporting references were checked for the clarification notes. `TERMS_COVERAGE.md` records every definition and its verified pages.
+
+The presentation bank remains separate from the 201-question compilation bank. Both Elective section scopes use the currently supplied Group 3, 5 and 1 decks, with coverage stated in the interface. WebDev presentations remain Coming soon. PDF originals were read without editing and are not included in the public build.
+
+Application validation checks 230 term identities, all topic/source/page mappings, option uniqueness, all identification answers, topic filters, search, independent progress stores, cursor/draft preservation and reset isolation. Existing compilation suites continue to check all 201 prompts. Content review and browser/application tests remain separate evidence.
+
+Fifteen suites passed. Both themes at 320, 360, 720, 768, 1440 and 1920 CSS-pixel widths on PPT Practice and Terms & definitions passed 24 checks with no page-level horizontal overflow. Desktop dark and mobile light were visually inspected. Real-browser checks confirmed mobile topic selection, definition search, arrow-key tab focus, correct-answer feedback and switching through the hamburger menu between 30-question quiz practice and 230-entry PPT review. Six supporting reference URLs returned HTTP 200. Deterministic rebuilding produced identical term-bank bytes.
+
 ## Review-material choice restored
 
 The latest requested flow is Subject → All sections / BSIT 3-4 only → Quiz compilation / PPT topics & terms. This selection appears for both subjects and both scopes at `#/subject/scope/materials`. Quiz compilation opens the full combined practice collection; PPT topics & terms opens Coming soon until presentations are supplied. Breadcrumbs, sidebar and menu provide a return to the material choice, with saved attempts and cursor preserved.

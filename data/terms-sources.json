@@ -1,0 +1,28 @@
+[
+  {
+    "id": "audio",
+    "filename": "Group 3 Audio Classification.pdf",
+    "pages": 60,
+    "sha256": "bc34c28797f872c9da9f7d767f1db2ff2d2394bde79256602fc117f4463d3418",
+    "textChars": 14149,
+    "blankPages": []
+  },
+  {
+    "id": "images",
+    "filename": "Group 5 - Image Classification; Image Dataset Gathering and Preparation; Model Training; Performance Assessment; Application Integration and Testing.pdf",
+    "pages": 96,
+    "sha256": "f44693732f448e2e88ddac65a64ae066edca4144db9cd38ab386db65b081ed54",
+    "textChars": 34171,
+    "blankPages": []
+  },
+  {
+    "id": "datasets",
+    "filename": "Group 1 - Datasets and Machine Learning Workflow; Data Gathering and Preparation; Data Exploration and Visualization; Modeling and Prediction (1).pdf",
+    "pages": 85,
+    "sha256": "c98e9e3df9be77b60811a54d592dc20f29e137daa7f45ad00142eafa9006d592",
+    "textChars": 27050,
+    "blankPages": [
+      3
+    ]
+  }
+]

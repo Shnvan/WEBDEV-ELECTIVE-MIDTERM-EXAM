@@ -349,28 +349,13 @@ add('elective-33-4',`
 
 assert.equal(Object.keys(decisions).length,201);
 for(const d of Object.values(decisions))for(const id of d.references)assert(sources[id],id);
-const duplicateGroups=[
-  {ids:['webdev-33-1-2','webdev-32-1-1'],reason:'Both ask for the expansion of HTML.'},
-  {ids:['webdev-33-1-6','webdev-32-1-4','webdev-html-topic-6'],reason:'All ask which attribute makes applicable form input mandatory or what required does.'},
-  {ids:['webdev-33-1-7','webdev-html-topic-7'],reason:'Both ask whether HTML tables are for tabular data instead of page layout.'},
-  {ids:['webdev-33-1-8','webdev-html-topic-8'],reason:'Both ask which HTML element creates a hyperlink; the complete-syntax question is retained separately.'},
-  {ids:['webdev-32-1-6','webdev-html-topic-5'],reason:'Both ask for the alternative-text attribute on an image.'},
-  {ids:['webdev-34-9-1','webdev-33-2-11'],reason:'Both ask the same four-way CSS specificity order in the normal author context.'},
-  {ids:['webdev-34-9-3','webdev-css-topic-7'],reason:'Both ask the same inside-to-outside box model ordering; the unordered-membership question is retained.'},
-  {ids:['webdev-34-9-5','webdev-33-2-15','webdev-css-topic-8'],reason:'All identify Flexbox as a one-dimensional main-axis layout.'},
-  {ids:['webdev-34-9-7','webdev-css-topic-11'],reason:'Both ask why Grid is suited to two-dimensional rows/columns.'},
-  {ids:['webdev-34-9-9','webdev-css-topic-14'],reason:'Both contrast Bootstrap reusable components with Tailwind utility composition.'},
-  {ids:['webdev-32-10-6','webdev-css-topic-2'],reason:'Both ask what the cascade does when multiple CSS rules apply.'},
-  {ids:['webdev-34-5-1','webdev-php-topic-2'],reason:'Both ask for the PHP variable-prefix symbol.'},
-  {ids:['webdev-34-5-6','webdev-33-4-32'],reason:'Both define a PHP class as the blueprint/container for properties and methods.'},
-  {ids:['webdev-33-4-31','webdev-php-topic-1'],reason:'Both ask PHP’s principal server-side web-development use.'},
-  {ids:['webdev-33-4-36','webdev-php-topic-9'],reason:'Both ask which mechanism preserves user information across requests/pages.'},
-  {ids:['webdev-33-4-40','webdev-php-topic-8'],reason:'Both ask for POST rather than GET for login data sent outside the URL query.'},
-  {ids:['elective-34-5-1','elective-33-2-13','elective-34-3-3'],reason:'All ask what an epoch counts: complete training-data passes. The audio item adds advice, not a different calculation.'},
-];
+// Rechecked all 201 prompts under the user's exact-question/answer rule.
+// No matching question/answer/choice sets were found; related concepts remain separate.
+const duplicateGroups=[];
+const duplicatePolicy='Same question wording and answer, with matching choices and code/image context. Related concepts or paraphrases are separate questions.';
 const used=new Set();
 for(const g of duplicateGroups)for(const id of g.ids){assert(byId.has(id),id);assert(!used.has(id),id);used.add(id)}
 for(const source of Object.values(sources))if(source.url.startsWith('https://developers.google.com/')||source.url.startsWith('https://cloud.google.com/'))source.url+='?hl=en';
-const decisionFile={version:2,reviewedOn:'2026-10-14',method:'Manual review of every source question against the linked primary references; lecture-dependent, malformed and non-unique items are not scored. A URL availability check and application tests are separate from this semantic review.',sources,decisions,duplicateGroups};
+const decisionFile={version:3,duplicatePolicy,reviewedOn:'2026-10-14',method:'Manual review of every source question against the linked primary references; lecture-dependent, malformed and non-unique items are not scored. A URL availability check and application tests are separate from this semantic review.',sources,decisions,duplicateGroups};
 fs.writeFileSync(path.join(root,'data/audit-decisions.json'),JSON.stringify(decisionFile,null,2)+'\n');
 console.log(JSON.stringify({reviewed:Object.keys(decisions).length,statuses:Object.fromEntries(['verified','corrected','unresolved','written-self-review'].map(s=>[s,Object.values(decisions).filter(d=>d.status===s).length])),duplicateGroups:duplicateGroups.length,removed:duplicateGroups.reduce((n,g)=>n+g.ids.length-1,0),references:Object.keys(sources).length},null,2));

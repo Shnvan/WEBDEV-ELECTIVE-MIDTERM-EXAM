@@ -1,6 +1,6 @@
 # Quiz answer audit
 
-Reviewed on 2026-10-14. 201 original source questions were individually reviewed. 20 equivalent repetitions were merged into 181 unique questions: 165 objective scored questions, 1 written self-review prompt, and 15 unresolved questions retained in Questions & answers only.
+Reviewed on 2026-10-14. 201 original source questions were individually reviewed. 0 exact duplicate repetitions were merged into 201 unique questions: 185 objective scored questions, 1 written self-review prompt, and 15 unresolved questions retained in Questions & answers only.
 
 The review compares the claims and available choices with primary references. It does not certify the contents of presentations that have not been supplied. HTTP availability checks and application tests are separate evidence.
 
@@ -24,27 +24,13 @@ One confirmed wrong highlighted key is recorded from the user-provided hyperlink
 - **elective-33-2-12** — The stem defines learning rate. A learning-rate schedule changes that rate over time; learning rate itself is absent from the choices. No exact correct option is supplied.
 - **elective-33-3-28** — Both accuracy and loss can be plotted over epochs to assess learning and overfitting. The stem calls loss curves a metric and refers to an unavailable slide, so A and C cannot be uniquely distinguished as written.
 
-## Equivalent questions merged
+## Exact duplicate review
 
-- `webdev-33-1-2`, `webdev-32-1-1` — Both ask for the expansion of HTML.
-- `webdev-33-1-6`, `webdev-32-1-4`, `webdev-html-topic-6` — All ask which attribute makes applicable form input mandatory or what required does.
-- `webdev-33-1-7`, `webdev-html-topic-7` — Both ask whether HTML tables are for tabular data instead of page layout.
-- `webdev-33-1-8`, `webdev-html-topic-8` — Both ask which HTML element creates a hyperlink; the complete-syntax question is retained separately.
-- `webdev-32-1-6`, `webdev-html-topic-5` — Both ask for the alternative-text attribute on an image.
-- `webdev-34-9-1`, `webdev-33-2-11` — Both ask the same four-way CSS specificity order in the normal author context.
-- `webdev-34-9-3`, `webdev-css-topic-7` — Both ask the same inside-to-outside box model ordering; the unordered-membership question is retained.
-- `webdev-34-9-5`, `webdev-33-2-15`, `webdev-css-topic-8` — All identify Flexbox as a one-dimensional main-axis layout.
-- `webdev-34-9-7`, `webdev-css-topic-11` — Both ask why Grid is suited to two-dimensional rows/columns.
-- `webdev-34-9-9`, `webdev-css-topic-14` — Both contrast Bootstrap reusable components with Tailwind utility composition.
-- `webdev-32-10-6`, `webdev-css-topic-2` — Both ask what the cascade does when multiple CSS rules apply.
-- `webdev-34-5-1`, `webdev-php-topic-2` — Both ask for the PHP variable-prefix symbol.
-- `webdev-34-5-6`, `webdev-33-4-32` — Both define a PHP class as the blueprint/container for properties and methods.
-- `webdev-33-4-31`, `webdev-php-topic-1` — Both ask PHP’s principal server-side web-development use.
-- `webdev-33-4-36`, `webdev-php-topic-9` — Both ask which mechanism preserves user information across requests/pages.
-- `webdev-33-4-40`, `webdev-php-topic-8` — Both ask for POST rather than GET for login data sent outside the URL query.
-- `elective-34-5-1`, `elective-33-2-13`, `elective-34-3-3` — All ask what an epoch counts: complete training-data passes. The audio item adds advice, not a different calculation.
+Same question wording and answer, with matching choices and code/image context. Related concepts or paraphrases are separate questions.
 
-Questions with different code, conditions, context, question types, or requested skills were retained. For example, recognizing the anchor tag differs from writing a full hyperlink; box-model membership differs from ordering; named image models differ from an audio spectrogram scenario.
+No exact duplicates were found. All 201 source questions are retained separately. Twenty previously merged questions were restored after the user clarified the rule; audit/duplicate-review.json records every reviewed former group.
+
+Questions with different wording, answers, choices, code or images are retained, even when they test the same concept. For example, What is an epoch? asks for its definition; the Audio Classification question describes a training setting and asks for Epochs. Both remain separately available.
 
 ## BSIT 3-4 — webdev
 

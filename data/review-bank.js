@@ -1,6 +1,7 @@
 window.REVIEW_BANK = {
-  "version": "audited-v2-cab32e1458a8",
+  "version": "audited-v2-c2ec9bad2a85",
   "reviewedOn": "2026-10-14",
+  "duplicatePolicy": "Same question wording and answer, with matching choices and code/image context. Related concepts or paraphrases are separate questions.",
   "rawCount": 201,
   "topics": {
     "webdev": [
@@ -394,8 +395,7 @@ window.REVIEW_BANK = {
       "answer": "Inline style > ID selector > Class selector > Element selector",
       "topic": "css",
       "aliases": [
-        "webdev-34-9-1",
-        "webdev-33-2-11"
+        "webdev-34-9-1"
       ],
       "sources": [
         {
@@ -406,20 +406,10 @@ window.REVIEW_BANK = {
           "group": "CSS3 and Responsive Design",
           "number": "1",
           "page": null
-        },
-        {
-          "id": "webdev-33-2-11",
-          "sourceId": "webdev-33",
-          "section": "3-3",
-          "label": "BSIT 3-3",
-          "group": "CSS & responsive design",
-          "number": "11",
-          "page": null
         }
       ],
       "sections": [
-        "3-4",
-        "3-3"
+        "3-4"
       ],
       "audit": {
         "status": "verified",
@@ -515,8 +505,7 @@ window.REVIEW_BANK = {
       "answer": "Content → Padding → Border → Margin",
       "topic": "css",
       "aliases": [
-        "webdev-34-9-3",
-        "webdev-css-topic-7"
+        "webdev-34-9-3"
       ],
       "sources": [
         {
@@ -526,15 +515,6 @@ window.REVIEW_BANK = {
           "label": "BSIT 3-4",
           "group": "CSS3 and Responsive Design",
           "number": "3",
-          "page": null
-        },
-        {
-          "id": "webdev-css-topic-7",
-          "sourceId": "webdev-css",
-          "section": null,
-          "label": "CSS topic quiz",
-          "group": "Styling & responsive design",
-          "number": "7",
           "page": null
         }
       ],
@@ -635,9 +615,7 @@ window.REVIEW_BANK = {
       "answer": "A one-dimensional layout system for a single row or column",
       "topic": "css",
       "aliases": [
-        "webdev-34-9-5",
-        "webdev-33-2-15",
-        "webdev-css-topic-8"
+        "webdev-34-9-5"
       ],
       "sources": [
         {
@@ -648,29 +626,10 @@ window.REVIEW_BANK = {
           "group": "CSS3 and Responsive Design",
           "number": "5",
           "page": null
-        },
-        {
-          "id": "webdev-33-2-15",
-          "sourceId": "webdev-33",
-          "section": "3-3",
-          "label": "BSIT 3-3",
-          "group": "CSS & responsive design",
-          "number": "15",
-          "page": null
-        },
-        {
-          "id": "webdev-css-topic-8",
-          "sourceId": "webdev-css",
-          "section": null,
-          "label": "CSS topic quiz",
-          "group": "Styling & responsive design",
-          "number": "8",
-          "page": null
         }
       ],
       "sections": [
-        "3-4",
-        "3-3"
+        "3-4"
       ],
       "audit": {
         "status": "verified",
@@ -767,8 +726,7 @@ window.REVIEW_BANK = {
       "answer": "Whole page layouts and two-dimensional designs like photo galleries or dashboards",
       "topic": "css",
       "aliases": [
-        "webdev-34-9-7",
-        "webdev-css-topic-11"
+        "webdev-34-9-7"
       ],
       "sources": [
         {
@@ -778,15 +736,6 @@ window.REVIEW_BANK = {
           "label": "BSIT 3-4",
           "group": "CSS3 and Responsive Design",
           "number": "7",
-          "page": null
-        },
-        {
-          "id": "webdev-css-topic-11",
-          "sourceId": "webdev-css",
-          "section": null,
-          "label": "CSS topic quiz",
-          "group": "Styling & responsive design",
-          "number": "11",
           "page": null
         }
       ],
@@ -893,8 +842,7 @@ window.REVIEW_BANK = {
       "answer": "Tailwind is utility-first (classes like flex, p-4, bg-blue-500) you combine yourself, while Bootstrap gives ready-made components",
       "topic": "css",
       "aliases": [
-        "webdev-34-9-9",
-        "webdev-css-topic-14"
+        "webdev-34-9-9"
       ],
       "sources": [
         {
@@ -904,15 +852,6 @@ window.REVIEW_BANK = {
           "label": "BSIT 3-4",
           "group": "CSS3 and Responsive Design",
           "number": "9",
-          "page": null
-        },
-        {
-          "id": "webdev-css-topic-14",
-          "sourceId": "webdev-css",
-          "section": null,
-          "label": "CSS topic quiz",
-          "group": "Styling & responsive design",
-          "number": "14",
           "page": null
         }
       ],
@@ -1023,8 +962,7 @@ window.REVIEW_BANK = {
       "answer": "$",
       "topic": "php",
       "aliases": [
-        "webdev-34-5-1",
-        "webdev-php-topic-2"
+        "webdev-34-5-1"
       ],
       "sources": [
         {
@@ -1034,15 +972,6 @@ window.REVIEW_BANK = {
           "label": "BSIT 3-4",
           "group": "PHP Fundamentals for Laravel",
           "number": "1",
-          "page": null
-        },
-        {
-          "id": "webdev-php-topic-2",
-          "sourceId": "webdev-php",
-          "section": null,
-          "label": "PHP topic quiz",
-          "group": "PHP fundamentals",
-          "number": "2",
           "page": null
         }
       ],
@@ -1323,8 +1252,7 @@ window.REVIEW_BANK = {
       "answer": "PHP Class",
       "topic": "php",
       "aliases": [
-        "webdev-34-5-6",
-        "webdev-33-4-32"
+        "webdev-34-5-6"
       ],
       "sources": [
         {
@@ -1335,20 +1263,10 @@ window.REVIEW_BANK = {
           "group": "PHP Fundamentals for Laravel",
           "number": "6",
           "page": null
-        },
-        {
-          "id": "webdev-33-4-32",
-          "sourceId": "webdev-33",
-          "section": "3-3",
-          "label": "BSIT 3-3",
-          "group": "PHP fundamentals",
-          "number": "32",
-          "page": null
         }
       ],
       "sections": [
-        "3-4",
-        "3-3"
+        "3-4"
       ],
       "audit": {
         "status": "verified",
@@ -1661,8 +1579,7 @@ window.REVIEW_BANK = {
       "answer": "HyperText Markup Language",
       "topic": "html",
       "aliases": [
-        "webdev-33-1-2",
-        "webdev-32-1-1"
+        "webdev-33-1-2"
       ],
       "sources": [
         {
@@ -1673,20 +1590,10 @@ window.REVIEW_BANK = {
           "group": "HTML & semantic structure",
           "number": "2",
           "page": null
-        },
-        {
-          "id": "webdev-32-1-1",
-          "sourceId": "webdev-32",
-          "section": "3-2",
-          "label": "BSIT 3-2",
-          "group": "HTML5 & semantic structure",
-          "number": "1",
-          "page": 1
         }
       ],
       "sections": [
-        "3-3",
-        "3-2"
+        "3-3"
       ],
       "audit": {
         "status": "verified",
@@ -1892,9 +1799,7 @@ window.REVIEW_BANK = {
       "answer": "makes field mandatory",
       "topic": "html",
       "aliases": [
-        "webdev-33-1-6",
-        "webdev-32-1-4",
-        "webdev-html-topic-6"
+        "webdev-33-1-6"
       ],
       "sources": [
         {
@@ -1905,29 +1810,10 @@ window.REVIEW_BANK = {
           "group": "HTML & semantic structure",
           "number": "6",
           "page": null
-        },
-        {
-          "id": "webdev-32-1-4",
-          "sourceId": "webdev-32",
-          "section": "3-2",
-          "label": "BSIT 3-2",
-          "group": "HTML5 & semantic structure",
-          "number": "4",
-          "page": 1
-        },
-        {
-          "id": "webdev-html-topic-6",
-          "sourceId": "webdev-html",
-          "section": null,
-          "label": "HTML topic quiz",
-          "group": "HTML5 & accessibility",
-          "number": "6",
-          "page": null
         }
       ],
       "sections": [
-        "3-3",
-        "3-2"
+        "3-3"
       ],
       "audit": {
         "status": "verified",
@@ -1968,8 +1854,7 @@ window.REVIEW_BANK = {
       "answer": "Only for Tabular Data (information that naturally requires grids of rows and columns).",
       "topic": "html",
       "aliases": [
-        "webdev-33-1-7",
-        "webdev-html-topic-7"
+        "webdev-33-1-7"
       ],
       "sources": [
         {
@@ -1978,15 +1863,6 @@ window.REVIEW_BANK = {
           "section": "3-3",
           "label": "BSIT 3-3",
           "group": "HTML & semantic structure",
-          "number": "7",
-          "page": null
-        },
-        {
-          "id": "webdev-html-topic-7",
-          "sourceId": "webdev-html",
-          "section": null,
-          "label": "HTML topic quiz",
-          "group": "HTML5 & accessibility",
           "number": "7",
           "page": null
         }
@@ -2033,8 +1909,7 @@ window.REVIEW_BANK = {
       "answer": "<a>",
       "topic": "html",
       "aliases": [
-        "webdev-33-1-8",
-        "webdev-html-topic-8"
+        "webdev-33-1-8"
       ],
       "sources": [
         {
@@ -2043,15 +1918,6 @@ window.REVIEW_BANK = {
           "section": "3-3",
           "label": "BSIT 3-3",
           "group": "HTML & semantic structure",
-          "number": "8",
-          "page": null
-        },
-        {
-          "id": "webdev-html-topic-8",
-          "sourceId": "webdev-html",
-          "section": null,
-          "label": "HTML topic quiz",
-          "group": "HTML5 & accessibility",
           "number": "8",
           "page": null
         }
@@ -2185,6 +2051,61 @@ window.REVIEW_BANK = {
       "scored": true,
       "practice": true,
       "signature": "c58b01269f89cdfc"
+    },
+    {
+      "id": "webdev-33-2-11",
+      "sourceId": "webdev-33",
+      "subject": "webdev",
+      "section": "3-3",
+      "groupId": "2",
+      "group": "CSS & responsive design",
+      "number": "11",
+      "prompt": "Which of the following represents the correct order of CSS specificity from highest weight to lowest weight?",
+      "options": [
+        "IDs -> Classes -> Elements -> Inline Styles",
+        "Inline Styles -> IDs -> Classes -> Elements",
+        "Classes -> IDs -> Inline Styles -> Elements",
+        "Elements -> Classes -> IDs -> Inline Styles"
+      ],
+      "correct": 1,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "Inline Styles -> IDs -> Classes -> Elements",
+      "topic": "css",
+      "aliases": [
+        "webdev-33-2-11"
+      ],
+      "sources": [
+        {
+          "id": "webdev-33-2-11",
+          "sourceId": "webdev-33",
+          "section": "3-3",
+          "label": "BSIT 3-3",
+          "group": "CSS & responsive design",
+          "number": "11",
+          "page": null
+        }
+      ],
+      "sections": [
+        "3-3"
+      ],
+      "audit": {
+        "status": "verified",
+        "note": "In the stated normal author context the order is inline style, IDs, classes, then elements; cascade layers and importance are separate criteria.",
+        "originalAnswer": "B. Inline Styles -> IDs -> Classes -> Elements",
+        "verifiedAnswer": "Inline Styles -> IDs -> Classes -> Elements",
+        "references": [
+          {
+            "label": "W3C: CSS cascade",
+            "url": "https://www.w3.org/TR/css-cascade-5/",
+            "term": "specificity"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "b9ed2092dd3d1cd7"
     },
     {
       "id": "webdev-33-2-12",
@@ -2358,6 +2279,61 @@ window.REVIEW_BANK = {
       "scored": true,
       "practice": true,
       "signature": "a331c46a90d5e3dc"
+    },
+    {
+      "id": "webdev-33-2-15",
+      "sourceId": "webdev-33",
+      "subject": "webdev",
+      "section": "3-3",
+      "groupId": "2",
+      "group": "CSS & responsive design",
+      "number": "15",
+      "prompt": "It arrange items along a single row OR column",
+      "options": [
+        "GRID BOX",
+        "BORBER BOX",
+        "FLEX BOX",
+        "CONTENT BOX"
+      ],
+      "correct": 2,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "FLEX BOX",
+      "topic": "css",
+      "aliases": [
+        "webdev-33-2-15"
+      ],
+      "sources": [
+        {
+          "id": "webdev-33-2-15",
+          "sourceId": "webdev-33",
+          "section": "3-3",
+          "label": "BSIT 3-3",
+          "group": "CSS & responsive design",
+          "number": "15",
+          "page": null
+        }
+      ],
+      "sections": [
+        "3-3"
+      ],
+      "audit": {
+        "status": "verified",
+        "note": "A row-or-column main-axis layout is Flexbox.",
+        "originalAnswer": "C. FLEX BOX",
+        "verifiedAnswer": "FLEX BOX",
+        "references": [
+          {
+            "label": "W3C: Flexbox",
+            "url": "https://www.w3.org/TR/css-flexbox-1/",
+            "term": "column"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "ed9ce4385cf275a1"
     },
     {
       "id": "webdev-33-2-16",
@@ -3221,8 +3197,7 @@ window.REVIEW_BANK = {
       "answer": "Used for web development",
       "topic": "php",
       "aliases": [
-        "webdev-33-4-31",
-        "webdev-php-topic-1"
+        "webdev-33-4-31"
       ],
       "sources": [
         {
@@ -3232,15 +3207,6 @@ window.REVIEW_BANK = {
           "label": "BSIT 3-3",
           "group": "PHP fundamentals",
           "number": "31",
-          "page": null
-        },
-        {
-          "id": "webdev-php-topic-1",
-          "sourceId": "webdev-php",
-          "section": null,
-          "label": "PHP topic quiz",
-          "group": "PHP fundamentals",
-          "number": "1",
           "page": null
         }
       ],
@@ -3263,6 +3229,61 @@ window.REVIEW_BANK = {
       "scored": true,
       "practice": true,
       "signature": "ef08f852e7e8c287"
+    },
+    {
+      "id": "webdev-33-4-32",
+      "sourceId": "webdev-33",
+      "subject": "webdev",
+      "section": "3-3",
+      "groupId": "4",
+      "group": "PHP fundamentals",
+      "number": "32",
+      "prompt": "It is a container or template of properties and methods that define how the future objects to be created using this class behave.",
+      "options": [
+        "Class",
+        "Method",
+        "Object",
+        "Tupperware"
+      ],
+      "correct": 0,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "Class",
+      "topic": "php",
+      "aliases": [
+        "webdev-33-4-32"
+      ],
+      "sources": [
+        {
+          "id": "webdev-33-4-32",
+          "sourceId": "webdev-33",
+          "section": "3-3",
+          "label": "BSIT 3-3",
+          "group": "PHP fundamentals",
+          "number": "32",
+          "page": null
+        }
+      ],
+      "sections": [
+        "3-3"
+      ],
+      "audit": {
+        "status": "verified",
+        "note": "A class defines properties and methods for instances created from it.",
+        "originalAnswer": "A. Class",
+        "verifiedAnswer": "Class",
+        "references": [
+          {
+            "label": "PHP: classes and objects",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php",
+            "term": "class"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "a875b189023680db"
     },
     {
       "id": "webdev-33-4-33",
@@ -3451,8 +3472,7 @@ window.REVIEW_BANK = {
       "answer": "A mechanism that assigns a unique id to a user so their data can be accessed across multiple pages until the session ends",
       "topic": "php",
       "aliases": [
-        "webdev-33-4-36",
-        "webdev-php-topic-9"
+        "webdev-33-4-36"
       ],
       "sources": [
         {
@@ -3462,15 +3482,6 @@ window.REVIEW_BANK = {
           "label": "BSIT 3-3",
           "group": "PHP fundamentals",
           "number": "36",
-          "page": null
-        },
-        {
-          "id": "webdev-php-topic-9",
-          "sourceId": "webdev-php",
-          "section": null,
-          "label": "PHP topic quiz",
-          "group": "PHP fundamentals",
-          "number": "9",
           "page": null
         }
       ],
@@ -3696,8 +3707,7 @@ window.REVIEW_BANK = {
       "answer": "POST, because it hides the password from the URL",
       "topic": "php",
       "aliases": [
-        "webdev-33-4-40",
-        "webdev-php-topic-8"
+        "webdev-33-4-40"
       ],
       "sources": [
         {
@@ -3707,15 +3717,6 @@ window.REVIEW_BANK = {
           "label": "BSIT 3-3",
           "group": "PHP fundamentals",
           "number": "40",
-          "page": null
-        },
-        {
-          "id": "webdev-php-topic-8",
-          "sourceId": "webdev-php",
-          "section": null,
-          "label": "PHP topic quiz",
-          "group": "PHP fundamentals",
-          "number": "8",
           "page": null
         }
       ],
@@ -3748,6 +3749,61 @@ window.REVIEW_BANK = {
       "scored": true,
       "practice": true,
       "signature": "e26ba86a444c4e83"
+    },
+    {
+      "id": "webdev-32-1-1",
+      "sourceId": "webdev-32",
+      "subject": "webdev",
+      "section": "3-2",
+      "groupId": "1",
+      "group": "HTML5 & semantic structure",
+      "number": "1",
+      "prompt": "What does HTML stand for?",
+      "options": [
+        "HyperText Machine Language",
+        "Hyper Tool Markup Language",
+        "HyperText Markup Language",
+        "Hyperlink and Text Markup Language"
+      ],
+      "correct": 2,
+      "type": "choice",
+      "images": [],
+      "page": 1,
+      "answer": "HyperText Markup Language",
+      "topic": "html",
+      "aliases": [
+        "webdev-32-1-1"
+      ],
+      "sources": [
+        {
+          "id": "webdev-32-1-1",
+          "sourceId": "webdev-32",
+          "section": "3-2",
+          "label": "BSIT 3-2",
+          "group": "HTML5 & semantic structure",
+          "number": "1",
+          "page": 1
+        }
+      ],
+      "sections": [
+        "3-2"
+      ],
+      "audit": {
+        "status": "verified",
+        "note": "HTML expands to HyperText Markup Language.",
+        "originalAnswer": "C. HyperText Markup Language",
+        "verifiedAnswer": "HyperText Markup Language",
+        "references": [
+          {
+            "label": "W3C: HTML introduction",
+            "url": "https://www.w3.org/TR/html401/intro/intro.html",
+            "term": "HyperText Markup"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "07339aee5579b8c1"
     },
     {
       "id": "webdev-32-1-2",
@@ -3865,6 +3921,61 @@ window.REVIEW_BANK = {
       "signature": "02691a6e80e1a7ae"
     },
     {
+      "id": "webdev-32-1-4",
+      "sourceId": "webdev-32",
+      "subject": "webdev",
+      "section": "3-2",
+      "groupId": "1",
+      "group": "HTML5 & semantic structure",
+      "number": "4",
+      "prompt": "In HTML 5 forms, which attribute is used to provide built-in validation that prevents a user from submitting a form if the input is empty?",
+      "options": [
+        "validate=”true”",
+        "required",
+        "placeholder",
+        "autofocus"
+      ],
+      "correct": 1,
+      "type": "choice",
+      "images": [],
+      "page": 1,
+      "answer": "required",
+      "topic": "html",
+      "aliases": [
+        "webdev-32-1-4"
+      ],
+      "sources": [
+        {
+          "id": "webdev-32-1-4",
+          "sourceId": "webdev-32",
+          "section": "3-2",
+          "label": "BSIT 3-2",
+          "group": "HTML5 & semantic structure",
+          "number": "4",
+          "page": 1
+        }
+      ],
+      "sections": [
+        "3-2"
+      ],
+      "audit": {
+        "status": "verified",
+        "note": "required triggers built-in missing-value validation for applicable controls.",
+        "originalAnswer": "B. required",
+        "verifiedAnswer": "required",
+        "references": [
+          {
+            "label": "WHATWG: input element",
+            "url": "https://html.spec.whatwg.org/multipage/input.html",
+            "term": "required"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "5a59c41c0c3b25a4"
+    },
+    {
       "id": "webdev-32-1-5",
       "sourceId": "webdev-32",
       "subject": "webdev",
@@ -3941,8 +4052,7 @@ window.REVIEW_BANK = {
       "answer": "alt",
       "topic": "html",
       "aliases": [
-        "webdev-32-1-6",
-        "webdev-html-topic-5"
+        "webdev-32-1-6"
       ],
       "sources": [
         {
@@ -3953,15 +4063,6 @@ window.REVIEW_BANK = {
           "group": "HTML5 & semantic structure",
           "number": "6",
           "page": 1
-        },
-        {
-          "id": "webdev-html-topic-5",
-          "sourceId": "webdev-html",
-          "section": null,
-          "label": "HTML topic quiz",
-          "group": "HTML5 & accessibility",
-          "number": "5",
-          "page": null
         }
       ],
       "sections": [
@@ -5066,8 +5167,7 @@ window.REVIEW_BANK = {
       "answer": "Cascading",
       "topic": "css",
       "aliases": [
-        "webdev-32-10-6",
-        "webdev-css-topic-2"
+        "webdev-32-10-6"
       ],
       "sources": [
         {
@@ -5078,15 +5178,6 @@ window.REVIEW_BANK = {
           "group": "CSS & responsive design",
           "number": "6",
           "page": 5
-        },
-        {
-          "id": "webdev-css-topic-2",
-          "sourceId": "webdev-css",
-          "section": null,
-          "label": "CSS topic quiz",
-          "group": "Styling & responsive design",
-          "number": "2",
-          "page": null
         }
       ],
       "sections": [
@@ -5542,6 +5633,218 @@ window.REVIEW_BANK = {
       "signature": "f8acf43cc2c18afd"
     },
     {
+      "id": "webdev-html-topic-5",
+      "sourceId": "webdev-html",
+      "subject": "webdev",
+      "section": null,
+      "groupId": "topic",
+      "group": "HTML5 & accessibility",
+      "number": "5",
+      "prompt": "Which attribute is used to provide alternative text for an image?",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "text"
+      ],
+      "correct": 2,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "alt",
+      "topic": "html",
+      "aliases": [
+        "webdev-html-topic-5"
+      ],
+      "sources": [
+        {
+          "id": "webdev-html-topic-5",
+          "sourceId": "webdev-html",
+          "section": null,
+          "label": "HTML topic quiz",
+          "group": "HTML5 & accessibility",
+          "number": "5",
+          "page": null
+        }
+      ],
+      "sections": [],
+      "audit": {
+        "status": "verified",
+        "note": "alt is the attribute for alternative text.",
+        "originalAnswer": "C. alt",
+        "verifiedAnswer": "alt",
+        "references": [
+          {
+            "label": "WHATWG: images",
+            "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element",
+            "term": "alt"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "ffbb117f17c62ccf"
+    },
+    {
+      "id": "webdev-html-topic-6",
+      "sourceId": "webdev-html",
+      "subject": "webdev",
+      "section": null,
+      "groupId": "topic",
+      "group": "HTML5 & accessibility",
+      "number": "6",
+      "prompt": "What is the purpose of the required attribute in a form?",
+      "options": [
+        "It makes the input optional",
+        "It requires the user to enter a value",
+        "It deletes the input",
+        "It changes the input into a button"
+      ],
+      "correct": 1,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "It requires the user to enter a value",
+      "topic": "html",
+      "aliases": [
+        "webdev-html-topic-6"
+      ],
+      "sources": [
+        {
+          "id": "webdev-html-topic-6",
+          "sourceId": "webdev-html",
+          "section": null,
+          "label": "HTML topic quiz",
+          "group": "HTML5 & accessibility",
+          "number": "6",
+          "page": null
+        }
+      ],
+      "sections": [],
+      "audit": {
+        "status": "verified",
+        "note": "required marks applicable controls as requiring a non-missing value.",
+        "originalAnswer": "B. It requires the user to enter a value",
+        "verifiedAnswer": "It requires the user to enter a value",
+        "references": [
+          {
+            "label": "WHATWG: input element",
+            "url": "https://html.spec.whatwg.org/multipage/input.html",
+            "term": "required"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "3b3c2f02e2b9644a"
+    },
+    {
+      "id": "webdev-html-topic-7",
+      "sourceId": "webdev-html",
+      "subject": "webdev",
+      "section": null,
+      "groupId": "topic",
+      "group": "HTML5 & accessibility",
+      "number": "7",
+      "prompt": "What is the main purpose of HTML tables?",
+      "options": [
+        "To create webpage layouts",
+        "To present tabular data",
+        "To create navigation menus",
+        "To display videos"
+      ],
+      "correct": 1,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "To present tabular data",
+      "topic": "html",
+      "aliases": [
+        "webdev-html-topic-7"
+      ],
+      "sources": [
+        {
+          "id": "webdev-html-topic-7",
+          "sourceId": "webdev-html",
+          "section": null,
+          "label": "HTML topic quiz",
+          "group": "HTML5 & accessibility",
+          "number": "7",
+          "page": null
+        }
+      ],
+      "sections": [],
+      "audit": {
+        "status": "verified",
+        "note": "HTML tables represent tabular data rather than general page layout.",
+        "originalAnswer": "B. To present tabular data",
+        "verifiedAnswer": "To present tabular data",
+        "references": [
+          {
+            "label": "WHATWG: tabular data",
+            "url": "https://html.spec.whatwg.org/multipage/tables.html",
+            "term": "tabular"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "1ddc7824f740a3a2"
+    },
+    {
+      "id": "webdev-html-topic-8",
+      "sourceId": "webdev-html",
+      "subject": "webdev",
+      "section": null,
+      "groupId": "topic",
+      "group": "HTML5 & accessibility",
+      "number": "8",
+      "prompt": "Which element is used to create a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "correct": 1,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "<a>",
+      "topic": "html",
+      "aliases": [
+        "webdev-html-topic-8"
+      ],
+      "sources": [
+        {
+          "id": "webdev-html-topic-8",
+          "sourceId": "webdev-html",
+          "section": null,
+          "label": "HTML topic quiz",
+          "group": "HTML5 & accessibility",
+          "number": "8",
+          "page": null
+        }
+      ],
+      "sections": [],
+      "audit": {
+        "status": "verified",
+        "note": "The a element is the hyperlink element when supplied with href.",
+        "originalAnswer": "B. <a>",
+        "verifiedAnswer": "<a>",
+        "references": [
+          {
+            "label": "WHATWG: hyperlinks",
+            "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
+            "term": "href"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "7e19062584702806"
+    },
+    {
       "id": "webdev-html-topic-9",
       "sourceId": "webdev-html",
       "subject": "webdev",
@@ -5699,6 +6002,59 @@ window.REVIEW_BANK = {
       "scored": true,
       "practice": true,
       "signature": "092cc6d91c522784"
+    },
+    {
+      "id": "webdev-css-topic-2",
+      "sourceId": "webdev-css",
+      "subject": "webdev",
+      "section": null,
+      "groupId": "topic",
+      "group": "Styling & responsive design",
+      "number": "2",
+      "prompt": "What is the main purpose of the CSS Cascade?",
+      "options": [
+        "To create HTML elements",
+        "To determine which CSS rule will be applied",
+        "To add images to a webpage",
+        "To organize files"
+      ],
+      "correct": 1,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "To determine which CSS rule will be applied",
+      "topic": "css",
+      "aliases": [
+        "webdev-css-topic-2"
+      ],
+      "sources": [
+        {
+          "id": "webdev-css-topic-2",
+          "sourceId": "webdev-css",
+          "section": null,
+          "label": "CSS topic quiz",
+          "group": "Styling & responsive design",
+          "number": "2",
+          "page": null
+        }
+      ],
+      "sections": [],
+      "audit": {
+        "status": "verified",
+        "note": "The cascade determines the winning declaration among applicable styles.",
+        "originalAnswer": "B. To determine which CSS rule will be applied",
+        "verifiedAnswer": "To determine which CSS rule will be applied",
+        "references": [
+          {
+            "label": "W3C: CSS cascade",
+            "url": "https://www.w3.org/TR/css-cascade-5/",
+            "term": "specificity"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "1ed22725b3758eb0"
     },
     {
       "id": "webdev-css-topic-3",
@@ -5913,6 +6269,112 @@ window.REVIEW_BANK = {
       "signature": "5e00844291821825"
     },
     {
+      "id": "webdev-css-topic-7",
+      "sourceId": "webdev-css",
+      "subject": "webdev",
+      "section": null,
+      "groupId": "topic",
+      "group": "Styling & responsive design",
+      "number": "7",
+      "prompt": "What is the correct order of the Box Model from inside to outside?",
+      "options": [
+        "Content → Padding → Border → Margin",
+        "Content → Border → Padding → Margin",
+        "Margin → Border → Padding → Content",
+        "Padding → Content → Border → Margin"
+      ],
+      "correct": 0,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "Content → Padding → Border → Margin",
+      "topic": "css",
+      "aliases": [
+        "webdev-css-topic-7"
+      ],
+      "sources": [
+        {
+          "id": "webdev-css-topic-7",
+          "sourceId": "webdev-css",
+          "section": null,
+          "label": "CSS topic quiz",
+          "group": "Styling & responsive design",
+          "number": "7",
+          "page": null
+        }
+      ],
+      "sections": [],
+      "audit": {
+        "status": "verified",
+        "note": "The inside-to-outside sequence is content, padding, border, margin.",
+        "originalAnswer": "A. Content → Padding → Border → Margin",
+        "verifiedAnswer": "Content → Padding → Border → Margin",
+        "references": [
+          {
+            "label": "W3C: CSS box model",
+            "url": "https://www.w3.org/TR/css-box-3/",
+            "term": "padding"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "71a68a8f6d639110"
+    },
+    {
+      "id": "webdev-css-topic-8",
+      "sourceId": "webdev-css",
+      "subject": "webdev",
+      "section": null,
+      "groupId": "topic",
+      "group": "Styling & responsive design",
+      "number": "8",
+      "prompt": "What is Flexbox mainly used for?",
+      "options": [
+        "Creating databases",
+        "Arranging elements in one dimension",
+        "Adding images",
+        "Writing HTML"
+      ],
+      "correct": 1,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "Arranging elements in one dimension",
+      "topic": "css",
+      "aliases": [
+        "webdev-css-topic-8"
+      ],
+      "sources": [
+        {
+          "id": "webdev-css-topic-8",
+          "sourceId": "webdev-css",
+          "section": null,
+          "label": "CSS topic quiz",
+          "group": "Styling & responsive design",
+          "number": "8",
+          "page": null
+        }
+      ],
+      "sections": [],
+      "audit": {
+        "status": "verified",
+        "note": "Flexbox arranges items primarily along one main axis.",
+        "originalAnswer": "B. Arranging elements in one dimension",
+        "verifiedAnswer": "Arranging elements in one dimension",
+        "references": [
+          {
+            "label": "W3C: Flexbox",
+            "url": "https://www.w3.org/TR/css-flexbox-1/",
+            "term": "column"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "73905c3dbbfaa6ff"
+    },
+    {
       "id": "webdev-css-topic-9",
       "sourceId": "webdev-css",
       "subject": "webdev",
@@ -6017,6 +6479,59 @@ window.REVIEW_BANK = {
       "scored": true,
       "practice": true,
       "signature": "eebacf19f612f8a2"
+    },
+    {
+      "id": "webdev-css-topic-11",
+      "sourceId": "webdev-css",
+      "subject": "webdev",
+      "section": null,
+      "groupId": "topic",
+      "group": "Styling & responsive design",
+      "number": "11",
+      "prompt": "What is CSS Grid best suited for?",
+      "options": [
+        "One-dimensional layouts",
+        "Two-dimensional layouts using rows and columns",
+        "Changing text color only",
+        "Adding animations only"
+      ],
+      "correct": 1,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "Two-dimensional layouts using rows and columns",
+      "topic": "css",
+      "aliases": [
+        "webdev-css-topic-11"
+      ],
+      "sources": [
+        {
+          "id": "webdev-css-topic-11",
+          "sourceId": "webdev-css",
+          "section": null,
+          "label": "CSS topic quiz",
+          "group": "Styling & responsive design",
+          "number": "11",
+          "page": null
+        }
+      ],
+      "sections": [],
+      "audit": {
+        "status": "verified",
+        "note": "Grid supports layout in two dimensions, rows and columns.",
+        "originalAnswer": "B. Two-dimensional layouts using rows and columns",
+        "verifiedAnswer": "Two-dimensional layouts using rows and columns",
+        "references": [
+          {
+            "label": "W3C: Grid",
+            "url": "https://www.w3.org/TR/css-grid-2/",
+            "term": "two-dimensional"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "52867ce01b95bf14"
     },
     {
       "id": "webdev-css-topic-12",
@@ -6125,6 +6640,64 @@ window.REVIEW_BANK = {
       "signature": "488946324e513def"
     },
     {
+      "id": "webdev-css-topic-14",
+      "sourceId": "webdev-css",
+      "subject": "webdev",
+      "section": null,
+      "groupId": "topic",
+      "group": "Styling & responsive design",
+      "number": "14",
+      "prompt": "Which statement best describes the main difference between Bootstrap and Tailwind CSS?",
+      "options": [
+        "Bootstrap is only for JavaScript, while Tailwind is only for HTML",
+        "Bootstrap mainly provides ready-made components, while Tailwind provides utility classes for building custom designs",
+        "Bootstrap requires no CSS, while Tailwind requires writing all CSS manually",
+        "Bootstrap is only for desktop websites, while Tailwind is only for mobile websites"
+      ],
+      "correct": 1,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "Bootstrap mainly provides ready-made components, while Tailwind provides utility classes for building custom designs",
+      "topic": "css",
+      "aliases": [
+        "webdev-css-topic-14"
+      ],
+      "sources": [
+        {
+          "id": "webdev-css-topic-14",
+          "sourceId": "webdev-css",
+          "section": null,
+          "label": "CSS topic quiz",
+          "group": "Styling & responsive design",
+          "number": "14",
+          "page": null
+        }
+      ],
+      "sections": [],
+      "audit": {
+        "status": "verified",
+        "note": "Bootstrap provides reusable components; Tailwind focuses on composing utility classes. Both also have additional capabilities.",
+        "originalAnswer": "B. Bootstrap mainly provides ready-made components, while Tailwind provides utility classes for building custom designs",
+        "verifiedAnswer": "Bootstrap mainly provides ready-made components, while Tailwind provides utility classes for building custom designs",
+        "references": [
+          {
+            "label": "Bootstrap: introduction",
+            "url": "https://getbootstrap.com/docs/5.3/getting-started/introduction/",
+            "term": "mobile"
+          },
+          {
+            "label": "Tailwind: utility classes",
+            "url": "https://tailwindcss.com/docs/styling-with-utility-classes",
+            "term": "utility"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "8af5ac8c95587cfc"
+    },
+    {
       "id": "webdev-css-topic-15",
       "sourceId": "webdev-css",
       "subject": "webdev",
@@ -6176,6 +6749,112 @@ window.REVIEW_BANK = {
       "scored": true,
       "practice": true,
       "signature": "670a65fe366fcaa8"
+    },
+    {
+      "id": "webdev-php-topic-1",
+      "sourceId": "webdev-php",
+      "subject": "webdev",
+      "section": null,
+      "groupId": "topic",
+      "group": "PHP fundamentals",
+      "number": "1",
+      "prompt": "What is PHP (Hypertext Preprocessor) commonly used for?",
+      "options": [
+        "To execute on the browser before the result is sent to the server",
+        "To store whole numbers without decimals",
+        "To enforce strict type safety",
+        "To create dynamic and interactive websites"
+      ],
+      "correct": 3,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "To create dynamic and interactive websites",
+      "topic": "php",
+      "aliases": [
+        "webdev-php-topic-1"
+      ],
+      "sources": [
+        {
+          "id": "webdev-php-topic-1",
+          "sourceId": "webdev-php",
+          "section": null,
+          "label": "PHP topic quiz",
+          "group": "PHP fundamentals",
+          "number": "1",
+          "page": null
+        }
+      ],
+      "sections": [],
+      "audit": {
+        "status": "verified",
+        "note": "PHP is used to generate dynamic server-side web content.",
+        "originalAnswer": "D. To create dynamic and interactive websites",
+        "verifiedAnswer": "To create dynamic and interactive websites",
+        "references": [
+          {
+            "label": "PHP: purpose",
+            "url": "https://www.php.net/intro",
+            "term": "server"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "c639476384ba9a39"
+    },
+    {
+      "id": "webdev-php-topic-2",
+      "sourceId": "webdev-php",
+      "subject": "webdev",
+      "section": null,
+      "groupId": "topic",
+      "group": "PHP fundamentals",
+      "number": "2",
+      "prompt": "In PHP, variables always start with which symbol?",
+      "options": [
+        "//",
+        "$",
+        "#",
+        "/*"
+      ],
+      "correct": 1,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "$",
+      "topic": "php",
+      "aliases": [
+        "webdev-php-topic-2"
+      ],
+      "sources": [
+        {
+          "id": "webdev-php-topic-2",
+          "sourceId": "webdev-php",
+          "section": null,
+          "label": "PHP topic quiz",
+          "group": "PHP fundamentals",
+          "number": "2",
+          "page": null
+        }
+      ],
+      "sections": [],
+      "audit": {
+        "status": "verified",
+        "note": "PHP variables are prefixed by $.",
+        "originalAnswer": "B. $",
+        "verifiedAnswer": "$",
+        "references": [
+          {
+            "label": "PHP: variables",
+            "url": "https://www.php.net/manual/en/language.variables.basics.php",
+            "term": "dollar"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "2dbb194e60fa0371"
     },
     {
       "id": "webdev-php-topic-3",
@@ -6446,6 +7125,122 @@ window.REVIEW_BANK = {
       "scored": true,
       "practice": true,
       "signature": "756630987a01c9ff"
+    },
+    {
+      "id": "webdev-php-topic-8",
+      "sourceId": "webdev-php",
+      "subject": "webdev",
+      "section": null,
+      "groupId": "topic",
+      "group": "PHP fundamentals",
+      "number": "8",
+      "prompt": "Which HTTP method sends data in the request body, not the URL, and is commonly used for sensitive data like logins?",
+      "options": [
+        "GET Method",
+        "POST Method",
+        "Sessions",
+        "Namespaces"
+      ],
+      "correct": 1,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "POST Method",
+      "topic": "php",
+      "aliases": [
+        "webdev-php-topic-8"
+      ],
+      "sources": [
+        {
+          "id": "webdev-php-topic-8",
+          "sourceId": "webdev-php",
+          "section": null,
+          "label": "PHP topic quiz",
+          "group": "PHP fundamentals",
+          "number": "8",
+          "page": null
+        }
+      ],
+      "sections": [],
+      "audit": {
+        "status": "verified",
+        "note": "POST commonly sends login form data in the request body rather than URL query parameters. HTTPS, not POST alone, protects transmission.",
+        "originalAnswer": "B. POST Method",
+        "verifiedAnswer": "POST Method",
+        "references": [
+          {
+            "label": "WHATWG: HTML forms",
+            "url": "https://html.spec.whatwg.org/multipage/forms.html",
+            "term": "form controls"
+          },
+          {
+            "label": "PHP: POST data",
+            "url": "https://www.php.net/manual/en/reserved.variables.post.php",
+            "term": "Form data"
+          },
+          {
+            "label": "IETF: HTTP semantics",
+            "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+            "term": "PUT"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "1c10977714890a5a"
+    },
+    {
+      "id": "webdev-php-topic-9",
+      "sourceId": "webdev-php",
+      "subject": "webdev",
+      "section": null,
+      "groupId": "topic",
+      "group": "PHP fundamentals",
+      "number": "9",
+      "prompt": "What feature allows PHP to remember information about a user across multiple pages?",
+      "options": [
+        "Exceptions",
+        "Classes",
+        "Sessions",
+        "Namespaces"
+      ],
+      "correct": 2,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "Sessions",
+      "topic": "php",
+      "aliases": [
+        "webdev-php-topic-9"
+      ],
+      "sources": [
+        {
+          "id": "webdev-php-topic-9",
+          "sourceId": "webdev-php",
+          "section": null,
+          "label": "PHP topic quiz",
+          "group": "PHP fundamentals",
+          "number": "9",
+          "page": null
+        }
+      ],
+      "sections": [],
+      "audit": {
+        "status": "verified",
+        "note": "Sessions retain user data across requests/pages using an associated session identifier.",
+        "originalAnswer": "C. Sessions",
+        "verifiedAnswer": "Sessions",
+        "references": [
+          {
+            "label": "PHP: sessions",
+            "url": "https://www.php.net/manual/en/book.session.php",
+            "term": "session"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "f7e3eec0811222c2"
     },
     {
       "id": "webdev-php-topic-10",
@@ -7072,9 +7867,7 @@ window.REVIEW_BANK = {
       "answer": "One complete pass through the training dataset",
       "topic": "training",
       "aliases": [
-        "elective-34-5-1",
-        "elective-33-2-13",
-        "elective-34-3-3"
+        "elective-34-5-1"
       ],
       "sources": [
         {
@@ -7085,29 +7878,10 @@ window.REVIEW_BANK = {
           "group": "IMAGE CLASSIFICATION",
           "number": "1",
           "page": null
-        },
-        {
-          "id": "elective-33-2-13",
-          "sourceId": "elective-33",
-          "section": "3-3",
-          "label": "BSIT 3-3",
-          "group": "Model training & evaluation",
-          "number": "13",
-          "page": 3
-        },
-        {
-          "id": "elective-34-3-3",
-          "sourceId": "elective-34",
-          "section": "3-4",
-          "label": "BSIT 3-4",
-          "group": "AUDIO CLASSIFICATION",
-          "number": "3",
-          "page": null
         }
       ],
       "sections": [
-        "3-4",
-        "3-3"
+        "3-4"
       ],
       "audit": {
         "status": "verified",
@@ -7743,6 +8517,65 @@ window.REVIEW_BANK = {
       "scored": true,
       "practice": true,
       "signature": "237d9ff300c6f687"
+    },
+    {
+      "id": "elective-34-3-3",
+      "sourceId": "elective-34",
+      "subject": "elective",
+      "section": "3-4",
+      "groupId": "3",
+      "group": "AUDIO CLASSIFICATION",
+      "number": "3",
+      "prompt": "This is how many times the AI looks at your data. If the model is struggling to learn, raise this figure.",
+      "options": [
+        "Spectograms",
+        "Audio Features",
+        "Epochs"
+      ],
+      "correct": 2,
+      "type": "choice",
+      "images": [],
+      "page": null,
+      "answer": "Epochs",
+      "topic": "training",
+      "aliases": [
+        "elective-34-3-3"
+      ],
+      "sources": [
+        {
+          "id": "elective-34-3-3",
+          "sourceId": "elective-34",
+          "section": "3-4",
+          "label": "BSIT 3-4",
+          "group": "AUDIO CLASSIFICATION",
+          "number": "3",
+          "page": null
+        }
+      ],
+      "sections": [
+        "3-4"
+      ],
+      "audit": {
+        "status": "verified",
+        "note": "The intended quantity is epochs. Raising it is not a universal remedy: inspect validation behavior to avoid overfitting.",
+        "originalAnswer": "C. Epochs",
+        "verifiedAnswer": "Epochs",
+        "references": [
+          {
+            "label": "Keras: training API",
+            "url": "https://keras.io/api/models/model_training_apis/",
+            "term": "epochs"
+          },
+          {
+            "label": "Google ML: generalization and overfitting",
+            "url": "https://developers.google.com/machine-learning/crash-course/overfitting/overfitting?hl=en",
+            "term": "overfitting"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "c777d122050377c0"
     },
     {
       "id": "elective-34-3-4",
@@ -8816,6 +9649,61 @@ window.REVIEW_BANK = {
       "scored": false,
       "practice": false,
       "signature": "0d36843765f37459"
+    },
+    {
+      "id": "elective-33-2-13",
+      "sourceId": "elective-33",
+      "subject": "elective",
+      "section": "3-3",
+      "groupId": "2",
+      "group": "Model training & evaluation",
+      "number": "13",
+      "prompt": "What is an epoch in machine learning?",
+      "options": [
+        "One batch of data",
+        "One complete pass through the training dataset",
+        "One model update",
+        "The amount of memory used"
+      ],
+      "correct": 1,
+      "type": "choice",
+      "images": [],
+      "page": 3,
+      "answer": "One complete pass through the training dataset",
+      "topic": "training",
+      "aliases": [
+        "elective-33-2-13"
+      ],
+      "sources": [
+        {
+          "id": "elective-33-2-13",
+          "sourceId": "elective-33",
+          "section": "3-3",
+          "label": "BSIT 3-3",
+          "group": "Model training & evaluation",
+          "number": "13",
+          "page": 3
+        }
+      ],
+      "sections": [
+        "3-3"
+      ],
+      "audit": {
+        "status": "verified",
+        "note": "An epoch is a pass over the full training data in the standard finite-dataset setup.",
+        "originalAnswer": "B. One complete pass through the training dataset",
+        "verifiedAnswer": "One complete pass through the training dataset",
+        "references": [
+          {
+            "label": "Keras: training API",
+            "url": "https://keras.io/api/models/model_training_apis/",
+            "term": "epochs"
+          }
+        ]
+      },
+      "scored": true,
+      "practice": true,
+      "signature": "9b600249f546c9ca"
     },
     {
       "id": "elective-33-2-14",
@@ -10487,26 +11375,6 @@ window.REVIEW_BANK = {
         3
       ]
     },
-    "webdev-33-2-11": {
-      "canonical": "webdev-34-9-1",
-      "subject": "webdev",
-      "section": "3-3",
-      "topic": "css",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "IDs -> Classes -> Elements -> Inline Styles",
-        "Inline Styles -> IDs -> Classes -> Elements",
-        "Classes -> IDs -> Inline Styles -> Elements",
-        "Elements -> Classes -> IDs -> Inline Styles"
-      ],
-      "optionMap": [
-        null,
-        0,
-        null,
-        null
-      ]
-    },
     "webdev-34-9-2": {
       "canonical": "webdev-34-9-2",
       "subject": "webdev",
@@ -10547,26 +11415,6 @@ window.REVIEW_BANK = {
         3
       ]
     },
-    "webdev-css-topic-7": {
-      "canonical": "webdev-34-9-3",
-      "subject": "webdev",
-      "section": null,
-      "topic": "css",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "Content → Padding → Border → Margin",
-        "Content → Border → Padding → Margin",
-        "Margin → Border → Padding → Content",
-        "Padding → Content → Border → Margin"
-      ],
-      "optionMap": [
-        1,
-        null,
-        0,
-        null
-      ]
-    },
     "webdev-34-9-4": {
       "canonical": "webdev-34-9-4",
       "subject": "webdev",
@@ -10605,46 +11453,6 @@ window.REVIEW_BANK = {
         1,
         2,
         3
-      ]
-    },
-    "webdev-33-2-15": {
-      "canonical": "webdev-34-9-5",
-      "subject": "webdev",
-      "section": "3-3",
-      "topic": "css",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "GRID BOX",
-        "BORBER BOX",
-        "FLEX BOX",
-        "CONTENT BOX"
-      ],
-      "optionMap": [
-        null,
-        null,
-        1,
-        null
-      ]
-    },
-    "webdev-css-topic-8": {
-      "canonical": "webdev-34-9-5",
-      "subject": "webdev",
-      "section": null,
-      "topic": "css",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "Creating databases",
-        "Arranging elements in one dimension",
-        "Adding images",
-        "Writing HTML"
-      ],
-      "optionMap": [
-        null,
-        1,
-        null,
-        null
       ]
     },
     "webdev-34-9-6": {
@@ -10689,26 +11497,6 @@ window.REVIEW_BANK = {
         3
       ]
     },
-    "webdev-css-topic-11": {
-      "canonical": "webdev-34-9-7",
-      "subject": "webdev",
-      "section": null,
-      "topic": "css",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "One-dimensional layouts",
-        "Two-dimensional layouts using rows and columns",
-        "Changing text color only",
-        "Adding animations only"
-      ],
-      "optionMap": [
-        null,
-        1,
-        null,
-        null
-      ]
-    },
     "webdev-34-9-8": {
       "canonical": "webdev-34-9-8",
       "subject": "webdev",
@@ -10751,26 +11539,6 @@ window.REVIEW_BANK = {
         4
       ]
     },
-    "webdev-css-topic-14": {
-      "canonical": "webdev-34-9-9",
-      "subject": "webdev",
-      "section": null,
-      "topic": "css",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "Bootstrap is only for JavaScript, while Tailwind is only for HTML",
-        "Bootstrap mainly provides ready-made components, while Tailwind provides utility classes for building custom designs",
-        "Bootstrap requires no CSS, while Tailwind requires writing all CSS manually",
-        "Bootstrap is only for desktop websites, while Tailwind is only for mobile websites"
-      ],
-      "optionMap": [
-        null,
-        1,
-        null,
-        null
-      ]
-    },
     "webdev-34-9-10": {
       "canonical": "webdev-34-9-10",
       "subject": "webdev",
@@ -10809,26 +11577,6 @@ window.REVIEW_BANK = {
         1,
         2,
         3
-      ]
-    },
-    "webdev-php-topic-2": {
-      "canonical": "webdev-34-5-1",
-      "subject": "webdev",
-      "section": null,
-      "topic": "php",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "//",
-        "$",
-        "#",
-        "/*"
-      ],
-      "optionMap": [
-        null,
-        2,
-        1,
-        null
       ]
     },
     "webdev-34-5-2": {
@@ -10931,26 +11679,6 @@ window.REVIEW_BANK = {
         3
       ]
     },
-    "webdev-33-4-32": {
-      "canonical": "webdev-34-5-6",
-      "subject": "webdev",
-      "section": "3-3",
-      "topic": "php",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "Class",
-        "Method",
-        "Object",
-        "Tupperware"
-      ],
-      "optionMap": [
-        0,
-        null,
-        null,
-        null
-      ]
-    },
     "webdev-34-5-7": {
       "canonical": "webdev-34-5-7",
       "subject": "webdev",
@@ -11041,26 +11769,6 @@ window.REVIEW_BANK = {
         3
       ]
     },
-    "webdev-32-1-1": {
-      "canonical": "webdev-33-1-2",
-      "subject": "webdev",
-      "section": "3-2",
-      "topic": "html",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "HyperText Machine Language",
-        "Hyper Tool Markup Language",
-        "HyperText Markup Language",
-        "Hyperlink and Text Markup Language"
-      ],
-      "optionMap": [
-        null,
-        null,
-        1,
-        null
-      ]
-    },
     "webdev-33-1-3": {
       "canonical": "webdev-33-1-3",
       "subject": "webdev",
@@ -11141,46 +11849,6 @@ window.REVIEW_BANK = {
         3
       ]
     },
-    "webdev-32-1-4": {
-      "canonical": "webdev-33-1-6",
-      "subject": "webdev",
-      "section": "3-2",
-      "topic": "html",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "validate=”true”",
-        "required",
-        "placeholder",
-        "autofocus"
-      ],
-      "optionMap": [
-        null,
-        1,
-        null,
-        null
-      ]
-    },
-    "webdev-html-topic-6": {
-      "canonical": "webdev-33-1-6",
-      "subject": "webdev",
-      "section": null,
-      "topic": "html",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "It makes the input optional",
-        "It requires the user to enter a value",
-        "It deletes the input",
-        "It changes the input into a button"
-      ],
-      "optionMap": [
-        null,
-        1,
-        null,
-        null
-      ]
-    },
     "webdev-33-1-7": {
       "canonical": "webdev-33-1-7",
       "subject": "webdev",
@@ -11201,26 +11869,6 @@ window.REVIEW_BANK = {
         3
       ]
     },
-    "webdev-html-topic-7": {
-      "canonical": "webdev-33-1-7",
-      "subject": "webdev",
-      "section": null,
-      "topic": "html",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "To create webpage layouts",
-        "To present tabular data",
-        "To create navigation menus",
-        "To display videos"
-      ],
-      "optionMap": [
-        null,
-        2,
-        null,
-        null
-      ]
-    },
     "webdev-33-1-8": {
       "canonical": "webdev-33-1-8",
       "subject": "webdev",
@@ -11239,26 +11887,6 @@ window.REVIEW_BANK = {
         1,
         2,
         3
-      ]
-    },
-    "webdev-html-topic-8": {
-      "canonical": "webdev-33-1-8",
-      "subject": "webdev",
-      "section": null,
-      "topic": "html",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "<link>",
-        "<a>",
-        "<href>",
-        "<url>"
-      ],
-      "optionMap": [
-        0,
-        1,
-        3,
-        null
       ]
     },
     "webdev-33-1-9": {
@@ -11293,6 +11921,26 @@ window.REVIEW_BANK = {
         "Open Graph Tag",
         "Meta Viewport Tag",
         "Title Tag"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "webdev-33-2-11": {
+      "canonical": "webdev-33-2-11",
+      "subject": "webdev",
+      "section": "3-3",
+      "topic": "css",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "IDs -> Classes -> Elements -> Inline Styles",
+        "Inline Styles -> IDs -> Classes -> Elements",
+        "Classes -> IDs -> Inline Styles -> Elements",
+        "Elements -> Classes -> IDs -> Inline Styles"
       ],
       "optionMap": [
         0,
@@ -11353,6 +12001,26 @@ window.REVIEW_BANK = {
         "0",
         "10",
         "30"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "webdev-33-2-15": {
+      "canonical": "webdev-33-2-15",
+      "subject": "webdev",
+      "section": "3-3",
+      "topic": "css",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "GRID BOX",
+        "BORBER BOX",
+        "FLEX BOX",
+        "CONTENT BOX"
       ],
       "optionMap": [
         0,
@@ -11681,24 +12349,24 @@ window.REVIEW_BANK = {
         3
       ]
     },
-    "webdev-php-topic-1": {
-      "canonical": "webdev-33-4-31",
+    "webdev-33-4-32": {
+      "canonical": "webdev-33-4-32",
       "subject": "webdev",
-      "section": null,
+      "section": "3-3",
       "topic": "php",
       "type": "choice",
       "keyChanged": false,
       "options": [
-        "To execute on the browser before the result is sent to the server",
-        "To store whole numbers without decimals",
-        "To enforce strict type safety",
-        "To create dynamic and interactive websites"
+        "Class",
+        "Method",
+        "Object",
+        "Tupperware"
       ],
       "optionMap": [
-        null,
-        null,
-        null,
-        2
+        0,
+        1,
+        2,
+        3
       ]
     },
     "webdev-33-4-33": {
@@ -11781,26 +12449,6 @@ window.REVIEW_BANK = {
         3
       ]
     },
-    "webdev-php-topic-9": {
-      "canonical": "webdev-33-4-36",
-      "subject": "webdev",
-      "section": null,
-      "topic": "php",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "Exceptions",
-        "Classes",
-        "Sessions",
-        "Namespaces"
-      ],
-      "optionMap": [
-        null,
-        null,
-        0,
-        null
-      ]
-    },
     "webdev-33-4-37": {
       "canonical": "webdev-33-4-37",
       "subject": "webdev",
@@ -11881,24 +12529,24 @@ window.REVIEW_BANK = {
         3
       ]
     },
-    "webdev-php-topic-8": {
-      "canonical": "webdev-33-4-40",
+    "webdev-32-1-1": {
+      "canonical": "webdev-32-1-1",
       "subject": "webdev",
-      "section": null,
-      "topic": "php",
+      "section": "3-2",
+      "topic": "html",
       "type": "choice",
       "keyChanged": false,
       "options": [
-        "GET Method",
-        "POST Method",
-        "Sessions",
-        "Namespaces"
+        "HyperText Machine Language",
+        "Hyper Tool Markup Language",
+        "HyperText Markup Language",
+        "Hyperlink and Text Markup Language"
       ],
       "optionMap": [
-        null,
         0,
-        null,
-        null
+        1,
+        2,
+        3
       ]
     },
     "webdev-32-1-2": {
@@ -11933,6 +12581,26 @@ window.REVIEW_BANK = {
         "<main>",
         "<aside>",
         "<article>"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "webdev-32-1-4": {
+      "canonical": "webdev-32-1-4",
+      "subject": "webdev",
+      "section": "3-2",
+      "topic": "html",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "validate=”true”",
+        "required",
+        "placeholder",
+        "autofocus"
       ],
       "optionMap": [
         0,
@@ -11979,26 +12647,6 @@ window.REVIEW_BANK = {
         1,
         2,
         3
-      ]
-    },
-    "webdev-html-topic-5": {
-      "canonical": "webdev-32-1-6",
-      "subject": "webdev",
-      "section": null,
-      "topic": "html",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "src",
-        "href",
-        "alt",
-        "text"
-      ],
-      "optionMap": [
-        0,
-        null,
-        2,
-        null
       ]
     },
     "webdev-32-1-7": {
@@ -12401,26 +13049,6 @@ window.REVIEW_BANK = {
         3
       ]
     },
-    "webdev-css-topic-2": {
-      "canonical": "webdev-32-10-6",
-      "subject": "webdev",
-      "section": null,
-      "topic": "css",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "To create HTML elements",
-        "To determine which CSS rule will be applied",
-        "To add images to a webpage",
-        "To organize files"
-      ],
-      "optionMap": [
-        null,
-        0,
-        null,
-        null
-      ]
-    },
     "webdev-32-10-7": {
       "canonical": "webdev-32-10-7",
       "subject": "webdev",
@@ -12581,6 +13209,86 @@ window.REVIEW_BANK = {
         3
       ]
     },
+    "webdev-html-topic-5": {
+      "canonical": "webdev-html-topic-5",
+      "subject": "webdev",
+      "section": null,
+      "topic": "html",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "text"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "webdev-html-topic-6": {
+      "canonical": "webdev-html-topic-6",
+      "subject": "webdev",
+      "section": null,
+      "topic": "html",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "It makes the input optional",
+        "It requires the user to enter a value",
+        "It deletes the input",
+        "It changes the input into a button"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "webdev-html-topic-7": {
+      "canonical": "webdev-html-topic-7",
+      "subject": "webdev",
+      "section": null,
+      "topic": "html",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "To create webpage layouts",
+        "To present tabular data",
+        "To create navigation menus",
+        "To display videos"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "webdev-html-topic-8": {
+      "canonical": "webdev-html-topic-8",
+      "subject": "webdev",
+      "section": null,
+      "topic": "html",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
     "webdev-html-topic-9": {
       "canonical": "webdev-html-topic-9",
       "subject": "webdev",
@@ -12633,6 +13341,26 @@ window.REVIEW_BANK = {
         "Casckading Style Sheets",
         "Creative Style System",
         "Cascading Style Sheets"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "webdev-css-topic-2": {
+      "canonical": "webdev-css-topic-2",
+      "subject": "webdev",
+      "section": null,
+      "topic": "css",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "To create HTML elements",
+        "To determine which CSS rule will be applied",
+        "To add images to a webpage",
+        "To organize files"
       ],
       "optionMap": [
         0,
@@ -12721,6 +13449,46 @@ window.REVIEW_BANK = {
         3
       ]
     },
+    "webdev-css-topic-7": {
+      "canonical": "webdev-css-topic-7",
+      "subject": "webdev",
+      "section": null,
+      "topic": "css",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Content → Padding → Border → Margin",
+        "Content → Border → Padding → Margin",
+        "Margin → Border → Padding → Content",
+        "Padding → Content → Border → Margin"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "webdev-css-topic-8": {
+      "canonical": "webdev-css-topic-8",
+      "subject": "webdev",
+      "section": null,
+      "topic": "css",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Creating databases",
+        "Arranging elements in one dimension",
+        "Adding images",
+        "Writing HTML"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
     "webdev-css-topic-9": {
       "canonical": "webdev-css-topic-9",
       "subject": "webdev",
@@ -12753,6 +13521,26 @@ window.REVIEW_BANK = {
         "order and flex-grow",
         "justify-content and align-items",
         "align-content and flex-basis"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "webdev-css-topic-11": {
+      "canonical": "webdev-css-topic-11",
+      "subject": "webdev",
+      "section": null,
+      "topic": "css",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "One-dimensional layouts",
+        "Two-dimensional layouts using rows and columns",
+        "Changing text color only",
+        "Adding animations only"
       ],
       "optionMap": [
         0,
@@ -12801,6 +13589,26 @@ window.REVIEW_BANK = {
         3
       ]
     },
+    "webdev-css-topic-14": {
+      "canonical": "webdev-css-topic-14",
+      "subject": "webdev",
+      "section": null,
+      "topic": "css",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Bootstrap is only for JavaScript, while Tailwind is only for HTML",
+        "Bootstrap mainly provides ready-made components, while Tailwind provides utility classes for building custom designs",
+        "Bootstrap requires no CSS, while Tailwind requires writing all CSS manually",
+        "Bootstrap is only for desktop websites, while Tailwind is only for mobile websites"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
     "webdev-css-topic-15": {
       "canonical": "webdev-css-topic-15",
       "subject": "webdev",
@@ -12813,6 +13621,46 @@ window.REVIEW_BANK = {
         "It replaces HTML completely",
         "It can only be used for mobile apps",
         "It does not use CSS"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "webdev-php-topic-1": {
+      "canonical": "webdev-php-topic-1",
+      "subject": "webdev",
+      "section": null,
+      "topic": "php",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "To execute on the browser before the result is sent to the server",
+        "To store whole numbers without decimals",
+        "To enforce strict type safety",
+        "To create dynamic and interactive websites"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "webdev-php-topic-2": {
+      "canonical": "webdev-php-topic-2",
+      "subject": "webdev",
+      "section": null,
+      "topic": "php",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "//",
+        "$",
+        "#",
+        "/*"
       ],
       "optionMap": [
         0,
@@ -12913,6 +13761,46 @@ window.REVIEW_BANK = {
         "Standard Arrays",
         "Scalar types",
         "Objects"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "webdev-php-topic-8": {
+      "canonical": "webdev-php-topic-8",
+      "subject": "webdev",
+      "section": null,
+      "topic": "php",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "GET Method",
+        "POST Method",
+        "Sessions",
+        "Namespaces"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "webdev-php-topic-9": {
+      "canonical": "webdev-php-topic-9",
+      "subject": "webdev",
+      "section": null,
+      "topic": "php",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Exceptions",
+        "Classes",
+        "Sessions",
+        "Namespaces"
       ],
       "optionMap": [
         0,
@@ -13161,44 +14049,6 @@ window.REVIEW_BANK = {
         3
       ]
     },
-    "elective-33-2-13": {
-      "canonical": "elective-34-5-1",
-      "subject": "elective",
-      "section": "3-3",
-      "topic": "training",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "One batch of data",
-        "One complete pass through the training dataset",
-        "One model update",
-        "The amount of memory used"
-      ],
-      "optionMap": [
-        null,
-        2,
-        null,
-        null
-      ]
-    },
-    "elective-34-3-3": {
-      "canonical": "elective-34-5-1",
-      "subject": "elective",
-      "section": "3-4",
-      "topic": "training",
-      "type": "choice",
-      "keyChanged": false,
-      "options": [
-        "Spectograms",
-        "Audio Features",
-        "Epochs"
-      ],
-      "optionMap": [
-        null,
-        null,
-        2
-      ]
-    },
     "elective-34-5-2": {
       "canonical": "elective-34-5-2",
       "subject": "elective",
@@ -13408,6 +14258,24 @@ window.REVIEW_BANK = {
         "Convolutional Neural Network Architecture",
         "Flattening & Dense Layers",
         "Annotation Paradigms"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2
+      ]
+    },
+    "elective-34-3-3": {
+      "canonical": "elective-34-3-3",
+      "subject": "elective",
+      "section": "3-4",
+      "topic": "training",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Spectograms",
+        "Audio Features",
+        "Epochs"
       ],
       "optionMap": [
         0,
@@ -13773,6 +14641,26 @@ window.REVIEW_BANK = {
         "prediction testing",
         "error prediction",
         "early stopping"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "elective-33-2-13": {
+      "canonical": "elective-33-2-13",
+      "subject": "elective",
+      "section": "3-3",
+      "topic": "training",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "One batch of data",
+        "One complete pass through the training dataset",
+        "One model update",
+        "The amount of memory used"
       ],
       "optionMap": [
         0,

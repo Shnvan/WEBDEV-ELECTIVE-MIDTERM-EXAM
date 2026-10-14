@@ -1,20 +1,20 @@
 {
-  "version": "audited-v2-cab32e1458a8",
+  "version": "audited-v2-c2ec9bad2a85",
   "raw": 201,
-  "duplicateGroups": 17,
-  "duplicatesRemoved": 20,
-  "unique": 181,
-  "scored": 165,
+  "duplicateGroups": 0,
+  "duplicatesRemoved": 0,
+  "unique": 201,
+  "scored": 185,
   "written": 1,
   "unresolved": 15,
-  "practice": 166,
+  "practice": 186,
   "scopes": {
     "webdev-all": {
-      "unique": 113,
-      "scored": 104,
+      "unique": 131,
+      "scored": 122,
       "written": 1,
       "unresolved": 8,
-      "practice": 105
+      "practice": 123
     },
     "webdev-34": {
       "unique": 26,
@@ -24,18 +24,18 @@
       "practice": 25
     },
     "elective-all": {
-      "unique": 68,
-      "scored": 61,
+      "unique": 70,
+      "scored": 63,
       "written": 0,
       "unresolved": 7,
-      "practice": 61
+      "practice": 63
     },
     "elective-34": {
-      "unique": 29,
-      "scored": 26,
+      "unique": 30,
+      "scored": 27,
       "written": 0,
       "unresolved": 3,
-      "practice": 26
+      "practice": 27
     }
   }
 }

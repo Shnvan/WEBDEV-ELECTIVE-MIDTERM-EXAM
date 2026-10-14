@@ -4,6 +4,7 @@ const root=path.resolve(__dirname,'..'),ctx={window:{}};
 vm.runInNewContext(fs.readFileSync(path.join(root,'data/quizzes.js'),'utf8'),ctx);
 const raw=ctx.window.QUIZ_DATA.compilations,audit=JSON.parse(fs.readFileSync(path.join(root,'data/audit-decisions.json'),'utf8'));
 const all=raw.flatMap(c=>c.questions),byId=new Map(all.map(q=>[q.id,q]));
+const {duplicateKey}=require('./duplicate_rules.cjs');
 assert.equal(all.length,Object.keys(audit.decisions).length,'Every source question needs a decision');
 const topics={webdev:[{id:'html',title:'HTML & accessibility'},{id:'css',title:'CSS & responsive design'},{id:'javascript',title:'JavaScript & the DOM'},{id:'php',title:'PHP fundamentals'}],elective:[{id:'datasets',title:'Datasets & ML workflow'},{id:'training',title:'Training & evaluation'},{id:'images',title:'Image classification'},{id:'audio',title:'Audio classification'}]};
 function topic(q){
@@ -25,6 +26,7 @@ for(const group of audit.duplicateGroups){
  const questions=group.ids.map(id=>{assert(byId.has(id),id);return byId.get(id)});
  assert(questions.every(q=>q.subject===questions[0].subject&&q.type===questions[0].type),'Do not merge subjects or question types');
  assert(questions.every(q=>audit.decisions[q.id].status!=='unresolved'),'Unresolved questions cannot establish equivalence');
+ assert(questions.every(q=>duplicateKey(q,audit.decisions)===duplicateKey(questions[0],audit.decisions)),'Duplicates must have the same question wording, answer, choices and code/image context');
  const representative=questions.find(q=>q.section==='3-4')||questions[0];
  for(const q of questions){assert(!membership.has(q.id));membership.set(q.id,representative.id)}
  merged.set(representative.id,group);
@@ -60,7 +62,7 @@ for(const q of all){
 assert.equal(Object.keys(aliases).length,201);
 for(const q of questions)assert(topics[q.subject].some(t=>t.id===q.topic),q.id);
 const version='audited-v2-'+crypto.createHash('sha256').update(JSON.stringify([questions,audit.duplicateGroups])).digest('hex').slice(0,12);
-const bank={version,reviewedOn:audit.reviewedOn,rawCount:all.length,topics,questions,aliases,
+const bank={version,reviewedOn:audit.reviewedOn,duplicatePolicy:audit.duplicatePolicy,rawCount:all.length,topics,questions,aliases,
  legacySets:raw.map(c=>({id:c.id,subject:c.subject,section:c.section,ids:c.questions.map(q=>q.id),groups:Object.fromEntries([...new Set(c.questions.map(q=>q.groupId))].map(g=>[g,c.questions.filter(q=>q.groupId===g).map(q=>q.id)]))}))};
 fs.writeFileSync(path.join(root,'data/review-bank.js'),'window.REVIEW_BANK = '+JSON.stringify(bank,null,2)+';\n');
 const count=(items)=>({unique:items.length,scored:items.filter(q=>q.scored).length,written:items.filter(q=>q.audit.status==='written-self-review').length,unresolved:items.filter(q=>q.audit.status==='unresolved').length,practice:items.filter(q=>q.practice).length});
@@ -69,11 +71,12 @@ for(const subject of ['webdev','elective'])for(const scope of ['all','34'])summa
 fs.mkdirSync(path.join(root,'audit'),{recursive:true});
 fs.writeFileSync(path.join(root,'audit/summary.json'),JSON.stringify(summary,null,2)+'\n');
 const md=s=>String(s??'').replace(/\|/g,'\\|').replace(/\n/g,' ').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-let report=`# Quiz answer audit\n\nReviewed on ${audit.reviewedOn}. ${all.length} original source questions were individually reviewed. ${all.length-questions.length} equivalent repetitions were merged into ${questions.length} unique questions: ${summary.scored} objective scored questions, ${summary.written} written self-review prompt, and ${summary.unresolved} unresolved questions retained in Questions & answers only.\n\nThe review compares the claims and available choices with primary references. It does not certify the contents of presentations that have not been supplied. HTTP availability checks and application tests are separate evidence.\n\nOne confirmed wrong highlighted key is recorded from the user-provided hyperlink screenshot: B uses src, whereas C uses href. The old website already used C; that correct existing attempt does not need reopening. Other original keys below are the imported keys or the explicitly inferred keys documented in the prior README.\n\n## Items requiring clarification\n\n`;
+let report=`# Quiz answer audit\n\nReviewed on ${audit.reviewedOn}. ${all.length} original source questions were individually reviewed. ${all.length-questions.length} exact duplicate repetitions were merged into ${questions.length} unique questions: ${summary.scored} objective scored questions, ${summary.written} written self-review prompt, and ${summary.unresolved} unresolved questions retained in Questions & answers only.\n\nThe review compares the claims and available choices with primary references. It does not certify the contents of presentations that have not been supplied. HTTP availability checks and application tests are separate evidence.\n\nOne confirmed wrong highlighted key is recorded from the user-provided hyperlink screenshot: B uses src, whereas C uses href. The old website already used C; that correct existing attempt does not need reopening. Other original keys below are the imported keys or the explicitly inferred keys documented in the prior README.\n\n## Items requiring clarification\n\n`;
 for(const q of all)if(audit.decisions[q.id].status==='unresolved')report+=`- **${q.id}** — ${md(audit.decisions[q.id].note)}\n`;
-report+='\n## Equivalent questions merged\n\n';
+report+='\n## Exact duplicate review\n\n'+audit.duplicatePolicy+'\n\n';
+if(!audit.duplicateGroups.length)report+='No exact duplicates were found. All 201 source questions are retained separately. Twenty previously merged questions were restored after the user clarified the rule; audit/duplicate-review.json records every reviewed former group.\n';
 for(const g of audit.duplicateGroups)report+=`- ${g.ids.map(id=>'`'+id+'`').join(', ')} — ${g.reason}\n`;
-report+='\nQuestions with different code, conditions, context, question types, or requested skills were retained. For example, recognizing the anchor tag differs from writing a full hyperlink; box-model membership differs from ordering; named image models differ from an audio spectrogram scenario.\n';
+report+='\nQuestions with different wording, answers, choices, code or images are retained, even when they test the same concept. For example, What is an epoch? asks for its definition; the Audio Classification question describes a training setting and asks for Epochs. Both remain separately available.\n';
 for(const c of raw){
  report+=`\n## ${c.label} — ${c.subject}\n\n| Original ID and question | Original answer | Decision / verified answer | Reason and supporting references |\n|---|---|---|---|\n`;
  for(const q of c.questions){const d=audit.decisions[q.id],original=d.originalSourceAnswer||(q.type==='choice'?String.fromCharCode(65+q.correct)+'. '+q.options[q.correct]:q.answer),verified=d.status==='unresolved'?'No single confirmed answer':d.verifiedAnswer;

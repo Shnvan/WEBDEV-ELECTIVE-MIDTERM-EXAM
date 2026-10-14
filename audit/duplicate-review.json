@@ -1,0 +1,572 @@
+{
+  "reviewedOn": "2026-10-14",
+  "policy": "Same question wording and answer; matching choices, code and image context required. Shared concepts are retained as separate questions.",
+  "sourceQuestions": 201,
+  "confirmedDuplicateGroups": [],
+  "restoredQuestions": 20,
+  "previousGroups": [
+    {
+      "ids": [
+        "webdev-33-1-2",
+        "webdev-32-1-1"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-33-1-2",
+          "prompt": "What is the meaning of HTML?",
+          "answer": "HyperText Markup Language",
+          "choices": [
+            "HyperText Makeup Language",
+            "HyperText Markup Language",
+            "HiperTexting MissU Language",
+            "HyperTraining Machine Learning"
+          ]
+        },
+        {
+          "id": "webdev-32-1-1",
+          "prompt": "What does HTML stand for?",
+          "answer": "HyperText Markup Language",
+          "choices": [
+            "HyperText Machine Language",
+            "Hyper Tool Markup Language",
+            "HyperText Markup Language",
+            "Hyperlink and Text Markup Language"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "webdev-33-1-6",
+        "webdev-32-1-4",
+        "webdev-html-topic-6"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-33-1-6",
+          "prompt": "What is the purpose of the required attribute?",
+          "answer": "makes field mandatory",
+          "choices": [
+            "limits character count",
+            "makes field mandatory",
+            "sets maximum value",
+            "hides entered characters"
+          ]
+        },
+        {
+          "id": "webdev-32-1-4",
+          "prompt": "In HTML 5 forms, which attribute is used to provide built-in validation that prevents a user from submitting a form if the input is empty?",
+          "answer": "required",
+          "choices": [
+            "validate=”true”",
+            "required",
+            "placeholder",
+            "autofocus"
+          ]
+        },
+        {
+          "id": "webdev-html-topic-6",
+          "prompt": "What is the purpose of the required attribute in a form?",
+          "answer": "It requires the user to enter a value",
+          "choices": [
+            "It makes the input optional",
+            "It requires the user to enter a value",
+            "It deletes the input",
+            "It changes the input into a button"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "webdev-33-1-7",
+        "webdev-html-topic-7"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-33-1-7",
+          "prompt": "In modern web design (HTML5), what is the <table> tag strictly used for?",
+          "answer": "Only for Tabular Data (information that naturally requires grids of rows and columns).",
+          "choices": [
+            "To arrange the layout or design of an entire website.",
+            "To embed pictures and videos directly into the page.",
+            "Only for Tabular Data (information that naturally requires grids of rows and columns).",
+            "To create a clickable hyperlink."
+          ]
+        },
+        {
+          "id": "webdev-html-topic-7",
+          "prompt": "What is the main purpose of HTML tables?",
+          "answer": "To present tabular data",
+          "choices": [
+            "To create webpage layouts",
+            "To present tabular data",
+            "To create navigation menus",
+            "To display videos"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "webdev-33-1-8",
+        "webdev-html-topic-8"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-33-1-8",
+          "prompt": "Which HTML tag is used when you want to create a hyperlink to another website or webpage?",
+          "answer": "<a>",
+          "choices": [
+            "<link>",
+            "<a>",
+            "<hyper>",
+            "<href>"
+          ]
+        },
+        {
+          "id": "webdev-html-topic-8",
+          "prompt": "Which element is used to create a hyperlink?",
+          "answer": "<a>",
+          "choices": [
+            "<link>",
+            "<a>",
+            "<href>",
+            "<url>"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "webdev-32-1-6",
+        "webdev-html-topic-5"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-32-1-6",
+          "prompt": "For Web Accessibility (A11y), which attribute MUST always be included in an <img> tag so that Screen Readers can read it?",
+          "answer": "alt",
+          "choices": [
+            "src",
+            "title",
+            "alt",
+            "description"
+          ]
+        },
+        {
+          "id": "webdev-html-topic-5",
+          "prompt": "Which attribute is used to provide alternative text for an image?",
+          "answer": "alt",
+          "choices": [
+            "src",
+            "href",
+            "alt",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "webdev-34-9-1",
+        "webdev-33-2-11"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-34-9-1",
+          "prompt": "In CSS specificity, which order correctly ranks from HIGHEST to LOWEST priority?",
+          "answer": "Inline style > ID selector > Class selector > Element selector",
+          "choices": [
+            "Inline style > ID selector > Class selector > Element selector",
+            "Element selector > Class selector > ID selector > Inline style",
+            "ID selector > Inline style > Element selector > Class selector",
+            "Class selector > ID selector > Inline style > Element selector"
+          ]
+        },
+        {
+          "id": "webdev-33-2-11",
+          "prompt": "Which of the following represents the correct order of CSS specificity from highest weight to lowest weight?",
+          "answer": "Inline Styles -> IDs -> Classes -> Elements",
+          "choices": [
+            "IDs -> Classes -> Elements -> Inline Styles",
+            "Inline Styles -> IDs -> Classes -> Elements",
+            "Classes -> IDs -> Inline Styles -> Elements",
+            "Elements -> Classes -> IDs -> Inline Styles"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "webdev-34-9-3",
+        "webdev-css-topic-7"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-34-9-3",
+          "prompt": "What is the correct order of layers in the CSS Box Model, from innermost to outermost?",
+          "answer": "Content → Padding → Border → Margin",
+          "choices": [
+            "Margin → Border → Padding → Content",
+            "Content → Padding → Border → Margin",
+            "Padding → Content → Margin → Border",
+            "Border → Content → Padding → Margin"
+          ]
+        },
+        {
+          "id": "webdev-css-topic-7",
+          "prompt": "What is the correct order of the Box Model from inside to outside?",
+          "answer": "Content → Padding → Border → Margin",
+          "choices": [
+            "Content → Padding → Border → Margin",
+            "Content → Border → Padding → Margin",
+            "Margin → Border → Padding → Content",
+            "Padding → Content → Border → Margin"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "webdev-34-9-5",
+        "webdev-33-2-15",
+        "webdev-css-topic-8"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-34-9-5",
+          "prompt": "Flexbox is best described as:",
+          "answer": "A one-dimensional layout system for a single row or column",
+          "choices": [
+            "A two-dimensional layout system for rows and columns together",
+            "A one-dimensional layout system for a single row or column",
+            "A CSS framework like Bootstrap",
+            "A way to write media queries"
+          ]
+        },
+        {
+          "id": "webdev-33-2-15",
+          "prompt": "It arrange items along a single row OR column",
+          "answer": "FLEX BOX",
+          "choices": [
+            "GRID BOX",
+            "BORBER BOX",
+            "FLEX BOX",
+            "CONTENT BOX"
+          ]
+        },
+        {
+          "id": "webdev-css-topic-8",
+          "prompt": "What is Flexbox mainly used for?",
+          "answer": "Arranging elements in one dimension",
+          "choices": [
+            "Creating databases",
+            "Arranging elements in one dimension",
+            "Adding images",
+            "Writing HTML"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "webdev-34-9-7",
+        "webdev-css-topic-11"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-34-9-7",
+          "prompt": "Compared to Flexbox, CSS Grid is best suited for:",
+          "answer": "Whole page layouts and two-dimensional designs like photo galleries or dashboards",
+          "choices": [
+            "Centering a single button",
+            "Whole page layouts and two-dimensional designs like photo galleries or dashboards",
+            "Writing media queries",
+            "Setting box-sizing rules"
+          ]
+        },
+        {
+          "id": "webdev-css-topic-11",
+          "prompt": "What is CSS Grid best suited for?",
+          "answer": "Two-dimensional layouts using rows and columns",
+          "choices": [
+            "One-dimensional layouts",
+            "Two-dimensional layouts using rows and columns",
+            "Changing text color only",
+            "Adding animations only"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "webdev-34-9-9",
+        "webdev-css-topic-14"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-34-9-9",
+          "prompt": "How does Tailwind CSS differ from Bootstrap 5 according to the comparison slide?",
+          "answer": "Tailwind is utility-first (classes like flex, p-4, bg-blue-500) you combine yourself, while Bootstrap gives ready-made components",
+          "choices": [
+            "Tailwind provides ready-made components like navbars and modals, while Bootstrap uses utility classes",
+            "Tailwind is utility-first (classes like flex, p-4, bg-blue-500) you combine yourself, while Bootstrap gives ready-made components",
+            "They are functionally identical frameworks",
+            "Bootstrap is only for React/Vue/Laravel projects",
+            "Tailwind requires no CSS classes at all"
+          ]
+        },
+        {
+          "id": "webdev-css-topic-14",
+          "prompt": "Which statement best describes the main difference between Bootstrap and Tailwind CSS?",
+          "answer": "Bootstrap mainly provides ready-made components, while Tailwind provides utility classes for building custom designs",
+          "choices": [
+            "Bootstrap is only for JavaScript, while Tailwind is only for HTML",
+            "Bootstrap mainly provides ready-made components, while Tailwind provides utility classes for building custom designs",
+            "Bootstrap requires no CSS, while Tailwind requires writing all CSS manually",
+            "Bootstrap is only for desktop websites, while Tailwind is only for mobile websites"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "webdev-32-10-6",
+        "webdev-css-topic-2"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-32-10-6",
+          "prompt": "It determines which CSS rule is applied when multiple rules target the same element.",
+          "answer": "Cascading",
+          "choices": [
+            "Cascading",
+            "Bahala na si Batman",
+            "Specifying",
+            "CSS Layout"
+          ]
+        },
+        {
+          "id": "webdev-css-topic-2",
+          "prompt": "What is the main purpose of the CSS Cascade?",
+          "answer": "To determine which CSS rule will be applied",
+          "choices": [
+            "To create HTML elements",
+            "To determine which CSS rule will be applied",
+            "To add images to a webpage",
+            "To organize files"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "webdev-34-5-1",
+        "webdev-php-topic-2"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-34-5-1",
+          "prompt": "Which symbol must be placed at the beginning of every variable name in PHP?",
+          "answer": "$",
+          "choices": [
+            "@",
+            "#",
+            "$",
+            "&"
+          ]
+        },
+        {
+          "id": "webdev-php-topic-2",
+          "prompt": "In PHP, variables always start with which symbol?",
+          "answer": "$",
+          "choices": [
+            "//",
+            "$",
+            "#",
+            "/*"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "webdev-34-5-6",
+        "webdev-33-4-32"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-34-5-6",
+          "prompt": "This is a blueprint of code designed to define properties and methods",
+          "answer": "PHP Class",
+          "choices": [
+            "PHP Class",
+            "PHP Room",
+            "PHP Objects",
+            "PHP Functions"
+          ]
+        },
+        {
+          "id": "webdev-33-4-32",
+          "prompt": "It is a container or template of properties and methods that define how the future objects to be created using this class behave.",
+          "answer": "Class",
+          "choices": [
+            "Class",
+            "Method",
+            "Object",
+            "Tupperware"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "webdev-33-4-31",
+        "webdev-php-topic-1"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-33-4-31",
+          "prompt": "What is the main use of PHP?",
+          "answer": "Used for web development",
+          "choices": [
+            "To develop more codes",
+            "To build a computer system",
+            "Used for web development",
+            "To night will be the night that I will fall for you over again. Don't make me change my mind"
+          ]
+        },
+        {
+          "id": "webdev-php-topic-1",
+          "prompt": "What is PHP (Hypertext Preprocessor) commonly used for?",
+          "answer": "To create dynamic and interactive websites",
+          "choices": [
+            "To execute on the browser before the result is sent to the server",
+            "To store whole numbers without decimals",
+            "To enforce strict type safety",
+            "To create dynamic and interactive websites"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "webdev-33-4-36",
+        "webdev-php-topic-9"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-33-4-36",
+          "prompt": "What does a session do on a website?",
+          "answer": "A mechanism that assigns a unique id to a user so their data can be accessed across multiple pages until the session ends",
+          "choices": [
+            "A mechanism that assigns a unique id to a user so their data can be accessed across multiple pages until the session ends",
+            "A mechanic that assigns a unique id to a user so their data can be accessed across multiple pages until the session ends",
+            "A permanent record of the user that stays even after the browser is closed",
+            "A request method that shows data in the URL and can be bookmarked"
+          ]
+        },
+        {
+          "id": "webdev-php-topic-9",
+          "prompt": "What feature allows PHP to remember information about a user across multiple pages?",
+          "answer": "Sessions",
+          "choices": [
+            "Exceptions",
+            "Classes",
+            "Sessions",
+            "Namespaces"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "webdev-33-4-40",
+        "webdev-php-topic-8"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "webdev-33-4-40",
+          "prompt": "Scenario: A login form sends a username and password to the server. Which request method should be used, and why?",
+          "answer": "POST, because it hides the password from the URL",
+          "choices": [
+            "POST, because it hides the password from the URL",
+            "GET, because it can only be used for requesting",
+            "POST, because it can be bookmarked",
+            "GET GET AW"
+          ]
+        },
+        {
+          "id": "webdev-php-topic-8",
+          "prompt": "Which HTTP method sends data in the request body, not the URL, and is commonly used for sensitive data like logins?",
+          "answer": "POST Method",
+          "choices": [
+            "GET Method",
+            "POST Method",
+            "Sessions",
+            "Namespaces"
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "elective-34-5-1",
+        "elective-33-2-13",
+        "elective-34-3-3"
+      ],
+      "decision": "restore separately",
+      "questions": [
+        {
+          "id": "elective-34-5-1",
+          "prompt": "What is an epoch?",
+          "answer": "One complete pass through the training dataset",
+          "choices": [
+            "A sample of data to be fed to a model",
+            "A framework",
+            "One complete pass through the training dataset",
+            "One weight update after processing one batch."
+          ]
+        },
+        {
+          "id": "elective-33-2-13",
+          "prompt": "What is an epoch in machine learning?",
+          "answer": "One complete pass through the training dataset",
+          "choices": [
+            "One batch of data",
+            "One complete pass through the training dataset",
+            "One model update",
+            "The amount of memory used"
+          ]
+        },
+        {
+          "id": "elective-34-3-3",
+          "prompt": "This is how many times the AI looks at your data. If the model is struggling to learn, raise this figure.",
+          "answer": "Epochs",
+          "choices": [
+            "Spectograms",
+            "Audio Features",
+            "Epochs"
+          ]
+        }
+      ]
+    }
+  ]
+}

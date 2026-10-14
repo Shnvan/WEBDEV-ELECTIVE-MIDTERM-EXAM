@@ -1,5 +1,15 @@
 # Validation record — 2026-10-14
 
+## Duplicate-rule correction
+
+The user clarified that duplicates mean the same question and answer, preferably the same choices. All 201 source questions and every previously merged group were rechecked using exact wording, answer text, choice sets and code/image context. No exact duplicates were found. All 20 formerly merged prompts are restored separately; `duplicate-review.json` records the comparisons. The builder now rejects merges with different wording, answers, choices or code/image context.
+
+Current totals: 201 distinct prompts, 185 objectively scored, one written self-review, 15 unresolved, and 186 practice prompts. BSIT 3-4 Elective has 30 total, 27 practice and three unresolved. The existing unresolved-answer decisions are unchanged.
+
+Ten application suites pass, including completion of all 186 practice prompts, exact duplicate checks, preservation of every original prompt/choice array, and saved-progress regression checks. Previously checked representative questions retain compatible responses; restored questions start independently unanswered. Version 1 responses tied to their original IDs also remain independent.
+
+The entries below record the initial implementation's verification before this duplicate-rule correction.
+
 Answer review and application validation are separate. [ANSWER_AUDIT.md](ANSWER_AUDIT.md) records the individual semantic judgments for all 201 original prompts. `source-checks.json` records successful HTTP/term checks for 86 primary references, with timestamps, excerpts and content hashes. These availability checks do not prove a question's answer.
 
 ## Application tests

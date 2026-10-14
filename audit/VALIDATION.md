@@ -1,5 +1,15 @@
 # Validation record — 2026-10-14
 
+## Original PDF wording revision
+
+Manually compared all 230 entries with the original slide text. Rendered and inspected 58 pages where columns, tables, diagrams or formulas required visual checking. Kept original spelling, statements and formulas in the quoted passages; transcribed layout into readable text. Explicit distractors were reviewed to avoid synonymous or overlapping alternatives, including scaling versus normalization. The coverage report records every passage, page, question style, choice and separate correction note. No source document or quiz-compilation answer content changed.
+
+All questions remain four-option multiple choice. Identification and slide-heading questions show source excerpts; fill-in-the-blank removes only the answer wording. Definitions and supporting bullets are labeled “PDF wording”; non-definition entries also say “From the slide.” Corrections are separately labeled in the walkthrough and checked-answer feedback.
+
+Seventeen application suites pass, including all 201 compilation prompts and all 230 PPT questions, explicit prior-signature migration, preserved checked correct/wrong responses, historical choices removed from new options, invalid signatures, corrected expected answers, unmappable drafts, reading/cursor preservation, isolated stores, blocked storage, filters and inert rendering. Build and deterministic regeneration checks pass. These tests validate application behavior, separately from manual source comparison.
+
+Both themes passed 24 responsive checks on long workflow practice and formula-heavy definitions at 320, 360, 720, 768, 1440 and 1920 viewport widths with no page-level horizontal overflow. The 720 CSS-pixel viewport models reflow of a 1440-pixel desktop at 200% zoom; browser zoom itself is not exposed by the in-app browser. Mobile dark formulas/correction notes and desktop light PDF definitions were visually inspected. A real-browser fill-in-the-blank response was checked successfully, and an existing compatible PPT response remained saved after migration.
+
 ## Elective presentation reviewer
 
 Read the complete text of the three supplied PDFs (60, 96 and 85 pages) and visually inspected rendered pages covering CNN inputs, training workflows, normalization/standardization, MFCC terminology, confusion-matrix orientation and evaluation formulas. The supplied outline contains 230 term entries in 13 topics. Every entry has a curated paraphrased definition, a source/page reference and an identification question. Supporting references were checked for the clarification notes. `TERMS_COVERAGE.md` records every definition and its verified pages.

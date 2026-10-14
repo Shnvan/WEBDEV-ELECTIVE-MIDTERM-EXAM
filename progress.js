@@ -24,11 +24,16 @@
       } else {
         if(!validText(entry.value)){summary.ignored++;continue;}
         value=entry.value;
+        // Only explicitly reviewed PPT versions with the same expected answer
+        // may keep a checked response across wording/distractor changes.
+        const history=q.material==='terms'?(q.previousVersions||[]).filter(v=>normalize(v.answer)===normalize(q.answer)):[];
+        const compatible=history.find(v=>v.signature===entry.signature);
         if(q.type==='choice'){
           const matched=q.options.find(option=>normalize(option)===normalize(value));
-          previousValue=value||(validText(entry.previousValue)?entry.previousValue:'');value=matched||'';bad=!matched;
+          const historic=entry.checked&&(compatible||entry.signature===q.signature)&&history.some(v=>v.options.some(option=>normalize(option)===normalize(value)));
+          previousValue=value||(validText(entry.previousValue)?entry.previousValue:'');value=matched||(historic?value:'');bad=!matched&&!historic;
         }
-        if(before.version===2 && entry.signature!==q.signature)bad=true;
+        if(before.version===2 && entry.signature!==q.signature&&!compatible)bad=true;
       }
       if(!q.practice&&entry.checked)bad=true;
       const candidate={id,value,checked:entry.checked,bad,previousValue,signature:q.signature};

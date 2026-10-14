@@ -1,7 +1,7 @@
 window.TERMS_BANK = {
-  "version": "terms-v2-c4e3916f8221",
+  "version": "terms-v3-89685ef70e92",
   "reviewedOn": "2026-10-14",
-  "rawCount": 230,
+  "rawCount": 489,
   "sources": [
     {
       "id": "audio",
@@ -10,6 +10,7 @@ window.TERMS_BANK = {
       "sha256": "bc34c28797f872c9da9f7d767f1db2ff2d2394bde79256602fc117f4463d3418",
       "textChars": 14149,
       "blankPages": [],
+      "subject": "elective",
       "label": "Group 3 · Audio Classification",
       "section": "3-4",
       "sectionBasis": "Matches the reported BSIT 3-4 groups supplied for this reviewer."
@@ -21,6 +22,7 @@ window.TERMS_BANK = {
       "sha256": "f44693732f448e2e88ddac65a64ae066edca4144db9cd38ab386db65b081ed54",
       "textChars": 34171,
       "blankPages": [],
+      "subject": "elective",
       "label": "Group 5 · Image Classification",
       "section": "3-4",
       "sectionBasis": "Matches the reported BSIT 3-4 groups supplied for this reviewer."
@@ -34,9 +36,40 @@ window.TERMS_BANK = {
       "blankPages": [
         3
       ],
+      "subject": "elective",
       "label": "Group 1 · Datasets & ML Workflow",
       "section": "3-4",
       "sectionBasis": "Matches the reported BSIT 3-4 groups supplied for this reviewer."
+    },
+    {
+      "id": "webdev-php",
+      "subject": "webdev",
+      "label": "Group 5 · PHP Fundamentals",
+      "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+      "pages": 69,
+      "sha256": "cce5d1caa9c0c82ca9c268322ade0364903e47e4ed3508446a77d4b4235e7a42",
+      "section": "3-4",
+      "sectionBasis": "Matches the existing BSIT 3-4 Group 5 PHP, Group 9 CSS and Group 2 HTML quiz topics."
+    },
+    {
+      "id": "webdev-css",
+      "subject": "webdev",
+      "label": "Group 9 · CSS3 & Responsive Design",
+      "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+      "pages": 15,
+      "sha256": "19001aae55f2a5641a3b82371ba8edd2100e1908d79c2a71158ab41b291193ae",
+      "section": "3-4",
+      "sectionBasis": "Matches the existing BSIT 3-4 Group 5 PHP, Group 9 CSS and Group 2 HTML quiz topics."
+    },
+    {
+      "id": "webdev-html",
+      "subject": "webdev",
+      "label": "Group 2 · HTML, Accessibility & SEO",
+      "filename": "Group 2 - Web Dev Reporting.pdf",
+      "pages": 77,
+      "sha256": "a2a2dd35505bd6209ead119039bd73a12d3c53a13e93f9977acd70387be44336",
+      "section": "3-4",
+      "sectionBasis": "Matches the existing BSIT 3-4 Group 5 PHP, Group 9 CSS and Group 2 HTML quiz topics."
     }
   ],
   "topics": {
@@ -118,6 +151,141 @@ window.TERMS_BANK = {
         "sourceId": "datasets",
         "title": "Modeling and Prediction",
         "group": "Group 1 · Datasets & ML Workflow"
+      }
+    ],
+    "webdev": [
+      {
+        "id": "webdev-php-1",
+        "sourceId": "webdev-php",
+        "subject": "webdev",
+        "title": "PHP Syntax",
+        "group": "Group 5 · PHP Fundamentals"
+      },
+      {
+        "id": "webdev-php-2",
+        "sourceId": "webdev-php",
+        "subject": "webdev",
+        "title": "Control Structures",
+        "group": "Group 5 · PHP Fundamentals"
+      },
+      {
+        "id": "webdev-php-3",
+        "sourceId": "webdev-php",
+        "subject": "webdev",
+        "title": "Functions and Arrays",
+        "group": "Group 5 · PHP Fundamentals"
+      },
+      {
+        "id": "webdev-php-4",
+        "sourceId": "webdev-php",
+        "subject": "webdev",
+        "title": "GET and POST",
+        "group": "Group 5 · PHP Fundamentals"
+      },
+      {
+        "id": "webdev-php-5",
+        "sourceId": "webdev-php",
+        "subject": "webdev",
+        "title": "PHP Sessions",
+        "group": "Group 5 · PHP Fundamentals"
+      },
+      {
+        "id": "webdev-php-6",
+        "sourceId": "webdev-php",
+        "subject": "webdev",
+        "title": "Classes, Objects, and Namespaces",
+        "group": "Group 5 · PHP Fundamentals"
+      },
+      {
+        "id": "webdev-php-7",
+        "sourceId": "webdev-php",
+        "subject": "webdev",
+        "title": "Exception Handling",
+        "group": "Group 5 · PHP Fundamentals"
+      },
+      {
+        "id": "webdev-php-8",
+        "sourceId": "webdev-php",
+        "subject": "webdev",
+        "title": "Input Handling",
+        "group": "Group 5 · PHP Fundamentals"
+      },
+      {
+        "id": "webdev-css-1",
+        "sourceId": "webdev-css",
+        "subject": "webdev",
+        "title": "The Cascade and Specificity",
+        "group": "Group 9 · CSS3 & Responsive Design"
+      },
+      {
+        "id": "webdev-css-2",
+        "sourceId": "webdev-css",
+        "subject": "webdev",
+        "title": "The Box Model",
+        "group": "Group 9 · CSS3 & Responsive Design"
+      },
+      {
+        "id": "webdev-css-3",
+        "sourceId": "webdev-css",
+        "subject": "webdev",
+        "title": "Flexbox",
+        "group": "Group 9 · CSS3 & Responsive Design"
+      },
+      {
+        "id": "webdev-css-4",
+        "sourceId": "webdev-css",
+        "subject": "webdev",
+        "title": "CSS Grid",
+        "group": "Group 9 · CSS3 & Responsive Design"
+      },
+      {
+        "id": "webdev-css-5",
+        "sourceId": "webdev-css",
+        "subject": "webdev",
+        "title": "Media Queries and Responsive Design",
+        "group": "Group 9 · CSS3 & Responsive Design"
+      },
+      {
+        "id": "webdev-css-6",
+        "sourceId": "webdev-css",
+        "subject": "webdev",
+        "title": "CSS Frameworks",
+        "group": "Group 9 · CSS3 & Responsive Design"
+      },
+      {
+        "id": "webdev-html-1",
+        "sourceId": "webdev-html",
+        "subject": "webdev",
+        "title": "Introduction to HTML5",
+        "group": "Group 2 · HTML, Accessibility & SEO"
+      },
+      {
+        "id": "webdev-html-2",
+        "sourceId": "webdev-html",
+        "subject": "webdev",
+        "title": "Links, Lists, Tables, and Media",
+        "group": "Group 2 · HTML, Accessibility & SEO"
+      },
+      {
+        "id": "webdev-html-3",
+        "sourceId": "webdev-html",
+        "subject": "webdev",
+        "title": "HTML Forms",
+        "group": "Group 2 · HTML, Accessibility & SEO"
+      },
+      {
+        "id": "webdev-html-4",
+        "sourceId": "webdev-html",
+        "subject": "webdev",
+        "title": "Web Accessibility",
+        "group": "Group 2 · HTML, Accessibility & SEO"
+      },
+      {
+        "id": "webdev-html-5",
+        "sourceId": "webdev-html",
+        "subject": "webdev",
+        "title": "Search Engine Optimization",
+        "group": "Group 2 · HTML, Accessibility & SEO"
       }
     ]
   },
@@ -17482,6 +17650,16418 @@ window.TERMS_BANK = {
         ]
       },
       "signature": "196f9c65f5314025"
+    },
+    {
+      "id": "ppt-webdev-php-001",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "PHP Syntax",
+      "definition": "- is a set of rules that define how PHP code should be written. It includes rules for declaring variables, writing functions, and using control structures. PHP structure refers to the overall organization of a PHP script, including the order in which different elements appear.",
+      "pdfWording": "- is a set of rules that define how PHP code should be written. It includes rules for declaring variables, writing functions, and using control structures. PHP structure refers to the overall organization of a PHP script, including the order in which different elements appear.",
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "questionExcerpt": "- is a set of rules that define how PHP code should be written. It includes rules for declaring variables, writing functions, and using control structures. PHP structure refers to the overall organization of a PHP script, including the order in which different elements appear.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\n- is a set of rules that define how PHP code should be written. It includes rules for declaring variables, writing functions, and using control structures. PHP structure refers to the overall organization of a PHP script, including the order in which different elements appear.",
+      "options": [
+        "PHP Functions",
+        "PHP Arrays",
+        "PHP Syntax",
+        "PHP Sessions"
+      ],
+      "correct": 2,
+      "answer": "PHP Syntax",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "1",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-001"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-001",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Syntax",
+          "number": "1",
+          "page": 15,
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "outlinePages": [
+        14,
+        15
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: PHP Syntax.",
+        "references": []
+      },
+      "signature": "aee5cc7c201d15d8"
+    },
+    {
+      "id": "ppt-webdev-php-002",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Basic PHP Syntax",
+      "definition": "<?php → starts the PHP code\n$name = \"Kate\"; → variable\necho \"Hello, \" . $name; → used to display output\n?> → ends the PHP code",
+      "pdfWording": "<?php → starts the PHP code\n$name = \"Kate\"; → variable\necho \"Hello, \" . $name; → used to display output\n?> → ends the PHP code",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "<?php → starts the PHP code\n$name = \"Kate\"; → variable\necho \"Hello, \" . $name; → used to display output\n?> → ends the PHP code",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\n<?php → starts the PHP code\n$name = \"Kate\"; → variable\necho \"Hello, \" . $name; → used to display output\n?> → ends the PHP code",
+      "options": [
+        "Components of a For Loop",
+        "Basic PHP Syntax",
+        "Session Functions",
+        "Exception Handling Keywords"
+      ],
+      "correct": 1,
+      "answer": "Basic PHP Syntax",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "2",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-002"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-002",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Syntax",
+          "number": "2",
+          "page": 16,
+          "pages": [
+            16
+          ]
+        }
+      ],
+      "outlinePages": [
+        16
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Basic PHP Syntax.",
+        "references": []
+      },
+      "signature": "84d684c911b89442"
+    },
+    {
+      "id": "ppt-webdev-php-003",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "PHP Opening and Closing Tags",
+      "definition": "<?php → starts the PHP code\n?> → ends the PHP code",
+      "pdfWording": "<?php → starts the PHP code\n?> → ends the PHP code",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "<?php → starts the PHP code\n?> → ends the PHP code",
+      "detail": "A closing ?> tag is optional, and normally omitted in a file containing only PHP code. The excerpt transcribes the slide’s annotated example.",
+      "previousVersions": [],
+      "topic": "webdev-php-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\n<?php → starts the PHP code\n?> → ends the PHP code",
+      "options": [
+        "PHP Opening and Closing Tags",
+        "Variables",
+        "Output Statements",
+        "Comparison Operators"
+      ],
+      "correct": 0,
+      "answer": "PHP Opening and Closing Tags",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "3",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-003"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-003",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Syntax",
+          "number": "3",
+          "page": 16,
+          "pages": [
+            16
+          ]
+        }
+      ],
+      "outlinePages": [
+        16
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: PHP Opening and Closing Tags.",
+        "references": [
+          {
+            "label": "PHP manual: PHP tags",
+            "url": "https://www.php.net/manual/en/language.basic-syntax.phptags.php"
+          }
+        ]
+      },
+      "signature": "de9cb6f56415a09f"
+    },
+    {
+      "id": "ppt-webdev-php-004",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Variables",
+      "definition": "$name = \"Kate\"; → variable",
+      "pdfWording": "$name = \"Kate\"; → variable",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "$name = \"Kate\"; → _______",
+      "detail": "This entry follows the annotated syntax example; the separate Variables entry follows the definition on page 17.",
+      "previousVersions": [],
+      "topic": "webdev-php-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n$name = \"Kate\"; → _______",
+      "options": [
+        "Variables",
+        "PHP Opening and Closing Tags",
+        "Output Statements",
+        "Comparison Operators"
+      ],
+      "correct": 0,
+      "answer": "Variables",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "4",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-004"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-004",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Syntax",
+          "number": "4",
+          "page": 16,
+          "pages": [
+            16
+          ]
+        }
+      ],
+      "outlinePages": [
+        16
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Variables.",
+        "references": []
+      },
+      "signature": "dd349c8335ba58e7"
+    },
+    {
+      "id": "ppt-webdev-php-005",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Output Statements",
+      "definition": "echo \"Hello, \" . $name; → used to display output",
+      "pdfWording": "echo \"Hello, \" . $name; → used to display output",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "echo \"Hello, \" . $name; → used to display output",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\necho \"Hello, \" . $name; → used to display output",
+      "options": [
+        "Output Statements",
+        "PHP Opening and Closing Tags",
+        "Variables",
+        "Comparison Operators"
+      ],
+      "correct": 0,
+      "answer": "Output Statements",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "5",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-005"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-005",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Syntax",
+          "number": "5",
+          "page": 16,
+          "pages": [
+            16
+          ]
+        }
+      ],
+      "outlinePages": [
+        16
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Output Statements.",
+        "references": []
+      },
+      "signature": "f1cd85ee831c2d4b"
+    },
+    {
+      "id": "ppt-webdev-php-006",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Variables",
+      "definition": "Variables store information that can be used in a program.",
+      "pdfWording": "Variables store information that can be used in a program.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ store information that can be used in a program.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ store information that can be used in a program.",
+      "options": [
+        "Operators",
+        "Comparison Operators",
+        "PHP Functions",
+        "Variables"
+      ],
+      "correct": 3,
+      "answer": "Variables",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "6",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-006"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-006",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Syntax",
+          "number": "6",
+          "page": 17,
+          "pages": [
+            17
+          ]
+        }
+      ],
+      "outlinePages": [
+        17
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Variables.",
+        "references": []
+      },
+      "signature": "898103662fd97b5a"
+    },
+    {
+      "id": "ppt-webdev-php-007",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "String",
+      "definition": "$name = \"Kate\"; → String",
+      "pdfWording": "$name = \"Kate\"; → String",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "$name = \"Kate\"; → _______",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which data type completes the slide annotation?\n\n$name = \"Kate\"; → _______",
+      "options": [
+        "Integer",
+        "String",
+        "Float",
+        "PHP Arrays"
+      ],
+      "correct": 1,
+      "answer": "String",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "7",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-007"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-007",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Syntax",
+          "number": "7",
+          "page": 17,
+          "pages": [
+            17
+          ]
+        }
+      ],
+      "outlinePages": [
+        17
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: String.",
+        "references": []
+      },
+      "signature": "fed4b5aa0e29a075"
+    },
+    {
+      "id": "ppt-webdev-php-008",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Integer",
+      "definition": "$age = 20; → Integer",
+      "pdfWording": "$age = 20; → Integer",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "$age = 20; → _______",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which data type completes the slide annotation?\n\n$age = 20; → _______",
+      "options": [
+        "String",
+        "Float",
+        "PHP Arrays",
+        "Integer"
+      ],
+      "correct": 3,
+      "answer": "Integer",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "8",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-008"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-008",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Syntax",
+          "number": "8",
+          "page": 17,
+          "pages": [
+            17
+          ]
+        }
+      ],
+      "outlinePages": [
+        17
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Integer.",
+        "references": []
+      },
+      "signature": "e414d449a34dc7a3"
+    },
+    {
+      "id": "ppt-webdev-php-009",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Float",
+      "definition": "$price = 99.50; → Float",
+      "pdfWording": "$price = 99.50; → Float",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "$price = 99.50; → _______",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which data type completes the slide annotation?\n\n$price = 99.50; → _______",
+      "options": [
+        "String",
+        "Float",
+        "Integer",
+        "PHP Arrays"
+      ],
+      "correct": 1,
+      "answer": "Float",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "9",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-009"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-009",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Syntax",
+          "number": "9",
+          "page": 17,
+          "pages": [
+            17
+          ]
+        }
+      ],
+      "outlinePages": [
+        17
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Float.",
+        "references": []
+      },
+      "signature": "59c4b730b6e186d0"
+    },
+    {
+      "id": "ppt-webdev-php-010",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Operators",
+      "definition": "Operators are symbols used to perform operations or compare values.",
+      "pdfWording": "Operators are symbols used to perform operations or compare values.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ are symbols used to perform operations or compare values.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ are symbols used to perform operations or compare values.",
+      "options": [
+        "PHP Functions",
+        "PHP Sessions",
+        "PHP Namespaces",
+        "Operators"
+      ],
+      "correct": 3,
+      "answer": "Operators",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "10",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-010"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-010",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Syntax",
+          "number": "10",
+          "page": 18,
+          "pages": [
+            18
+          ]
+        }
+      ],
+      "outlinePages": [
+        18,
+        19
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Operators.",
+        "references": []
+      },
+      "signature": "313a74d54277306f"
+    },
+    {
+      "id": "ppt-webdev-php-011",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Comparison Operators",
+      "definition": "== → Equal\n!= → NOT Equal\n> → Greater than\n< → Less than\n>= → Greater than or equal\n<= → Less than or equal",
+      "pdfWording": "== → Equal\n!= → NOT Equal\n> → Greater than\n< → Less than\n>= → Greater than or equal\n<= → Less than or equal",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "== → Equal\n!= → NOT Equal\n> → Greater than\n< → Less than\n>= → Greater than or equal\n<= → Less than or equal",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\n== → Equal\n!= → NOT Equal\n> → Greater than\n< → Less than\n>= → Greater than or equal\n<= → Less than or equal",
+      "options": [
+        "PHP Opening and Closing Tags",
+        "Variables",
+        "Output Statements",
+        "Comparison Operators"
+      ],
+      "correct": 3,
+      "answer": "Comparison Operators",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "11",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-011"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-011",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Syntax",
+          "number": "11",
+          "page": 18,
+          "pages": [
+            18
+          ]
+        }
+      ],
+      "outlinePages": [
+        18,
+        19
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Comparison Operators.",
+        "references": []
+      },
+      "signature": "e6f63371a7af1b13"
+    },
+    {
+      "id": "ppt-webdev-php-012",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Control Structures",
+      "definition": "CONDITIONAL STATEMENTS\nSWITCH STATEMENT\nloops",
+      "pdfWording": "CONDITIONAL STATEMENTS\nSWITCH STATEMENT\nloops",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "CONDITIONAL STATEMENTS\nSWITCH STATEMENT\nloops",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nCONDITIONAL STATEMENTS\nSWITCH STATEMENT\nloops",
+      "options": [
+        "PHP Functions",
+        "PHP Arrays",
+        "PHP Sessions",
+        "Control Structures"
+      ],
+      "correct": 3,
+      "answer": "Control Structures",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "12",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-012"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-012",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "12",
+          "page": 20,
+          "pages": [
+            20,
+            21,
+            23,
+            24
+          ]
+        }
+      ],
+      "outlinePages": [
+        20
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Control Structures.",
+        "references": []
+      },
+      "signature": "a4fbd543f9dcb33c"
+    },
+    {
+      "id": "ppt-webdev-php-013",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Conditional Statements",
+      "definition": "Conditional statements allow PHP to make decisions.\nif / elseif / else",
+      "pdfWording": "Conditional statements allow PHP to make decisions.\nif / elseif / else",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ allow PHP to make decisions.\nif / elseif / else",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ allow PHP to make decisions.\nif / elseif / else",
+      "options": [
+        "Switch Statement",
+        "PHP Functions",
+        "Conditional Statements",
+        "PHP Arrays"
+      ],
+      "correct": 2,
+      "answer": "Conditional Statements",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "13",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-013"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-013",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "13",
+          "page": 21,
+          "pages": [
+            21
+          ]
+        }
+      ],
+      "outlinePages": [
+        21,
+        22
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Conditional Statements.",
+        "references": []
+      },
+      "signature": "001c77a95197b03f"
+    },
+    {
+      "id": "ppt-webdev-php-014",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "If",
+      "definition": "if – condition is true",
+      "pdfWording": "if – condition is true",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ – condition is true",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ – condition is true",
+      "options": [
+        "If",
+        "Else",
+        "Break",
+        "Default"
+      ],
+      "correct": 0,
+      "answer": "If",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "14",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-014"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-014",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "14",
+          "page": 21,
+          "pages": [
+            21
+          ]
+        }
+      ],
+      "outlinePages": [
+        21,
+        22
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: If.",
+        "references": []
+      },
+      "signature": "b5bb9bd0fecd53dd"
+    },
+    {
+      "id": "ppt-webdev-php-015",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Else",
+      "definition": "else – condition is false",
+      "pdfWording": "else – condition is false",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ – condition is false",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ – condition is false",
+      "options": [
+        "If",
+        "Break",
+        "Default",
+        "Else"
+      ],
+      "correct": 3,
+      "answer": "Else",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "15",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-015"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-015",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "15",
+          "page": 21,
+          "pages": [
+            21
+          ]
+        }
+      ],
+      "outlinePages": [
+        21,
+        22
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Else.",
+        "references": []
+      },
+      "signature": "607c7e00e91aff26"
+    },
+    {
+      "id": "ppt-webdev-php-016",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Elseif",
+      "definition": "elseif – when there are multiple conditions.",
+      "pdfWording": "elseif – when there are multiple conditions.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ – when there are multiple conditions.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ – when there are multiple conditions.",
+      "options": [
+        "Elseif",
+        "Else",
+        "Break",
+        "Default"
+      ],
+      "correct": 0,
+      "answer": "Elseif",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "16",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-016"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-016",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "16",
+          "page": 21,
+          "pages": [
+            21
+          ]
+        }
+      ],
+      "outlinePages": [
+        21,
+        22
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Elseif.",
+        "references": []
+      },
+      "signature": "d9f9202df34d2b76"
+    },
+    {
+      "id": "ppt-webdev-php-017",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Switch Statement",
+      "definition": "Used to compare one value with multiple possible cases.",
+      "pdfWording": "Used to compare one value with multiple possible cases.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Used to compare one value with multiple possible cases.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nUsed to compare one value with multiple possible cases.",
+      "options": [
+        "Conditional Statements",
+        "PHP Functions",
+        "PHP Arrays",
+        "Switch Statement"
+      ],
+      "correct": 3,
+      "answer": "Switch Statement",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "17",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-017"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-017",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "17",
+          "page": 23,
+          "pages": [
+            23
+          ]
+        }
+      ],
+      "outlinePages": [
+        23
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Switch Statement.",
+        "references": []
+      },
+      "signature": "65435ed364922040"
+    },
+    {
+      "id": "ppt-webdev-php-018",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Case",
+      "definition": "case – specifies a possible value",
+      "pdfWording": "case – specifies a possible value",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ – specifies a possible value",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ – specifies a possible value",
+      "options": [
+        "Break",
+        "Case",
+        "Default",
+        "Throw"
+      ],
+      "correct": 1,
+      "answer": "Case",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "18",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-018"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-018",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "18",
+          "page": 23,
+          "pages": [
+            23
+          ]
+        }
+      ],
+      "outlinePages": [
+        23
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Case.",
+        "references": []
+      },
+      "signature": "f6ca9d42aa853e6d"
+    },
+    {
+      "id": "ppt-webdev-php-019",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Break",
+      "definition": "break – stops the switch",
+      "pdfWording": "break – stops the switch",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ – stops the switch",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ – stops the switch",
+      "options": [
+        "Break",
+        "If",
+        "Else",
+        "Default"
+      ],
+      "correct": 0,
+      "answer": "Break",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "19",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-019"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-019",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "19",
+          "page": 23,
+          "pages": [
+            23
+          ]
+        }
+      ],
+      "outlinePages": [
+        23
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Break.",
+        "references": []
+      },
+      "signature": "0db4460fd0fb591a"
+    },
+    {
+      "id": "ppt-webdev-php-020",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Default",
+      "definition": "default – runs when no case matches",
+      "pdfWording": "default – runs when no case matches",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ – runs when no case matches",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ – runs when no case matches",
+      "options": [
+        "Default",
+        "If",
+        "Else",
+        "Break"
+      ],
+      "correct": 0,
+      "answer": "Default",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "20",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-020"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-020",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "20",
+          "page": 23,
+          "pages": [
+            23
+          ]
+        }
+      ],
+      "outlinePages": [
+        23
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Default.",
+        "references": []
+      },
+      "signature": "ff15b57df9526c9f"
+    },
+    {
+      "id": "ppt-webdev-php-021",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Loops",
+      "definition": "are fundamental control structures used to execute the same block of code repeatedly as long as a specific condition is met.\nfor loop\nwhile loop\ndo-while loop",
+      "pdfWording": "are fundamental control structures used to execute the same block of code repeatedly as long as a specific condition is met.\nfor loop\nwhile loop\ndo-while loop",
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "questionExcerpt": "are fundamental control structures used to execute the same block of code repeatedly as long as a specific condition is met.\nfor loop\nwhile loop\ndo-while loop",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nare fundamental control structures used to execute the same block of code repeatedly as long as a specific condition is met.\nfor loop\nwhile loop\ndo-while loop",
+      "options": [
+        "Loops",
+        "Switch Statement",
+        "PHP Functions",
+        "PHP Arrays"
+      ],
+      "correct": 0,
+      "answer": "Loops",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "21",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-021"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-021",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "21",
+          "page": 24,
+          "pages": [
+            24
+          ]
+        }
+      ],
+      "outlinePages": [
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Loops.",
+        "references": []
+      },
+      "signature": "d8992c5fb0330963"
+    },
+    {
+      "id": "ppt-webdev-php-022",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "For Loop",
+      "definition": "for loop is used when you know exactly how many times you want to iterate through a block of code.",
+      "pdfWording": "for loop is used when you know exactly how many times you want to iterate through a block of code.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ is used when you know exactly how many times you want to iterate through a block of code.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ is used when you know exactly how many times you want to iterate through a block of code.",
+      "options": [
+        "Switch Statement",
+        "For Loop",
+        "PHP Functions",
+        "PHP Arrays"
+      ],
+      "correct": 1,
+      "answer": "For Loop",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "22",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-022"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-022",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "22",
+          "page": 25,
+          "pages": [
+            25
+          ]
+        }
+      ],
+      "outlinePages": [
+        25,
+        26
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: For Loop.",
+        "references": []
+      },
+      "signature": "f7c795ce62ea8da9"
+    },
+    {
+      "id": "ppt-webdev-php-023",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "While Loop",
+      "definition": "Repeats code while a condition is true.",
+      "pdfWording": "Repeats code while a condition is true.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Repeats code while a condition is true.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nRepeats code while a condition is true.",
+      "options": [
+        "Switch Statement",
+        "While Loop",
+        "PHP Functions",
+        "PHP Arrays"
+      ],
+      "correct": 1,
+      "answer": "While Loop",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "23",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-023"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-023",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "23",
+          "page": 27,
+          "pages": [
+            27
+          ]
+        }
+      ],
+      "outlinePages": [
+        27
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: While Loop.",
+        "references": []
+      },
+      "signature": "a9e66f12e6eae190"
+    },
+    {
+      "id": "ppt-webdev-php-024",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Do-While Loop",
+      "definition": "do while is an exit control loop. It will always execute the code block once before checking the condition. If the condition is true, it repeats.",
+      "pdfWording": "do while is an exit control loop. It will always execute the code block once before checking the condition. If the condition is true, it repeats.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ is an exit control loop. It will always execute the code block once before checking the condition. If the condition is true, it repeats.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ is an exit control loop. It will always execute the code block once before checking the condition. If the condition is true, it repeats.",
+      "options": [
+        "Do-While Loop",
+        "For Loop",
+        "While Loop",
+        "Switch Statement"
+      ],
+      "correct": 0,
+      "answer": "Do-While Loop",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "24",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-024"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-024",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "24",
+          "page": 28,
+          "pages": [
+            28
+          ]
+        }
+      ],
+      "outlinePages": [
+        28
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Do-While Loop.",
+        "references": []
+      },
+      "signature": "7617d700f518844d"
+    },
+    {
+      "id": "ppt-webdev-php-025",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Components of a For Loop",
+      "definition": "Initialization: Sets the initial value of the loop variable.\nCondition: Checks if the loop should continue.\nIncrement/Decrement: Changes the loop variable after each iteration.",
+      "pdfWording": "Initialization: Sets the initial value of the loop variable.\nCondition: Checks if the loop should continue.\nIncrement/Decrement: Changes the loop variable after each iteration.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "Initialization: Sets the initial value of the loop variable.\nCondition: Checks if the loop should continue.\nIncrement/Decrement: Changes the loop variable after each iteration.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nInitialization: Sets the initial value of the loop variable.\nCondition: Checks if the loop should continue.\nIncrement/Decrement: Changes the loop variable after each iteration.",
+      "options": [
+        "Basic PHP Syntax",
+        "Components of a For Loop",
+        "Session Functions",
+        "Exception Handling Keywords"
+      ],
+      "correct": 1,
+      "answer": "Components of a For Loop",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "25",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-025"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-025",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "25",
+          "page": 25,
+          "pages": [
+            25
+          ]
+        }
+      ],
+      "outlinePages": [
+        25
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Components of a For Loop.",
+        "references": []
+      },
+      "signature": "464e48f0c1f180ce"
+    },
+    {
+      "id": "ppt-webdev-php-026",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Initialization",
+      "definition": "Initialization: Sets the initial value of the loop variable.",
+      "pdfWording": "Initialization: Sets the initial value of the loop variable.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______: Sets the initial value of the loop variable.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______: Sets the initial value of the loop variable.",
+      "options": [
+        "Initialization",
+        "Condition",
+        "Increment / Decrement",
+        "Case"
+      ],
+      "correct": 0,
+      "answer": "Initialization",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "26",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-026"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-026",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "26",
+          "page": 25,
+          "pages": [
+            25
+          ]
+        }
+      ],
+      "outlinePages": [
+        25
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Initialization.",
+        "references": []
+      },
+      "signature": "4f3ab56cb4c2c229"
+    },
+    {
+      "id": "ppt-webdev-php-027",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Condition",
+      "definition": "Condition: Checks if the loop should continue.",
+      "pdfWording": "Condition: Checks if the loop should continue.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______: Checks if the loop should continue.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______: Checks if the loop should continue.",
+      "options": [
+        "Initialization",
+        "Increment / Decrement",
+        "Case",
+        "Condition"
+      ],
+      "correct": 3,
+      "answer": "Condition",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "27",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-027"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-027",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "27",
+          "page": 25,
+          "pages": [
+            25
+          ]
+        }
+      ],
+      "outlinePages": [
+        25
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Condition.",
+        "references": []
+      },
+      "signature": "a24eb164fb9c5ea1"
+    },
+    {
+      "id": "ppt-webdev-php-028",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Increment / Decrement",
+      "definition": "Increment/Decrement: Changes the loop variable after each iteration.",
+      "pdfWording": "Increment/Decrement: Changes the loop variable after each iteration.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______: Changes the loop variable after each iteration.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______: Changes the loop variable after each iteration.",
+      "options": [
+        "Initialization",
+        "Increment / Decrement",
+        "Condition",
+        "Case"
+      ],
+      "correct": 1,
+      "answer": "Increment / Decrement",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "28",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-028"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-028",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Control Structures",
+          "number": "28",
+          "page": 25,
+          "pages": [
+            25
+          ]
+        }
+      ],
+      "outlinePages": [
+        25
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Increment / Decrement.",
+        "references": []
+      },
+      "signature": "eb577e8048022002"
+    },
+    {
+      "id": "ppt-webdev-php-029",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "PHP Functions",
+      "definition": "A function is a block of code designed to perform a specific task.\nFunctions help make code reusable, organized, and easier to maintain.",
+      "pdfWording": "A function is a block of code designed to perform a specific task.\nFunctions help make code reusable, organized, and easier to maintain.",
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "questionExcerpt": "A function is a block of code designed to perform a specific task.\nFunctions help make code reusable, organized, and easier to maintain.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nA function is a block of code designed to perform a specific task.\nFunctions help make code reusable, organized, and easier to maintain.",
+      "options": [
+        "PHP Syntax",
+        "PHP Arrays",
+        "PHP Sessions",
+        "PHP Functions"
+      ],
+      "correct": 3,
+      "answer": "PHP Functions",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "29",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-029"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-029",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Functions and Arrays",
+          "number": "29",
+          "page": 30,
+          "pages": [
+            30
+          ]
+        }
+      ],
+      "outlinePages": [
+        30
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: PHP Functions.",
+        "references": []
+      },
+      "signature": "ee6f713c2372dd93"
+    },
+    {
+      "id": "ppt-webdev-php-030",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Built-in Functions",
+      "definition": "Built-in functions — already provided by PHP",
+      "pdfWording": "Built-in functions — already provided by PHP",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ — already provided by PHP",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ — already provided by PHP",
+      "options": [
+        "User-Defined Functions",
+        "GET Method",
+        "POST Method",
+        "Built-in Functions"
+      ],
+      "correct": 3,
+      "answer": "Built-in Functions",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "30",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-030"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-030",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Functions and Arrays",
+          "number": "30",
+          "page": 30,
+          "pages": [
+            30
+          ]
+        }
+      ],
+      "outlinePages": [
+        30
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Built-in Functions.",
+        "references": []
+      },
+      "signature": "1b0e5184ab8978f2"
+    },
+    {
+      "id": "ppt-webdev-php-031",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "User-Defined Functions",
+      "definition": "User-defined functions — created by the programmer",
+      "pdfWording": "User-defined functions — created by the programmer",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ — created by the programmer",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ — created by the programmer",
+      "options": [
+        "User-Defined Functions",
+        "Built-in Functions",
+        "GET Method",
+        "POST Method"
+      ],
+      "correct": 0,
+      "answer": "User-Defined Functions",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "31",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-031"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-031",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Functions and Arrays",
+          "number": "31",
+          "page": 30,
+          "pages": [
+            30
+          ]
+        }
+      ],
+      "outlinePages": [
+        30
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: User-Defined Functions.",
+        "references": []
+      },
+      "signature": "91943871f48a5e56"
+    },
+    {
+      "id": "ppt-webdev-php-032",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "PHP Arrays",
+      "definition": "An array in PHP is a variable that can store multiple values in a single variable.\nInstead of creating separate variables for each value, we can group related values together in an array.",
+      "pdfWording": "An array in PHP is a variable that can store multiple values in a single variable.\nInstead of creating separate variables for each value, we can group related values together in an array.",
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "questionExcerpt": "a variable that can store multiple values in a single variable.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\na variable that can store multiple values in a single variable.",
+      "options": [
+        "Operators",
+        "PHP Syntax",
+        "PHP Functions",
+        "PHP Arrays"
+      ],
+      "correct": 3,
+      "answer": "PHP Arrays",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "32",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-032"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-032",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Functions and Arrays",
+          "number": "32",
+          "page": 32,
+          "pages": [
+            32
+          ]
+        }
+      ],
+      "outlinePages": [
+        32
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: PHP Arrays.",
+        "references": []
+      },
+      "signature": "6672335c856332af"
+    },
+    {
+      "id": "ppt-webdev-php-033",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Indexed Arrays",
+      "definition": "Indexed Arrays - numerical index",
+      "pdfWording": "Indexed Arrays - numerical index",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - numerical index",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - numerical index",
+      "options": [
+        "Associative Arrays",
+        "Multidimensional Arrays",
+        "PHP Objects",
+        "Indexed Arrays"
+      ],
+      "correct": 3,
+      "answer": "Indexed Arrays",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "33",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-033"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-033",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Functions and Arrays",
+          "number": "33",
+          "page": 32,
+          "pages": [
+            32
+          ]
+        }
+      ],
+      "outlinePages": [
+        32
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Indexed Arrays.",
+        "references": []
+      },
+      "signature": "b6b692282e0973db"
+    },
+    {
+      "id": "ppt-webdev-php-034",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Associative Arrays",
+      "definition": "Associative Arrays - named keys",
+      "pdfWording": "Associative Arrays - named keys",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - named keys",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - named keys",
+      "options": [
+        "Indexed Arrays",
+        "Multidimensional Arrays",
+        "Associative Arrays",
+        "PHP Objects"
+      ],
+      "correct": 2,
+      "answer": "Associative Arrays",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "34",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-034"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-034",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Functions and Arrays",
+          "number": "34",
+          "page": 32,
+          "pages": [
+            32
+          ]
+        }
+      ],
+      "outlinePages": [
+        32
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Associative Arrays.",
+        "references": []
+      },
+      "signature": "55ceff73211f5c36"
+    },
+    {
+      "id": "ppt-webdev-php-035",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Multidimensional Arrays",
+      "definition": "Multidimensional Arrays - arrays inside another array",
+      "pdfWording": "Multidimensional Arrays - arrays inside another array",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - arrays inside another array",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - arrays inside another array",
+      "options": [
+        "Indexed Arrays",
+        "Associative Arrays",
+        "PHP Objects",
+        "Multidimensional Arrays"
+      ],
+      "correct": 3,
+      "answer": "Multidimensional Arrays",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "35",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-035"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-035",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Functions and Arrays",
+          "number": "35",
+          "page": 32,
+          "pages": [
+            32
+          ]
+        }
+      ],
+      "outlinePages": [
+        32
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Multidimensional Arrays.",
+        "references": []
+      },
+      "signature": "9129640a2226c269"
+    },
+    {
+      "id": "ppt-webdev-php-036",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTTP Request Methods",
+      "definition": "GET and POST are HTTP request methods used to send or receive data between a web browser and a server.",
+      "pdfWording": "GET and POST are HTTP request methods used to send or receive data between a web browser and a server.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "GET and POST are _______ used to send or receive data between a web browser and a server.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nGET and POST are _______ used to send or receive data between a web browser and a server.",
+      "options": [
+        "PHP Sessions",
+        "PHP Classes",
+        "PHP Namespaces",
+        "HTTP Request Methods"
+      ],
+      "correct": 3,
+      "answer": "HTTP Request Methods",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "36",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-036"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-036",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "GET and POST",
+          "number": "36",
+          "page": 35,
+          "pages": [
+            35
+          ]
+        }
+      ],
+      "outlinePages": [
+        35
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTTP Request Methods.",
+        "references": []
+      },
+      "signature": "ac2692709ff07272"
+    },
+    {
+      "id": "ppt-webdev-php-037",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "GET Method",
+      "definition": "Sends data through the URL. The data can be seen in the address bar.\nCommonly used for searching or requesting information.",
+      "pdfWording": "Sends data through the URL. The data can be seen in the address bar.\nCommonly used for searching or requesting information.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Sends data through the URL. The data can be seen in the address bar.\nCommonly used for searching or requesting information.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nSends data through the URL. The data can be seen in the address bar.\nCommonly used for searching or requesting information.",
+      "options": [
+        "Built-in Functions",
+        "User-Defined Functions",
+        "POST Method",
+        "GET Method"
+      ],
+      "correct": 3,
+      "answer": "GET Method",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "37",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-037"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-037",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "GET and POST",
+          "number": "37",
+          "page": 35,
+          "pages": [
+            35
+          ]
+        }
+      ],
+      "outlinePages": [
+        35
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: GET Method.",
+        "references": []
+      },
+      "signature": "34af38afb82d20eb"
+    },
+    {
+      "id": "ppt-webdev-php-038",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "POST Method",
+      "definition": "Sends data through the request body, so it does not normally appear in the URL. Commonly used for forms such as login, registration, and submitting information.",
+      "pdfWording": "Sends data through the request body, so it does not normally appear in the URL. Commonly used for forms such as login, registration, and submitting information.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Sends data through the request body, so it does not normally appear in the URL. Commonly used for forms such as login, registration, and submitting information.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nSends data through the request body, so it does not normally appear in the URL. Commonly used for forms such as login, registration, and submitting information.",
+      "options": [
+        "Built-in Functions",
+        "POST Method",
+        "User-Defined Functions",
+        "GET Method"
+      ],
+      "correct": 1,
+      "answer": "POST Method",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "38",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-038"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-038",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "GET and POST",
+          "number": "38",
+          "page": 35,
+          "pages": [
+            35
+          ]
+        }
+      ],
+      "outlinePages": [
+        35
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: POST Method.",
+        "references": []
+      },
+      "signature": "9cf0843ddb28caba"
+    },
+    {
+      "id": "ppt-webdev-php-039",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "GET vs. POST",
+      "definition": "GET: Sends data through the URL\nPOST: Sends data through the request body\nGET: Uses $_GET in PHP\nPOST: Uses $_POST in PHP\nGET: Commonly used for searching\nPOST: Commonly used for submitting forms",
+      "pdfWording": "GET: Sends data through the URL\nPOST: Sends data through the request body\nGET: Uses $_GET in PHP\nPOST: Uses $_POST in PHP\nGET: Commonly used for searching\nPOST: Commonly used for submitting forms",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "GET: Sends data through the URL\nPOST: Sends data through the request body\nGET: Uses $_GET in PHP\nPOST: Uses $_POST in PHP\nGET: Commonly used for searching\nPOST: Commonly used for submitting forms",
+      "detail": "The diagram compares typical form use. POST data is not automatically encrypted; a POST URL may still have query parameters.",
+      "previousVersions": [],
+      "topic": "webdev-php-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nGET: Sends data through the URL\nPOST: Sends data through the request body\nGET: Uses $_GET in PHP\nPOST: Uses $_POST in PHP\nGET: Commonly used for searching\nPOST: Commonly used for submitting forms",
+      "options": [
+        "GET vs. POST",
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Types of PHP Objects"
+      ],
+      "correct": 0,
+      "answer": "GET vs. POST",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "39",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-039"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-039",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "GET and POST",
+          "number": "39",
+          "page": 38,
+          "pages": [
+            38
+          ]
+        }
+      ],
+      "outlinePages": [
+        38
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: GET vs. POST.",
+        "references": [
+          {
+            "label": "MDN: POST requests",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods/POST"
+          }
+        ]
+      },
+      "signature": "2972bf3580ce2a86"
+    },
+    {
+      "id": "ppt-webdev-php-040",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "PHP Sessions",
+      "definition": "A session is a way for PHP to store information about a user while they are using a website.",
+      "pdfWording": "A session is a way for PHP to store information about a user while they are using a website.",
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "questionExcerpt": "A session is a way for PHP to store information about a user while they are using a website.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nA session is a way for PHP to store information about a user while they are using a website.",
+      "options": [
+        "PHP Sessions",
+        "PHP Syntax",
+        "Operators",
+        "Comparison Operators"
+      ],
+      "correct": 0,
+      "answer": "PHP Sessions",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "40",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-040"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-040",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Sessions",
+          "number": "40",
+          "page": 40,
+          "pages": [
+            40
+          ]
+        }
+      ],
+      "outlinePages": [
+        40
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: PHP Sessions.",
+        "references": []
+      },
+      "signature": "671f06a11c23d635"
+    },
+    {
+      "id": "ppt-webdev-php-041",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Purpose of Sessions",
+      "definition": "PHP sessions are used to keep important information about a user available while they navigate through different pages of a website. Without sessions, a website would not automatically remember the user from one page to the next.",
+      "pdfWording": "PHP sessions are used to keep important information about a user available while they navigate through different pages of a website. Without sessions, a website would not automatically remember the user from one page to the next.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "PHP sessions are used to keep important information about a user available while they navigate through different pages of a website. Without sessions, a website would not automatically remember the user from one page to the next.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nPHP sessions are used to keep important information about a user available while they navigate through different pages of a website. Without sessions, a website would not automatically remember the user from one page to the next.",
+      "options": [
+        "Purpose of Sessions",
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Types of PHP Objects"
+      ],
+      "correct": 0,
+      "answer": "Purpose of Sessions",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "41",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-041"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-041",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Sessions",
+          "number": "41",
+          "page": 40,
+          "pages": [
+            40
+          ]
+        }
+      ],
+      "outlinePages": [
+        40
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Purpose of Sessions.",
+        "references": []
+      },
+      "signature": "3461707ddbc5101b"
+    },
+    {
+      "id": "ppt-webdev-php-042",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Session Lifecycle",
+      "definition": "Login → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "pdfWording": "Login → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Login → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "detail": "This is the slide’s simplified login/logout sequence; sessions can also begin without a login.",
+      "previousVersions": [],
+      "topic": "webdev-php-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nLogin → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "options": [
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Types of PHP Objects",
+        "Session Lifecycle"
+      ],
+      "correct": 3,
+      "answer": "Session Lifecycle",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "42",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-042"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-042",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Sessions",
+          "number": "42",
+          "page": 41,
+          "pages": [
+            41
+          ]
+        }
+      ],
+      "outlinePages": [
+        41
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Session Lifecycle.",
+        "references": []
+      },
+      "signature": "5d0f052ff680c911"
+    },
+    {
+      "id": "ppt-webdev-php-043",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Session Start",
+      "definition": "Login → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "pdfWording": "Login → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Login → _______ → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which session stage fills the blank in this sequence?\n\nLogin → _______ → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "options": [
+        "Session Start",
+        "Session Storage",
+        "Session End",
+        "Input Handling"
+      ],
+      "correct": 0,
+      "answer": "Session Start",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "43",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-043"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-043",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Sessions",
+          "number": "43",
+          "page": 41,
+          "pages": [
+            41
+          ]
+        }
+      ],
+      "outlinePages": [
+        41
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Session Start.",
+        "references": []
+      },
+      "signature": "3bf8770afc74bb56"
+    },
+    {
+      "id": "ppt-webdev-php-044",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Session Storage",
+      "definition": "Login → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "pdfWording": "Login → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Login → Session Starts → _______ → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "detail": "“Session Storage” in your list corresponds to “Information is Stored” in the slide sequence.",
+      "previousVersions": [],
+      "topic": "webdev-php-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which session stage fills the blank in this sequence?\n\nLogin → Session Starts → _______ → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "options": [
+        "Session Start",
+        "Session End",
+        "Input Handling",
+        "Session Storage"
+      ],
+      "correct": 3,
+      "answer": "Session Storage",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "44",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-044"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-044",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Sessions",
+          "number": "44",
+          "page": 41,
+          "pages": [
+            41
+          ]
+        }
+      ],
+      "outlinePages": [
+        41
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Session Storage.",
+        "references": []
+      },
+      "signature": "a42b02a766379038"
+    },
+    {
+      "id": "ppt-webdev-php-045",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Session End",
+      "definition": "Login → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "pdfWording": "Login → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Login → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → _______",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which session stage fills the blank in this sequence?\n\nLogin → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → _______",
+      "options": [
+        "Session Start",
+        "Session Storage",
+        "Input Handling",
+        "Session End"
+      ],
+      "correct": 3,
+      "answer": "Session End",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "45",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-045"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-045",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Sessions",
+          "number": "45",
+          "page": 41,
+          "pages": [
+            41
+          ]
+        }
+      ],
+      "outlinePages": [
+        41
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Session End.",
+        "references": []
+      },
+      "signature": "77936ff111e12d06"
+    },
+    {
+      "id": "ppt-webdev-php-046",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Session Functions",
+      "definition": "session_start() starts a new session or continues an existing session.\nsession_destroy() ends the current session (log out).",
+      "pdfWording": "session_start() starts a new session or continues an existing session.\nsession_destroy() ends the current session (log out).",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "session_start() starts a new session or continues an existing session.\nsession_destroy() ends the current session (log out).",
+      "detail": "session_destroy() destroys session data but does not itself unset current session variables or remove the session cookie.",
+      "previousVersions": [],
+      "topic": "webdev-php-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nsession_start() starts a new session or continues an existing session.\nsession_destroy() ends the current session (log out).",
+      "options": [
+        "Session Functions",
+        "Basic PHP Syntax",
+        "Components of a For Loop",
+        "Exception Handling Keywords"
+      ],
+      "correct": 0,
+      "answer": "Session Functions",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "46",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-046"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-046",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Sessions",
+          "number": "46",
+          "page": 42,
+          "pages": [
+            42
+          ]
+        }
+      ],
+      "outlinePages": [
+        42
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Session Functions.",
+        "references": [
+          {
+            "label": "PHP manual: session_destroy",
+            "url": "https://www.php.net/manual/en/function.session-destroy.php"
+          }
+        ]
+      },
+      "signature": "860e74623c0f5477"
+    },
+    {
+      "id": "ppt-webdev-php-047",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "session_start()",
+      "definition": "session_start() starts a new session or continues an existing session.",
+      "pdfWording": "session_start() starts a new session or continues an existing session.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ starts a new session or continues an existing session.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ starts a new session or continues an existing session.",
+      "options": [
+        "session_start()",
+        "session_destroy()",
+        "Throw",
+        "Catch"
+      ],
+      "correct": 0,
+      "answer": "session_start()",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "47",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-047"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-047",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Sessions",
+          "number": "47",
+          "page": 42,
+          "pages": [
+            42
+          ]
+        }
+      ],
+      "outlinePages": [
+        42
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: session_start().",
+        "references": []
+      },
+      "signature": "f7efaef5f339f3de"
+    },
+    {
+      "id": "ppt-webdev-php-048",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "session_destroy()",
+      "definition": "session_destroy() ends the current session (log out).",
+      "pdfWording": "session_destroy() ends the current session (log out).",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ ends the current session (log out).",
+      "detail": "Destroying session data does not itself unset $_SESSION or remove the session cookie. A full logout must handle those separately.",
+      "previousVersions": [],
+      "topic": "webdev-php-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ ends the current session (log out).",
+      "options": [
+        "session_start()",
+        "Throw",
+        "session_destroy()",
+        "Catch"
+      ],
+      "correct": 2,
+      "answer": "session_destroy()",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "48",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-048"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-048",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "PHP Sessions",
+          "number": "48",
+          "page": 42,
+          "pages": [
+            42
+          ]
+        }
+      ],
+      "outlinePages": [
+        42
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: session_destroy().",
+        "references": [
+          {
+            "label": "PHP manual: session_destroy",
+            "url": "https://www.php.net/manual/en/function.session-destroy.php"
+          }
+        ]
+      },
+      "signature": "8774a6e5e13ccca5"
+    },
+    {
+      "id": "ppt-webdev-php-049",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "PHP Classes",
+      "definition": "A class is a blueprint of code designed to define properties and methods.\nClasses help make code reusable, organized, and easier to maintain.",
+      "pdfWording": "A class is a blueprint of code designed to define properties and methods.\nClasses help make code reusable, organized, and easier to maintain.",
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "questionExcerpt": "A class is a blueprint of code designed to define properties and methods.\nClasses help make code reusable, organized, and easier to maintain.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nA class is a blueprint of code designed to define properties and methods.\nClasses help make code reusable, organized, and easier to maintain.",
+      "options": [
+        "HTTP Request Methods",
+        "PHP Sessions",
+        "PHP Classes",
+        "PHP Namespaces"
+      ],
+      "correct": 2,
+      "answer": "PHP Classes",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "49",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-049"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-049",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "49",
+          "page": 44,
+          "pages": [
+            44
+          ]
+        }
+      ],
+      "outlinePages": [
+        44
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: PHP Classes.",
+        "references": []
+      },
+      "signature": "72a07d2379aca3dc"
+    },
+    {
+      "id": "ppt-webdev-php-050",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Types of PHP Classes",
+      "definition": "User-defined Classes - Created by User\nBuilt-in Classes - Provided by PHP\nAbstract Classes - Cannot be used to create objects\nFinal Classes - Cannot extend or inherited by other Class\nReadonly Classes - All locked and cannot be change\nAnonymous Classes - Used for temporary or one-time Objects.",
+      "pdfWording": "User-defined Classes - Created by User\nBuilt-in Classes - Provided by PHP\nAbstract Classes - Cannot be used to create objects\nFinal Classes - Cannot extend or inherited by other Class\nReadonly Classes - All locked and cannot be change\nAnonymous Classes - Used for temporary or one-time Objects.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "User-defined Classes - Created by User\nBuilt-in Classes - Provided by PHP\nAbstract Classes - Cannot be used to create objects\nFinal Classes - Cannot extend or inherited by other Class\nReadonly Classes - All locked and cannot be change\nAnonymous Classes - Used for temporary or one-time Objects.",
+      "detail": "These labels are the slide’s grouping. Readonly restricts property reassignment after initialization; anonymous classes are not restricted to a single use.",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nUser-defined Classes - Created by User\nBuilt-in Classes - Provided by PHP\nAbstract Classes - Cannot be used to create objects\nFinal Classes - Cannot extend or inherited by other Class\nReadonly Classes - All locked and cannot be change\nAnonymous Classes - Used for temporary or one-time Objects.",
+      "options": [
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Session Functions",
+        "Exception Handling Keywords"
+      ],
+      "correct": 1,
+      "answer": "Types of PHP Classes",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "50",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-050"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-050",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "50",
+          "page": 45,
+          "pages": [
+            45
+          ]
+        }
+      ],
+      "outlinePages": [
+        45
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Types of PHP Classes.",
+        "references": [
+          {
+            "label": "PHP manual: classes and readonly",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+          },
+          {
+            "label": "PHP manual: anonymous classes",
+            "url": "https://www.php.net/manual/en/language.oop5.anonymous.php"
+          }
+        ]
+      },
+      "signature": "719a75ba83a823f5"
+    },
+    {
+      "id": "ppt-webdev-php-051",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "User-Defined Classes",
+      "definition": "User-defined Classes - Created by User",
+      "pdfWording": "User-defined Classes - Created by User",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Created by User",
+      "detail": "User-defined classes can also be abstract, final, readonly, or anonymous. The slide’s categories are not mutually exclusive.",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which PHP class label completes this line from the slide?\n\n_______ - Created by User",
+      "options": [
+        "Built-in Classes",
+        "Built-in Functions",
+        "User-Defined Classes",
+        "Built-in Objects"
+      ],
+      "correct": 2,
+      "answer": "User-Defined Classes",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "51",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-051"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-051",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "51",
+          "page": 45,
+          "pages": [
+            45
+          ]
+        }
+      ],
+      "outlinePages": [
+        45
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: User-Defined Classes.",
+        "references": [
+          {
+            "label": "PHP manual: classes and readonly",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+          },
+          {
+            "label": "PHP manual: anonymous classes",
+            "url": "https://www.php.net/manual/en/language.oop5.anonymous.php"
+          }
+        ]
+      },
+      "signature": "0aa1d854734ad151"
+    },
+    {
+      "id": "ppt-webdev-php-052",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Built-in Classes",
+      "definition": "Built-in Classes - Provided by PHP",
+      "pdfWording": "Built-in Classes - Provided by PHP",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Provided by PHP",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which PHP class label completes this line from the slide?\n\n_______ - Provided by PHP",
+      "options": [
+        "User-Defined Classes",
+        "Built-in Classes",
+        "User-Defined Functions",
+        "User-Defined Objects"
+      ],
+      "correct": 1,
+      "answer": "Built-in Classes",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "52",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-052"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-052",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "52",
+          "page": 45,
+          "pages": [
+            45
+          ]
+        }
+      ],
+      "outlinePages": [
+        45
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Built-in Classes.",
+        "references": []
+      },
+      "signature": "ee3600dc9280dbaa"
+    },
+    {
+      "id": "ppt-webdev-php-053",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Abstract Classes",
+      "definition": "Abstract Classes - Cannot be used to create objects",
+      "pdfWording": "Abstract Classes - Cannot be used to create objects",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Cannot be used to create objects",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which PHP class label completes this line from the slide?\n\n_______ - Cannot be used to create objects",
+      "options": [
+        "Final Classes",
+        "Readonly Classes",
+        "Anonymous Classes",
+        "Abstract Classes"
+      ],
+      "correct": 3,
+      "answer": "Abstract Classes",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "53",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-053"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-053",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "53",
+          "page": 45,
+          "pages": [
+            45
+          ]
+        }
+      ],
+      "outlinePages": [
+        45
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Abstract Classes.",
+        "references": []
+      },
+      "signature": "aa305c73b6f97e71"
+    },
+    {
+      "id": "ppt-webdev-php-054",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Final Classes",
+      "definition": "Final Classes - Cannot extend or inherited by other Class",
+      "pdfWording": "Final Classes - Cannot extend or inherited by other Class",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Cannot extend or inherited by other Class",
+      "detail": "A final class cannot be extended. It can itself extend another non-final class; the slide’s wording is simplified.",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which PHP class label completes this line from the slide?\n\n_______ - Cannot extend or inherited by other Class",
+      "options": [
+        "Abstract Classes",
+        "Readonly Classes",
+        "Anonymous Classes",
+        "Final Classes"
+      ],
+      "correct": 3,
+      "answer": "Final Classes",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "54",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-054"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-054",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "54",
+          "page": 45,
+          "pages": [
+            45
+          ]
+        }
+      ],
+      "outlinePages": [
+        45
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Final Classes.",
+        "references": [
+          {
+            "label": "PHP manual: classes and readonly",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+          }
+        ]
+      },
+      "signature": "72a858ed7b12fbbf"
+    },
+    {
+      "id": "ppt-webdev-php-055",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Readonly Classes",
+      "definition": "Readonly Classes - All locked and cannot be change",
+      "pdfWording": "Readonly Classes - All locked and cannot be change",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - All locked and cannot be change",
+      "detail": "Readonly classes are not completely frozen objects. Their declared properties are readonly and typed, and dynamic properties are prohibited.",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which PHP class label completes this line from the slide?\n\n_______ - All locked and cannot be change",
+      "options": [
+        "Abstract Classes",
+        "Final Classes",
+        "Anonymous Classes",
+        "Readonly Classes"
+      ],
+      "correct": 3,
+      "answer": "Readonly Classes",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "55",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-055"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-055",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "55",
+          "page": 45,
+          "pages": [
+            45
+          ]
+        }
+      ],
+      "outlinePages": [
+        45
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Readonly Classes.",
+        "references": [
+          {
+            "label": "PHP manual: classes and readonly",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+          }
+        ]
+      },
+      "signature": "7460bb9154a270df"
+    },
+    {
+      "id": "ppt-webdev-php-056",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Anonymous Classes",
+      "definition": "Anonymous Classes - Used for temporary or one-time Objects.",
+      "pdfWording": "Anonymous Classes - Used for temporary or one-time Objects.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Used for temporary or one-time Objects.",
+      "detail": "An anonymous class has no programmer-supplied class name. Its objects need not be temporary or used only once.",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which PHP class label completes this line from the slide?\n\n_______ - Used for temporary or one-time Objects.",
+      "options": [
+        "Abstract Classes",
+        "Anonymous Classes",
+        "Final Classes",
+        "Readonly Classes"
+      ],
+      "correct": 1,
+      "answer": "Anonymous Classes",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "56",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-056"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-056",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "56",
+          "page": 45,
+          "pages": [
+            45
+          ]
+        }
+      ],
+      "outlinePages": [
+        45
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Anonymous Classes.",
+        "references": [
+          {
+            "label": "PHP manual: classes and readonly",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+          },
+          {
+            "label": "PHP manual: anonymous classes",
+            "url": "https://www.php.net/manual/en/language.oop5.anonymous.php"
+          }
+        ]
+      },
+      "signature": "060f472586d6eb75"
+    },
+    {
+      "id": "ppt-webdev-php-057",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "PHP Objects",
+      "definition": "An object is an instance of a class designed to hold specific data and perform actions.\nObjects help make code modular, interactive, and easier to manage.",
+      "pdfWording": "An object is an instance of a class designed to hold specific data and perform actions.\nObjects help make code modular, interactive, and easier to manage.",
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "questionExcerpt": "An object is an instance of a class designed to hold specific data and perform actions.\nObjects help make code modular, interactive, and easier to manage.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nAn object is an instance of a class designed to hold specific data and perform actions.\nObjects help make code modular, interactive, and easier to manage.",
+      "options": [
+        "Indexed Arrays",
+        "Associative Arrays",
+        "PHP Objects",
+        "Multidimensional Arrays"
+      ],
+      "correct": 2,
+      "answer": "PHP Objects",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "57",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-057"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-057",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "57",
+          "page": 46,
+          "pages": [
+            46
+          ]
+        }
+      ],
+      "outlinePages": [
+        46
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: PHP Objects.",
+        "references": []
+      },
+      "signature": "e540009830c856e0"
+    },
+    {
+      "id": "ppt-webdev-php-058",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Types of PHP Objects",
+      "definition": "User-defined Objects - Created by user\nBuilt-in Objects - Created by PHP\nAnonymous Objects - Created by nameless classes",
+      "pdfWording": "User-defined Objects - Created by user\nBuilt-in Objects - Created by PHP\nAnonymous Objects - Created by nameless classes",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "User-defined Objects - Created by user\nBuilt-in Objects - Created by PHP\nAnonymous Objects - Created by nameless classes",
+      "detail": "These are informal categories used by the slides. Objects are instances of classes; “anonymous” here refers to an anonymous class.",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nUser-defined Objects - Created by user\nBuilt-in Objects - Created by PHP\nAnonymous Objects - Created by nameless classes",
+      "options": [
+        "GET vs. POST",
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Types of PHP Objects"
+      ],
+      "correct": 3,
+      "answer": "Types of PHP Objects",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "58",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-058"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-058",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "58",
+          "page": 46,
+          "pages": [
+            46
+          ]
+        }
+      ],
+      "outlinePages": [
+        46
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Types of PHP Objects.",
+        "references": [
+          {
+            "label": "PHP manual: classes and readonly",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+          },
+          {
+            "label": "PHP manual: anonymous classes",
+            "url": "https://www.php.net/manual/en/language.oop5.anonymous.php"
+          }
+        ]
+      },
+      "signature": "1b7c9f315ebb7292"
+    },
+    {
+      "id": "ppt-webdev-php-059",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "User-Defined Objects",
+      "definition": "User-defined Objects - Created by user",
+      "pdfWording": "User-defined Objects - Created by user",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Created by user",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which object label completes this line from the slide?\n\n_______ - Created by user",
+      "options": [
+        "Built-in Objects",
+        "Built-in Classes",
+        "User-Defined Objects",
+        "Built-in Functions"
+      ],
+      "correct": 2,
+      "answer": "User-Defined Objects",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "59",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-059"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-059",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "59",
+          "page": 46,
+          "pages": [
+            46
+          ]
+        }
+      ],
+      "outlinePages": [
+        46
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: User-Defined Objects.",
+        "references": []
+      },
+      "signature": "51bc3fcaa4652290"
+    },
+    {
+      "id": "ppt-webdev-php-060",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Built-in Objects",
+      "definition": "Built-in Objects - Created by PHP",
+      "pdfWording": "Built-in Objects - Created by PHP",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Created by PHP",
+      "detail": "In this deck, a built-in object means an instance of a built-in class. User code can still create it using new.",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which object label completes this line from the slide?\n\n_______ - Created by PHP",
+      "options": [
+        "Built-in Objects",
+        "User-Defined Objects",
+        "User-Defined Classes",
+        "User-Defined Functions"
+      ],
+      "correct": 0,
+      "answer": "Built-in Objects",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "60",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-060"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-060",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "60",
+          "page": 46,
+          "pages": [
+            46
+          ]
+        }
+      ],
+      "outlinePages": [
+        46
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Built-in Objects.",
+        "references": [
+          {
+            "label": "PHP manual: classes and readonly",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+          },
+          {
+            "label": "PHP manual: anonymous classes",
+            "url": "https://www.php.net/manual/en/language.oop5.anonymous.php"
+          }
+        ]
+      },
+      "signature": "058837e76cfc89f8"
+    },
+    {
+      "id": "ppt-webdev-php-061",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Anonymous Objects",
+      "definition": "Anonymous Objects - Created by nameless classes",
+      "pdfWording": "Anonymous Objects - Created by nameless classes",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Created by nameless classes",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which object label completes this line from the slide?\n\n_______ - Created by nameless classes",
+      "options": [
+        "Built-in Objects",
+        "Anonymous Objects",
+        "Final Classes",
+        "Readonly Classes"
+      ],
+      "correct": 1,
+      "answer": "Anonymous Objects",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "61",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-061"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-061",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "61",
+          "page": 46,
+          "pages": [
+            46
+          ]
+        }
+      ],
+      "outlinePages": [
+        46
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Anonymous Objects.",
+        "references": []
+      },
+      "signature": "5d3e78969c9b52e8"
+    },
+    {
+      "id": "ppt-webdev-php-062",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "PHP Namespaces",
+      "definition": "A namespace is a virtual folder designed to organize classes and prevent naming conflicts.\nNamespaces help make code structured, organized, and easier to autoload.",
+      "pdfWording": "A namespace is a virtual folder designed to organize classes and prevent naming conflicts.\nNamespaces help make code structured, organized, and easier to autoload.",
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "questionExcerpt": "A namespace is a virtual folder designed to organize classes and prevent naming conflicts.\nNamespaces help make code structured, organized, and easier to autoload.",
+      "detail": "A namespace organizes names, not actual filesystem folders. Directory mapping and autoloading require additional conventions or configuration.",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nA namespace is a virtual folder designed to organize classes and prevent naming conflicts.\nNamespaces help make code structured, organized, and easier to autoload.",
+      "options": [
+        "PHP Namespaces",
+        "Operators",
+        "PHP Functions",
+        "PHP Sessions"
+      ],
+      "correct": 0,
+      "answer": "PHP Namespaces",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "62",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-062"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-062",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "62",
+          "page": 48,
+          "pages": [
+            48
+          ]
+        }
+      ],
+      "outlinePages": [
+        48
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: PHP Namespaces.",
+        "references": [
+          {
+            "label": "PHP manual: namespaces",
+            "url": "https://www.php.net/manual/en/language.namespaces.definition.php"
+          }
+        ]
+      },
+      "signature": "9e379c1325953ce9"
+    },
+    {
+      "id": "ppt-webdev-php-063",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "User-Defined Namespaces",
+      "definition": "User-defined namespaces - Are folders created by user",
+      "pdfWording": "User-defined namespaces - Are folders created by user",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Are folders created by user",
+      "detail": "User-defined namespaces are name declarations, not physical folders.",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Are folders created by user",
+      "options": [
+        "User-Defined Namespaces",
+        "Built-in Namespaces",
+        "Global Namespace",
+        "PHP Sessions"
+      ],
+      "correct": 0,
+      "answer": "User-Defined Namespaces",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "63",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-063"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-063",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "63",
+          "page": 48,
+          "pages": [
+            48
+          ]
+        }
+      ],
+      "outlinePages": [
+        48
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: User-Defined Namespaces.",
+        "references": [
+          {
+            "label": "PHP manual: namespaces",
+            "url": "https://www.php.net/manual/en/language.namespaces.definition.php"
+          }
+        ]
+      },
+      "signature": "998faa08a9dab532"
+    },
+    {
+      "id": "ppt-webdev-php-064",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Built-in Namespaces",
+      "definition": "Built-in namespaces - Created by PHP",
+      "pdfWording": "Built-in namespaces - Created by PHP",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Created by PHP",
+      "detail": "This is the slide’s label. Core PHP classes normally live in the global namespace; “built-in namespaces” is not a general PHP namespace category.",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Created by PHP",
+      "options": [
+        "User-Defined Namespaces",
+        "Global Namespace",
+        "PHP Sessions",
+        "Built-in Namespaces"
+      ],
+      "correct": 3,
+      "answer": "Built-in Namespaces",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "64",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-064"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-064",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "64",
+          "page": 48,
+          "pages": [
+            48
+          ]
+        }
+      ],
+      "outlinePages": [
+        48
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Built-in Namespaces.",
+        "references": [
+          {
+            "label": "PHP manual: namespaces",
+            "url": "https://www.php.net/manual/en/language.namespaces.definition.php"
+          }
+        ]
+      },
+      "signature": "b8ecbb0523818618"
+    },
+    {
+      "id": "ppt-webdev-php-065",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Global Namespace",
+      "definition": "Global namespaces - It’s in the root folder",
+      "pdfWording": "Global namespaces - It’s in the root folder",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - It’s in the root folder",
+      "detail": "The global namespace means names declared without a namespace, not a root directory.",
+      "previousVersions": [],
+      "topic": "webdev-php-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - It’s in the root folder",
+      "options": [
+        "User-Defined Namespaces",
+        "Global Namespace",
+        "Built-in Namespaces",
+        "PHP Sessions"
+      ],
+      "correct": 1,
+      "answer": "Global Namespace",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "65",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-065"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-065",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Classes, Objects, and Namespaces",
+          "number": "65",
+          "page": 48,
+          "pages": [
+            48
+          ]
+        }
+      ],
+      "outlinePages": [
+        48
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Global Namespace.",
+        "references": [
+          {
+            "label": "PHP manual: namespaces",
+            "url": "https://www.php.net/manual/en/language.namespaces.definition.php"
+          }
+        ]
+      },
+      "signature": "3746e3a24588642a"
+    },
+    {
+      "id": "ppt-webdev-php-066",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Exceptions",
+      "definition": "An exception is an unexpected problem that occurs while a PHP script is running.",
+      "pdfWording": "An exception is an unexpected problem that occurs while a PHP script is running.",
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "questionExcerpt": "An exception is an unexpected problem that occurs while a PHP script is running.",
+      "detail": "This is a beginner description. An exception is thrown to interrupt normal control flow; not every PHP runtime problem is automatically an exception.",
+      "previousVersions": [],
+      "topic": "webdev-php-7",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nAn exception is an unexpected problem that occurs while a PHP script is running.",
+      "options": [
+        "PHP Classes",
+        "Exceptions",
+        "PHP Objects",
+        "PHP Namespaces"
+      ],
+      "correct": 1,
+      "answer": "Exceptions",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "66",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-066"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-066",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Exception Handling",
+          "number": "66",
+          "page": 50,
+          "pages": [
+            50
+          ]
+        }
+      ],
+      "outlinePages": [
+        49,
+        50
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Exceptions.",
+        "references": [
+          {
+            "label": "PHP manual: try/catch",
+            "url": "https://www.php.net/manual/en/control-structures.try-catch.php"
+          }
+        ]
+      },
+      "signature": "14d31fc9ce481d88"
+    },
+    {
+      "id": "ppt-webdev-php-067",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Exception Handling Keywords",
+      "definition": "THROW\ncreate and send exceptions when a problem occurs\nTRY\nused to test code that might cause an exception\nCATCH\nused to handle an exception when an error occurs inside the try block\nFINALLY\nused for code that always runs whether or not an error occurs",
+      "pdfWording": "THROW\ncreate and send exceptions when a problem occurs\nTRY\nused to test code that might cause an exception\nCATCH\nused to handle an exception when an error occurs inside the try block\nFINALLY\nused for code that always runs whether or not an error occurs",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "THROW\ncreate and send exceptions when a problem occurs\nTRY\nused to test code that might cause an exception\nCATCH\nused to handle an exception when an error occurs inside the try block\nFINALLY\nused for code that always runs whether or not an error occurs",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-7",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nTHROW\ncreate and send exceptions when a problem occurs\nTRY\nused to test code that might cause an exception\nCATCH\nused to handle an exception when an error occurs inside the try block\nFINALLY\nused for code that always runs whether or not an error occurs",
+      "options": [
+        "Basic PHP Syntax",
+        "Components of a For Loop",
+        "Exception Handling Keywords",
+        "Session Functions"
+      ],
+      "correct": 2,
+      "answer": "Exception Handling Keywords",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "67",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-067"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-067",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Exception Handling",
+          "number": "67",
+          "page": 51,
+          "pages": [
+            51,
+            52,
+            53,
+            54
+          ]
+        }
+      ],
+      "outlinePages": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Exception Handling Keywords.",
+        "references": []
+      },
+      "signature": "7828eb50f041193e"
+    },
+    {
+      "id": "ppt-webdev-php-068",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Throw",
+      "definition": "create and send exceptions when a problem occurs",
+      "pdfWording": "create and send exceptions when a problem occurs",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "create and send exceptions when a problem occurs",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-7",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\ncreate and send exceptions when a problem occurs",
+      "options": [
+        "Case",
+        "Break",
+        "Default",
+        "Throw"
+      ],
+      "correct": 3,
+      "answer": "Throw",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "68",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-068"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-068",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Exception Handling",
+          "number": "68",
+          "page": 51,
+          "pages": [
+            51
+          ]
+        }
+      ],
+      "outlinePages": [
+        51
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Throw.",
+        "references": []
+      },
+      "signature": "df3bdfe5672710ce"
+    },
+    {
+      "id": "ppt-webdev-php-069",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Try",
+      "definition": "used to test code that might cause an exception",
+      "pdfWording": "used to test code that might cause an exception",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "used to test code that might cause an exception",
+      "detail": "try executes code that may throw; it is not a separate test run of that code.",
+      "previousVersions": [],
+      "topic": "webdev-php-7",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nused to test code that might cause an exception",
+      "options": [
+        "Throw",
+        "Catch",
+        "Finally",
+        "Try"
+      ],
+      "correct": 3,
+      "answer": "Try",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "69",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-069"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-069",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Exception Handling",
+          "number": "69",
+          "page": 52,
+          "pages": [
+            52
+          ]
+        }
+      ],
+      "outlinePages": [
+        52
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Try.",
+        "references": [
+          {
+            "label": "PHP manual: try/catch",
+            "url": "https://www.php.net/manual/en/control-structures.try-catch.php"
+          }
+        ]
+      },
+      "signature": "04da6713de7cbded"
+    },
+    {
+      "id": "ppt-webdev-php-070",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Catch",
+      "definition": "used to handle an exception when an error occurs inside the try block",
+      "pdfWording": "used to handle an exception when an error occurs inside the try block",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "used to handle an exception when an error occurs inside the try block",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-7",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nused to handle an exception when an error occurs inside the try block",
+      "options": [
+        "Catch",
+        "session_start()",
+        "session_destroy()",
+        "Throw"
+      ],
+      "correct": 0,
+      "answer": "Catch",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "70",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-070"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-070",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Exception Handling",
+          "number": "70",
+          "page": 53,
+          "pages": [
+            53
+          ]
+        }
+      ],
+      "outlinePages": [
+        53
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Catch.",
+        "references": []
+      },
+      "signature": "fe88136a24eae20b"
+    },
+    {
+      "id": "ppt-webdev-php-071",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Finally",
+      "definition": "used for code that always runs whether or not an error occurs",
+      "pdfWording": "used for code that always runs whether or not an error occurs",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "used for code that always runs whether or not an error occurs",
+      "detail": "finally runs as part of normal exception handling even when no exception is thrown. Program termination can prevent subsequent code from running.",
+      "previousVersions": [],
+      "topic": "webdev-php-7",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nused for code that always runs whether or not an error occurs",
+      "options": [
+        "Throw",
+        "Try",
+        "Catch",
+        "Finally"
+      ],
+      "correct": 3,
+      "answer": "Finally",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "71",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-071"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-071",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Exception Handling",
+          "number": "71",
+          "page": 54,
+          "pages": [
+            54
+          ]
+        }
+      ],
+      "outlinePages": [
+        54
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Finally.",
+        "references": [
+          {
+            "label": "PHP manual: finally",
+            "url": "https://www.php.net/manual/en/control-structures.finally.php"
+          }
+        ]
+      },
+      "signature": "e8f23ce1e4e67ddc"
+    },
+    {
+      "id": "ppt-webdev-php-072",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Input Handling",
+      "definition": "Input handling in PHP involves receiving, checking, processing, and safely displaying data provided by users.\nWhen data is submitted through a form, PHP can access it using the $_POST array.",
+      "pdfWording": "Input handling in PHP involves receiving, checking, processing, and safely displaying data provided by users.\nWhen data is submitted through a form, PHP can access it using the $_POST array.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ in PHP involves receiving, checking, processing, and safely displaying data provided by users.\nWhen data is submitted through a form, PHP can access it using the $_POST array.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-8",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ in PHP involves receiving, checking, processing, and safely displaying data provided by users.\nWhen data is submitted through a form, PHP can access it using the $_POST array.",
+      "options": [
+        "Session Start",
+        "Input Handling",
+        "Session Storage",
+        "Session End"
+      ],
+      "correct": 1,
+      "answer": "Input Handling",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "72",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-072"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-072",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Input Handling",
+          "number": "72",
+          "page": 65,
+          "pages": [
+            65
+          ]
+        }
+      ],
+      "outlinePages": [
+        64,
+        65
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Input Handling.",
+        "references": []
+      },
+      "signature": "272429b88f4720f5"
+    },
+    {
+      "id": "ppt-webdev-php-073",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Steps of Input Handling",
+      "definition": "Receive Input\nPrepare It\nValidate It\nProcess It\nDisplay the Result",
+      "pdfWording": "Receive Input\nPrepare It\nValidate It\nProcess It\nDisplay the Result",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "Receive Input\nPrepare It\nValidate It\nProcess It\nDisplay the Result",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-8",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nReceive Input\nPrepare It\nValidate It\nProcess It\nDisplay the Result",
+      "options": [
+        "Steps of Input Handling",
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Exception Handling Keywords"
+      ],
+      "correct": 0,
+      "answer": "Steps of Input Handling",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "73",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-073"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-073",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Input Handling",
+          "number": "73",
+          "page": 65,
+          "pages": [
+            65
+          ]
+        }
+      ],
+      "outlinePages": [
+        65
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Steps of Input Handling.",
+        "references": []
+      },
+      "signature": "5c2bf96dfb60825d"
+    },
+    {
+      "id": "ppt-webdev-php-074",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Receive Input",
+      "definition": "Receive Input → Prepare It → Validate It → Process It → Display the Result",
+      "pdfWording": "Receive Input → Prepare It → Validate It → Process It → Display the Result",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → Prepare It → Validate It → Process It → Display the Result",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-8",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which input-handling step fills the blank in the slide sequence?\n\n_______ → Prepare It → Validate It → Process It → Display the Result",
+      "options": [
+        "Receive Input",
+        "Prepare Input",
+        "Validate Input",
+        "Process Input"
+      ],
+      "correct": 0,
+      "answer": "Receive Input",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "74",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-074"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-074",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Input Handling",
+          "number": "74",
+          "page": 65,
+          "pages": [
+            65
+          ]
+        }
+      ],
+      "outlinePages": [
+        65
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Receive Input.",
+        "references": []
+      },
+      "signature": "d8e370edeb85dc9f"
+    },
+    {
+      "id": "ppt-webdev-php-075",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Prepare Input",
+      "definition": "Receive Input → Prepare It → Validate It → Process It → Display the Result",
+      "pdfWording": "Receive Input → Prepare It → Validate It → Process It → Display the Result",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Receive Input → _______ → Validate It → Process It → Display the Result",
+      "detail": "Your list uses “Prepare Input”; the slide uses “Prepare It.”",
+      "previousVersions": [],
+      "topic": "webdev-php-8",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which input-handling step fills the blank in the slide sequence?\n\nReceive Input → _______ → Validate It → Process It → Display the Result",
+      "options": [
+        "Receive Input",
+        "Validate Input",
+        "Prepare Input",
+        "Process Input"
+      ],
+      "correct": 2,
+      "answer": "Prepare Input",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "75",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-075"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-075",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Input Handling",
+          "number": "75",
+          "page": 65,
+          "pages": [
+            65
+          ]
+        }
+      ],
+      "outlinePages": [
+        65
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Prepare Input.",
+        "references": []
+      },
+      "signature": "87e36d940949763a"
+    },
+    {
+      "id": "ppt-webdev-php-076",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Validate Input",
+      "definition": "Receive Input → Prepare It → Validate It → Process It → Display the Result",
+      "pdfWording": "Receive Input → Prepare It → Validate It → Process It → Display the Result",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Receive Input → Prepare It → _______ → Process It → Display the Result",
+      "detail": "Your list uses “Validate Input”; the slide uses “Validate It.”",
+      "previousVersions": [],
+      "topic": "webdev-php-8",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which input-handling step fills the blank in the slide sequence?\n\nReceive Input → Prepare It → _______ → Process It → Display the Result",
+      "options": [
+        "Validate Input",
+        "Receive Input",
+        "Prepare Input",
+        "Process Input"
+      ],
+      "correct": 0,
+      "answer": "Validate Input",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "76",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-076"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-076",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Input Handling",
+          "number": "76",
+          "page": 65,
+          "pages": [
+            65
+          ]
+        }
+      ],
+      "outlinePages": [
+        65
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Validate Input.",
+        "references": []
+      },
+      "signature": "06a43ec4c41c0fd3"
+    },
+    {
+      "id": "ppt-webdev-php-077",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Process Input",
+      "definition": "Receive Input → Prepare It → Validate It → Process It → Display the Result",
+      "pdfWording": "Receive Input → Prepare It → Validate It → Process It → Display the Result",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Receive Input → Prepare It → Validate It → _______ → Display the Result",
+      "detail": "Your list uses “Process Input”; the slide uses “Process It.”",
+      "previousVersions": [],
+      "topic": "webdev-php-8",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which input-handling step fills the blank in the slide sequence?\n\nReceive Input → Prepare It → Validate It → _______ → Display the Result",
+      "options": [
+        "Receive Input",
+        "Prepare Input",
+        "Validate Input",
+        "Process Input"
+      ],
+      "correct": 3,
+      "answer": "Process Input",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "77",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-077"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-077",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Input Handling",
+          "number": "77",
+          "page": 65,
+          "pages": [
+            65
+          ]
+        }
+      ],
+      "outlinePages": [
+        65
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Process Input.",
+        "references": []
+      },
+      "signature": "3aa790272be0a569"
+    },
+    {
+      "id": "ppt-webdev-php-078",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Display the Result",
+      "definition": "Receive Input → Prepare It → Validate It → Process It → Display the Result",
+      "pdfWording": "Receive Input → Prepare It → Validate It → Process It → Display the Result",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Receive Input → Prepare It → Validate It → Process It → _______",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-php-8",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which input-handling step fills the blank in the slide sequence?\n\nReceive Input → Prepare It → Validate It → Process It → _______",
+      "options": [
+        "Receive Input",
+        "Prepare Input",
+        "Validate Input",
+        "Display the Result"
+      ],
+      "correct": 3,
+      "answer": "Display the Result",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "78",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-078"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-078",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Input Handling",
+          "number": "78",
+          "page": 65,
+          "pages": [
+            65
+          ]
+        }
+      ],
+      "outlinePages": [
+        65
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Display the Result.",
+        "references": []
+      },
+      "signature": "63c870e8c6336f93"
+    },
+    {
+      "id": "ppt-webdev-php-079",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Important Input Handling Functions",
+      "definition": "$_POST → receives submitted data\ntrim() → removes unnecessary spaces\nif conditions → checks if input is empty or valid\nhtmlspecialchars() → helps display user input\nArrays → can store multiple errors\nforeach → can display collected errors",
+      "pdfWording": "$_POST → receives submitted data\ntrim() → removes unnecessary spaces\nif conditions → checks if input is empty or valid\nhtmlspecialchars() → helps display user input\nArrays → can store multiple errors\nforeach → can display collected errors",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "$_POST → receives submitted data\ntrim() → removes unnecessary spaces\nif conditions → checks if input is empty or valid\nhtmlspecialchars() → helps display user input\nArrays → can store multiple errors\nforeach → can display collected errors",
+      "detail": "The slide groups input-handling tools under “functions.” $_POST is a superglobal, if/foreach are control structures, and arrays are a data type; trim() and htmlspecialchars() are functions.",
+      "previousVersions": [],
+      "topic": "webdev-php-8",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\n$_POST → receives submitted data\ntrim() → removes unnecessary spaces\nif conditions → checks if input is empty or valid\nhtmlspecialchars() → helps display user input\nArrays → can store multiple errors\nforeach → can display collected errors",
+      "options": [
+        "Session Functions",
+        "Important Input Handling Functions",
+        "Components of a For Loop",
+        "Exception Handling Keywords"
+      ],
+      "correct": 1,
+      "answer": "Important Input Handling Functions",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "79",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-php-079"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-php-079",
+          "sourceId": "webdev-php",
+          "section": "3-4",
+          "label": "Group 5 · PHP Fundamentals",
+          "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+          "group": "Input Handling",
+          "number": "79",
+          "page": 66,
+          "pages": [
+            66
+          ]
+        }
+      ],
+      "outlinePages": [
+        66
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Important Input Handling Functions.",
+        "references": [
+          {
+            "label": "PHP manual: predefined variables",
+            "url": "https://www.php.net/manual/en/reserved.variables.php"
+          }
+        ]
+      },
+      "signature": "80d1adcd486ddfff"
+    },
+    {
+      "id": "ppt-webdev-css-001",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "CSS Cascade",
+      "definition": "“Cascade” means CSS reads your rules and stacks them up, then decides which one “wins” when two rules target the same element. Three factors settle the fight, in this order:\nImportance\nSpecificity\nSource order",
+      "pdfWording": "“Cascade” means CSS reads your rules and stacks them up, then decides which one “wins” when two rules target the same element. Three factors settle the fight, in this order:\nImportance\nSpecificity\nSource order",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "“_______” means CSS reads your rules and stacks them up, then decides which one “wins” when two rules target the same element. Three factors settle the fight, in this order:\nImportance\nSpecificity\nSource order",
+      "detail": "The slide is simplified: origin, importance and cascade layers are considered before specificity. Normal inline styles do not beat all !important declarations; transitions and other cascade rules also matter.",
+      "previousVersions": [],
+      "topic": "webdev-css-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n“_______” means CSS reads your rules and stacks them up, then decides which one “wins” when two rules target the same element. Three factors settle the fight, in this order:\nImportance\nSpecificity\nSource order",
+      "options": [
+        "CSS Cascade",
+        "CSS Box Model",
+        "Flexbox",
+        "Media Queries"
+      ],
+      "correct": 0,
+      "answer": "CSS Cascade",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "80",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-001"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-001",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Cascade and Specificity",
+          "number": "80",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "outlinePages": [
+        4
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: CSS Cascade.",
+        "references": [
+          {
+            "label": "MDN: CSS cascade",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Introduction"
+          }
+        ]
+      },
+      "signature": "687f791a51ed862b"
+    },
+    {
+      "id": "ppt-webdev-css-002",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "CSS Specificity",
+      "definition": "an ID selector is simply more specific than a class or an element selector, so it wins regardless of order.",
+      "pdfWording": "an ID selector is simply more specific than a class or an element selector, so it wins regardless of order.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "an ID selector is simply more specific than a class or an element selector, so it wins regardless of order.",
+      "detail": "This selector comparison assumes competing declarations have the same relevant origin, importance and cascade-layer precedence.",
+      "previousVersions": [],
+      "topic": "webdev-css-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nan ID selector is simply more specific than a class or an element selector, so it wins regardless of order.",
+      "options": [
+        "Source Order",
+        "CSS Box Model",
+        "CSS Specificity",
+        "Media Queries"
+      ],
+      "correct": 2,
+      "answer": "CSS Specificity",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "81",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-002"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-002",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Cascade and Specificity",
+          "number": "81",
+          "page": 5,
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "outlinePages": [
+        4,
+        5
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: CSS Specificity.",
+        "references": [
+          {
+            "label": "MDN: CSS cascade",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Introduction"
+          }
+        ]
+      },
+      "signature": "00bc2972a3d7de79"
+    },
+    {
+      "id": "ppt-webdev-css-003",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Factors That Determine Which CSS Rule Wins",
+      "definition": "Importance\n!important rules & inline styles beat everything else\nSpecificity\nMore specific selectors (ID > class > tag) win\nSource order\nIf it's a tie, the rule written last wins",
+      "pdfWording": "Importance\n!important rules & inline styles beat everything else\nSpecificity\nMore specific selectors (ID > class > tag) win\nSource order\nIf it's a tie, the rule written last wins",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "Importance\n!important rules & inline styles beat everything else\nSpecificity\nMore specific selectors (ID > class > tag) win\nSource order\nIf it's a tie, the rule written last wins",
+      "detail": "The slide is simplified: origin, importance and cascade layers are considered before specificity. Normal inline styles do not beat all !important declarations; transitions and other cascade rules also matter.",
+      "previousVersions": [],
+      "topic": "webdev-css-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nImportance\n!important rules & inline styles beat everything else\nSpecificity\nMore specific selectors (ID > class > tag) win\nSource order\nIf it's a tie, the rule written last wins",
+      "options": [
+        "Components of the Box Model",
+        "Factors That Determine Which CSS Rule Wins",
+        "Flexbox Key Properties",
+        "Grid Properties"
+      ],
+      "correct": 1,
+      "answer": "Factors That Determine Which CSS Rule Wins",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "82",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-003"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-003",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Cascade and Specificity",
+          "number": "82",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "outlinePages": [
+        4
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Factors That Determine Which CSS Rule Wins.",
+        "references": [
+          {
+            "label": "MDN: CSS cascade",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Introduction"
+          }
+        ]
+      },
+      "signature": "d61f6dfa461471ad"
+    },
+    {
+      "id": "ppt-webdev-css-004",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Importance",
+      "definition": "!important rules & inline styles beat everything else",
+      "pdfWording": "!important rules & inline styles beat everything else",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "!important rules & inline styles beat everything else",
+      "detail": "The slide is simplified: origin, importance and cascade layers are considered before specificity. Normal inline styles do not beat all !important declarations; transitions and other cascade rules also matter.",
+      "previousVersions": [],
+      "topic": "webdev-css-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\n!important rules & inline styles beat everything else",
+      "options": [
+        "Specificity",
+        "Importance",
+        "Source Order",
+        "Screen-Size Breakpoints"
+      ],
+      "correct": 1,
+      "answer": "Importance",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "83",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-004"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-004",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Cascade and Specificity",
+          "number": "83",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "outlinePages": [
+        4
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Importance.",
+        "references": [
+          {
+            "label": "MDN: CSS cascade",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Introduction"
+          }
+        ]
+      },
+      "signature": "5ee9be54f4175fcb"
+    },
+    {
+      "id": "ppt-webdev-css-005",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Specificity",
+      "definition": "More specific selectors (ID > class > tag) win",
+      "pdfWording": "More specific selectors (ID > class > tag) win",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "More specific selectors (ID > class > tag) win",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nMore specific selectors (ID > class > tag) win",
+      "options": [
+        "Source Order",
+        "Specificity",
+        "Importance",
+        "Screen-Size Breakpoints"
+      ],
+      "correct": 1,
+      "answer": "Specificity",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "84",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-005"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-005",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Cascade and Specificity",
+          "number": "84",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "outlinePages": [
+        4
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Specificity.",
+        "references": []
+      },
+      "signature": "75c7d5280b1379b0"
+    },
+    {
+      "id": "ppt-webdev-css-006",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Source Order",
+      "definition": "If it's a tie, the rule written last wins",
+      "pdfWording": "If it's a tie, the rule written last wins",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "If it's a tie, the rule written last wins",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nIf it's a tie, the rule written last wins",
+      "options": [
+        "CSS Specificity",
+        "CSS Box Model",
+        "Media Queries",
+        "Source Order"
+      ],
+      "correct": 3,
+      "answer": "Source Order",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "85",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-006"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-006",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Cascade and Specificity",
+          "number": "85",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "outlinePages": [
+        4
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Source Order.",
+        "references": []
+      },
+      "signature": "6a49cc45591662b5"
+    },
+    {
+      "id": "ppt-webdev-css-007",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Selector Specificity",
+      "definition": "SPECIFICITY, HIGH → LOW\nInline style\nstyle=\"color:red\"\nID selector\n#header\nClass / attribute\n.btn-primary\nElement selector\np, div, h1",
+      "pdfWording": "SPECIFICITY, HIGH → LOW\nInline style\nstyle=\"color:red\"\nID selector\n#header\nClass / attribute\n.btn-primary\nElement selector\np, div, h1",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "SPECIFICITY, HIGH → LOW\nInline style\nstyle=\"color:red\"\nID selector\n#header\nClass / attribute\n.btn-primary\nElement selector\np, div, h1",
+      "detail": "This is a beginner priority chart. Inline style declarations participate in the cascade separately from selector specificity; origin, importance and layers are considered first.",
+      "previousVersions": [],
+      "topic": "webdev-css-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nSPECIFICITY, HIGH → LOW\nInline style\nstyle=\"color:red\"\nID selector\n#header\nClass / attribute\n.btn-primary\nElement selector\np, div, h1",
+      "options": [
+        "Components of the Box Model",
+        "Selector Specificity",
+        "Flexbox Key Properties",
+        "Grid Properties"
+      ],
+      "correct": 1,
+      "answer": "Selector Specificity",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "86",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-007"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-007",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Cascade and Specificity",
+          "number": "86",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "outlinePages": [
+        4
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Selector Specificity.",
+        "references": [
+          {
+            "label": "MDN: CSS cascade",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Introduction"
+          }
+        ]
+      },
+      "signature": "09410bfcc108f78c"
+    },
+    {
+      "id": "ppt-webdev-css-008",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Inline Styles",
+      "definition": "Inline style\nstyle=\"color:red\"",
+      "pdfWording": "Inline style\nstyle=\"color:red\"",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______\nstyle=\"color:red\"",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______\nstyle=\"color:red\"",
+      "options": [
+        "Inline Styles",
+        "ID Selectors",
+        "Class / Attribute Selectors",
+        "Element Selectors"
+      ],
+      "correct": 0,
+      "answer": "Inline Styles",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "87",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-008"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-008",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Cascade and Specificity",
+          "number": "87",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "outlinePages": [
+        4
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Inline Styles.",
+        "references": []
+      },
+      "signature": "7308712816ee3121"
+    },
+    {
+      "id": "ppt-webdev-css-009",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "ID Selectors",
+      "definition": "ID selector\n#header",
+      "pdfWording": "ID selector\n#header",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______\n#header",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______\n#header",
+      "options": [
+        "ID Selectors",
+        "Inline Styles",
+        "Class / Attribute Selectors",
+        "Element Selectors"
+      ],
+      "correct": 0,
+      "answer": "ID Selectors",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "88",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-009"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-009",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Cascade and Specificity",
+          "number": "88",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "outlinePages": [
+        4
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: ID Selectors.",
+        "references": []
+      },
+      "signature": "464bc5769db130d8"
+    },
+    {
+      "id": "ppt-webdev-css-010",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Class / Attribute Selectors",
+      "definition": "Class / attribute\n.btn-primary",
+      "pdfWording": "Class / attribute\n.btn-primary",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______\n.btn-primary",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______\n.btn-primary",
+      "options": [
+        "Class / Attribute Selectors",
+        "Inline Styles",
+        "ID Selectors",
+        "Element Selectors"
+      ],
+      "correct": 0,
+      "answer": "Class / Attribute Selectors",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "89",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-010"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-010",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Cascade and Specificity",
+          "number": "89",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "outlinePages": [
+        4
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Class / Attribute Selectors.",
+        "references": []
+      },
+      "signature": "e97144d2ad6b1b8d"
+    },
+    {
+      "id": "ppt-webdev-css-011",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Element Selectors",
+      "definition": "Element selector\np, div, h1",
+      "pdfWording": "Element selector\np, div, h1",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______\np, div, h1",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______\np, div, h1",
+      "options": [
+        "Inline Styles",
+        "Element Selectors",
+        "ID Selectors",
+        "Class / Attribute Selectors"
+      ],
+      "correct": 1,
+      "answer": "Element Selectors",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "90",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-011"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-011",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Cascade and Specificity",
+          "number": "90",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "outlinePages": [
+        4
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Element Selectors.",
+        "references": []
+      },
+      "signature": "9580c1530d5b191e"
+    },
+    {
+      "id": "ppt-webdev-css-012",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "CSS Box Model",
+      "definition": "Every HTML element is a rectangular box. CSS lets you control each layer of that box:\nContent\nThe actual text or image\nPadding\nSpace inside the border\nBorder\nThe line around the padding\nMargin\nSpace outside the border",
+      "pdfWording": "Every HTML element is a rectangular box. CSS lets you control each layer of that box:\nContent\nThe actual text or image\nPadding\nSpace inside the border\nBorder\nThe line around the padding\nMargin\nSpace outside the border",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Every HTML element is a rectangular box. CSS lets you control each layer of that box:\nContent\nThe actual text or image\nPadding\nSpace inside the border\nBorder\nThe line around the padding\nMargin\nSpace outside the border",
+      "detail": "Some elements generate no box, or more than one box. The slide illustrates the usual rectangular CSS box model.",
+      "previousVersions": [],
+      "topic": "webdev-css-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nEvery HTML element is a rectangular box. CSS lets you control each layer of that box:\nContent\nThe actual text or image\nPadding\nSpace inside the border\nBorder\nThe line around the padding\nMargin\nSpace outside the border",
+      "options": [
+        "CSS Cascade",
+        "Flexbox",
+        "CSS Box Model",
+        "Media Queries"
+      ],
+      "correct": 2,
+      "answer": "CSS Box Model",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "91",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-012"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-012",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Box Model",
+          "number": "91",
+          "page": 6,
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "outlinePages": [
+        6
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: CSS Box Model.",
+        "references": [
+          {
+            "label": "MDN: display and box generation",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/display"
+          }
+        ]
+      },
+      "signature": "5da2a9edfee86b1d"
+    },
+    {
+      "id": "ppt-webdev-css-013",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Components of the Box Model",
+      "definition": "Content\nPadding\nBorder\nMargin",
+      "pdfWording": "Content\nPadding\nBorder\nMargin",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "Content\nPadding\nBorder\nMargin",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nContent\nPadding\nBorder\nMargin",
+      "options": [
+        "Factors That Determine Which CSS Rule Wins",
+        "Flexbox Key Properties",
+        "Components of the Box Model",
+        "Grid Properties"
+      ],
+      "correct": 2,
+      "answer": "Components of the Box Model",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "92",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-013"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-013",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Box Model",
+          "number": "92",
+          "page": 6,
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "outlinePages": [
+        6
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Components of the Box Model.",
+        "references": []
+      },
+      "signature": "fdf165307f6ef7b5"
+    },
+    {
+      "id": "ppt-webdev-css-014",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Content",
+      "definition": "The actual text or image",
+      "pdfWording": "The actual text or image",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "The actual text or image",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nThe actual text or image",
+      "options": [
+        "Padding",
+        "Border",
+        "Margin",
+        "Content"
+      ],
+      "correct": 3,
+      "answer": "Content",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "93",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-014"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-014",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Box Model",
+          "number": "93",
+          "page": 6,
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "outlinePages": [
+        6
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Content.",
+        "references": []
+      },
+      "signature": "264f85e599b9984a"
+    },
+    {
+      "id": "ppt-webdev-css-015",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Padding",
+      "definition": "Space inside the border",
+      "pdfWording": "Space inside the border",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Space inside the border",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nSpace inside the border",
+      "options": [
+        "Padding",
+        "Content",
+        "Border",
+        "Margin"
+      ],
+      "correct": 0,
+      "answer": "Padding",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "94",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-015"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-015",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Box Model",
+          "number": "94",
+          "page": 6,
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "outlinePages": [
+        6
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Padding.",
+        "references": []
+      },
+      "signature": "0937bcf31b8a1b47"
+    },
+    {
+      "id": "ppt-webdev-css-016",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Border",
+      "definition": "The line around the padding",
+      "pdfWording": "The line around the padding",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "The line around the padding",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nThe line around the padding",
+      "options": [
+        "Content",
+        "Padding",
+        "Margin",
+        "Border"
+      ],
+      "correct": 3,
+      "answer": "Border",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "95",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-016"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-016",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Box Model",
+          "number": "95",
+          "page": 6,
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "outlinePages": [
+        6
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Border.",
+        "references": []
+      },
+      "signature": "a32dfdc38800ffde"
+    },
+    {
+      "id": "ppt-webdev-css-017",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Margin",
+      "definition": "Space outside the border",
+      "pdfWording": "Space outside the border",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Space outside the border",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nSpace outside the border",
+      "options": [
+        "Margin",
+        "Content",
+        "Padding",
+        "Border"
+      ],
+      "correct": 0,
+      "answer": "Margin",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "96",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-017"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-017",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "The Box Model",
+          "number": "96",
+          "page": 6,
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "outlinePages": [
+        6
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Margin.",
+        "references": []
+      },
+      "signature": "a6f16a074ad47b69"
+    },
+    {
+      "id": "ppt-webdev-css-018",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Flexbox",
+      "definition": "Flexbox arranges items in a single row or column, and makes it easy to space, align, and reorder them —great for navbars, cards in a row, or centering content.",
+      "pdfWording": "Flexbox arranges items in a single row or column, and makes it easy to space, align, and reorder them —great for navbars, cards in a row, or centering content.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ arranges items in a single row or column, and makes it easy to space, align, and reorder them —great for navbars, cards in a row, or centering content.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ arranges items in a single row or column, and makes it easy to space, align, and reorder them —great for navbars, cards in a row, or centering content.",
+      "options": [
+        "CSS Cascade",
+        "CSS Box Model",
+        "Flexbox",
+        "Media Queries"
+      ],
+      "correct": 2,
+      "answer": "Flexbox",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "97",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-018"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-018",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "Flexbox",
+          "number": "97",
+          "page": 8,
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "outlinePages": [
+        8
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Flexbox.",
+        "references": []
+      },
+      "signature": "d0e6a8ea16c5a7b4"
+    },
+    {
+      "id": "ppt-webdev-css-019",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "One-Dimensional Layout",
+      "definition": "Flexbox: One-Dimensional Layout",
+      "pdfWording": "Flexbox: One-Dimensional Layout",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Flexbox: _______",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Complete the layout dimension named on the slide.\n\nFlexbox: _______",
+      "options": [
+        "Two-Dimensional Layout",
+        "CSS Box Model",
+        "CSS Frameworks",
+        "One-Dimensional Layout"
+      ],
+      "correct": 3,
+      "answer": "One-Dimensional Layout",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "98",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-019"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-019",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "Flexbox",
+          "number": "98",
+          "page": 8,
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "outlinePages": [
+        8
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: One-Dimensional Layout.",
+        "references": []
+      },
+      "signature": "9e114528c6daf04a"
+    },
+    {
+      "id": "ppt-webdev-css-020",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Flexbox Key Properties",
+      "definition": "flex-direction\njustify-content\nalign-items\nflex-wrap\ngap\nflex-grow",
+      "pdfWording": "flex-direction\njustify-content\nalign-items\nflex-wrap\ngap\nflex-grow",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "flex-direction\njustify-content\nalign-items\nflex-wrap\ngap\nflex-grow",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nflex-direction\njustify-content\nalign-items\nflex-wrap\ngap\nflex-grow",
+      "options": [
+        "Flexbox Key Properties",
+        "Factors That Determine Which CSS Rule Wins",
+        "Components of the Box Model",
+        "Grid Properties"
+      ],
+      "correct": 0,
+      "answer": "Flexbox Key Properties",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "99",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-020"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-020",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "Flexbox",
+          "number": "99",
+          "page": 9,
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "outlinePages": [
+        9
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Flexbox Key Properties.",
+        "references": []
+      },
+      "signature": "1f04ecc813712e0f"
+    },
+    {
+      "id": "ppt-webdev-css-021",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Flex Direction",
+      "definition": "flex-direction\nrow / column\nWhich way items line up",
+      "pdfWording": "flex-direction\nrow / column\nWhich way items line up",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______\nrow / column\nWhich way items line up",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______\nrow / column\nWhich way items line up",
+      "options": [
+        "Justify Content",
+        "Align Items",
+        "Flex Direction",
+        "Flex Wrap"
+      ],
+      "correct": 2,
+      "answer": "Flex Direction",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "100",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-021"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-021",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "Flexbox",
+          "number": "100",
+          "page": 9,
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "outlinePages": [
+        9
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Flex Direction.",
+        "references": []
+      },
+      "signature": "54f9b93d1d91c793"
+    },
+    {
+      "id": "ppt-webdev-css-022",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Justify Content",
+      "definition": "justify-content\nspace-between / center\nSpacing along the main axis",
+      "pdfWording": "justify-content\nspace-between / center\nSpacing along the main axis",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______\nspace-between / center\nSpacing along the main axis",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______\nspace-between / center\nSpacing along the main axis",
+      "options": [
+        "Flex Direction",
+        "Align Items",
+        "Justify Content",
+        "Flex Wrap"
+      ],
+      "correct": 2,
+      "answer": "Justify Content",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "101",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-022"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-022",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "Flexbox",
+          "number": "101",
+          "page": 9,
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "outlinePages": [
+        9
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Justify Content.",
+        "references": []
+      },
+      "signature": "54df17e6fcb73c32"
+    },
+    {
+      "id": "ppt-webdev-css-023",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Align Items",
+      "definition": "align-items\ncenter / stretch\nAlignment across the cross axis",
+      "pdfWording": "align-items\ncenter / stretch\nAlignment across the cross axis",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______\ncenter / stretch\nAlignment across the cross axis",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______\ncenter / stretch\nAlignment across the cross axis",
+      "options": [
+        "Flex Direction",
+        "Justify Content",
+        "Align Items",
+        "Flex Wrap"
+      ],
+      "correct": 2,
+      "answer": "Align Items",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "102",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-023"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-023",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "Flexbox",
+          "number": "102",
+          "page": 9,
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "outlinePages": [
+        9
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Align Items.",
+        "references": []
+      },
+      "signature": "355c4c16812e4a7d"
+    },
+    {
+      "id": "ppt-webdev-css-024",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Flex Wrap",
+      "definition": "flex-wrap\nwrap / nowrap\nWhether items wrap to a new line",
+      "pdfWording": "flex-wrap\nwrap / nowrap\nWhether items wrap to a new line",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______\nwrap / nowrap\nWhether items wrap to a new line",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______\nwrap / nowrap\nWhether items wrap to a new line",
+      "options": [
+        "Flex Direction",
+        "Justify Content",
+        "Align Items",
+        "Flex Wrap"
+      ],
+      "correct": 3,
+      "answer": "Flex Wrap",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "103",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-024"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-024",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "Flexbox",
+          "number": "103",
+          "page": 9,
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "outlinePages": [
+        9
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Flex Wrap.",
+        "references": []
+      },
+      "signature": "e4144d973230d355"
+    },
+    {
+      "id": "ppt-webdev-css-025",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Gap",
+      "definition": "gap\n1rem, 16px\nSpace between items",
+      "pdfWording": "gap\n1rem, 16px\nSpace between items",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______\n1rem, 16px\nSpace between items",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______\n1rem, 16px\nSpace between items",
+      "options": [
+        "Flex Grow",
+        "Flex Direction",
+        "Gap",
+        "Flex Wrap"
+      ],
+      "correct": 2,
+      "answer": "Gap",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "104",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-025"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-025",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "Flexbox",
+          "number": "104",
+          "page": 9,
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "outlinePages": [
+        9
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Gap.",
+        "references": []
+      },
+      "signature": "e42e72e7f9180544"
+    },
+    {
+      "id": "ppt-webdev-css-026",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Flex Grow",
+      "definition": "flex-grow\n0, 1, 2…\nHow much an item expands to fill space",
+      "pdfWording": "flex-grow\n0, 1, 2…\nHow much an item expands to fill space",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______\n0, 1, 2…\nHow much an item expands to fill space",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______\n0, 1, 2…\nHow much an item expands to fill space",
+      "options": [
+        "Flex Direction",
+        "Justify Content",
+        "Flex Grow",
+        "Align Items"
+      ],
+      "correct": 2,
+      "answer": "Flex Grow",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "105",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-026"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-026",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "Flexbox",
+          "number": "105",
+          "page": 9,
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "outlinePages": [
+        9
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Flex Grow.",
+        "references": []
+      },
+      "signature": "d9c62c3d0215d63d"
+    },
+    {
+      "id": "ppt-webdev-css-027",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "CSS Grid",
+      "definition": "While Flexbox handles one direction at a time, Grid controls rows and columns together —perfect for full page layouts, photo galleries, and dashboards.",
+      "pdfWording": "While Flexbox handles one direction at a time, Grid controls rows and columns together —perfect for full page layouts, photo galleries, and dashboards.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "While Flexbox handles one direction at a time, _______ controls rows and columns together —perfect for full page layouts, photo galleries, and dashboards.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nWhile Flexbox handles one direction at a time, _______ controls rows and columns together —perfect for full page layouts, photo galleries, and dashboards.",
+      "options": [
+        "Flexbox",
+        "Media Queries",
+        "CSS Frameworks",
+        "CSS Grid"
+      ],
+      "correct": 3,
+      "answer": "CSS Grid",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "106",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-027"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-027",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "CSS Grid",
+          "number": "106",
+          "page": 10,
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "outlinePages": [
+        10
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: CSS Grid.",
+        "references": []
+      },
+      "signature": "06bf0a997c657fb7"
+    },
+    {
+      "id": "ppt-webdev-css-028",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Two-Dimensional Layout",
+      "definition": "CSS Grid: Two-Dimensional Layout",
+      "pdfWording": "CSS Grid: Two-Dimensional Layout",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "CSS Grid: _______",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Complete the layout dimension named on the slide.\n\nCSS Grid: _______",
+      "options": [
+        "One-Dimensional Layout",
+        "CSS Box Model",
+        "CSS Frameworks",
+        "Two-Dimensional Layout"
+      ],
+      "correct": 3,
+      "answer": "Two-Dimensional Layout",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "107",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-028"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-028",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "CSS Grid",
+          "number": "107",
+          "page": 10,
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "outlinePages": [
+        10
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Two-Dimensional Layout.",
+        "references": []
+      },
+      "signature": "801f3b8fe19b25fe"
+    },
+    {
+      "id": "ppt-webdev-css-029",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Grid Properties",
+      "definition": "grid-template-columns: 1fr 3fr;\ngrid-template-rows: auto 1fr;\ngap: 1rem;",
+      "pdfWording": "grid-template-columns: 1fr 3fr;\ngrid-template-rows: auto 1fr;\ngap: 1rem;",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "grid-template-columns: 1fr 3fr;\ngrid-template-rows: auto 1fr;\ngap: 1rem;",
+      "detail": "The supporting slide gives a code example, not separate definitions of these properties.",
+      "previousVersions": [],
+      "topic": "webdev-css-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\ngrid-template-columns: 1fr 3fr;\ngrid-template-rows: auto 1fr;\ngap: 1rem;",
+      "options": [
+        "Factors That Determine Which CSS Rule Wins",
+        "Components of the Box Model",
+        "Flexbox Key Properties",
+        "Grid Properties"
+      ],
+      "correct": 3,
+      "answer": "Grid Properties",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "108",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-029"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-029",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "CSS Grid",
+          "number": "108",
+          "page": 10,
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "outlinePages": [
+        10
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Grid Properties.",
+        "references": []
+      },
+      "signature": "39b57389c9910a96"
+    },
+    {
+      "id": "ppt-webdev-css-030",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Grid Template Columns",
+      "definition": "grid-template-columns: 1fr 3fr;",
+      "pdfWording": "grid-template-columns: 1fr 3fr;",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______: 1fr 3fr;",
+      "detail": "This property defines the grid columns; the supplied slide uses two column sizes, 1fr and 3fr.",
+      "previousVersions": [],
+      "topic": "webdev-css-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which property sets the columns in this slide?\n\n_______: 1fr 3fr;",
+      "options": [
+        "Grid Template Columns",
+        "Grid Template Rows",
+        "Gap",
+        "Flex Direction"
+      ],
+      "correct": 0,
+      "answer": "Grid Template Columns",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "109",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-030"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-030",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "CSS Grid",
+          "number": "109",
+          "page": 10,
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "outlinePages": [
+        10
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Grid Template Columns.",
+        "references": []
+      },
+      "signature": "61ee6c433da9c4a7"
+    },
+    {
+      "id": "ppt-webdev-css-031",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Grid Template Rows",
+      "definition": "grid-template-rows: auto 1fr;",
+      "pdfWording": "grid-template-rows: auto 1fr;",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______: auto 1fr;",
+      "detail": "This property defines the grid rows; the supplied slide uses auto and 1fr.",
+      "previousVersions": [],
+      "topic": "webdev-css-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which property sets the rows in this slide?\n\n_______: auto 1fr;",
+      "options": [
+        "Grid Template Columns",
+        "Gap",
+        "Flex Direction",
+        "Grid Template Rows"
+      ],
+      "correct": 3,
+      "answer": "Grid Template Rows",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "110",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-031"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-031",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "CSS Grid",
+          "number": "110",
+          "page": 10,
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "outlinePages": [
+        10
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Grid Template Rows.",
+        "references": []
+      },
+      "signature": "b8229b03494d7c8b"
+    },
+    {
+      "id": "ppt-webdev-css-032",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Gap",
+      "definition": "gap: 1rem;",
+      "pdfWording": "gap: 1rem;",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______: 1rem;",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______: 1rem;",
+      "options": [
+        "Grid Template Columns",
+        "Gap",
+        "Grid Template Rows",
+        "Flex Direction"
+      ],
+      "correct": 1,
+      "answer": "Gap",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "111",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-032"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-032",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "CSS Grid",
+          "number": "111",
+          "page": 10,
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "outlinePages": [
+        10
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Gap.",
+        "references": []
+      },
+      "signature": "e125c099b75d098e"
+    },
+    {
+      "id": "ppt-webdev-css-033",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Flexbox vs. CSS Grid",
+      "definition": "Flexbox: One dimension (row OR column)\nCSS Grid: Two dimensions (rows AND columns)\nCan they mix? Yes — use Grid for the page, Flexbox inside each grid cell",
+      "pdfWording": "Flexbox: One dimension (row OR column)\nCSS Grid: Two dimensions (rows AND columns)\nCan they mix? Yes — use Grid for the page, Flexbox inside each grid cell",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Flexbox: One dimension (row OR column)\nCSS Grid: Two dimensions (rows AND columns)\nCan they mix? Yes — use Grid for the page, Flexbox inside each grid cell",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nFlexbox: One dimension (row OR column)\nCSS Grid: Two dimensions (rows AND columns)\nCan they mix? Yes — use Grid for the page, Flexbox inside each grid cell",
+      "options": [
+        "Factors That Determine Which CSS Rule Wins",
+        "Components of the Box Model",
+        "Flexbox vs. CSS Grid",
+        "Bootstrap vs. Tailwind CSS"
+      ],
+      "correct": 2,
+      "answer": "Flexbox vs. CSS Grid",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "112",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-033"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-033",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "CSS Grid",
+          "number": "112",
+          "page": 11,
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "outlinePages": [
+        11
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Flexbox vs. CSS Grid.",
+        "references": []
+      },
+      "signature": "c6b9d9dbbec13d18"
+    },
+    {
+      "id": "ppt-webdev-css-034",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Media Queries",
+      "definition": "A media query lets CSS apply different rules depending on screen size.",
+      "pdfWording": "A media query lets CSS apply different rules depending on screen size.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "A _______ lets CSS apply different rules depending on screen size.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nA _______ lets CSS apply different rules depending on screen size.",
+      "options": [
+        "Media Queries",
+        "CSS Cascade",
+        "CSS Box Model",
+        "Flexbox"
+      ],
+      "correct": 0,
+      "answer": "Media Queries",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "113",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-034"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-034",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "Media Queries and Responsive Design",
+          "number": "113",
+          "page": 12,
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "outlinePages": [
+        12
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Media Queries.",
+        "references": []
+      },
+      "signature": "574f08535e8d8136"
+    },
+    {
+      "id": "ppt-webdev-css-035",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Mobile-First Design",
+      "definition": "“Mobile-first” means we write the base styles for small screens, then add rules for bigger screens as needed.",
+      "pdfWording": "“Mobile-first” means we write the base styles for small screens, then add rules for bigger screens as needed.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "“_______” means we write the base styles for small screens, then add rules for bigger screens as needed.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n“_______” means we write the base styles for small screens, then add rules for bigger screens as needed.",
+      "options": [
+        "CSS Box Model",
+        "Selector Specificity",
+        "Mobile-First Design",
+        "CSS Frameworks"
+      ],
+      "correct": 2,
+      "answer": "Mobile-First Design",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "114",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-035"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-035",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "Media Queries and Responsive Design",
+          "number": "114",
+          "page": 12,
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "outlinePages": [
+        12
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Mobile-First Design.",
+        "references": []
+      },
+      "signature": "6f97dc548db183d9"
+    },
+    {
+      "id": "ppt-webdev-css-036",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Responsive Design",
+      "definition": "Build pages that look good on phones first, then scale up smoothly to tablets and desktops using Flexbox, Grid, and media queries.",
+      "pdfWording": "Build pages that look good on phones first, then scale up smoothly to tablets and desktops using Flexbox, Grid, and media queries.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Build pages that look good on phones first, then scale up smoothly to tablets and desktops using Flexbox, Grid, and media queries.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nBuild pages that look good on phones first, then scale up smoothly to tablets and desktops using Flexbox, Grid, and media queries.",
+      "options": [
+        "CSS Box Model",
+        "Selector Specificity",
+        "Responsive Design",
+        "CSS Frameworks"
+      ],
+      "correct": 2,
+      "answer": "Responsive Design",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "115",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-036"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-036",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "Media Queries and Responsive Design",
+          "number": "115",
+          "page": 3,
+          "pages": [
+            3,
+            12
+          ]
+        }
+      ],
+      "outlinePages": [
+        12
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Responsive Design.",
+        "references": []
+      },
+      "signature": "536c150472cbf092"
+    },
+    {
+      "id": "ppt-webdev-css-037",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Screen-Size Breakpoints",
+      "definition": "Phone: < 576px\nTablet: ≥ 768px\nDesktop: ≥ 992px",
+      "pdfWording": "Phone: < 576px\nTablet: ≥ 768px\nDesktop: ≥ 992px",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Phone: < 576px\nTablet: ≥ 768px\nDesktop: ≥ 992px",
+      "detail": "These are the example thresholds printed in the deck, not universal device sizes.",
+      "previousVersions": [],
+      "topic": "webdev-css-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nPhone: < 576px\nTablet: ≥ 768px\nDesktop: ≥ 992px",
+      "options": [
+        "Importance",
+        "Specificity",
+        "Source Order",
+        "Screen-Size Breakpoints"
+      ],
+      "correct": 3,
+      "answer": "Screen-Size Breakpoints",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "116",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-037"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-037",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "Media Queries and Responsive Design",
+          "number": "116",
+          "page": 12,
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "outlinePages": [
+        12
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Screen-Size Breakpoints.",
+        "references": []
+      },
+      "signature": "dc622713c6194871"
+    },
+    {
+      "id": "ppt-webdev-css-038",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "CSS Frameworks",
+      "definition": "Both are popular CSS frameworks that speed up styling — but they work in very different ways.",
+      "pdfWording": "Both are popular CSS frameworks that speed up styling — but they work in very different ways.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Both are popular _______ that speed up styling — but they work in very different ways.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nBoth are popular _______ that speed up styling — but they work in very different ways.",
+      "options": [
+        "Flexbox",
+        "CSS Grid",
+        "Media Queries",
+        "CSS Frameworks"
+      ],
+      "correct": 3,
+      "answer": "CSS Frameworks",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "117",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-038"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-038",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "CSS Frameworks",
+          "number": "117",
+          "page": 13,
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "outlinePages": [
+        13
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: CSS Frameworks.",
+        "references": []
+      },
+      "signature": "c3f83a8fac237ada"
+    },
+    {
+      "id": "ppt-webdev-css-039",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Bootstrap 5",
+      "definition": "Ready-made components\nComes with pre-built components: navbars, buttons, cards, modals\nYou add CSS classes like btn, container, row, col-md-6\nFaster for beginners —less custom CSS to write\nSites can look similar unless you customize the theme",
+      "pdfWording": "Ready-made components\nComes with pre-built components: navbars, buttons, cards, modals\nYou add CSS classes like btn, container, row, col-md-6\nFaster for beginners —less custom CSS to write\nSites can look similar unless you customize the theme",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Ready-made components\nComes with pre-built components: navbars, buttons, cards, modals\nYou add CSS classes like btn, container, row, col-md-6\nFaster for beginners —less custom CSS to write\nSites can look similar unless you customize the theme",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nReady-made components\nComes with pre-built components: navbars, buttons, cards, modals\nYou add CSS classes like btn, container, row, col-md-6\nFaster for beginners —less custom CSS to write\nSites can look similar unless you customize the theme",
+      "options": [
+        "Tailwind CSS",
+        "Bootstrap 5",
+        "Flexbox",
+        "CSS Grid"
+      ],
+      "correct": 1,
+      "answer": "Bootstrap 5",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "118",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-039"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-039",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "CSS Frameworks",
+          "number": "118",
+          "page": 13,
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "outlinePages": [
+        13
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Bootstrap 5.",
+        "references": []
+      },
+      "signature": "f428f6f2f3bf495a"
+    },
+    {
+      "id": "ppt-webdev-css-040",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Ready-Made Components",
+      "definition": "Bootstrap 5\nReady-made components\nComes with pre-built components: navbars, buttons, cards, modals",
+      "pdfWording": "Bootstrap 5\nReady-made components\nComes with pre-built components: navbars, buttons, cards, modals",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Bootstrap 5\n_______\nComes with pre-built components: navbars, buttons, cards, modals",
+      "detail": "This entry is the Bootstrap component approach; the Bootstrap 5 entry remains separate.",
+      "previousVersions": [],
+      "topic": "webdev-css-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nBootstrap 5\n_______\nComes with pre-built components: navbars, buttons, cards, modals",
+      "options": [
+        "Ready-Made Components",
+        "Utility-First Design",
+        "One-Dimensional Layout",
+        "Two-Dimensional Layout"
+      ],
+      "correct": 0,
+      "answer": "Ready-Made Components",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "119",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-040"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-040",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "CSS Frameworks",
+          "number": "119",
+          "page": 13,
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "outlinePages": [
+        13
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Ready-Made Components.",
+        "references": []
+      },
+      "signature": "2392e440a6afc296"
+    },
+    {
+      "id": "ppt-webdev-css-041",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Tailwind CSS",
+      "definition": "Utility-first building blocks\nGives small utility classes: flex, p-4, text-center, bg-blue-500\nYou combine classes directly in HTML to build your own look\nMore flexible & unique designs, but a steeper learning curve\nVery popular in modern React / Vue / Laravel projects",
+      "pdfWording": "Utility-first building blocks\nGives small utility classes: flex, p-4, text-center, bg-blue-500\nYou combine classes directly in HTML to build your own look\nMore flexible & unique designs, but a steeper learning curve\nVery popular in modern React / Vue / Laravel projects",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Utility-first building blocks\nGives small utility classes: flex, p-4, text-center, bg-blue-500\nYou combine classes directly in HTML to build your own look\nMore flexible & unique designs, but a steeper learning curve\nVery popular in modern React / Vue / Laravel projects",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nUtility-first building blocks\nGives small utility classes: flex, p-4, text-center, bg-blue-500\nYou combine classes directly in HTML to build your own look\nMore flexible & unique designs, but a steeper learning curve\nVery popular in modern React / Vue / Laravel projects",
+      "options": [
+        "Tailwind CSS",
+        "Bootstrap 5",
+        "Flexbox",
+        "CSS Grid"
+      ],
+      "correct": 0,
+      "answer": "Tailwind CSS",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "120",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-041"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-041",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "CSS Frameworks",
+          "number": "120",
+          "page": 13,
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "outlinePages": [
+        13
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Tailwind CSS.",
+        "references": []
+      },
+      "signature": "f89558a4b0f42f1b"
+    },
+    {
+      "id": "ppt-webdev-css-042",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Utility-First Design",
+      "definition": "Tailwind CSS\nUtility-first building blocks\nGives small utility classes: flex, p-4, text-center, bg-blue-500",
+      "pdfWording": "Tailwind CSS\nUtility-first building blocks\nGives small utility classes: flex, p-4, text-center, bg-blue-500",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Tailwind CSS\n_______ building blocks\nGives small utility classes: flex, p-4, text-center, bg-blue-500",
+      "detail": "“Utility-First Design” in your list corresponds to “Utility-first building blocks” on the slide.",
+      "previousVersions": [],
+      "topic": "webdev-css-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nTailwind CSS\n_______ building blocks\nGives small utility classes: flex, p-4, text-center, bg-blue-500",
+      "options": [
+        "Ready-Made Components",
+        "One-Dimensional Layout",
+        "Utility-First Design",
+        "Two-Dimensional Layout"
+      ],
+      "correct": 2,
+      "answer": "Utility-First Design",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "121",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-042"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-042",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "CSS Frameworks",
+          "number": "121",
+          "page": 13,
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "outlinePages": [
+        13
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Utility-First Design.",
+        "references": []
+      },
+      "signature": "0cda9184900a40ea"
+    },
+    {
+      "id": "ppt-webdev-css-043",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Bootstrap vs. Tailwind CSS",
+      "definition": "Bootstrap 5: Ready-made components\nTailwind CSS: Utility-first building blocks\nBoth are popular CSS frameworks that speed up styling — but they work in very different ways.",
+      "pdfWording": "Bootstrap 5: Ready-made components\nTailwind CSS: Utility-first building blocks\nBoth are popular CSS frameworks that speed up styling — but they work in very different ways.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Bootstrap 5: Ready-made components\nTailwind CSS: Utility-first building blocks\nBoth are popular CSS frameworks that speed up styling — but they work in very different ways.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-css-6",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nBootstrap 5: Ready-made components\nTailwind CSS: Utility-first building blocks\nBoth are popular CSS frameworks that speed up styling — but they work in very different ways.",
+      "options": [
+        "Flexbox vs. CSS Grid",
+        "Factors That Determine Which CSS Rule Wins",
+        "Components of the Box Model",
+        "Bootstrap vs. Tailwind CSS"
+      ],
+      "correct": 3,
+      "answer": "Bootstrap vs. Tailwind CSS",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "122",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-css-043"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-css-043",
+          "sourceId": "webdev-css",
+          "section": "3-4",
+          "label": "Group 9 · CSS3 & Responsive Design",
+          "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+          "group": "CSS Frameworks",
+          "number": "122",
+          "page": 13,
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "outlinePages": [
+        13
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Bootstrap vs. Tailwind CSS.",
+        "references": []
+      },
+      "signature": "e798d2baa3f103db"
+    },
+    {
+      "id": "ppt-webdev-html-001",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML (HyperText Markup Language)",
+      "definition": "HTML (HyperText Markup Language) is the standard markup language used to create and structure content on the web. It defines the meaning and structure of web content using tags and elements.",
+      "pdfWording": "HTML (HyperText Markup Language) is the standard markup language used to create and structure content on the web. It defines the meaning and structure of web content using tags and elements.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ is the standard markup language used to create and structure content on the web. It defines the meaning and structure of web content using tags and elements.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ is the standard markup language used to create and structure content on the web. It defines the meaning and structure of web content using tags and elements.",
+      "options": [
+        "HTML5",
+        "Web Accessibility",
+        "HTML (HyperText Markup Language)",
+        "SEO (Search Engine Optimization)"
+      ],
+      "correct": 2,
+      "answer": "HTML (HyperText Markup Language)",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "123",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-001"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-001",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "123",
+          "page": 14,
+          "pages": [
+            14
+          ]
+        }
+      ],
+      "outlinePages": [
+        14
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML (HyperText Markup Language).",
+        "references": []
+      },
+      "signature": "e93d5ba8c3eb7eab"
+    },
+    {
+      "id": "ppt-webdev-html-002",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML5",
+      "definition": "HTML5 is the modern major version of HTML. It expanded HTML beyond basic page structure by standardizing semantic elements, native multimedia, improved form controls, graphics support, and browser APIs for richer web applications.",
+      "pdfWording": "HTML5 is the modern major version of HTML. It expanded HTML beyond basic page structure by standardizing semantic elements, native multimedia, improved form controls, graphics support, and browser APIs for richer web applications.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ is the modern major version of HTML. It expanded HTML beyond basic page structure by standardizing semantic elements, native multimedia, improved form controls, graphics support, and browser APIs for richer web applications.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ is the modern major version of HTML. It expanded HTML beyond basic page structure by standardizing semantic elements, native multimedia, improved form controls, graphics support, and browser APIs for richer web applications.",
+      "options": [
+        "HTML (HyperText Markup Language)",
+        "HTML5",
+        "Web Accessibility",
+        "SEO (Search Engine Optimization)"
+      ],
+      "correct": 1,
+      "answer": "HTML5",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "124",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-002"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-002",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "124",
+          "page": 15,
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "outlinePages": [
+        15
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML5.",
+        "references": []
+      },
+      "signature": "edffad1944ff534d"
+    },
+    {
+      "id": "ppt-webdev-html-003",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Main Features of HTML5",
+      "definition": "Semantic Elements\nNative multimedia\nImproved forms\nWeb APIs",
+      "pdfWording": "Semantic Elements\nNative multimedia\nImproved forms\nWeb APIs",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "Semantic Elements\nNative multimedia\nImproved forms\nWeb APIs",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nSemantic Elements\nNative multimedia\nImproved forms\nWeb APIs",
+      "options": [
+        "Main Features of HTML5",
+        "Common Semantic Elements",
+        "Types of HTML Lists",
+        "HTML Input Types"
+      ],
+      "correct": 0,
+      "answer": "Main Features of HTML5",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "125",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-003"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-003",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "125",
+          "page": 15,
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "outlinePages": [
+        15
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Main Features of HTML5.",
+        "references": []
+      },
+      "signature": "a62ef3fb7c2dde95"
+    },
+    {
+      "id": "ppt-webdev-html-004",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Semantic Elements",
+      "definition": "Semantic Elements such as <header>, <nav>, <main>, <section>, <article>, <aside>, and <footer>, which communicate the role of the content.",
+      "pdfWording": "Semantic Elements such as <header>, <nav>, <main>, <section>, <article>, <aside>, and <footer>, which communicate the role of the content.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ such as <header>, <nav>, <main>, <section>, <article>, <aside>, and <footer>, which communicate the role of the content.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ such as <header>, <nav>, <main>, <section>, <article>, <aside>, and <footer>, which communicate the role of the content.",
+      "options": [
+        "Native Multimedia",
+        "Improved Forms",
+        "Semantic Elements",
+        "Web APIs"
+      ],
+      "correct": 2,
+      "answer": "Semantic Elements",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "126",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-004"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-004",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "126",
+          "page": 15,
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "outlinePages": [
+        15
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Semantic Elements.",
+        "references": []
+      },
+      "signature": "2f7767c8ef0c4463"
+    },
+    {
+      "id": "ppt-webdev-html-005",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Native Multimedia",
+      "definition": "Native multimedia through <audio> and <video>, reducing reliance on external graphics and visual content.",
+      "pdfWording": "Native multimedia through <audio> and <video>, reducing reliance on external graphics and visual content.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ through <audio> and <video>, reducing reliance on external graphics and visual content.",
+      "detail": "Native audio/video reduce dependence on external media plugins; the slide says “external graphics and visual content.”",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ through <audio> and <video>, reducing reliance on external graphics and visual content.",
+      "options": [
+        "Semantic Elements",
+        "Native Multimedia",
+        "Improved Forms",
+        "Web APIs"
+      ],
+      "correct": 1,
+      "answer": "Native Multimedia",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "127",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-005"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-005",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "127",
+          "page": 15,
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "outlinePages": [
+        15
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Native Multimedia.",
+        "references": []
+      },
+      "signature": "c229526ea33850ad"
+    },
+    {
+      "id": "ppt-webdev-html-006",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Improved Forms",
+      "definition": "Improved forms, including input types such as email, date, number, and range, which helps browser provide more approriate controls and validation",
+      "pdfWording": "Improved forms, including input types such as email, date, number, and range, which helps browser provide more approriate controls and validation",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______, including input types such as email, date, number, and range, which helps browser provide more approriate controls and validation",
+      "detail": "The original slide spells “approriate”; the intended spelling is appropriate.",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______, including input types such as email, date, number, and range, which helps browser provide more approriate controls and validation",
+      "options": [
+        "Semantic Elements",
+        "Native Multimedia",
+        "Improved Forms",
+        "Web APIs"
+      ],
+      "correct": 2,
+      "answer": "Improved Forms",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "128",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-006"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-006",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "128",
+          "page": 15,
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "outlinePages": [
+        15
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Improved Forms.",
+        "references": []
+      },
+      "signature": "3901c0387ec41b57"
+    },
+    {
+      "id": "ppt-webdev-html-007",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Web APIs",
+      "definition": "Web APIs such as web storage, drag and drop, and geolocation, which enable more interactive browser-based applications",
+      "pdfWording": "Web APIs such as web storage, drag and drop, and geolocation, which enable more interactive browser-based applications",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ such as web storage, drag and drop, and geolocation, which enable more interactive browser-based applications",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ such as web storage, drag and drop, and geolocation, which enable more interactive browser-based applications",
+      "options": [
+        "Web APIs",
+        "Semantic Elements",
+        "Native Multimedia",
+        "Improved Forms"
+      ],
+      "correct": 0,
+      "answer": "Web APIs",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "129",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-007"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-007",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "129",
+          "page": 15,
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "outlinePages": [
+        15
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Web APIs.",
+        "references": []
+      },
+      "signature": "477e6b8e5fb9e916"
+    },
+    {
+      "id": "ppt-webdev-html-008",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML, CSS, and JavaScript",
+      "definition": "HTML: Defines content, structure, and meaning\nCSS: Controls presentation and layout\nJavaScript: Adds behavior and interactivity",
+      "pdfWording": "HTML: Defines content, structure, and meaning\nCSS: Controls presentation and layout\nJavaScript: Adds behavior and interactivity",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "HTML: Defines content, structure, and meaning\nCSS: Controls presentation and layout\nJavaScript: Adds behavior and interactivity",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nHTML: Defines content, structure, and meaning\nCSS: Controls presentation and layout\nJavaScript: Adds behavior and interactivity",
+      "options": [
+        "Basic HTML5 Document Structure",
+        "Basic Accessibility Principles",
+        "HTML, CSS, and JavaScript",
+        "HTML Elements Related to SEO"
+      ],
+      "correct": 2,
+      "answer": "HTML, CSS, and JavaScript",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "130",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-008"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-008",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "130",
+          "page": 16,
+          "pages": [
+            16
+          ]
+        }
+      ],
+      "outlinePages": [
+        16
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML, CSS, and JavaScript.",
+        "references": []
+      },
+      "signature": "6e0348cec80b0140"
+    },
+    {
+      "id": "ppt-webdev-html-009",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Semantic HTML",
+      "definition": "Semantic HTML uses elements whose names communicate the role and purpose of their content.",
+      "pdfWording": "Semantic HTML uses elements whose names communicate the role and purpose of their content.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ uses elements whose names communicate the role and purpose of their content.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ uses elements whose names communicate the role and purpose of their content.",
+      "options": [
+        "HTML Tables",
+        "Semantic HTML",
+        "HTML Forms",
+        "Web Accessibility"
+      ],
+      "correct": 1,
+      "answer": "Semantic HTML",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "131",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-009"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-009",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "131",
+          "page": 17,
+          "pages": [
+            17
+          ]
+        }
+      ],
+      "outlinePages": [
+        17,
+        18
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Semantic HTML.",
+        "references": []
+      },
+      "signature": "addcda99aa6541f7"
+    },
+    {
+      "id": "ppt-webdev-html-010",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Common Semantic Elements",
+      "definition": "<header> → Introductory content or navigation links\n<nav> → Navigation links\n<main> → The dominant content of the document\n<section> → A thematic grouping of content\n<article> → Independent, self-contained content\n<aside> → Content indirectly related to the main content\n<footer> → Footer information such as copyright or contact details",
+      "pdfWording": "<header> → Introductory content or navigation links\n<nav> → Navigation links\n<main> → The dominant content of the document\n<section> → A thematic grouping of content\n<article> → Independent, self-contained content\n<aside> → Content indirectly related to the main content\n<footer> → Footer information such as copyright or contact details",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "<header> → Introductory content or navigation links\n<nav> → Navigation links\n<main> → The dominant content of the document\n<section> → A thematic grouping of content\n<article> → Independent, self-contained content\n<aside> → Content indirectly related to the main content\n<footer> → Footer information such as copyright or contact details",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\n<header> → Introductory content or navigation links\n<nav> → Navigation links\n<main> → The dominant content of the document\n<section> → A thematic grouping of content\n<article> → Independent, self-contained content\n<aside> → Content indirectly related to the main content\n<footer> → Footer information such as copyright or contact details",
+      "options": [
+        "Common Semantic Elements",
+        "Main Features of HTML5",
+        "Types of HTML Lists",
+        "HTML Input Types"
+      ],
+      "correct": 0,
+      "answer": "Common Semantic Elements",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "132",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-010"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-010",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "132",
+          "page": 18,
+          "pages": [
+            18
+          ]
+        }
+      ],
+      "outlinePages": [
+        18
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Common Semantic Elements.",
+        "references": []
+      },
+      "signature": "7d8d412a4e23d0e0"
+    },
+    {
+      "id": "ppt-webdev-html-011",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Header",
+      "definition": "<header> → Introductory content or navigation links",
+      "pdfWording": "<header> → Introductory content or navigation links",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → Introductory content or navigation links",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → Introductory content or navigation links",
+      "options": [
+        "Article",
+        "Aside",
+        "Footer",
+        "Header"
+      ],
+      "correct": 3,
+      "answer": "Header",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "133",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-011"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-011",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "133",
+          "page": 18,
+          "pages": [
+            18
+          ]
+        }
+      ],
+      "outlinePages": [
+        18
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Header.",
+        "references": []
+      },
+      "signature": "2f7a987cc8592b69"
+    },
+    {
+      "id": "ppt-webdev-html-012",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Navigation",
+      "definition": "<nav> → Navigation links",
+      "pdfWording": "<nav> → Navigation links",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → _______ links",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → _______ links",
+      "options": [
+        "Navigation",
+        "Section",
+        "Article",
+        "Aside"
+      ],
+      "correct": 0,
+      "answer": "Navigation",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "134",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-012"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-012",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "134",
+          "page": 18,
+          "pages": [
+            18
+          ]
+        }
+      ],
+      "outlinePages": [
+        18
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Navigation.",
+        "references": []
+      },
+      "signature": "db2496f2ac625475"
+    },
+    {
+      "id": "ppt-webdev-html-013",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Main",
+      "definition": "<main> → The dominant content of the document",
+      "pdfWording": "<main> → The dominant content of the document",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → The dominant content of the document",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → The dominant content of the document",
+      "options": [
+        "Section",
+        "Main",
+        "Article",
+        "Aside"
+      ],
+      "correct": 1,
+      "answer": "Main",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "135",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-013"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-013",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "135",
+          "page": 18,
+          "pages": [
+            18
+          ]
+        }
+      ],
+      "outlinePages": [
+        18
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Main.",
+        "references": []
+      },
+      "signature": "5b5950b420a64542"
+    },
+    {
+      "id": "ppt-webdev-html-014",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Section",
+      "definition": "<section> → A thematic grouping of content",
+      "pdfWording": "<section> → A thematic grouping of content",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → A thematic grouping of content",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → A thematic grouping of content",
+      "options": [
+        "Navigation",
+        "Section",
+        "Article",
+        "Aside"
+      ],
+      "correct": 1,
+      "answer": "Section",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "136",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-014"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-014",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "136",
+          "page": 18,
+          "pages": [
+            18
+          ]
+        }
+      ],
+      "outlinePages": [
+        18
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Section.",
+        "references": []
+      },
+      "signature": "a6364154d06aca81"
+    },
+    {
+      "id": "ppt-webdev-html-015",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Article",
+      "definition": "<article> → Independent, self-contained content",
+      "pdfWording": "<article> → Independent, self-contained content",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → Independent, self-contained content",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → Independent, self-contained content",
+      "options": [
+        "Header",
+        "Aside",
+        "Footer",
+        "Article"
+      ],
+      "correct": 3,
+      "answer": "Article",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "137",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-015"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-015",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "137",
+          "page": 18,
+          "pages": [
+            18
+          ]
+        }
+      ],
+      "outlinePages": [
+        18
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Article.",
+        "references": []
+      },
+      "signature": "3a2af0d5183becab"
+    },
+    {
+      "id": "ppt-webdev-html-016",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Aside",
+      "definition": "<aside> → Content indirectly related to the main content",
+      "pdfWording": "<aside> → Content indirectly related to the main content",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → Content indirectly related to the main content",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → Content indirectly related to the main content",
+      "options": [
+        "Header",
+        "Article",
+        "Footer",
+        "Aside"
+      ],
+      "correct": 3,
+      "answer": "Aside",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "138",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-016"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-016",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "138",
+          "page": 18,
+          "pages": [
+            18
+          ]
+        }
+      ],
+      "outlinePages": [
+        18
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Aside.",
+        "references": []
+      },
+      "signature": "e3340324e480472d"
+    },
+    {
+      "id": "ppt-webdev-html-017",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Footer",
+      "definition": "<footer> → Footer information such as copyright or contact details",
+      "pdfWording": "<footer> → Footer information such as copyright or contact details",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → _______ information such as copyright or contact details",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → _______ information such as copyright or contact details",
+      "options": [
+        "Header",
+        "Article",
+        "Footer",
+        "Aside"
+      ],
+      "correct": 2,
+      "answer": "Footer",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "139",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-017"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-017",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "139",
+          "page": 18,
+          "pages": [
+            18
+          ]
+        }
+      ],
+      "outlinePages": [
+        18
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Footer.",
+        "references": []
+      },
+      "signature": "026411826de27752"
+    },
+    {
+      "id": "ppt-webdev-html-018",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Basic HTML5 Document Structure",
+      "definition": "<!DOCTYPE html>\n<html>\n<head>\n<title>My Website</title>\n</head>\n<body>\n<h1>Hello World</h1>\n<p>Welcome to my Website!</p>\n<body>\n</html>",
+      "pdfWording": "<!DOCTYPE html>\n<html>\n<head>\n<title>My Website</title>\n</head>\n<body>\n<h1>Hello World</h1>\n<p>Welcome to my Website!</p>\n<body>\n</html>",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "<!DOCTYPE html>\n<html>\n<head>\n<title>My Website</title>\n</head>\n<body>\n<h1>Hello World</h1>\n<p>Welcome to my Website!</p>\n<body>\n</html>",
+      "detail": "The slide repeats <body> where a closing </body> should be. The original code is retained as text, not executed.",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\n<!DOCTYPE html>\n<html>\n<head>\n<title>My Website</title>\n</head>\n<body>\n<h1>Hello World</h1>\n<p>Welcome to my Website!</p>\n<body>\n</html>",
+      "options": [
+        "HTML, CSS, and JavaScript",
+        "Basic HTML5 Document Structure",
+        "Basic Accessibility Principles",
+        "HTML Elements Related to SEO"
+      ],
+      "correct": 1,
+      "answer": "Basic HTML5 Document Structure",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "140",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-018"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-018",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "140",
+          "page": 19,
+          "pages": [
+            19
+          ]
+        }
+      ],
+      "outlinePages": [
+        19,
+        20,
+        21
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Basic HTML5 Document Structure.",
+        "references": []
+      },
+      "signature": "68813cabded4fafa"
+    },
+    {
+      "id": "ppt-webdev-html-019",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "DOCTYPE",
+      "definition": "<!DOCTYPE html> → Declares the document as an HTML5 document, enabling standards mode in browsers.",
+      "pdfWording": "<!DOCTYPE html> → Declares the document as an HTML5 document, enabling standards mode in browsers.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → Declares the document as an HTML5 document, enabling standards mode in browsers.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → Declares the document as an HTML5 document, enabling standards mode in browsers.",
+      "options": [
+        "HTML Element",
+        "Head Element",
+        "Body Element",
+        "DOCTYPE"
+      ],
+      "correct": 3,
+      "answer": "DOCTYPE",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "141",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-019"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-019",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "141",
+          "page": 20,
+          "pages": [
+            20
+          ]
+        }
+      ],
+      "outlinePages": [
+        19,
+        20,
+        21
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: DOCTYPE.",
+        "references": []
+      },
+      "signature": "3f479b06e067a2cb"
+    },
+    {
+      "id": "ppt-webdev-html-020",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML Element",
+      "definition": "<html> → The root element that wraps the entire page content",
+      "pdfWording": "<html> → The root element that wraps the entire page content",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → The root element that wraps the entire page content",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → The root element that wraps the entire page content",
+      "options": [
+        "DOCTYPE",
+        "HTML Element",
+        "Head Element",
+        "Body Element"
+      ],
+      "correct": 1,
+      "answer": "HTML Element",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "142",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-020"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-020",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "142",
+          "page": 20,
+          "pages": [
+            20
+          ]
+        }
+      ],
+      "outlinePages": [
+        19,
+        20,
+        21
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML Element.",
+        "references": []
+      },
+      "signature": "ab507e8587734ce2"
+    },
+    {
+      "id": "ppt-webdev-html-021",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Head Element",
+      "definition": "<head> → Contains metadata such as the page title, character encoding, CSS links, and other non-visible information.",
+      "pdfWording": "<head> → Contains metadata such as the page title, character encoding, CSS links, and other non-visible information.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → Contains metadata such as the page title, character encoding, CSS links, and other non-visible information.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → Contains metadata such as the page title, character encoding, CSS links, and other non-visible information.",
+      "options": [
+        "DOCTYPE",
+        "Head Element",
+        "HTML Element",
+        "Body Element"
+      ],
+      "correct": 1,
+      "answer": "Head Element",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "143",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-021"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-021",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "143",
+          "page": 20,
+          "pages": [
+            20
+          ]
+        }
+      ],
+      "outlinePages": [
+        19,
+        20,
+        21
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Head Element.",
+        "references": []
+      },
+      "signature": "0722d325717b2c5b"
+    },
+    {
+      "id": "ppt-webdev-html-022",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Title Element",
+      "definition": "<title> → Defines the title of the page, displayed in the browser tab or window title bar.",
+      "pdfWording": "<title> → Defines the title of the page, displayed in the browser tab or window title bar.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → Defines the title of the page, displayed in the browser tab or window title bar.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → Defines the title of the page, displayed in the browser tab or window title bar.",
+      "options": [
+        "HTML Element",
+        "Title Element",
+        "Head Element",
+        "Body Element"
+      ],
+      "correct": 1,
+      "answer": "Title Element",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "144",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-022"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-022",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "144",
+          "page": 21,
+          "pages": [
+            21
+          ]
+        }
+      ],
+      "outlinePages": [
+        19,
+        20,
+        21
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Title Element.",
+        "references": []
+      },
+      "signature": "7036c603b50ad874"
+    },
+    {
+      "id": "ppt-webdev-html-023",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Body Element",
+      "definition": "<body> → Contains all visible content of the page, such as headings, paragraphs, images, and links.",
+      "pdfWording": "<body> → Contains all visible content of the page, such as headings, paragraphs, images, and links.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → Contains all visible content of the page, such as headings, paragraphs, images, and links.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → Contains all visible content of the page, such as headings, paragraphs, images, and links.",
+      "options": [
+        "DOCTYPE",
+        "HTML Element",
+        "Body Element",
+        "Head Element"
+      ],
+      "correct": 2,
+      "answer": "Body Element",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "145",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-023"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-023",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "145",
+          "page": 21,
+          "pages": [
+            21
+          ]
+        }
+      ],
+      "outlinePages": [
+        19,
+        20,
+        21
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Body Element.",
+        "references": []
+      },
+      "signature": "d16053a28285ff34"
+    },
+    {
+      "id": "ppt-webdev-html-024",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Heading Element",
+      "definition": "<h1> is used for the main title of a webpage, while <p> is used for regular blocks of text.",
+      "pdfWording": "<h1> is used for the main title of a webpage, while <p> is used for regular blocks of text.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ is used for the main title of a webpage, while <p> is used for regular blocks of text.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ is used for the main title of a webpage, while <p> is used for regular blocks of text.",
+      "options": [
+        "Heading Element",
+        "Paragraph Element",
+        "Title Element",
+        "Body Element"
+      ],
+      "correct": 0,
+      "answer": "Heading Element",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "146",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-024"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-024",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "146",
+          "page": 21,
+          "pages": [
+            21
+          ]
+        }
+      ],
+      "outlinePages": [
+        19,
+        20,
+        21
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Heading Element.",
+        "references": []
+      },
+      "signature": "68f94c9a0256777e"
+    },
+    {
+      "id": "ppt-webdev-html-025",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Paragraph Element",
+      "definition": "<h1> is used for the main title of a webpage, while <p> is used for regular blocks of text.",
+      "pdfWording": "<h1> is used for the main title of a webpage, while <p> is used for regular blocks of text.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "<h1> is used for the main title of a webpage, while _______ is used for regular blocks of text.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-1",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n<h1> is used for the main title of a webpage, while _______ is used for regular blocks of text.",
+      "options": [
+        "Heading Element",
+        "Paragraph Element",
+        "Title Element",
+        "Body Element"
+      ],
+      "correct": 1,
+      "answer": "Paragraph Element",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "147",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-025"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-025",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Introduction to HTML5",
+          "number": "147",
+          "page": 21,
+          "pages": [
+            21
+          ]
+        }
+      ],
+      "outlinePages": [
+        19,
+        20,
+        21
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Paragraph Element.",
+        "references": []
+      },
+      "signature": "165d476b31c27309"
+    },
+    {
+      "id": "ppt-webdev-html-026",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML Links / Hyperlinks",
+      "definition": "HTML links, or hyperlinks, allow users to navigate from one webpage or document to another.\nThey are clickable elements on a webpage.\nWhen you hover over a link, the cursor usually changes into a hand pointer.",
+      "pdfWording": "HTML links, or hyperlinks, allow users to navigate from one webpage or document to another.\nThey are clickable elements on a webpage.\nWhen you hover over a link, the cursor usually changes into a hand pointer.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______, or _______, allow users to navigate from one webpage or document to another.\nThey are clickable elements on a webpage.\nWhen you hover over a link, the cursor usually changes into a hand pointer.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______, or _______, allow users to navigate from one webpage or document to another.\nThey are clickable elements on a webpage.\nWhen you hover over a link, the cursor usually changes into a hand pointer.",
+      "options": [
+        "HTML Links / Hyperlinks",
+        "HTML Lists",
+        "HTML Tables",
+        "HTML Forms"
+      ],
+      "correct": 0,
+      "answer": "HTML Links / Hyperlinks",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "148",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-026"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-026",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "148",
+          "page": 23,
+          "pages": [
+            23
+          ]
+        }
+      ],
+      "outlinePages": [
+        23
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML Links / Hyperlinks.",
+        "references": []
+      },
+      "signature": "083d6ee6b31ca04a"
+    },
+    {
+      "id": "ppt-webdev-html-027",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Hyperlink Syntax",
+      "definition": "<a href=\"url\">link text</a>",
+      "pdfWording": "<a href=\"url\">link text</a>",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "<a href=\"url\">link text</a>",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\n<a href=\"url\">link text</a>",
+      "options": [
+        "Basic HTML5 Document Structure",
+        "HTML Table Structure",
+        "Hyperlink Syntax",
+        "Basic Form Structure"
+      ],
+      "correct": 2,
+      "answer": "Hyperlink Syntax",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "149",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-027"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-027",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "149",
+          "page": 24,
+          "pages": [
+            24
+          ]
+        }
+      ],
+      "outlinePages": [
+        24
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Hyperlink Syntax.",
+        "references": []
+      },
+      "signature": "735bfeb241c177b1"
+    },
+    {
+      "id": "ppt-webdev-html-028",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Anchor Tag",
+      "definition": "The <a> tag / anchor tag is used to create hyperlinks in HTML.",
+      "pdfWording": "The <a> tag / anchor tag is used to create hyperlinks in HTML.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "The _______ is used to create hyperlinks in HTML.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nThe _______ is used to create hyperlinks in HTML.",
+      "options": [
+        "Href Attribute",
+        "Link Text",
+        "Table Element",
+        "Anchor Tag"
+      ],
+      "correct": 3,
+      "answer": "Anchor Tag",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "150",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-028"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-028",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "150",
+          "page": 24,
+          "pages": [
+            24
+          ]
+        }
+      ],
+      "outlinePages": [
+        24
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Anchor Tag.",
+        "references": []
+      },
+      "signature": "9d779f3903d7c99d"
+    },
+    {
+      "id": "ppt-webdev-html-029",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Href Attribute",
+      "definition": "href / hypertext reference attribute → specifies where the link will lead",
+      "pdfWording": "href / hypertext reference attribute → specifies where the link will lead",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → specifies where the link will lead",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → specifies where the link will lead",
+      "options": [
+        "Anchor Tag",
+        "Link Text",
+        "Href Attribute",
+        "Table Element"
+      ],
+      "correct": 2,
+      "answer": "Href Attribute",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "151",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-029"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-029",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "151",
+          "page": 24,
+          "pages": [
+            24
+          ]
+        }
+      ],
+      "outlinePages": [
+        24
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Href Attribute.",
+        "references": []
+      },
+      "signature": "a9e744876884209d"
+    },
+    {
+      "id": "ppt-webdev-html-030",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Link Text",
+      "definition": "Link text → the clickable text visible to the user",
+      "pdfWording": "Link text → the clickable text visible to the user",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → the clickable text visible to the user",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → the clickable text visible to the user",
+      "options": [
+        "Link Text",
+        "Anchor Tag",
+        "Href Attribute",
+        "Table Element"
+      ],
+      "correct": 0,
+      "answer": "Link Text",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "152",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-030"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-030",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "152",
+          "page": 24,
+          "pages": [
+            24
+          ]
+        }
+      ],
+      "outlinePages": [
+        24
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Link Text.",
+        "references": []
+      },
+      "signature": "d305fccfb144e93b"
+    },
+    {
+      "id": "ppt-webdev-html-031",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML Elements Used as Links",
+      "definition": "As an image:\n<a href=\"https://example.com\">\n<img src=\"image.jpg\" alt=\"Example\">\n</a>\nAs a button:\n<a href=\"https://example.com\">\n<button>Visit Website</button>\n</a>",
+      "pdfWording": "As an image:\n<a href=\"https://example.com\">\n<img src=\"image.jpg\" alt=\"Example\">\n</a>\nAs a button:\n<a href=\"https://example.com\">\n<button>Visit Website</button>\n</a>",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "As an image:\n<a href=\"https://example.com\">\n<img src=\"image.jpg\" alt=\"Example\">\n</a>\nAs a button:\n<a href=\"https://example.com\">\n<button>Visit Website</button>\n</a>",
+      "detail": "The source nests a button inside a link. Interactive content should not be nested this way; use a styled link for navigation or a button for an action.",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nAs an image:\n<a href=\"https://example.com\">\n<img src=\"image.jpg\" alt=\"Example\">\n</a>\nAs a button:\n<a href=\"https://example.com\">\n<button>Visit Website</button>\n</a>",
+      "options": [
+        "Types of HTML Lists",
+        "HTML Elements Used as Links",
+        "HTML Table Structure",
+        "HTML Input Types"
+      ],
+      "correct": 1,
+      "answer": "HTML Elements Used as Links",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "153",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-031"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-031",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "153",
+          "page": 25,
+          "pages": [
+            25
+          ]
+        }
+      ],
+      "outlinePages": [
+        25
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML Elements Used as Links.",
+        "references": [
+          {
+            "label": "WHATWG: anchor content model",
+            "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element"
+          }
+        ]
+      },
+      "signature": "adb44bff7e949d12"
+    },
+    {
+      "id": "ppt-webdev-html-032",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML Lists",
+      "definition": "HTML lists are used to group related items together. It has 3 types:",
+      "pdfWording": "HTML lists are used to group related items together. It has 3 types:",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ are used to group related items together. It has 3 types:",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ are used to group related items together. It has 3 types:",
+      "options": [
+        "HTML Links / Hyperlinks",
+        "HTML Tables",
+        "HTML Lists",
+        "HTML Forms"
+      ],
+      "correct": 2,
+      "answer": "HTML Lists",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "154",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-032"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-032",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "154",
+          "page": 26,
+          "pages": [
+            26
+          ]
+        }
+      ],
+      "outlinePages": [
+        26
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML Lists.",
+        "references": []
+      },
+      "signature": "06f6507425664775"
+    },
+    {
+      "id": "ppt-webdev-html-033",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Types of HTML Lists",
+      "definition": "Unordered List\nOrdered List\nDescription List",
+      "pdfWording": "Unordered List\nOrdered List\nDescription List",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "Unordered List\nOrdered List\nDescription List",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nUnordered List\nOrdered List\nDescription List",
+      "options": [
+        "Main Features of HTML5",
+        "Types of HTML Lists",
+        "Common Semantic Elements",
+        "HTML Input Types"
+      ],
+      "correct": 1,
+      "answer": "Types of HTML Lists",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "155",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-033"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-033",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "155",
+          "page": 26,
+          "pages": [
+            26
+          ]
+        }
+      ],
+      "outlinePages": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Types of HTML Lists.",
+        "references": []
+      },
+      "signature": "b312177f27735025"
+    },
+    {
+      "id": "ppt-webdev-html-034",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Unordered List",
+      "definition": "An unordered list displays items using bullet points.\nUse an unordered list when the sequence of the items does not matter",
+      "pdfWording": "An unordered list displays items using bullet points.\nUse an unordered list when the sequence of the items does not matter",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "An _______ displays items using bullet points.\nUse an _______ when the sequence of the items does not matter",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nAn _______ displays items using bullet points.\nUse an _______ when the sequence of the items does not matter",
+      "options": [
+        "Unordered List",
+        "Ordered List",
+        "Description List",
+        "HTML Tables"
+      ],
+      "correct": 0,
+      "answer": "Unordered List",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "156",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-034"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-034",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "156",
+          "page": 27,
+          "pages": [
+            27
+          ]
+        }
+      ],
+      "outlinePages": [
+        27
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Unordered List.",
+        "references": []
+      },
+      "signature": "1522453ba62c0d76"
+    },
+    {
+      "id": "ppt-webdev-html-035",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Ordered List",
+      "definition": "Displays items in a specific sequence using numbers.\nUse an ordered list when the sequence of the items is essential to understanding the information.",
+      "pdfWording": "Displays items in a specific sequence using numbers.\nUse an ordered list when the sequence of the items is essential to understanding the information.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Displays items in a specific sequence using numbers.\nUse an _______ when the sequence of the items is essential to understanding the information.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nDisplays items in a specific sequence using numbers.\nUse an _______ when the sequence of the items is essential to understanding the information.",
+      "options": [
+        "Unordered List",
+        "Description List",
+        "HTML Tables",
+        "Ordered List"
+      ],
+      "correct": 3,
+      "answer": "Ordered List",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "157",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-035"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-035",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "157",
+          "page": 28,
+          "pages": [
+            28
+          ]
+        }
+      ],
+      "outlinePages": [
+        28
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Ordered List.",
+        "references": []
+      },
+      "signature": "b14e6bcf15d08db7"
+    },
+    {
+      "id": "ppt-webdev-html-036",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Description List",
+      "definition": "Pairs a term with its description or definition.\nUse a description list when you need to display pairs of related data",
+      "pdfWording": "Pairs a term with its description or definition.\nUse a description list when you need to display pairs of related data",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Pairs a term with its description or definition.\nUse a _______ when you need to display pairs of related data",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nPairs a term with its description or definition.\nUse a _______ when you need to display pairs of related data",
+      "options": [
+        "Unordered List",
+        "Description List",
+        "Ordered List",
+        "HTML Tables"
+      ],
+      "correct": 1,
+      "answer": "Description List",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "158",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-036"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-036",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "158",
+          "page": 29,
+          "pages": [
+            29
+          ]
+        }
+      ],
+      "outlinePages": [
+        29
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Description List.",
+        "references": []
+      },
+      "signature": "1d52b9e857785359"
+    },
+    {
+      "id": "ppt-webdev-html-037",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML List Elements",
+      "definition": "<li> → defines each list item\n<dt> → defines the term or name\n<dd> → provides the description of the term",
+      "pdfWording": "<li> → defines each list item\n<dt> → defines the term or name\n<dd> → provides the description of the term",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "<li> → defines each list item\n<dt> → defines the term or name\n<dd> → provides the description of the term",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\n<li> → defines each list item\n<dt> → defines the term or name\n<dd> → provides the description of the term",
+      "options": [
+        "Common Semantic Elements",
+        "HTML Table Structure",
+        "HTML List Elements",
+        "HTML Input Types"
+      ],
+      "correct": 2,
+      "answer": "HTML List Elements",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "159",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-037"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-037",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "159",
+          "page": 27,
+          "pages": [
+            27,
+            29
+          ]
+        }
+      ],
+      "outlinePages": [
+        27,
+        28,
+        29
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML List Elements.",
+        "references": []
+      },
+      "signature": "28d99aff23067784"
+    },
+    {
+      "id": "ppt-webdev-html-038",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "List Item (li)",
+      "definition": "<li> → defines each list item",
+      "pdfWording": "<li> → defines each list item",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → defines each list item",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → defines each list item",
+      "options": [
+        "Description Term (dt)",
+        "Description Details (dd)",
+        "Table Row",
+        "List Item (li)"
+      ],
+      "correct": 3,
+      "answer": "List Item (li)",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "160",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-038"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-038",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "160",
+          "page": 27,
+          "pages": [
+            27
+          ]
+        }
+      ],
+      "outlinePages": [
+        27,
+        28,
+        29
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: List Item (li).",
+        "references": []
+      },
+      "signature": "b94898c5af662138"
+    },
+    {
+      "id": "ppt-webdev-html-039",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Description Term (dt)",
+      "definition": "<dt> → defines the term or name",
+      "pdfWording": "<dt> → defines the term or name",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → defines the term or name",
+      "detail": "“with the details indented” belongs to the rendered list description, not a requirement of the <dt> element.",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → defines the term or name",
+      "options": [
+        "Description Term (dt)",
+        "List Item (li)",
+        "Description Details (dd)",
+        "Table Row"
+      ],
+      "correct": 0,
+      "answer": "Description Term (dt)",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "161",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-039"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-039",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "161",
+          "page": 29,
+          "pages": [
+            29
+          ]
+        }
+      ],
+      "outlinePages": [
+        27,
+        28,
+        29
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Description Term (dt).",
+        "references": []
+      },
+      "signature": "04bc321a188cfa1a"
+    },
+    {
+      "id": "ppt-webdev-html-040",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Description Details (dd)",
+      "definition": "<dd> → provides the description of the term",
+      "pdfWording": "<dd> → provides the description of the term",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → provides the description of the term",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → provides the description of the term",
+      "options": [
+        "List Item (li)",
+        "Description Details (dd)",
+        "Description Term (dt)",
+        "Table Row"
+      ],
+      "correct": 1,
+      "answer": "Description Details (dd)",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "162",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-040"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-040",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "162",
+          "page": 29,
+          "pages": [
+            29
+          ]
+        }
+      ],
+      "outlinePages": [
+        27,
+        28,
+        29
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Description Details (dd).",
+        "references": []
+      },
+      "signature": "df460331c2dfc2c7"
+    },
+    {
+      "id": "ppt-webdev-html-041",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML Tables",
+      "definition": "HTML tables are used to organize related data into rows and columns.\nTables should be used for tabular data, not to arrange the layout of a webpage.",
+      "pdfWording": "HTML tables are used to organize related data into rows and columns.\nTables should be used for tabular data, not to arrange the layout of a webpage.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ are used to organize related data into rows and columns.\nTables should be used for tabular data, not to arrange the layout of a webpage.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ are used to organize related data into rows and columns.\nTables should be used for tabular data, not to arrange the layout of a webpage.",
+      "options": [
+        "HTML Tables",
+        "Semantic HTML",
+        "HTML Forms",
+        "Web Accessibility"
+      ],
+      "correct": 0,
+      "answer": "HTML Tables",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "163",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-041"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-041",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "163",
+          "page": 30,
+          "pages": [
+            30
+          ]
+        }
+      ],
+      "outlinePages": [
+        30
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML Tables.",
+        "references": []
+      },
+      "signature": "cb53b1cd7fca4628"
+    },
+    {
+      "id": "ppt-webdev-html-042",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML Table Structure",
+      "definition": "<table> → creates the table\n<tr> → creates a table row\n<th> → creates a header cell\n<td> → creates a data cell",
+      "pdfWording": "<table> → creates the table\n<tr> → creates a table row\n<th> → creates a header cell\n<td> → creates a data cell",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "<table> → creates the table\n<tr> → creates a table row\n<th> → creates a header cell\n<td> → creates a data cell",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\n<table> → creates the table\n<tr> → creates a table row\n<th> → creates a header cell\n<td> → creates a data cell",
+      "options": [
+        "Basic HTML5 Document Structure",
+        "Basic Form Structure",
+        "HTML Table Structure",
+        "Hyperlink Syntax"
+      ],
+      "correct": 2,
+      "answer": "HTML Table Structure",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "164",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-042"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-042",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "164",
+          "page": 31,
+          "pages": [
+            31
+          ]
+        }
+      ],
+      "outlinePages": [
+        31
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML Table Structure.",
+        "references": []
+      },
+      "signature": "e416b505ea299072"
+    },
+    {
+      "id": "ppt-webdev-html-043",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Table Element",
+      "definition": "<table> → creates the table",
+      "pdfWording": "<table> → creates the table",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → creates the table",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → creates the table",
+      "options": [
+        "Table Element",
+        "Anchor Tag",
+        "Href Attribute",
+        "Link Text"
+      ],
+      "correct": 0,
+      "answer": "Table Element",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "165",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-043"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-043",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "165",
+          "page": 31,
+          "pages": [
+            31
+          ]
+        }
+      ],
+      "outlinePages": [
+        31
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Table Element.",
+        "references": []
+      },
+      "signature": "5e4af899f8491676"
+    },
+    {
+      "id": "ppt-webdev-html-044",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Table Row",
+      "definition": "<tr> → creates a table row",
+      "pdfWording": "<tr> → creates a table row",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "<tr> → creates a _______",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n<tr> → creates a _______",
+      "options": [
+        "List Item (li)",
+        "Table Row",
+        "Description Term (dt)",
+        "Description Details (dd)"
+      ],
+      "correct": 1,
+      "answer": "Table Row",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "166",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-044"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-044",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "166",
+          "page": 31,
+          "pages": [
+            31
+          ]
+        }
+      ],
+      "outlinePages": [
+        31
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Table Row.",
+        "references": []
+      },
+      "signature": "2a72dcbc9d44c1a2"
+    },
+    {
+      "id": "ppt-webdev-html-045",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Table Header",
+      "definition": "<th> → creates a header cell",
+      "pdfWording": "<th> → creates a header cell",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → creates a header cell",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → creates a header cell",
+      "options": [
+        "Table Element",
+        "Table Header",
+        "Table Row",
+        "Table Data"
+      ],
+      "correct": 1,
+      "answer": "Table Header",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "167",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-045"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-045",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "167",
+          "page": 31,
+          "pages": [
+            31
+          ]
+        }
+      ],
+      "outlinePages": [
+        31
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Table Header.",
+        "references": []
+      },
+      "signature": "abd491c0a63764ce"
+    },
+    {
+      "id": "ppt-webdev-html-046",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Table Data",
+      "definition": "<td> → creates a data cell",
+      "pdfWording": "<td> → creates a data cell",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → creates a data cell",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → creates a data cell",
+      "options": [
+        "Table Element",
+        "Table Row",
+        "Table Data",
+        "Table Header"
+      ],
+      "correct": 2,
+      "answer": "Table Data",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "168",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-046"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-046",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "168",
+          "page": 31,
+          "pages": [
+            31
+          ]
+        }
+      ],
+      "outlinePages": [
+        31
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Table Data.",
+        "references": []
+      },
+      "signature": "05ebd811312247cc"
+    },
+    {
+      "id": "ppt-webdev-html-047",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML Media",
+      "definition": "I. PICTURE\nII. AUDIO\nIII. VIDEO",
+      "pdfWording": "I. PICTURE\nII. AUDIO\nIII. VIDEO",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "I. PICTURE\nII. AUDIO\nIII. VIDEO",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nI. PICTURE\nII. AUDIO\nIII. VIDEO",
+      "options": [
+        "Types of HTML Lists",
+        "HTML Input Types",
+        "HTML Media",
+        "Basic Accessibility Principles"
+      ],
+      "correct": 2,
+      "answer": "HTML Media",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "169",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-047"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-047",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "169",
+          "page": 33,
+          "pages": [
+            33,
+            34,
+            37
+          ]
+        }
+      ],
+      "outlinePages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML Media.",
+        "references": []
+      },
+      "signature": "ec9b31d6edc78ba4"
+    },
+    {
+      "id": "ppt-webdev-html-048",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML Images",
+      "definition": "The <img> tag is used to display an image on a webpage. It is an empty element that has no closing tag",
+      "pdfWording": "The <img> tag is used to display an image on a webpage. It is an empty element that has no closing tag",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "The _______ tag is used to display an image on a webpage. It is an empty element that has no closing tag",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nThe _______ tag is used to display an image on a webpage. It is an empty element that has no closing tag",
+      "options": [
+        "HTML Audio",
+        "HTML Video",
+        "HTML Tables",
+        "HTML Images"
+      ],
+      "correct": 3,
+      "answer": "HTML Images",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "170",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-048"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-048",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "170",
+          "page": 33,
+          "pages": [
+            33
+          ]
+        }
+      ],
+      "outlinePages": [
+        33
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML Images.",
+        "references": []
+      },
+      "signature": "9e34196686ec3b48"
+    },
+    {
+      "id": "ppt-webdev-html-049",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Image Element",
+      "definition": "<img> → creates a space for the image to be displayed",
+      "pdfWording": "<img> → creates a space for the image to be displayed",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → creates a space for the image to be displayed",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → creates a space for the image to be displayed",
+      "options": [
+        "Image Element",
+        "Source Attribute",
+        "Alternative Text Attribute",
+        "Href Attribute"
+      ],
+      "correct": 0,
+      "answer": "Image Element",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "171",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-049"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-049",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "171",
+          "page": 33,
+          "pages": [
+            33
+          ]
+        }
+      ],
+      "outlinePages": [
+        33
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Image Element.",
+        "references": []
+      },
+      "signature": "9f6ccd1927b015a5"
+    },
+    {
+      "id": "ppt-webdev-html-050",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Source Attribute",
+      "definition": "src / source → specifies the image's location or file path",
+      "pdfWording": "src / source → specifies the image's location or file path",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → specifies the image's location or file path",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → specifies the image's location or file path",
+      "options": [
+        "Image Element",
+        "Source Attribute",
+        "Alternative Text Attribute",
+        "Href Attribute"
+      ],
+      "correct": 1,
+      "answer": "Source Attribute",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "172",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-050"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-050",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "172",
+          "page": 33,
+          "pages": [
+            33
+          ]
+        }
+      ],
+      "outlinePages": [
+        33
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Source Attribute.",
+        "references": []
+      },
+      "signature": "c1bb6bcb99ab2927"
+    },
+    {
+      "id": "ppt-webdev-html-051",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Alternative Text Attribute",
+      "definition": "alt → provides alternative text describing the image",
+      "pdfWording": "alt → provides alternative text describing the image",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ provides alternative text describing the image",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ provides alternative text describing the image",
+      "options": [
+        "Image Element",
+        "Source Attribute",
+        "Href Attribute",
+        "Alternative Text Attribute"
+      ],
+      "correct": 3,
+      "answer": "Alternative Text Attribute",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "173",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-051"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-051",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "173",
+          "page": 33,
+          "pages": [
+            33
+          ]
+        }
+      ],
+      "outlinePages": [
+        33
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Alternative Text Attribute.",
+        "references": []
+      },
+      "signature": "c45e0fd57103003e"
+    },
+    {
+      "id": "ppt-webdev-html-052",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML Audio",
+      "definition": "The <audio> element is used to play audio files directly on a webpage.",
+      "pdfWording": "The <audio> element is used to play audio files directly on a webpage.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "The _______ element is used to play audio files directly on a webpage.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nThe _______ element is used to play audio files directly on a webpage.",
+      "options": [
+        "HTML Images",
+        "HTML Video",
+        "HTML Audio",
+        "HTML Tables"
+      ],
+      "correct": 2,
+      "answer": "HTML Audio",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "174",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-052"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-052",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "174",
+          "page": 34,
+          "pages": [
+            34
+          ]
+        }
+      ],
+      "outlinePages": [
+        34
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML Audio.",
+        "references": []
+      },
+      "signature": "5e68f5fe5597c3cc"
+    },
+    {
+      "id": "ppt-webdev-html-053",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Audio Media Types",
+      "definition": "MP3 → audio/mpeg → Music, general audio\nOGG → audio/ogg → Web audio, open-source projects\nWAV → audio/wav → High-quality, uncompressed audio",
+      "pdfWording": "MP3 → audio/mpeg → Music, general audio\nOGG → audio/ogg → Web audio, open-source projects\nWAV → audio/wav → High-quality, uncompressed audio",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "MP3 → audio/mpeg → Music, general audio\nOGG → audio/ogg → Web audio, open-source projects\nWAV → audio/wav → High-quality, uncompressed audio",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nMP3 → audio/mpeg → Music, general audio\nOGG → audio/ogg → Web audio, open-source projects\nWAV → audio/wav → High-quality, uncompressed audio",
+      "options": [
+        "Video Media Types",
+        "Audio Media Types",
+        "HTML Input Types",
+        "Types of HTML Lists"
+      ],
+      "correct": 1,
+      "answer": "Audio Media Types",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "175",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-053"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-053",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "175",
+          "page": 35,
+          "pages": [
+            35
+          ]
+        }
+      ],
+      "outlinePages": [
+        35
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Audio Media Types.",
+        "references": []
+      },
+      "signature": "7f6b979f0b70d9e9"
+    },
+    {
+      "id": "ppt-webdev-html-054",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Audio Attributes",
+      "definition": "controls → displays controls such as play, pause, and volume\nThe autoplay attribute to starts the audio file automatically.\nThe muted attribute makes the audio or video start without sound.",
+      "pdfWording": "controls → displays controls such as play, pause, and volume\nThe autoplay attribute to starts the audio file automatically.\nThe muted attribute makes the audio or video start without sound.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "controls → displays controls such as play, pause, and volume\nThe autoplay attribute to starts the audio file automatically.\nThe muted attribute makes the audio or video start without sound.",
+      "detail": "The PDF says “attribute to starts.” Autoplay requests automatic playback, but browser policies can block it, especially for media with audible sound.",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\ncontrols → displays controls such as play, pause, and volume\nThe autoplay attribute to starts the audio file automatically.\nThe muted attribute makes the audio or video start without sound.",
+      "options": [
+        "Form Attributes",
+        "Audio Attributes",
+        "HTML Table Structure",
+        "HTML Input Types"
+      ],
+      "correct": 1,
+      "answer": "Audio Attributes",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "176",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-054"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-054",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "176",
+          "page": 34,
+          "pages": [
+            34,
+            36
+          ]
+        }
+      ],
+      "outlinePages": [
+        34,
+        35,
+        36
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Audio Attributes.",
+        "references": [
+          {
+            "label": "MDN: autoplay and browser policies",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay"
+          }
+        ]
+      },
+      "signature": "0b82c3b837b8be4f"
+    },
+    {
+      "id": "ppt-webdev-html-055",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Controls",
+      "definition": "controls → displays controls such as play, pause, and volume",
+      "pdfWording": "controls → displays controls such as play, pause, and volume",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → displays _______ such as play, pause, and volume",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → displays _______ such as play, pause, and volume",
+      "options": [
+        "Autoplay",
+        "Muted",
+        "Controls",
+        "Source Attribute"
+      ],
+      "correct": 2,
+      "answer": "Controls",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "177",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-055"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-055",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "177",
+          "page": 34,
+          "pages": [
+            34
+          ]
+        }
+      ],
+      "outlinePages": [
+        34,
+        35,
+        36
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Controls.",
+        "references": []
+      },
+      "signature": "a691151a3c5aa1b0"
+    },
+    {
+      "id": "ppt-webdev-html-056",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Autoplay",
+      "definition": "The autoplay attribute to starts the audio file automatically.",
+      "pdfWording": "The autoplay attribute to starts the audio file automatically.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "The _______ attribute to starts the audio file automatically.",
+      "detail": "The PDF says “attribute to starts.” Autoplay requests automatic playback, but browser policies can block it, especially for media with audible sound.",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nThe _______ attribute to starts the audio file automatically.",
+      "options": [
+        "Autoplay",
+        "Controls",
+        "Muted",
+        "Source Attribute"
+      ],
+      "correct": 0,
+      "answer": "Autoplay",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "178",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-056"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-056",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "178",
+          "page": 36,
+          "pages": [
+            36
+          ]
+        }
+      ],
+      "outlinePages": [
+        34,
+        35,
+        36
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Autoplay.",
+        "references": [
+          {
+            "label": "MDN: autoplay and browser policies",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay"
+          }
+        ]
+      },
+      "signature": "def2a1c6c2c47e3d"
+    },
+    {
+      "id": "ppt-webdev-html-057",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Muted",
+      "definition": "The muted attribute makes the audio or video start without sound.",
+      "pdfWording": "The muted attribute makes the audio or video start without sound.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "The _______ attribute makes the audio or video start without sound.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nThe _______ attribute makes the audio or video start without sound.",
+      "options": [
+        "Controls",
+        "Muted",
+        "Autoplay",
+        "Source Attribute"
+      ],
+      "correct": 1,
+      "answer": "Muted",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "179",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-057"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-057",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "179",
+          "page": 36,
+          "pages": [
+            36
+          ]
+        }
+      ],
+      "outlinePages": [
+        34,
+        35,
+        36
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Muted.",
+        "references": []
+      },
+      "signature": "7548229fc42f9876"
+    },
+    {
+      "id": "ppt-webdev-html-058",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML Video",
+      "definition": "The <video> element is used to display and play videos directly on a webpage.",
+      "pdfWording": "The <video> element is used to display and play videos directly on a webpage.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "The _______ element is used to display and play videos directly on a webpage.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nThe _______ element is used to display and play videos directly on a webpage.",
+      "options": [
+        "HTML Video",
+        "HTML Images",
+        "HTML Audio",
+        "HTML Tables"
+      ],
+      "correct": 0,
+      "answer": "HTML Video",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "180",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-058"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-058",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "180",
+          "page": 37,
+          "pages": [
+            37
+          ]
+        }
+      ],
+      "outlinePages": [
+        37
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML Video.",
+        "references": []
+      },
+      "signature": "55df53d0cf8cc970"
+    },
+    {
+      "id": "ppt-webdev-html-059",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Video Media Types",
+      "definition": "MP4 → video/mp4 → Movies, tutorials, social media, general web video\nWebM → video/webm → Web-based video, websites, streaming\nOGG → video/ogg → Web video, open-source projects, less commonly used",
+      "pdfWording": "MP4 → video/mp4 → Movies, tutorials, social media, general web video\nWebM → video/webm → Web-based video, websites, streaming\nOGG → video/ogg → Web video, open-source projects, less commonly used",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "MP4 → video/mp4 → Movies, tutorials, social media, general web video\nWebM → video/webm → Web-based video, websites, streaming\nOGG → video/ogg → Web video, open-source projects, less commonly used",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nMP4 → video/mp4 → Movies, tutorials, social media, general web video\nWebM → video/webm → Web-based video, websites, streaming\nOGG → video/ogg → Web video, open-source projects, less commonly used",
+      "options": [
+        "Video Media Types",
+        "Audio Media Types",
+        "HTML Input Types",
+        "Types of HTML Lists"
+      ],
+      "correct": 0,
+      "answer": "Video Media Types",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "181",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-059"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-059",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "181",
+          "page": 38,
+          "pages": [
+            38
+          ]
+        }
+      ],
+      "outlinePages": [
+        38
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Video Media Types.",
+        "references": []
+      },
+      "signature": "fa06fc2280b844a2"
+    },
+    {
+      "id": "ppt-webdev-html-060",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Video Attributes",
+      "definition": "width → Sets the video's width\nheight → Sets the video's height\ncontrols → Adds play, pause, volume, and other controls\nThe autoplay attribute to starts the video file automatically.\nThe muted attribute makes the video start without sound.",
+      "pdfWording": "width → Sets the video's width\nheight → Sets the video's height\ncontrols → Adds play, pause, volume, and other controls\nThe autoplay attribute to starts the video file automatically.\nThe muted attribute makes the video start without sound.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "width → Sets the video's width\nheight → Sets the video's height\ncontrols → Adds play, pause, volume, and other controls\nThe autoplay attribute to starts the video file automatically.\nThe muted attribute makes the video start without sound.",
+      "detail": "The PDF says “attribute to starts.” Autoplay requests automatic playback, but browser policies can block it, especially for media with audible sound.",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nwidth → Sets the video's width\nheight → Sets the video's height\ncontrols → Adds play, pause, volume, and other controls\nThe autoplay attribute to starts the video file automatically.\nThe muted attribute makes the video start without sound.",
+      "options": [
+        "Form Attributes",
+        "HTML Table Structure",
+        "HTML Input Types",
+        "Video Attributes"
+      ],
+      "correct": 3,
+      "answer": "Video Attributes",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "182",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-060"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-060",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "182",
+          "page": 37,
+          "pages": [
+            37,
+            39
+          ]
+        }
+      ],
+      "outlinePages": [
+        37,
+        38,
+        39
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Video Attributes.",
+        "references": [
+          {
+            "label": "MDN: autoplay and browser policies",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay"
+          }
+        ]
+      },
+      "signature": "c25015a29acc0514"
+    },
+    {
+      "id": "ppt-webdev-html-061",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Width and Height",
+      "definition": "width → Sets the video's width\nheight → Sets the video's height",
+      "pdfWording": "width → Sets the video's width\nheight → Sets the video's height",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "width → Sets the video's width\nheight → Sets the video's height",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nwidth → Sets the video's width\nheight → Sets the video's height",
+      "options": [
+        "Controls",
+        "Width and Height",
+        "Autoplay",
+        "Muted"
+      ],
+      "correct": 1,
+      "answer": "Width and Height",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "183",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-061"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-061",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "183",
+          "page": 37,
+          "pages": [
+            37
+          ]
+        }
+      ],
+      "outlinePages": [
+        37,
+        38,
+        39
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Width and Height.",
+        "references": []
+      },
+      "signature": "3978c7763e27fa81"
+    },
+    {
+      "id": "ppt-webdev-html-062",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Controls",
+      "definition": "controls → Adds play, pause, volume, and other controls",
+      "pdfWording": "controls → Adds play, pause, volume, and other controls",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ → Adds play, pause, volume, and other _______",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ → Adds play, pause, volume, and other _______",
+      "options": [
+        "Width and Height",
+        "Autoplay",
+        "Muted",
+        "Controls"
+      ],
+      "correct": 3,
+      "answer": "Controls",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "184",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-062"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-062",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "184",
+          "page": 37,
+          "pages": [
+            37
+          ]
+        }
+      ],
+      "outlinePages": [
+        37,
+        38,
+        39
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Controls.",
+        "references": []
+      },
+      "signature": "a90a7cd5c3e665d8"
+    },
+    {
+      "id": "ppt-webdev-html-063",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Autoplay",
+      "definition": "The autoplay attribute to starts the video file automatically.",
+      "pdfWording": "The autoplay attribute to starts the video file automatically.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "The _______ attribute to starts the video file automatically.",
+      "detail": "The PDF says “attribute to starts.” Autoplay requests automatic playback, but browser policies can block it, especially for media with audible sound.",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nThe _______ attribute to starts the video file automatically.",
+      "options": [
+        "Width and Height",
+        "Autoplay",
+        "Controls",
+        "Muted"
+      ],
+      "correct": 1,
+      "answer": "Autoplay",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "185",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-063"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-063",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "185",
+          "page": 39,
+          "pages": [
+            39
+          ]
+        }
+      ],
+      "outlinePages": [
+        37,
+        38,
+        39
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Autoplay.",
+        "references": [
+          {
+            "label": "MDN: autoplay and browser policies",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay"
+          }
+        ]
+      },
+      "signature": "6c1ff1ec92346eb9"
+    },
+    {
+      "id": "ppt-webdev-html-064",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Muted",
+      "definition": "The muted attribute makes the video start without sound.",
+      "pdfWording": "The muted attribute makes the video start without sound.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "The _______ attribute makes the video start without sound.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-2",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nThe _______ attribute makes the video start without sound.",
+      "options": [
+        "Width and Height",
+        "Muted",
+        "Controls",
+        "Autoplay"
+      ],
+      "correct": 1,
+      "answer": "Muted",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "186",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-064"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-064",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Links, Lists, Tables, and Media",
+          "number": "186",
+          "page": 39,
+          "pages": [
+            39
+          ]
+        }
+      ],
+      "outlinePages": [
+        37,
+        38,
+        39
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Muted.",
+        "references": []
+      },
+      "signature": "089cc036a5c0dbe9"
+    },
+    {
+      "id": "ppt-webdev-html-065",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML Forms",
+      "definition": "HTML forms are the primary tool used by websites to collect data and input from visitors. Without them, the internet would be a one-way street where you could only read content rather than actively participate.\nForms bridge the gap between user interaction and backend processing, turning static web pages into interactive, dynamic applications.",
+      "pdfWording": "HTML forms are the primary tool used by websites to collect data and input from visitors. Without them, the internet would be a one-way street where you could only read content rather than actively participate.\nForms bridge the gap between user interaction and backend processing, turning static web pages into interactive, dynamic applications.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ are the primary tool used by websites to collect data and input from visitors. Without them, the internet would be a one-way street where you could only read content rather than actively participate.\nForms bridge the gap between user interaction and backend processing, turning static web pages into interactive, dynamic applications.",
+      "detail": "HTML forms collect and submit data; safe handling also requires server-side validation and appropriate transport/output handling.",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ are the primary tool used by websites to collect data and input from visitors. Without them, the internet would be a one-way street where you could only read content rather than actively participate.\nForms bridge the gap between user interaction and backend processing, turning static web pages into interactive, dynamic applications.",
+      "options": [
+        "HTML Forms",
+        "Semantic HTML",
+        "HTML Tables",
+        "Web Accessibility"
+      ],
+      "correct": 0,
+      "answer": "HTML Forms",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "187",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-065"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-065",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "187",
+          "page": 44,
+          "pages": [
+            44
+          ]
+        }
+      ],
+      "outlinePages": [
+        44
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML Forms.",
+        "references": [
+          {
+            "label": "W3C WAI: validating input",
+            "url": "https://www.w3.org/WAI/tutorials/forms/validation/"
+          }
+        ]
+      },
+      "signature": "ce73f9809d3d9ba3"
+    },
+    {
+      "id": "ppt-webdev-html-066",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Basic Form Structure",
+      "definition": "<form>\n<label for=\"name\">Name:</label>\n<input type=\"text\" id=\"name\" name=\"name\">\n<button type=\"submit\">Submit</button>\n</form>",
+      "pdfWording": "<form>\n<label for=\"name\">Name:</label>\n<input type=\"text\" id=\"name\" name=\"name\">\n<button type=\"submit\">Submit</button>\n</form>",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "<form>\n<label for=\"name\">Name:</label>\n<input type=\"text\" id=\"name\" name=\"name\">\n<button type=\"submit\">Submit</button>\n</form>",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\n<form>\n<label for=\"name\">Name:</label>\n<input type=\"text\" id=\"name\" name=\"name\">\n<button type=\"submit\">Submit</button>\n</form>",
+      "options": [
+        "Basic Form Structure",
+        "Basic HTML5 Document Structure",
+        "HTML Table Structure",
+        "Hyperlink Syntax"
+      ],
+      "correct": 0,
+      "answer": "Basic Form Structure",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "188",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-066"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-066",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "188",
+          "page": 45,
+          "pages": [
+            45
+          ]
+        }
+      ],
+      "outlinePages": [
+        45,
+        46,
+        47
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Basic Form Structure.",
+        "references": []
+      },
+      "signature": "a69ad58f5ccf6b84"
+    },
+    {
+      "id": "ppt-webdev-html-067",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Form Element",
+      "definition": "The wrapper or container for the entire form. It groups all the inputs and buttons together so the browser knows they belong to the same interactive section.",
+      "pdfWording": "The wrapper or container for the entire form. It groups all the inputs and buttons together so the browser knows they belong to the same interactive section.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "The wrapper or container for the entire form. It groups all the inputs and buttons together so the browser knows they belong to the same interactive section.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nThe wrapper or container for the entire form. It groups all the inputs and buttons together so the browser knows they belong to the same interactive section.",
+      "options": [
+        "Label Element",
+        "Form Element",
+        "Input Element",
+        "Button Element"
+      ],
+      "correct": 1,
+      "answer": "Form Element",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "189",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-067"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-067",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "189",
+          "page": 46,
+          "pages": [
+            46
+          ]
+        }
+      ],
+      "outlinePages": [
+        45,
+        46,
+        47
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Form Element.",
+        "references": []
+      },
+      "signature": "5bfb3f30662a83ca"
+    },
+    {
+      "id": "ppt-webdev-html-068",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Label Element",
+      "definition": "The text caption for a specific input field. In your code, the for=\"name\" attribute links it directly to the input with id=\"name\". This tells screen readers exactly what the input is for and allows users to click the text to focus on the input field.",
+      "pdfWording": "The text caption for a specific input field. In your code, the for=\"name\" attribute links it directly to the input with id=\"name\". This tells screen readers exactly what the input is for and allows users to click the text to focus on the input field.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "The text caption for a specific input field. In your code, the for=\"name\" attribute links it directly to the input with id=\"name\". This tells screen readers exactly what the input is for and allows users to click the text to focus on the input field.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nThe text caption for a specific input field. In your code, the for=\"name\" attribute links it directly to the input with id=\"name\". This tells screen readers exactly what the input is for and allows users to click the text to focus on the input field.",
+      "options": [
+        "Form Element",
+        "Input Element",
+        "Button Element",
+        "Label Element"
+      ],
+      "correct": 3,
+      "answer": "Label Element",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "190",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-068"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-068",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "190",
+          "page": 46,
+          "pages": [
+            46
+          ]
+        }
+      ],
+      "outlinePages": [
+        45,
+        46,
+        47
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Label Element.",
+        "references": []
+      },
+      "signature": "26b16023b955a399"
+    },
+    {
+      "id": "ppt-webdev-html-069",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Input Element",
+      "definition": "The interactive field where a user types or selects data. The attribute type=\"text\" specifically turns it into a single-line text box.",
+      "pdfWording": "The interactive field where a user types or selects data. The attribute type=\"text\" specifically turns it into a single-line text box.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "The interactive field where a user types or selects data. The attribute type=\"text\" specifically turns it into a single-line text box.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nThe interactive field where a user types or selects data. The attribute type=\"text\" specifically turns it into a single-line text box.",
+      "options": [
+        "Form Element",
+        "Label Element",
+        "Input Element",
+        "Button Element"
+      ],
+      "correct": 2,
+      "answer": "Input Element",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "191",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-069"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-069",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "191",
+          "page": 47,
+          "pages": [
+            47
+          ]
+        }
+      ],
+      "outlinePages": [
+        45,
+        46,
+        47
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Input Element.",
+        "references": []
+      },
+      "signature": "a905190491e56cb3"
+    },
+    {
+      "id": "ppt-webdev-html-070",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Button Element",
+      "definition": "The clickable element used to trigger an action. Setting type=\"submit\" tells the browser to process and send the form's collected data when clicked.",
+      "pdfWording": "The clickable element used to trigger an action. Setting type=\"submit\" tells the browser to process and send the form's collected data when clicked.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "The clickable element used to trigger an action. Setting type=\"submit\" tells the browser to process and send the form's collected data when clicked.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nThe clickable element used to trigger an action. Setting type=\"submit\" tells the browser to process and send the form's collected data when clicked.",
+      "options": [
+        "Button Element",
+        "Form Element",
+        "Label Element",
+        "Input Element"
+      ],
+      "correct": 0,
+      "answer": "Button Element",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "192",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-070"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-070",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "192",
+          "page": 47,
+          "pages": [
+            47
+          ]
+        }
+      ],
+      "outlinePages": [
+        45,
+        46,
+        47
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Button Element.",
+        "references": []
+      },
+      "signature": "a79906687b72911f"
+    },
+    {
+      "id": "ppt-webdev-html-071",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML Input Types",
+      "definition": "<input type=\"text\">\n<input type=\"password\">\n<input type=\"email\">\n<input type=\"number\">\n<input type=\"date\">\n<input type=\"radio\">\n<input type=\"checkbox\">\n<input type=\"file\">\n<input type=\"submit\">",
+      "pdfWording": "<input type=\"text\">\n<input type=\"password\">\n<input type=\"email\">\n<input type=\"number\">\n<input type=\"date\">\n<input type=\"radio\">\n<input type=\"checkbox\">\n<input type=\"file\">\n<input type=\"submit\">",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "<input type=\"text\">\n<input type=\"password\">\n<input type=\"email\">\n<input type=\"number\">\n<input type=\"date\">\n<input type=\"radio\">\n<input type=\"checkbox\">\n<input type=\"file\">\n<input type=\"submit\">",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\n<input type=\"text\">\n<input type=\"password\">\n<input type=\"email\">\n<input type=\"number\">\n<input type=\"date\">\n<input type=\"radio\">\n<input type=\"checkbox\">\n<input type=\"file\">\n<input type=\"submit\">",
+      "options": [
+        "Main Features of HTML5",
+        "Common Semantic Elements",
+        "HTML Input Types",
+        "Types of HTML Lists"
+      ],
+      "correct": 2,
+      "answer": "HTML Input Types",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "193",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-071"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-071",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "193",
+          "page": 48,
+          "pages": [
+            48
+          ]
+        }
+      ],
+      "outlinePages": [
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML Input Types.",
+        "references": []
+      },
+      "signature": "b4e6058ca6c15fdd"
+    },
+    {
+      "id": "ppt-webdev-html-072",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Text Input",
+      "definition": "Use for general, single-line text inputs that don't fit into a specialized category. Examples include names, usernames, or search terms.",
+      "pdfWording": "Use for general, single-line text inputs that don't fit into a specialized category. Examples include names, usernames, or search terms.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Use for general, single-line text inputs that don't fit into a specialized category. Examples include names, usernames, or search terms.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nUse for general, single-line text inputs that don't fit into a specialized category. Examples include names, usernames, or search terms.",
+      "options": [
+        "Password Input",
+        "Email Input",
+        "Number Input",
+        "Text Input"
+      ],
+      "correct": 3,
+      "answer": "Text Input",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "194",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-072"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-072",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "194",
+          "page": 49,
+          "pages": [
+            49
+          ]
+        }
+      ],
+      "outlinePages": [
+        49
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Text Input.",
+        "references": []
+      },
+      "signature": "f6a7fb3cec313f1d"
+    },
+    {
+      "id": "ppt-webdev-html-073",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Password Input",
+      "definition": "Use whenever a user types sensitive credentials. The browser automatically masks the characters with dots or stars to protect them from onlookers.",
+      "pdfWording": "Use whenever a user types sensitive credentials. The browser automatically masks the characters with dots or stars to protect them from onlookers.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Use whenever a user types sensitive credentials. The browser automatically masks the characters with dots or stars to protect them from onlookers.",
+      "detail": "Masking password characters hides them from onlookers; it does not encrypt the submitted value.",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nUse whenever a user types sensitive credentials. The browser automatically masks the characters with dots or stars to protect them from onlookers.",
+      "options": [
+        "Password Input",
+        "Text Input",
+        "Email Input",
+        "Number Input"
+      ],
+      "correct": 0,
+      "answer": "Password Input",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "195",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-073"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-073",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "195",
+          "page": 49,
+          "pages": [
+            49
+          ]
+        }
+      ],
+      "outlinePages": [
+        49
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Password Input.",
+        "references": [
+          {
+            "label": "MDN: input types and attributes",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input"
+          }
+        ]
+      },
+      "signature": "e2249b8151dc5fd6"
+    },
+    {
+      "id": "ppt-webdev-html-074",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Email Input",
+      "definition": "Use specifically for gathering email addresses. It forces the browser to validate that the text follows a standard format (e.g., contains an \"@\") and pulls up an optimized keyboard on mobile devices.",
+      "pdfWording": "Use specifically for gathering email addresses. It forces the browser to validate that the text follows a standard format (e.g., contains an \"@\") and pulls up an optimized keyboard on mobile devices.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Use specifically for gathering email addresses. It forces the browser to validate that the text follows a standard format (e.g., contains an \"@\") and pulls up an optimized keyboard on mobile devices.",
+      "detail": "Email input checks syntax, not whether an address exists. Required fields still need the required attribute, and server-side validation remains necessary.",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nUse specifically for gathering email addresses. It forces the browser to validate that the text follows a standard format (e.g., contains an \"@\") and pulls up an optimized keyboard on mobile devices.",
+      "options": [
+        "Text Input",
+        "Password Input",
+        "Number Input",
+        "Email Input"
+      ],
+      "correct": 3,
+      "answer": "Email Input",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "196",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-074"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-074",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "196",
+          "page": 49,
+          "pages": [
+            49
+          ]
+        }
+      ],
+      "outlinePages": [
+        49
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Email Input.",
+        "references": [
+          {
+            "label": "W3C WAI: validating input",
+            "url": "https://www.w3.org/WAI/tutorials/forms/validation/"
+          }
+        ]
+      },
+      "signature": "30d0a7d0ab45bef6"
+    },
+    {
+      "id": "ppt-webdev-html-075",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Number Input",
+      "definition": "Use when you need numerical entries, such as quantities or ages. It rejects non-numeric characters and often provides small arrow buttons to increment or decrement the value.",
+      "pdfWording": "Use when you need numerical entries, such as quantities or ages. It rejects non-numeric characters and often provides small arrow buttons to increment or decrement the value.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Use when you need numerical entries, such as quantities or ages. It rejects non-numeric characters and often provides small arrow buttons to increment or decrement the value.",
+      "detail": "Browser controls differ; client-side number constraints do not replace server-side validation.",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nUse when you need numerical entries, such as quantities or ages. It rejects non-numeric characters and often provides small arrow buttons to increment or decrement the value.",
+      "options": [
+        "Text Input",
+        "Password Input",
+        "Number Input",
+        "Email Input"
+      ],
+      "correct": 2,
+      "answer": "Number Input",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "197",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-075"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-075",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "197",
+          "page": 50,
+          "pages": [
+            50
+          ]
+        }
+      ],
+      "outlinePages": [
+        50
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Number Input.",
+        "references": [
+          {
+            "label": "W3C WAI: validating input",
+            "url": "https://www.w3.org/WAI/tutorials/forms/validation/"
+          },
+          {
+            "label": "MDN: input types and attributes",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input"
+          }
+        ]
+      },
+      "signature": "232f2b1c4c5e864c"
+    },
+    {
+      "id": "ppt-webdev-html-076",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Date Input",
+      "definition": "Use for scheduling or selecting specific calendar dates. It opens a standardized native calendar picker widget tailored to the user's browser or device.",
+      "pdfWording": "Use for scheduling or selecting specific calendar dates. It opens a standardized native calendar picker widget tailored to the user's browser or device.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Use for scheduling or selecting specific calendar dates. It opens a standardized native calendar picker widget tailored to the user's browser or device.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nUse for scheduling or selecting specific calendar dates. It opens a standardized native calendar picker widget tailored to the user's browser or device.",
+      "options": [
+        "Date Input",
+        "Text Input",
+        "Password Input",
+        "Email Input"
+      ],
+      "correct": 0,
+      "answer": "Date Input",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "198",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-076"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-076",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "198",
+          "page": 50,
+          "pages": [
+            50
+          ]
+        }
+      ],
+      "outlinePages": [
+        50
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Date Input.",
+        "references": []
+      },
+      "signature": "60d2cc4b130cf8a4"
+    },
+    {
+      "id": "ppt-webdev-html-077",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Radio Input",
+      "definition": "Use when a user must pick exactly one option from a predefined group (e.g., choosing a shipping method). Selecting one will automatically deselect any other option in that group.",
+      "pdfWording": "Use when a user must pick exactly one option from a predefined group (e.g., choosing a shipping method). Selecting one will automatically deselect any other option in that group.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Use when a user must pick exactly one option from a predefined group (e.g., choosing a shipping method). Selecting one will automatically deselect any other option in that group.",
+      "detail": "Radio buttons form a group using the same name; selecting one deselects the other buttons in that group.",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nUse when a user must pick exactly one option from a predefined group (e.g., choosing a shipping method). Selecting one will automatically deselect any other option in that group.",
+      "options": [
+        "Text Input",
+        "Radio Input",
+        "Password Input",
+        "Email Input"
+      ],
+      "correct": 1,
+      "answer": "Radio Input",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "199",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-077"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-077",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "199",
+          "page": 51,
+          "pages": [
+            51
+          ]
+        }
+      ],
+      "outlinePages": [
+        51
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Radio Input.",
+        "references": [
+          {
+            "label": "MDN: input types and attributes",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input"
+          }
+        ]
+      },
+      "signature": "55fda5b88bc5d7bc"
+    },
+    {
+      "id": "ppt-webdev-html-078",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Checkbox Input",
+      "definition": "Use when a user can select multiple options from a list, or for a single binary choice (e.g., agreeing to terms of service).",
+      "pdfWording": "Use when a user can select multiple options from a list, or for a single binary choice (e.g., agreeing to terms of service).",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Use when a user can select multiple options from a list, or for a single binary choice (e.g., agreeing to terms of service).",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nUse when a user can select multiple options from a list, or for a single binary choice (e.g., agreeing to terms of service).",
+      "options": [
+        "Checkbox Input",
+        "Text Input",
+        "Password Input",
+        "Email Input"
+      ],
+      "correct": 0,
+      "answer": "Checkbox Input",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "200",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-078"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-078",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "200",
+          "page": 51,
+          "pages": [
+            51
+          ]
+        }
+      ],
+      "outlinePages": [
+        51
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Checkbox Input.",
+        "references": []
+      },
+      "signature": "e370f11c79750cea"
+    },
+    {
+      "id": "ppt-webdev-html-079",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "File Input",
+      "definition": "Use when the user needs to upload something from their local device memory, such as photos, documents, or spreadsheets.",
+      "pdfWording": "Use when the user needs to upload something from their local device memory, such as photos, documents, or spreadsheets.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Use when the user needs to upload something from their local device memory, such as photos, documents, or spreadsheets.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nUse when the user needs to upload something from their local device memory, such as photos, documents, or spreadsheets.",
+      "options": [
+        "File Input",
+        "Text Input",
+        "Password Input",
+        "Email Input"
+      ],
+      "correct": 0,
+      "answer": "File Input",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "201",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-079"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-079",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "201",
+          "page": 52,
+          "pages": [
+            52
+          ]
+        }
+      ],
+      "outlinePages": [
+        52
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: File Input.",
+        "references": []
+      },
+      "signature": "67ccb805167016db"
+    },
+    {
+      "id": "ppt-webdev-html-080",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Submit Input",
+      "definition": "Use to create the button that packages all the filled-out form data and sends it over to the server for processing.",
+      "pdfWording": "Use to create the button that packages all the filled-out form data and sends it over to the server for processing.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Use to create the button that packages all the filled-out form data and sends it over to the server for processing.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nUse to create the button that packages all the filled-out form data and sends it over to the server for processing.",
+      "options": [
+        "Text Input",
+        "Submit Input",
+        "Password Input",
+        "Email Input"
+      ],
+      "correct": 1,
+      "answer": "Submit Input",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "202",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-080"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-080",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "202",
+          "page": 52,
+          "pages": [
+            52
+          ]
+        }
+      ],
+      "outlinePages": [
+        52
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Submit Input.",
+        "references": []
+      },
+      "signature": "58387d7a17404ae9"
+    },
+    {
+      "id": "ppt-webdev-html-081",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Other Form Elements",
+      "definition": "Textarea\nButton\nSelect and Option",
+      "pdfWording": "Textarea\nButton\nSelect and Option",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "Textarea\nButton\nSelect and Option",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nTextarea\nButton\nSelect and Option",
+      "options": [
+        "Types of HTML Lists",
+        "HTML Table Structure",
+        "Other Form Elements",
+        "HTML Input Types"
+      ],
+      "correct": 2,
+      "answer": "Other Form Elements",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "203",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-081"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-081",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "203",
+          "page": 53,
+          "pages": [
+            53
+          ]
+        }
+      ],
+      "outlinePages": [
+        53
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Other Form Elements.",
+        "references": []
+      },
+      "signature": "7af347b34980c438"
+    },
+    {
+      "id": "ppt-webdev-html-082",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Textarea",
+      "definition": "Creates a large, multi-line box where users can type long messages or paragraphs.",
+      "pdfWording": "Creates a large, multi-line box where users can type long messages or paragraphs.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Creates a large, multi-line box where users can type long messages or paragraphs.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nCreates a large, multi-line box where users can type long messages or paragraphs.",
+      "options": [
+        "Button",
+        "Select and Option",
+        "File Input",
+        "Textarea"
+      ],
+      "correct": 3,
+      "answer": "Textarea",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "204",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-082"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-082",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "204",
+          "page": 53,
+          "pages": [
+            53
+          ]
+        }
+      ],
+      "outlinePages": [
+        53
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Textarea.",
+        "references": []
+      },
+      "signature": "5321f864be7921ff"
+    },
+    {
+      "id": "ppt-webdev-html-083",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Button",
+      "definition": "Creates a clickable button that sends the filled-out form data to a server or web page action.",
+      "pdfWording": "Creates a clickable button that sends the filled-out form data to a server or web page action.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Creates a clickable _______ that sends the filled-out form data to a server or web page action.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nCreates a clickable _______ that sends the filled-out form data to a server or web page action.",
+      "options": [
+        "Textarea",
+        "Button",
+        "Select and Option",
+        "File Input"
+      ],
+      "correct": 1,
+      "answer": "Button",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "205",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-083"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-083",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "205",
+          "page": 53,
+          "pages": [
+            53
+          ]
+        }
+      ],
+      "outlinePages": [
+        53
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Button.",
+        "references": []
+      },
+      "signature": "21c7d7883786cd5b"
+    },
+    {
+      "id": "ppt-webdev-html-084",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Select and Option",
+      "definition": "Creates a drop-down menu. The <select> tag is the container, and each <option> tag inside it is a choice the user can pick, like \"Philippines\" or \"Japan\".",
+      "pdfWording": "Creates a drop-down menu. The <select> tag is the container, and each <option> tag inside it is a choice the user can pick, like \"Philippines\" or \"Japan\".",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Creates a drop-down menu. The _______ tag is the container, and each _______ tag inside it is a choice the user can pick, like \"Philippines\" or \"Japan\".",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nCreates a drop-down menu. The _______ tag is the container, and each _______ tag inside it is a choice the user can pick, like \"Philippines\" or \"Japan\".",
+      "options": [
+        "Textarea",
+        "Button",
+        "Select and Option",
+        "File Input"
+      ],
+      "correct": 2,
+      "answer": "Select and Option",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "206",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-084"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-084",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "206",
+          "page": 53,
+          "pages": [
+            53
+          ]
+        }
+      ],
+      "outlinePages": [
+        53
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Select and Option.",
+        "references": []
+      },
+      "signature": "ecb63a4ee4977b84"
+    },
+    {
+      "id": "ppt-webdev-html-085",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Form Attributes",
+      "definition": "action\nmethod\nname\nid\nvalue\nplaceholder\nrequired\ndisabled\nreadonly",
+      "pdfWording": "action\nmethod\nname\nid\nvalue\nplaceholder\nrequired\ndisabled\nreadonly",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "action\nmethod\nname\nid\nvalue\nplaceholder\nrequired\ndisabled\nreadonly",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\naction\nmethod\nname\nid\nvalue\nplaceholder\nrequired\ndisabled\nreadonly",
+      "options": [
+        "Audio Attributes",
+        "HTML Table Structure",
+        "HTML Input Types",
+        "Form Attributes"
+      ],
+      "correct": 3,
+      "answer": "Form Attributes",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "207",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-085"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-085",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "207",
+          "page": 54,
+          "pages": [
+            54,
+            55
+          ]
+        }
+      ],
+      "outlinePages": [
+        54,
+        55
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Form Attributes.",
+        "references": []
+      },
+      "signature": "1a9098f22755e6e1"
+    },
+    {
+      "id": "ppt-webdev-html-086",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Action",
+      "definition": "action: Specifies the URL or file path where the form's data should be sent when submitted.",
+      "pdfWording": "action: Specifies the URL or file path where the form's data should be sent when submitted.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______: Specifies the URL or file path where the form's data should be sent when submitted.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______: Specifies the URL or file path where the form's data should be sent when submitted.",
+      "options": [
+        "Method",
+        "Name",
+        "Action",
+        "ID"
+      ],
+      "correct": 2,
+      "answer": "Action",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "208",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-086"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-086",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "208",
+          "page": 54,
+          "pages": [
+            54
+          ]
+        }
+      ],
+      "outlinePages": [
+        54,
+        55
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Action.",
+        "references": []
+      },
+      "signature": "3f983a017b7be0ce"
+    },
+    {
+      "id": "ppt-webdev-html-087",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Method",
+      "definition": "method: Defines the HTTP method (typically GET or POST) used to send the form data to the server.",
+      "pdfWording": "method: Defines the HTTP method (typically GET or POST) used to send the form data to the server.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______: Defines the HTTP _______ (typically GET or POST) used to send the form data to the server.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______: Defines the HTTP _______ (typically GET or POST) used to send the form data to the server.",
+      "options": [
+        "Method",
+        "Action",
+        "Name",
+        "ID"
+      ],
+      "correct": 0,
+      "answer": "Method",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "209",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-087"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-087",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "209",
+          "page": 54,
+          "pages": [
+            54
+          ]
+        }
+      ],
+      "outlinePages": [
+        54,
+        55
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Method.",
+        "references": []
+      },
+      "signature": "5f6a96b9db0b7b51"
+    },
+    {
+      "id": "ppt-webdev-html-088",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Name",
+      "definition": "name: Assigns a unique identifier to the element, which is used as the key when sending the form data to the server.",
+      "pdfWording": "name: Assigns a unique identifier to the element, which is used as the key when sending the form data to the server.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ Assigns a unique identifier to the element, which is used as the key when sending the form data to the server.",
+      "detail": "Form controls can share a name (for example a radio group). A name is a submission key and is not required to be unique.",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ Assigns a unique identifier to the element, which is used as the key when sending the form data to the server.",
+      "options": [
+        "Name",
+        "Action",
+        "Method",
+        "ID"
+      ],
+      "correct": 0,
+      "answer": "Name",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "210",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-088"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-088",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "210",
+          "page": 54,
+          "pages": [
+            54
+          ]
+        }
+      ],
+      "outlinePages": [
+        54,
+        55
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Name.",
+        "references": [
+          {
+            "label": "MDN: input types and attributes",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input"
+          }
+        ]
+      },
+      "signature": "cea55bbfe77d8f61"
+    },
+    {
+      "id": "ppt-webdev-html-089",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "ID",
+      "definition": "id: Provides a completely unique identifier for the element across the entire web page, primarily used for styling with CSS or targeting with JavaScript.",
+      "pdfWording": "id: Provides a completely unique identifier for the element across the entire web page, primarily used for styling with CSS or targeting with JavaScript.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ Provides a completely unique identifier for the element across the entire web page, primarily used for styling with CSS or targeting with JavaScript.",
+      "detail": "IDs should be unique and are also used for label associations and fragment links, not only styling or JavaScript.",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ Provides a completely unique identifier for the element across the entire web page, primarily used for styling with CSS or targeting with JavaScript.",
+      "options": [
+        "Action",
+        "ID",
+        "Method",
+        "Name"
+      ],
+      "correct": 1,
+      "answer": "ID",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "211",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-089"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-089",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "211",
+          "page": 54,
+          "pages": [
+            54
+          ]
+        }
+      ],
+      "outlinePages": [
+        54,
+        55
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: ID.",
+        "references": [
+          {
+            "label": "MDN: input types and attributes",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input"
+          }
+        ]
+      },
+      "signature": "0c8408f04d6a8707"
+    },
+    {
+      "id": "ppt-webdev-html-090",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Value",
+      "definition": "value: Sets the initial or current content inside an input field.",
+      "pdfWording": "value: Sets the initial or current content inside an input field.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ Sets the initial or current content inside an input field.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ Sets the initial or current content inside an input field.",
+      "options": [
+        "Action",
+        "Method",
+        "Value",
+        "Name"
+      ],
+      "correct": 2,
+      "answer": "Value",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "212",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-090"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-090",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "212",
+          "page": 54,
+          "pages": [
+            54
+          ]
+        }
+      ],
+      "outlinePages": [
+        54,
+        55
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Value.",
+        "references": []
+      },
+      "signature": "0f52d9c4ab06bff4"
+    },
+    {
+      "id": "ppt-webdev-html-091",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Placeholder",
+      "definition": "placeholder: Displays a faint, temporary hint or example text inside an empty input field before the user starts typing.",
+      "pdfWording": "placeholder: Displays a faint, temporary hint or example text inside an empty input field before the user starts typing.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______: Displays a faint, temporary hint or example text inside an empty input field before the user starts typing.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______: Displays a faint, temporary hint or example text inside an empty input field before the user starts typing.",
+      "options": [
+        "Placeholder",
+        "Action",
+        "Method",
+        "Name"
+      ],
+      "correct": 0,
+      "answer": "Placeholder",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "213",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-091"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-091",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "213",
+          "page": 55,
+          "pages": [
+            55
+          ]
+        }
+      ],
+      "outlinePages": [
+        54,
+        55
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Placeholder.",
+        "references": []
+      },
+      "signature": "6eb4a26c5c5843fb"
+    },
+    {
+      "id": "ppt-webdev-html-092",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Required",
+      "definition": "required: Forces the user to fill out or select the field before they are allowed to submit the form.",
+      "pdfWording": "required: Forces the user to fill out or select the field before they are allowed to submit the form.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______: Forces the user to fill out or select the field before they are allowed to submit the form.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______: Forces the user to fill out or select the field before they are allowed to submit the form.",
+      "options": [
+        "Required",
+        "Action",
+        "Method",
+        "Name"
+      ],
+      "correct": 0,
+      "answer": "Required",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "214",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-092"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-092",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "214",
+          "page": 55,
+          "pages": [
+            55
+          ]
+        }
+      ],
+      "outlinePages": [
+        54,
+        55
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Required.",
+        "references": []
+      },
+      "signature": "121fe33c595ab40d"
+    },
+    {
+      "id": "ppt-webdev-html-093",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Disabled",
+      "definition": "disabled: Shuts down the element so the user cannot interact with it, and prevents its value from being submitted with the form.",
+      "pdfWording": "disabled: Shuts down the element so the user cannot interact with it, and prevents its value from being submitted with the form.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______: Shuts down the element so the user cannot interact with it, and prevents its value from being submitted with the form.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______: Shuts down the element so the user cannot interact with it, and prevents its value from being submitted with the form.",
+      "options": [
+        "Disabled",
+        "Action",
+        "Method",
+        "Name"
+      ],
+      "correct": 0,
+      "answer": "Disabled",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "215",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-093"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-093",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "215",
+          "page": 55,
+          "pages": [
+            55
+          ]
+        }
+      ],
+      "outlinePages": [
+        54,
+        55
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Disabled.",
+        "references": []
+      },
+      "signature": "ef8edc7ab71ee328"
+    },
+    {
+      "id": "ppt-webdev-html-094",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Readonly",
+      "definition": "readonly: Allows the user to see and select the text inside a field but prevents them from changing it, while still allowing the value to be submitted.",
+      "pdfWording": "readonly: Allows the user to see and select the text inside a field but prevents them from changing it, while still allowing the value to be submitted.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______: Allows the user to see and select the text inside a field but prevents them from changing it, while still allowing the value to be submitted.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______: Allows the user to see and select the text inside a field but prevents them from changing it, while still allowing the value to be submitted.",
+      "options": [
+        "Action",
+        "Method",
+        "Name",
+        "Readonly"
+      ],
+      "correct": 3,
+      "answer": "Readonly",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "216",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-094"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-094",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "216",
+          "page": 55,
+          "pages": [
+            55
+          ]
+        }
+      ],
+      "outlinePages": [
+        54,
+        55
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Readonly.",
+        "references": []
+      },
+      "signature": "d644441320357419"
+    },
+    {
+      "id": "ppt-webdev-html-095",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML5 Form Validation",
+      "definition": "required\nEnsures a field cannot be left blank before submission.\nmin / max\nSets lower and upper numeric or date limits for number/range/date inputs.\npattern\nRestricts text to letters only (uppercase and lowercase) using a regular expression pattern.\nminlength and maxlength\nRestricts the minimum and maximum character lengths for text strings.\ntype=\"email\"\nAutomatically validates that the entered text follows a standard email format",
+      "pdfWording": "required\nEnsures a field cannot be left blank before submission.\nmin / max\nSets lower and upper numeric or date limits for number/range/date inputs.\npattern\nRestricts text to letters only (uppercase and lowercase) using a regular expression pattern.\nminlength and maxlength\nRestricts the minimum and maximum character lengths for text strings.\ntype=\"email\"\nAutomatically validates that the entered text follows a standard email format",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "required\nEnsures a field cannot be left blank before submission.\nmin / max\nSets lower and upper numeric or date limits for number/range/date inputs.\npattern\nRestricts text to letters only (uppercase and lowercase) using a regular expression pattern.\nminlength and maxlength\nRestricts the minimum and maximum character lengths for text strings.\ntype=\"email\"\nAutomatically validates that the entered text follows a standard email format",
+      "detail": "The letters-only restriction comes from the particular [A-Za-z]+ pattern shown in the slide; pattern validation can express other rules.",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nrequired\nEnsures a field cannot be left blank before submission.\nmin / max\nSets lower and upper numeric or date limits for number/range/date inputs.\npattern\nRestricts text to letters only (uppercase and lowercase) using a regular expression pattern.\nminlength and maxlength\nRestricts the minimum and maximum character lengths for text strings.\ntype=\"email\"\nAutomatically validates that the entered text follows a standard email format",
+      "options": [
+        "HTML Input Types",
+        "HTML5 Form Validation",
+        "Types of HTML Lists",
+        "Basic Accessibility Principles"
+      ],
+      "correct": 1,
+      "answer": "HTML5 Form Validation",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "217",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-095"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-095",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "217",
+          "page": 56,
+          "pages": [
+            56,
+            57
+          ]
+        }
+      ],
+      "outlinePages": [
+        56,
+        57,
+        58
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML5 Form Validation.",
+        "references": [
+          {
+            "label": "W3C WAI: validating input",
+            "url": "https://www.w3.org/WAI/tutorials/forms/validation/"
+          }
+        ]
+      },
+      "signature": "e476759314461828"
+    },
+    {
+      "id": "ppt-webdev-html-096",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Required Validation",
+      "definition": "Ensures a field cannot be left blank before submission.",
+      "pdfWording": "Ensures a field cannot be left blank before submission.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Ensures a field cannot be left blank before submission.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nEnsures a field cannot be left blank before submission.",
+      "options": [
+        "Minimum and Maximum Values",
+        "Pattern Validation",
+        "Minimum and Maximum Length",
+        "Required Validation"
+      ],
+      "correct": 3,
+      "answer": "Required Validation",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "218",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-096"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-096",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "218",
+          "page": 56,
+          "pages": [
+            56
+          ]
+        }
+      ],
+      "outlinePages": [
+        56,
+        57,
+        58
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Required Validation.",
+        "references": []
+      },
+      "signature": "50582b215fdad6b5"
+    },
+    {
+      "id": "ppt-webdev-html-097",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Minimum and Maximum Values",
+      "definition": "Sets lower and upper numeric or date limits for number/range/date inputs.",
+      "pdfWording": "Sets lower and upper numeric or date limits for number/range/date inputs.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Sets lower and upper numeric or date limits for number/range/date inputs.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nSets lower and upper numeric or date limits for number/range/date inputs.",
+      "options": [
+        "Required Validation",
+        "Pattern Validation",
+        "Minimum and Maximum Length",
+        "Minimum and Maximum Values"
+      ],
+      "correct": 3,
+      "answer": "Minimum and Maximum Values",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "219",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-097"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-097",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "219",
+          "page": 56,
+          "pages": [
+            56
+          ]
+        }
+      ],
+      "outlinePages": [
+        56,
+        57,
+        58
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Minimum and Maximum Values.",
+        "references": []
+      },
+      "signature": "51bafc377ccf0817"
+    },
+    {
+      "id": "ppt-webdev-html-098",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Pattern Validation",
+      "definition": "Restricts text to letters only (uppercase and lowercase) using a regular expression pattern.",
+      "pdfWording": "Restricts text to letters only (uppercase and lowercase) using a regular expression pattern.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "Restricts text to letters only (uppercase and lowercase) using a regular expression _______.",
+      "detail": "This describes the slide’s specific [A-Za-z]+ example, not every possible pattern value.",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nRestricts text to letters only (uppercase and lowercase) using a regular expression _______.",
+      "options": [
+        "Pattern Validation",
+        "Required Validation",
+        "Minimum and Maximum Values",
+        "Minimum and Maximum Length"
+      ],
+      "correct": 0,
+      "answer": "Pattern Validation",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "220",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-098"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-098",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "220",
+          "page": 56,
+          "pages": [
+            56
+          ]
+        }
+      ],
+      "outlinePages": [
+        56,
+        57,
+        58
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Pattern Validation.",
+        "references": [
+          {
+            "label": "W3C WAI: validating input",
+            "url": "https://www.w3.org/WAI/tutorials/forms/validation/"
+          }
+        ]
+      },
+      "signature": "84924bec2cc4140c"
+    },
+    {
+      "id": "ppt-webdev-html-099",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Minimum and Maximum Length",
+      "definition": "Restricts the minimum and maximum character lengths for text strings.",
+      "pdfWording": "Restricts the minimum and maximum character lengths for text strings.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Restricts the minimum and maximum character lengths for text strings.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nRestricts the minimum and maximum character lengths for text strings.",
+      "options": [
+        "Required Validation",
+        "Minimum and Maximum Values",
+        "Minimum and Maximum Length",
+        "Pattern Validation"
+      ],
+      "correct": 2,
+      "answer": "Minimum and Maximum Length",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "221",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-099"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-099",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "221",
+          "page": 56,
+          "pages": [
+            56
+          ]
+        }
+      ],
+      "outlinePages": [
+        56,
+        57,
+        58
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Minimum and Maximum Length.",
+        "references": []
+      },
+      "signature": "41ed9c6f74c7902e"
+    },
+    {
+      "id": "ppt-webdev-html-100",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Email Validation",
+      "definition": "Automatically validates that the entered text follows a standard email format",
+      "pdfWording": "Automatically validates that the entered text follows a standard email format",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Automatically validates that the entered text follows a standard email format",
+      "detail": "This is a syntax check. It does not establish that the email address exists or can receive messages.",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nAutomatically validates that the entered text follows a standard email format",
+      "options": [
+        "Email Validation",
+        "Required Validation",
+        "Minimum and Maximum Values",
+        "Pattern Validation"
+      ],
+      "correct": 0,
+      "answer": "Email Validation",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "222",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-100"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-100",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "222",
+          "page": 57,
+          "pages": [
+            57
+          ]
+        }
+      ],
+      "outlinePages": [
+        56,
+        57,
+        58
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Email Validation.",
+        "references": [
+          {
+            "label": "W3C WAI: validating input",
+            "url": "https://www.w3.org/WAI/tutorials/forms/validation/"
+          }
+        ]
+      },
+      "signature": "610254f2b440376c"
+    },
+    {
+      "id": "ppt-webdev-html-101",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Client-Side Validation",
+      "definition": "HTML5 provide basic client-side validation without JavaScript by using declarative attributes and semantic input types directly in markup, eliminating the need for JavaScript for standard checks.\nWhen a user submits a form, the browser automatically checks the input elements against specified constraint rules. If any field fails validation, the browser blocks submission and displays a native error bubble.",
+      "pdfWording": "HTML5 provide basic client-side validation without JavaScript by using declarative attributes and semantic input types directly in markup, eliminating the need for JavaScript for standard checks.\nWhen a user submits a form, the browser automatically checks the input elements against specified constraint rules. If any field fails validation, the browser blocks submission and displays a native error bubble.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "HTML5 provide basic _______ without JavaScript by using declarative attributes and semantic input types directly in markup, eliminating the need for JavaScript for standard checks.\nWhen a user submits a form, the browser automatically checks the input elements against specified constraint rules. If any field fails validation, the browser blocks submission and displays a native error bubble.",
+      "detail": "The source says “HTML5 provide.” Client-side validation can be bypassed and is not a replacement for server-side validation.",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\nHTML5 provide basic _______ without JavaScript by using declarative attributes and semantic input types directly in markup, eliminating the need for JavaScript for standard checks.\nWhen a user submits a form, the browser automatically checks the input elements against specified constraint rules. If any field fails validation, the browser blocks submission and displays a native error bubble.",
+      "options": [
+        "HTML Input Types",
+        "Client-Side Validation",
+        "Types of HTML Lists",
+        "Basic Accessibility Principles"
+      ],
+      "correct": 1,
+      "answer": "Client-Side Validation",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "223",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-101"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-101",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "223",
+          "page": 58,
+          "pages": [
+            58
+          ]
+        }
+      ],
+      "outlinePages": [
+        58
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Client-Side Validation.",
+        "references": [
+          {
+            "label": "W3C WAI: validating input",
+            "url": "https://www.w3.org/WAI/tutorials/forms/validation/"
+          }
+        ]
+      },
+      "signature": "8e640c728d88f133"
+    },
+    {
+      "id": "ppt-webdev-html-102",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Accessible Forms",
+      "definition": "Proper <label> usage\nDescriptive labels\nRequired fields\nClear instructions\nAppropriate input types\nError messages\nKeyboard accessibility",
+      "pdfWording": "Proper <label> usage\nDescriptive labels\nRequired fields\nClear instructions\nAppropriate input types\nError messages\nKeyboard accessibility",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "Proper <label> usage\nDescriptive labels\nRequired fields\nClear instructions\nAppropriate input types\nError messages\nKeyboard accessibility",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-3",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nProper <label> usage\nDescriptive labels\nRequired fields\nClear instructions\nAppropriate input types\nError messages\nKeyboard accessibility",
+      "options": [
+        "Assistive Technologies",
+        "Accessible Links",
+        "Accessible Forms",
+        "HTML Tables"
+      ],
+      "correct": 2,
+      "answer": "Accessible Forms",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "224",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-102"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-102",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "HTML Forms",
+          "number": "224",
+          "page": 59,
+          "pages": [
+            59
+          ]
+        }
+      ],
+      "outlinePages": [
+        59
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Accessible Forms.",
+        "references": []
+      },
+      "signature": "0f71b611d1b9f8fa"
+    },
+    {
+      "id": "ppt-webdev-html-103",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Web Accessibility",
+      "definition": "Web Accessibility refers to the design and development of websites that can be accessed, understood, navigated, and used by all individuals, including persons with disabilities.",
+      "pdfWording": "Web Accessibility refers to the design and development of websites that can be accessed, understood, navigated, and used by all individuals, including persons with disabilities.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ refers to the design and development of websites that can be accessed, understood, navigated, and used by all individuals, including persons with disabilities.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ refers to the design and development of websites that can be accessed, understood, navigated, and used by all individuals, including persons with disabilities.",
+      "options": [
+        "Web Accessibility",
+        "Assistive Technologies",
+        "Semantic HTML",
+        "SEO (Search Engine Optimization)"
+      ],
+      "correct": 0,
+      "answer": "Web Accessibility",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "225",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-103"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-103",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "225",
+          "page": 67,
+          "pages": [
+            67
+          ]
+        }
+      ],
+      "outlinePages": [
+        67
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Web Accessibility.",
+        "references": []
+      },
+      "signature": "35fcf621cfe2aadd"
+    },
+    {
+      "id": "ppt-webdev-html-104",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Importance of Web Accessibility",
+      "definition": "Ensures equal access to online information and services.\nProvides a more inclusive and usable web experience.\nSupports users with different abilities and needs.\nEnables compatibility with assistive technologies.",
+      "pdfWording": "Ensures equal access to online information and services.\nProvides a more inclusive and usable web experience.\nSupports users with different abilities and needs.\nEnables compatibility with assistive technologies.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "Ensures equal access to online information and services.\nProvides a more inclusive and usable web experience.\nSupports users with different abilities and needs.\nEnables compatibility with assistive technologies.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nEnsures equal access to online information and services.\nProvides a more inclusive and usable web experience.\nSupports users with different abilities and needs.\nEnables compatibility with assistive technologies.",
+      "options": [
+        "Importance of Web Accessibility",
+        "Importance of SEO",
+        "Types of HTML Lists",
+        "HTML Input Types"
+      ],
+      "correct": 0,
+      "answer": "Importance of Web Accessibility",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "226",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-104"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-104",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "226",
+          "page": 67,
+          "pages": [
+            67
+          ]
+        }
+      ],
+      "outlinePages": [
+        67
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Importance of Web Accessibility.",
+        "references": []
+      },
+      "signature": "26e12d30b31a1892"
+    },
+    {
+      "id": "ppt-webdev-html-105",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Assistive Technologies",
+      "definition": "Assistive technologies are tools that help individuals interact with digital content.\nScreen Readers – software that converts on-screen text and information into speech or Braille.",
+      "pdfWording": "Assistive technologies are tools that help individuals interact with digital content.\nScreen Readers – software that converts on-screen text and information into speech or Braille.",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ are tools that help individuals interact with digital content.\nScreen Readers – software that converts on-screen text and information into speech or Braille.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ are tools that help individuals interact with digital content.\nScreen Readers – software that converts on-screen text and information into speech or Braille.",
+      "options": [
+        "Accessible Forms",
+        "Assistive Technologies",
+        "Web Accessibility",
+        "Accessible Links"
+      ],
+      "correct": 1,
+      "answer": "Assistive Technologies",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "227",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-105"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-105",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "227",
+          "page": 67,
+          "pages": [
+            67
+          ]
+        }
+      ],
+      "outlinePages": [
+        67
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Assistive Technologies.",
+        "references": []
+      },
+      "signature": "9ae2bc240dce5265"
+    },
+    {
+      "id": "ppt-webdev-html-106",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Basic Accessibility Principles",
+      "definition": "Keyboard Accessibility\nClear Content Structure\nMeaningful Links\nAlternative Text\nProper Headings\nAccessible Forms\nText Readability and Contrast",
+      "pdfWording": "Keyboard Accessibility\nClear Content Structure\nMeaningful Links\nAlternative Text\nProper Headings\nAccessible Forms\nText Readability and Contrast",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "Keyboard Accessibility\nClear Content Structure\nMeaningful Links\nAlternative Text\nProper Headings\nAccessible Forms\nText Readability and Contrast",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nKeyboard Accessibility\nClear Content Structure\nMeaningful Links\nAlternative Text\nProper Headings\nAccessible Forms\nText Readability and Contrast",
+      "options": [
+        "HTML, CSS, and JavaScript",
+        "Basic Accessibility Principles",
+        "Basic HTML5 Document Structure",
+        "HTML Elements Related to SEO"
+      ],
+      "correct": 1,
+      "answer": "Basic Accessibility Principles",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "228",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-106"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-106",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "228",
+          "page": 68,
+          "pages": [
+            68
+          ]
+        }
+      ],
+      "outlinePages": [
+        68
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Basic Accessibility Principles.",
+        "references": []
+      },
+      "signature": "03606de80ad2d53d"
+    },
+    {
+      "id": "ppt-webdev-html-107",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Keyboard Accessibility",
+      "definition": "Keyboard Accessibility - Websites should be fully navigable and operable using a keyboard.",
+      "pdfWording": "Keyboard Accessibility - Websites should be fully navigable and operable using a keyboard.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Websites should be fully navigable and operable using a keyboard.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Websites should be fully navigable and operable using a keyboard.",
+      "options": [
+        "Clear Content Structure",
+        "Keyboard Accessibility",
+        "Meaningful Links",
+        "Alternative Text"
+      ],
+      "correct": 1,
+      "answer": "Keyboard Accessibility",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "229",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-107"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-107",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "229",
+          "page": 68,
+          "pages": [
+            68
+          ]
+        }
+      ],
+      "outlinePages": [
+        68
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Keyboard Accessibility.",
+        "references": []
+      },
+      "signature": "0eadd81452868557"
+    },
+    {
+      "id": "ppt-webdev-html-108",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Clear Content Structure",
+      "definition": "Clear Content Structure - Content should be logically organized and presented in an understandable manner.",
+      "pdfWording": "Clear Content Structure - Content should be logically organized and presented in an understandable manner.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Content should be logically organized and presented in an understandable manner.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Content should be logically organized and presented in an understandable manner.",
+      "options": [
+        "Keyboard Accessibility",
+        "Clear Content Structure",
+        "Meaningful Links",
+        "Alternative Text"
+      ],
+      "correct": 1,
+      "answer": "Clear Content Structure",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "230",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-108"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-108",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "230",
+          "page": 68,
+          "pages": [
+            68
+          ]
+        }
+      ],
+      "outlinePages": [
+        68
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Clear Content Structure.",
+        "references": []
+      },
+      "signature": "1d1b20436810629e"
+    },
+    {
+      "id": "ppt-webdev-html-109",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Meaningful Links",
+      "definition": "Meaningful Links - Link text should clearly indicate its destination or purpose.",
+      "pdfWording": "Meaningful Links - Link text should clearly indicate its destination or purpose.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Link text should clearly indicate its destination or purpose.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Link text should clearly indicate its destination or purpose.",
+      "options": [
+        "Keyboard Accessibility",
+        "Meaningful Links",
+        "Clear Content Structure",
+        "Alternative Text"
+      ],
+      "correct": 1,
+      "answer": "Meaningful Links",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "231",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-109"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-109",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "231",
+          "page": 68,
+          "pages": [
+            68
+          ]
+        }
+      ],
+      "outlinePages": [
+        68
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Meaningful Links.",
+        "references": []
+      },
+      "signature": "ed4699127b8b2228"
+    },
+    {
+      "id": "ppt-webdev-html-110",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Alternative Text",
+      "definition": "Alternative Text - Meaningful images should have appropriate text descriptions.",
+      "pdfWording": "Alternative Text - Meaningful images should have appropriate text descriptions.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Meaningful images should have appropriate text descriptions.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Meaningful images should have appropriate text descriptions.",
+      "options": [
+        "Keyboard Accessibility",
+        "Alternative Text",
+        "Clear Content Structure",
+        "Meaningful Links"
+      ],
+      "correct": 1,
+      "answer": "Alternative Text",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "232",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-110"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-110",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "232",
+          "page": 68,
+          "pages": [
+            68
+          ]
+        }
+      ],
+      "outlinePages": [
+        68
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Alternative Text.",
+        "references": []
+      },
+      "signature": "fee0dc9fda76dcf8"
+    },
+    {
+      "id": "ppt-webdev-html-111",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Proper Headings",
+      "definition": "Proper Headings - Headings should follow a logical hierarchy to organize page content.",
+      "pdfWording": "Proper Headings - Headings should follow a logical hierarchy to organize page content.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Headings should follow a logical hierarchy to organize page content.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Headings should follow a logical hierarchy to organize page content.",
+      "options": [
+        "Keyboard Accessibility",
+        "Clear Content Structure",
+        "Meaningful Links",
+        "Proper Headings"
+      ],
+      "correct": 3,
+      "answer": "Proper Headings",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "233",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-111"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-111",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "233",
+          "page": 68,
+          "pages": [
+            68
+          ]
+        }
+      ],
+      "outlinePages": [
+        68
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Proper Headings.",
+        "references": []
+      },
+      "signature": "af82063441a73b17"
+    },
+    {
+      "id": "ppt-webdev-html-112",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Accessible Forms",
+      "definition": "Accessible Forms - Forms should provide clear labels, instructions, required fields, and error messages.",
+      "pdfWording": "Accessible Forms - Forms should provide clear labels, instructions, required fields, and error messages.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Forms should provide clear labels, instructions, required fields, and error messages.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Forms should provide clear labels, instructions, required fields, and error messages.",
+      "options": [
+        "Accessible Forms",
+        "Keyboard Accessibility",
+        "Clear Content Structure",
+        "Meaningful Links"
+      ],
+      "correct": 0,
+      "answer": "Accessible Forms",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "234",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-112"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-112",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "234",
+          "page": 68,
+          "pages": [
+            68
+          ]
+        }
+      ],
+      "outlinePages": [
+        68
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Accessible Forms.",
+        "references": []
+      },
+      "signature": "73ad02964adc945f"
+    },
+    {
+      "id": "ppt-webdev-html-113",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Text Readability and Contrast",
+      "definition": "Text Readability and Contrast - Text should be sufficiently readable and have adequate contrast with its background.",
+      "pdfWording": "Text Readability and Contrast - Text should be sufficiently readable and have adequate contrast with its background.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Text should be sufficiently readable and have adequate contrast with its background.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Text should be sufficiently readable and have adequate contrast with its background.",
+      "options": [
+        "Text Readability and Contrast",
+        "Keyboard Accessibility",
+        "Clear Content Structure",
+        "Meaningful Links"
+      ],
+      "correct": 0,
+      "answer": "Text Readability and Contrast",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "235",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-113"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-113",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "235",
+          "page": 68,
+          "pages": [
+            68
+          ]
+        }
+      ],
+      "outlinePages": [
+        68
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Text Readability and Contrast.",
+        "references": []
+      },
+      "signature": "6ae7ec82da09f2c0"
+    },
+    {
+      "id": "ppt-webdev-html-114",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Headings and Document Structure",
+      "definition": "Headings should be used to establish structure and meaning, not merely to increase the visual size of text.",
+      "pdfWording": "Headings should be used to establish structure and meaning, not merely to increase the visual size of text.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Headings should be used to establish structure and meaning, not merely to increase the visual size of text.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nHeadings should be used to establish structure and meaning, not merely to increase the visual size of text.",
+      "options": [
+        "Headings and Document Structure",
+        "Alternative Text (Alt Text)",
+        "Accessible Links",
+        "Accessibility and Forms"
+      ],
+      "correct": 0,
+      "answer": "Headings and Document Structure",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "236",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-114"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-114",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "236",
+          "page": 69,
+          "pages": [
+            69
+          ]
+        }
+      ],
+      "outlinePages": [
+        69
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Headings and Document Structure.",
+        "references": []
+      },
+      "signature": "576556d0a3a46453"
+    },
+    {
+      "id": "ppt-webdev-html-115",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Proper Heading Hierarchy",
+      "definition": "<h1> – identifies the main topic or title of the page.\n<h2> – identifies major sections.\n<h3> – identifies subsections under an <h2>.\n<h4> to <h6> – provide additional levels of organization when necessary.",
+      "pdfWording": "<h1> – identifies the main topic or title of the page.\n<h2> – identifies major sections.\n<h3> – identifies subsections under an <h2>.\n<h4> to <h6> – provide additional levels of organization when necessary.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "<h1> – identifies the main topic or title of the page.\n<h2> – identifies major sections.\n<h3> – identifies subsections under an <h2>.\n<h4> to <h6> – provide additional levels of organization when necessary.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\n<h1> – identifies the main topic or title of the page.\n<h2> – identifies major sections.\n<h3> – identifies subsections under an <h2>.\n<h4> to <h6> – provide additional levels of organization when necessary.",
+      "options": [
+        "Types of HTML Lists",
+        "HTML Input Types",
+        "Proper Heading Hierarchy",
+        "Form Attributes"
+      ],
+      "correct": 2,
+      "answer": "Proper Heading Hierarchy",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "237",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-115"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-115",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "237",
+          "page": 69,
+          "pages": [
+            69
+          ]
+        }
+      ],
+      "outlinePages": [
+        69
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Proper Heading Hierarchy.",
+        "references": []
+      },
+      "signature": "543f1e72dfd4e6e8"
+    },
+    {
+      "id": "ppt-webdev-html-116",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Alternative Text (Alt Text)",
+      "definition": "It is a textual description associated with an image that communicates its relevant purpose or meaning.",
+      "pdfWording": "It is a textual description associated with an image that communicates its relevant purpose or meaning.",
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "questionExcerpt": "It is a textual description associated with an image that communicates its relevant purpose or meaning.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nIt is a textual description associated with an image that communicates its relevant purpose or meaning.",
+      "options": [
+        "Alternative Text (Alt Text)",
+        "Accessible Links",
+        "Assistive Technologies",
+        "Web Accessibility"
+      ],
+      "correct": 0,
+      "answer": "Alternative Text (Alt Text)",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "238",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-116"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-116",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "238",
+          "page": 70,
+          "pages": [
+            70
+          ]
+        }
+      ],
+      "outlinePages": [
+        70
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Alternative Text (Alt Text).",
+        "references": []
+      },
+      "signature": "237893b9dff2705a"
+    },
+    {
+      "id": "ppt-webdev-html-117",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Descriptive Alt Text",
+      "definition": "Descriptive alt text should be provided when an image:\nContains important information.\nCommunicates a specific meaning.\nSupports or contributes to the surrounding content.",
+      "pdfWording": "Descriptive alt text should be provided when an image:\nContains important information.\nCommunicates a specific meaning.\nSupports or contributes to the surrounding content.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ should be provided when an image:\nContains important information.\nCommunicates a specific meaning.\nSupports or contributes to the surrounding content.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ should be provided when an image:\nContains important information.\nCommunicates a specific meaning.\nSupports or contributes to the surrounding content.",
+      "options": [
+        "Decorative Images",
+        "Descriptive Alt Text",
+        "Accessible Links",
+        "Accessibility and Forms"
+      ],
+      "correct": 1,
+      "answer": "Descriptive Alt Text",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "239",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-117"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-117",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "239",
+          "page": 70,
+          "pages": [
+            70
+          ]
+        }
+      ],
+      "outlinePages": [
+        70
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Descriptive Alt Text.",
+        "references": []
+      },
+      "signature": "3d6f1b83347cc9fb"
+    },
+    {
+      "id": "ppt-webdev-html-118",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Decorative Images",
+      "definition": "Images that are purely decorative and provide no meaningful information may use:\nalt=\"\"\nThis allows assistive technologies to ignore the decorative image.",
+      "pdfWording": "Images that are purely decorative and provide no meaningful information may use:\nalt=\"\"\nThis allows assistive technologies to ignore the decorative image.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Images that are purely decorative and provide no meaningful information may use:\nalt=\"\"\nThis allows assistive technologies to ignore the decorative image.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nImages that are purely decorative and provide no meaningful information may use:\nalt=\"\"\nThis allows assistive technologies to ignore the decorative image.",
+      "options": [
+        "Descriptive Alt Text",
+        "Decorative Images",
+        "Accessible Links",
+        "Accessibility and Forms"
+      ],
+      "correct": 1,
+      "answer": "Decorative Images",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "240",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-118"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-118",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "240",
+          "page": 70,
+          "pages": [
+            70
+          ]
+        }
+      ],
+      "outlinePages": [
+        70
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Decorative Images.",
+        "references": []
+      },
+      "signature": "6721d69970dfec8d"
+    },
+    {
+      "id": "ppt-webdev-html-119",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Accessible Links",
+      "definition": "It is a textual description associated with an image that communicates its relevant purpose or meaning.\nMeaningful link text:\nClearly communicates the purpose of a link.\nHelps users understand where the link leads.\nAllows screen-reader users to understand links independently of surrounding text.\nImproves website navigation and usability.",
+      "pdfWording": "It is a textual description associated with an image that communicates its relevant purpose or meaning.\nMeaningful link text:\nClearly communicates the purpose of a link.\nHelps users understand where the link leads.\nAllows screen-reader users to understand links independently of surrounding text.\nImproves website navigation and usability.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Meaningful link text:\nClearly communicates the purpose of a link.\nHelps users understand where the link leads.\nAllows screen-reader users to understand links independently of surrounding text.\nImproves website navigation and usability.",
+      "detail": "The opening sentence on this slide repeats the alternative-text definition. Practice uses the meaningful-link bullets, not that incorrect opening sentence.",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nMeaningful link text:\nClearly communicates the purpose of a link.\nHelps users understand where the link leads.\nAllows screen-reader users to understand links independently of surrounding text.\nImproves website navigation and usability.",
+      "options": [
+        "Accessible Forms",
+        "Accessible Links",
+        "Web Accessibility",
+        "Assistive Technologies"
+      ],
+      "correct": 1,
+      "answer": "Accessible Links",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "241",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-119"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-119",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "241",
+          "page": 71,
+          "pages": [
+            71
+          ]
+        }
+      ],
+      "outlinePages": [
+        71
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Accessible Links.",
+        "references": [
+          {
+            "label": "W3C WAI: page structure",
+            "url": "https://www.w3.org/WAI/tutorials/page-structure/"
+          }
+        ]
+      },
+      "signature": "2f06f42c3b699b90"
+    },
+    {
+      "id": "ppt-webdev-html-120",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Accessibility and Forms",
+      "definition": "Forms should be designed so that users can understand the required information and complete the form successfully.\nTo make forms clear, predictable, accessible, and easy to complete.",
+      "pdfWording": "Forms should be designed so that users can understand the required information and complete the form successfully.\nTo make forms clear, predictable, accessible, and easy to complete.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Forms should be designed so that users can understand the required information and complete the form successfully.\nTo make forms clear, predictable, accessible, and easy to complete.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nForms should be designed so that users can understand the required information and complete the form successfully.\nTo make forms clear, predictable, accessible, and easy to complete.",
+      "options": [
+        "Accessibility and Forms",
+        "Assistive Technologies",
+        "Accessible Links",
+        "Alternative Text (Alt Text)"
+      ],
+      "correct": 0,
+      "answer": "Accessibility and Forms",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "242",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-120"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-120",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "242",
+          "page": 72,
+          "pages": [
+            72
+          ]
+        }
+      ],
+      "outlinePages": [
+        72
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Accessibility and Forms.",
+        "references": []
+      },
+      "signature": "af9d3b9f6eb2fd6b"
+    },
+    {
+      "id": "ppt-webdev-html-121",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Labels",
+      "definition": "Labels - Each input field should have a clear and descriptive label.",
+      "pdfWording": "Labels - Each input field should have a clear and descriptive label.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Each input field should have a clear and descriptive label.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Each input field should have a clear and descriptive label.",
+      "options": [
+        "Required Fields",
+        "Clear Instructions",
+        "Labels",
+        "Error Identification"
+      ],
+      "correct": 2,
+      "answer": "Labels",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "243",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-121"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-121",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "243",
+          "page": 72,
+          "pages": [
+            72
+          ]
+        }
+      ],
+      "outlinePages": [
+        72
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Labels.",
+        "references": []
+      },
+      "signature": "f04fcffa9ed0545d"
+    },
+    {
+      "id": "ppt-webdev-html-122",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Required Fields",
+      "definition": "Required Fields - Required information should be clearly identified.",
+      "pdfWording": "Required Fields - Required information should be clearly identified.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Required information should be clearly identified.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Required information should be clearly identified.",
+      "options": [
+        "Labels",
+        "Clear Instructions",
+        "Error Identification",
+        "Required Fields"
+      ],
+      "correct": 3,
+      "answer": "Required Fields",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "244",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-122"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-122",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "244",
+          "page": 72,
+          "pages": [
+            72
+          ]
+        }
+      ],
+      "outlinePages": [
+        72
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Required Fields.",
+        "references": []
+      },
+      "signature": "02bcda9dbbbb2577"
+    },
+    {
+      "id": "ppt-webdev-html-123",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Clear Instructions",
+      "definition": "Clear Instructions - Users should be provided with understandable instructions regarding the expected information or format.",
+      "pdfWording": "Clear Instructions - Users should be provided with understandable instructions regarding the expected information or format.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Users should be provided with understandable instructions regarding the expected information or format.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Users should be provided with understandable instructions regarding the expected information or format.",
+      "options": [
+        "Labels",
+        "Required Fields",
+        "Clear Instructions",
+        "Error Identification"
+      ],
+      "correct": 2,
+      "answer": "Clear Instructions",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "245",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-123"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-123",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "245",
+          "page": 72,
+          "pages": [
+            72
+          ]
+        }
+      ],
+      "outlinePages": [
+        72
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Clear Instructions.",
+        "references": []
+      },
+      "signature": "8343f768452b66f8"
+    },
+    {
+      "id": "ppt-webdev-html-124",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Error Identification",
+      "definition": "Error Identification - Errors should be clearly identified and accompanied by useful information on how to correct them.",
+      "pdfWording": "Error Identification - Errors should be clearly identified and accompanied by useful information on how to correct them.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Errors should be clearly identified and accompanied by useful information on how to correct them.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Errors should be clearly identified and accompanied by useful information on how to correct them.",
+      "options": [
+        "Labels",
+        "Required Fields",
+        "Clear Instructions",
+        "Error Identification"
+      ],
+      "correct": 3,
+      "answer": "Error Identification",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "246",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-124"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-124",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "246",
+          "page": 72,
+          "pages": [
+            72
+          ]
+        }
+      ],
+      "outlinePages": [
+        72
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Error Identification.",
+        "references": []
+      },
+      "signature": "ccbdce86d2742394"
+    },
+    {
+      "id": "ppt-webdev-html-125",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Keyboard Navigation",
+      "definition": "Keyboard Navigation -Users should be able to move between form controls and complete the form using a keyboard.",
+      "pdfWording": "Keyboard Navigation -Users should be able to move between form controls and complete the form using a keyboard.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ -Users should be able to move between form controls and complete the form using a keyboard.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-4",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ -Users should be able to move between form controls and complete the form using a keyboard.",
+      "options": [
+        "Labels",
+        "Keyboard Navigation",
+        "Required Fields",
+        "Clear Instructions"
+      ],
+      "correct": 1,
+      "answer": "Keyboard Navigation",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "247",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-125"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-125",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Web Accessibility",
+          "number": "247",
+          "page": 72,
+          "pages": [
+            72
+          ]
+        }
+      ],
+      "outlinePages": [
+        72
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Keyboard Navigation.",
+        "references": []
+      },
+      "signature": "fb0a631b5000c7d2"
+    },
+    {
+      "id": "ppt-webdev-html-126",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "SEO (Search Engine Optimization)",
+      "definition": "SEO (Search Engine Optimization) is the process of improving a website so that search engines can effectively discover, understand, and index its conten",
+      "pdfWording": "SEO (Search Engine Optimization) is the process of improving a website so that search engines can effectively discover, understand, and index its conten",
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ is the process of improving a website so that search engines can effectively discover, understand, and index its conten",
+      "detail": "The original slide ends with “conten”; the intended word is content.",
+      "previousVersions": [],
+      "topic": "webdev-html-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ is the process of improving a website so that search engines can effectively discover, understand, and index its conten",
+      "options": [
+        "Web Accessibility",
+        "Semantic HTML",
+        "SEO (Search Engine Optimization)",
+        "HTML Tables"
+      ],
+      "correct": 2,
+      "answer": "SEO (Search Engine Optimization)",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "248",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-126"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-126",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Search Engine Optimization",
+          "number": "248",
+          "page": 73,
+          "pages": [
+            73
+          ]
+        }
+      ],
+      "outlinePages": [
+        73
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: SEO (Search Engine Optimization).",
+        "references": []
+      },
+      "signature": "6e3838f7e78e4cde"
+    },
+    {
+      "id": "ppt-webdev-html-127",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Importance of SEO",
+      "definition": "Improves the discoverability of webpages.\nHelps search engines understand website content.\nOrganizes information in a clear and meaningful manner.\nHelps relevant content become easier for users to find.",
+      "pdfWording": "Improves the discoverability of webpages.\nHelps search engines understand website content.\nOrganizes information in a clear and meaningful manner.\nHelps relevant content become easier for users to find.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "Improves the discoverability of webpages.\nHelps search engines understand website content.\nOrganizes information in a clear and meaningful manner.\nHelps relevant content become easier for users to find.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\nImproves the discoverability of webpages.\nHelps search engines understand website content.\nOrganizes information in a clear and meaningful manner.\nHelps relevant content become easier for users to find.",
+      "options": [
+        "Importance of Web Accessibility",
+        "Importance of SEO",
+        "Types of HTML Lists",
+        "HTML Input Types"
+      ],
+      "correct": 1,
+      "answer": "Importance of SEO",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "249",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-127"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-127",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Search Engine Optimization",
+          "number": "249",
+          "page": 73,
+          "pages": [
+            73
+          ]
+        }
+      ],
+      "outlinePages": [
+        73
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Importance of SEO.",
+        "references": []
+      },
+      "signature": "cb4e9e1ced828f47"
+    },
+    {
+      "id": "ppt-webdev-html-128",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "HTML Elements Related to SEO",
+      "definition": "<title>\n<meta>\nHeadings\nSemantic Elements\nDescriptive Links\nAlternative Text\nMeaningful Page Content",
+      "pdfWording": "<title>\n<meta>\nHeadings\nSemantic Elements\nDescriptive Links\nAlternative Text\nMeaningful Page Content",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "questionExcerpt": "<title>\n<meta>\nHeadings\nSemantic Elements\nDescriptive Links\nAlternative Text\nMeaningful Page Content",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which slide topic lists these items?\n\n<title>\n<meta>\nHeadings\nSemantic Elements\nDescriptive Links\nAlternative Text\nMeaningful Page Content",
+      "options": [
+        "HTML Elements Related to SEO",
+        "HTML, CSS, and JavaScript",
+        "Basic HTML5 Document Structure",
+        "Basic Accessibility Principles"
+      ],
+      "correct": 0,
+      "answer": "HTML Elements Related to SEO",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "250",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-128"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-128",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Search Engine Optimization",
+          "number": "250",
+          "page": 74,
+          "pages": [
+            74
+          ]
+        }
+      ],
+      "outlinePages": [
+        74
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: HTML Elements Related to SEO.",
+        "references": []
+      },
+      "signature": "3fd5b2cd301b6ea5"
+    },
+    {
+      "id": "ppt-webdev-html-129",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Headings",
+      "definition": "Headings - Elements such as <h1>, <h2>, and <h3> organize and structure page content.",
+      "pdfWording": "Headings - Elements such as <h1>, <h2>, and <h3> organize and structure page content.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Elements such as <h1>, <h2>, and <h3> organize and structure page content.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Elements such as <h1>, <h2>, and <h3> organize and structure page content.",
+      "options": [
+        "Semantic Elements",
+        "Headings",
+        "Descriptive Links",
+        "Alternative Text"
+      ],
+      "correct": 1,
+      "answer": "Headings",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "251",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-129"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-129",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Search Engine Optimization",
+          "number": "251",
+          "page": 74,
+          "pages": [
+            74
+          ]
+        }
+      ],
+      "outlinePages": [
+        74
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Headings.",
+        "references": []
+      },
+      "signature": "0dcd6ea023f8197d"
+    },
+    {
+      "id": "ppt-webdev-html-130",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Semantic Elements",
+      "definition": "Semantic Elements - Elements such as <header>, <nav>, <main>, <section>, <article>, and <footer> communicate the meaning and structure of different parts of a webpage.",
+      "pdfWording": "Semantic Elements - Elements such as <header>, <nav>, <main>, <section>, <article>, and <footer> communicate the meaning and structure of different parts of a webpage.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Elements such as <header>, <nav>, <main>, <section>, <article>, and <footer> communicate the meaning and structure of different parts of a webpage.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Elements such as <header>, <nav>, <main>, <section>, <article>, and <footer> communicate the meaning and structure of different parts of a webpage.",
+      "options": [
+        "Headings",
+        "Descriptive Links",
+        "Semantic Elements",
+        "Alternative Text"
+      ],
+      "correct": 2,
+      "answer": "Semantic Elements",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "252",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-130"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-130",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Search Engine Optimization",
+          "number": "252",
+          "page": 74,
+          "pages": [
+            74
+          ]
+        }
+      ],
+      "outlinePages": [
+        74
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Semantic Elements.",
+        "references": []
+      },
+      "signature": "01ab83d37d6104e3"
+    },
+    {
+      "id": "ppt-webdev-html-131",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Descriptive Links",
+      "definition": "Descriptive Links - Clearly describe the destination or purpose of links.",
+      "pdfWording": "Descriptive Links - Clearly describe the destination or purpose of links.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Clearly describe the destination or purpose of links.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Clearly describe the destination or purpose of links.",
+      "options": [
+        "Descriptive Links",
+        "Headings",
+        "Semantic Elements",
+        "Alternative Text"
+      ],
+      "correct": 0,
+      "answer": "Descriptive Links",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "253",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-131"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-131",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Search Engine Optimization",
+          "number": "253",
+          "page": 74,
+          "pages": [
+            74
+          ]
+        }
+      ],
+      "outlinePages": [
+        74
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Descriptive Links.",
+        "references": []
+      },
+      "signature": "07670fd1093d6cd7"
+    },
+    {
+      "id": "ppt-webdev-html-132",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Alternative Text",
+      "definition": "Alternative Text - Provides textual descriptions for meaningful images.",
+      "pdfWording": "Alternative Text - Provides textual descriptions for meaningful images.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Provides textual descriptions for meaningful images.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Provides textual descriptions for meaningful images.",
+      "options": [
+        "Headings",
+        "Semantic Elements",
+        "Descriptive Links",
+        "Alternative Text"
+      ],
+      "correct": 3,
+      "answer": "Alternative Text",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "254",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-132"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-132",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Search Engine Optimization",
+          "number": "254",
+          "page": 74,
+          "pages": [
+            74
+          ]
+        }
+      ],
+      "outlinePages": [
+        74
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Alternative Text.",
+        "references": []
+      },
+      "signature": "2a17eede02674407"
+    },
+    {
+      "id": "ppt-webdev-html-133",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Meaningful Page Content",
+      "definition": "Meaningful Page Content - Clear, relevant, and well-structured content helps search engines interpret the subject and purpose of a webpage.",
+      "pdfWording": "Meaningful Page Content - Clear, relevant, and well-structured content helps search engines interpret the subject and purpose of a webpage.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______ - Clear, relevant, and well-structured content helps search engines interpret the subject and purpose of a webpage.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______ - Clear, relevant, and well-structured content helps search engines interpret the subject and purpose of a webpage.",
+      "options": [
+        "Headings",
+        "Semantic Elements",
+        "Meaningful Page Content",
+        "Descriptive Links"
+      ],
+      "correct": 2,
+      "answer": "Meaningful Page Content",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "255",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-133"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-133",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Search Engine Optimization",
+          "number": "255",
+          "page": 74,
+          "pages": [
+            74
+          ]
+        }
+      ],
+      "outlinePages": [
+        74
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Meaningful Page Content.",
+        "references": []
+      },
+      "signature": "3236434d889abe81"
+    },
+    {
+      "id": "ppt-webdev-html-134",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Title Element",
+      "definition": "<title>\nDefines the title of a webpage and provides information about the page topic.",
+      "pdfWording": "<title>\nDefines the title of a webpage and provides information about the page topic.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______\nDefines the title of a webpage and provides information about the page topic.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______\nDefines the title of a webpage and provides information about the page topic.",
+      "options": [
+        "Headings",
+        "Semantic Elements",
+        "Descriptive Links",
+        "Title Element"
+      ],
+      "correct": 3,
+      "answer": "Title Element",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "256",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-134"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-134",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Search Engine Optimization",
+          "number": "256",
+          "page": 74,
+          "pages": [
+            74
+          ]
+        }
+      ],
+      "outlinePages": [
+        74
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Title Element.",
+        "references": []
+      },
+      "signature": "506fa4569422234f"
+    },
+    {
+      "id": "ppt-webdev-html-135",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Meta Element",
+      "definition": "<meta>\nProvides additional information about the webpage.",
+      "pdfWording": "<meta>\nProvides additional information about the webpage.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "questionExcerpt": "_______\nProvides additional information about the webpage.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Choose the term that fills the blank.\n\n_______\nProvides additional information about the webpage.",
+      "options": [
+        "Headings",
+        "Semantic Elements",
+        "Meta Element",
+        "Descriptive Links"
+      ],
+      "correct": 2,
+      "answer": "Meta Element",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "257",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-135"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-135",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Search Engine Optimization",
+          "number": "257",
+          "page": 74,
+          "pages": [
+            74
+          ]
+        }
+      ],
+      "outlinePages": [
+        74
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Meta Element.",
+        "references": []
+      },
+      "signature": "987e055fac443079"
+    },
+    {
+      "id": "ppt-webdev-html-136",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Descriptive HTML Title",
+      "definition": "A descriptive title:\nHelps users identify the purpose of a webpage.\nProvides search engines with information about the page topic.\nMakes webpage content more understandable and identifiable.",
+      "pdfWording": "A descriptive title:\nHelps users identify the purpose of a webpage.\nProvides search engines with information about the page topic.\nMakes webpage content more understandable and identifiable.",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "A descriptive title:\nHelps users identify the purpose of a webpage.\nProvides search engines with information about the page topic.\nMakes webpage content more understandable and identifiable.",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "What term is described?\n\nA descriptive title:\nHelps users identify the purpose of a webpage.\nProvides search engines with information about the page topic.\nMakes webpage content more understandable and identifiable.",
+      "options": [
+        "Proper Heading Hierarchy",
+        "Descriptive HTML Title",
+        "Basic Accessibility Principles",
+        "HTML5 Form Validation"
+      ],
+      "correct": 1,
+      "answer": "Descriptive HTML Title",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "258",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-136"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-136",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Search Engine Optimization",
+          "number": "258",
+          "page": 75,
+          "pages": [
+            75
+          ]
+        }
+      ],
+      "outlinePages": [
+        75
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Descriptive HTML Title.",
+        "references": []
+      },
+      "signature": "6528cd3e28481910"
+    },
+    {
+      "id": "ppt-webdev-html-137",
+      "subject": "webdev",
+      "material": "terms",
+      "term": "Relationship Between Semantic HTML, Accessibility, and SEO",
+      "definition": "Semantic HTML\n↓\nClearer document structure\n↓\nBetter accessibility\n↓\nBetter understanding by search engines\n↓\nBetter overall web experience",
+      "pdfWording": "Semantic HTML\n↓\nClearer document structure\n↓\nBetter accessibility\n↓\nBetter understanding by search engines\n↓\nBetter overall web experience",
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "questionExcerpt": "Semantic HTML\n↓\nClearer document structure\n↓\nBetter accessibility\n↓\nBetter understanding by search engines\n↓\nBetter overall web experience",
+      "detail": "",
+      "previousVersions": [],
+      "topic": "webdev-html-5",
+      "section": "3-4",
+      "sections": [
+        "3-4"
+      ],
+      "type": "choice",
+      "prompt": "Which relationship is shown by this slide’s diagram?\n\nSemantic HTML\n↓\nClearer document structure\n↓\nBetter accessibility\n↓\nBetter understanding by search engines\n↓\nBetter overall web experience",
+      "options": [
+        "Relationship Between Semantic HTML, Accessibility, and SEO",
+        "Basic HTML5 Document Structure",
+        "HTML5 Form Validation",
+        "Proper Heading Hierarchy"
+      ],
+      "correct": 0,
+      "answer": "Relationship Between Semantic HTML, Accessibility, and SEO",
+      "images": [],
+      "code": "",
+      "imageAlt": "",
+      "number": "259",
+      "practice": true,
+      "scored": true,
+      "scoringBasis": "presentation",
+      "aliases": [
+        "ppt-webdev-html-137"
+      ],
+      "sources": [
+        {
+          "id": "ppt-webdev-html-137",
+          "sourceId": "webdev-html",
+          "section": "3-4",
+          "label": "Group 2 · HTML, Accessibility & SEO",
+          "filename": "Group 2 - Web Dev Reporting.pdf",
+          "group": "Search Engine Optimization",
+          "number": "259",
+          "page": 76,
+          "pages": [
+            76
+          ]
+        }
+      ],
+      "outlinePages": [
+        76
+      ],
+      "audit": {
+        "status": "presentation-based",
+        "note": "Expected term from the supplied presentation: Relationship Between Semantic HTML, Accessibility, and SEO.",
+        "references": []
+      },
+      "signature": "9a23eccf0e673a48"
     }
   ],
   "aliases": {
@@ -22084,8 +38664,5188 @@ window.TERMS_BANK = {
         2,
         3
       ]
+    },
+    "ppt-webdev-php-001": {
+      "canonical": "ppt-webdev-php-001",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "PHP Functions",
+        "PHP Arrays",
+        "PHP Syntax",
+        "PHP Sessions"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-002": {
+      "canonical": "ppt-webdev-php-002",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Components of a For Loop",
+        "Basic PHP Syntax",
+        "Session Functions",
+        "Exception Handling Keywords"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-003": {
+      "canonical": "ppt-webdev-php-003",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "PHP Opening and Closing Tags",
+        "Variables",
+        "Output Statements",
+        "Comparison Operators"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-004": {
+      "canonical": "ppt-webdev-php-004",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Variables",
+        "PHP Opening and Closing Tags",
+        "Output Statements",
+        "Comparison Operators"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-005": {
+      "canonical": "ppt-webdev-php-005",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Output Statements",
+        "PHP Opening and Closing Tags",
+        "Variables",
+        "Comparison Operators"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-006": {
+      "canonical": "ppt-webdev-php-006",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Operators",
+        "Comparison Operators",
+        "PHP Functions",
+        "Variables"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-007": {
+      "canonical": "ppt-webdev-php-007",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Integer",
+        "String",
+        "Float",
+        "PHP Arrays"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-008": {
+      "canonical": "ppt-webdev-php-008",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "String",
+        "Float",
+        "PHP Arrays",
+        "Integer"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-009": {
+      "canonical": "ppt-webdev-php-009",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "String",
+        "Float",
+        "Integer",
+        "PHP Arrays"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-010": {
+      "canonical": "ppt-webdev-php-010",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "PHP Functions",
+        "PHP Sessions",
+        "PHP Namespaces",
+        "Operators"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-011": {
+      "canonical": "ppt-webdev-php-011",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "PHP Opening and Closing Tags",
+        "Variables",
+        "Output Statements",
+        "Comparison Operators"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-012": {
+      "canonical": "ppt-webdev-php-012",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "PHP Functions",
+        "PHP Arrays",
+        "PHP Sessions",
+        "Control Structures"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-013": {
+      "canonical": "ppt-webdev-php-013",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Switch Statement",
+        "PHP Functions",
+        "Conditional Statements",
+        "PHP Arrays"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-014": {
+      "canonical": "ppt-webdev-php-014",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "If",
+        "Else",
+        "Break",
+        "Default"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-015": {
+      "canonical": "ppt-webdev-php-015",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "If",
+        "Break",
+        "Default",
+        "Else"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-016": {
+      "canonical": "ppt-webdev-php-016",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Elseif",
+        "Else",
+        "Break",
+        "Default"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-017": {
+      "canonical": "ppt-webdev-php-017",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Conditional Statements",
+        "PHP Functions",
+        "PHP Arrays",
+        "Switch Statement"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-018": {
+      "canonical": "ppt-webdev-php-018",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Break",
+        "Case",
+        "Default",
+        "Throw"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-019": {
+      "canonical": "ppt-webdev-php-019",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Break",
+        "If",
+        "Else",
+        "Default"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-020": {
+      "canonical": "ppt-webdev-php-020",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Default",
+        "If",
+        "Else",
+        "Break"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-021": {
+      "canonical": "ppt-webdev-php-021",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Loops",
+        "Switch Statement",
+        "PHP Functions",
+        "PHP Arrays"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-022": {
+      "canonical": "ppt-webdev-php-022",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Switch Statement",
+        "For Loop",
+        "PHP Functions",
+        "PHP Arrays"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-023": {
+      "canonical": "ppt-webdev-php-023",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Switch Statement",
+        "While Loop",
+        "PHP Functions",
+        "PHP Arrays"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-024": {
+      "canonical": "ppt-webdev-php-024",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Do-While Loop",
+        "For Loop",
+        "While Loop",
+        "Switch Statement"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-025": {
+      "canonical": "ppt-webdev-php-025",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Basic PHP Syntax",
+        "Components of a For Loop",
+        "Session Functions",
+        "Exception Handling Keywords"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-026": {
+      "canonical": "ppt-webdev-php-026",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Initialization",
+        "Condition",
+        "Increment / Decrement",
+        "Case"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-027": {
+      "canonical": "ppt-webdev-php-027",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Initialization",
+        "Increment / Decrement",
+        "Case",
+        "Condition"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-028": {
+      "canonical": "ppt-webdev-php-028",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Initialization",
+        "Increment / Decrement",
+        "Condition",
+        "Case"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-029": {
+      "canonical": "ppt-webdev-php-029",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "PHP Syntax",
+        "PHP Arrays",
+        "PHP Sessions",
+        "PHP Functions"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-030": {
+      "canonical": "ppt-webdev-php-030",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "User-Defined Functions",
+        "GET Method",
+        "POST Method",
+        "Built-in Functions"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-031": {
+      "canonical": "ppt-webdev-php-031",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "User-Defined Functions",
+        "Built-in Functions",
+        "GET Method",
+        "POST Method"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-032": {
+      "canonical": "ppt-webdev-php-032",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Operators",
+        "PHP Syntax",
+        "PHP Functions",
+        "PHP Arrays"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-033": {
+      "canonical": "ppt-webdev-php-033",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Associative Arrays",
+        "Multidimensional Arrays",
+        "PHP Objects",
+        "Indexed Arrays"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-034": {
+      "canonical": "ppt-webdev-php-034",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Indexed Arrays",
+        "Multidimensional Arrays",
+        "Associative Arrays",
+        "PHP Objects"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-035": {
+      "canonical": "ppt-webdev-php-035",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Indexed Arrays",
+        "Associative Arrays",
+        "PHP Objects",
+        "Multidimensional Arrays"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-036": {
+      "canonical": "ppt-webdev-php-036",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "PHP Sessions",
+        "PHP Classes",
+        "PHP Namespaces",
+        "HTTP Request Methods"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-037": {
+      "canonical": "ppt-webdev-php-037",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Built-in Functions",
+        "User-Defined Functions",
+        "POST Method",
+        "GET Method"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-038": {
+      "canonical": "ppt-webdev-php-038",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Built-in Functions",
+        "POST Method",
+        "User-Defined Functions",
+        "GET Method"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-039": {
+      "canonical": "ppt-webdev-php-039",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "GET vs. POST",
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Types of PHP Objects"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-040": {
+      "canonical": "ppt-webdev-php-040",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "PHP Sessions",
+        "PHP Syntax",
+        "Operators",
+        "Comparison Operators"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-041": {
+      "canonical": "ppt-webdev-php-041",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Purpose of Sessions",
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Types of PHP Objects"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-042": {
+      "canonical": "ppt-webdev-php-042",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Types of PHP Objects",
+        "Session Lifecycle"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-043": {
+      "canonical": "ppt-webdev-php-043",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Session Start",
+        "Session Storage",
+        "Session End",
+        "Input Handling"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-044": {
+      "canonical": "ppt-webdev-php-044",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Session Start",
+        "Session End",
+        "Input Handling",
+        "Session Storage"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-045": {
+      "canonical": "ppt-webdev-php-045",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Session Start",
+        "Session Storage",
+        "Input Handling",
+        "Session End"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-046": {
+      "canonical": "ppt-webdev-php-046",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Session Functions",
+        "Basic PHP Syntax",
+        "Components of a For Loop",
+        "Exception Handling Keywords"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-047": {
+      "canonical": "ppt-webdev-php-047",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "session_start()",
+        "session_destroy()",
+        "Throw",
+        "Catch"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-048": {
+      "canonical": "ppt-webdev-php-048",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "session_start()",
+        "Throw",
+        "session_destroy()",
+        "Catch"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-049": {
+      "canonical": "ppt-webdev-php-049",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTTP Request Methods",
+        "PHP Sessions",
+        "PHP Classes",
+        "PHP Namespaces"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-050": {
+      "canonical": "ppt-webdev-php-050",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Session Functions",
+        "Exception Handling Keywords"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-051": {
+      "canonical": "ppt-webdev-php-051",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Built-in Classes",
+        "Built-in Functions",
+        "User-Defined Classes",
+        "Built-in Objects"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-052": {
+      "canonical": "ppt-webdev-php-052",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "User-Defined Classes",
+        "Built-in Classes",
+        "User-Defined Functions",
+        "User-Defined Objects"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-053": {
+      "canonical": "ppt-webdev-php-053",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Final Classes",
+        "Readonly Classes",
+        "Anonymous Classes",
+        "Abstract Classes"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-054": {
+      "canonical": "ppt-webdev-php-054",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Abstract Classes",
+        "Readonly Classes",
+        "Anonymous Classes",
+        "Final Classes"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-055": {
+      "canonical": "ppt-webdev-php-055",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Abstract Classes",
+        "Final Classes",
+        "Anonymous Classes",
+        "Readonly Classes"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-056": {
+      "canonical": "ppt-webdev-php-056",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Abstract Classes",
+        "Anonymous Classes",
+        "Final Classes",
+        "Readonly Classes"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-057": {
+      "canonical": "ppt-webdev-php-057",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Indexed Arrays",
+        "Associative Arrays",
+        "PHP Objects",
+        "Multidimensional Arrays"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-058": {
+      "canonical": "ppt-webdev-php-058",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "GET vs. POST",
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Types of PHP Objects"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-059": {
+      "canonical": "ppt-webdev-php-059",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Built-in Objects",
+        "Built-in Classes",
+        "User-Defined Objects",
+        "Built-in Functions"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-060": {
+      "canonical": "ppt-webdev-php-060",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Built-in Objects",
+        "User-Defined Objects",
+        "User-Defined Classes",
+        "User-Defined Functions"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-061": {
+      "canonical": "ppt-webdev-php-061",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Built-in Objects",
+        "Anonymous Objects",
+        "Final Classes",
+        "Readonly Classes"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-062": {
+      "canonical": "ppt-webdev-php-062",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "PHP Namespaces",
+        "Operators",
+        "PHP Functions",
+        "PHP Sessions"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-063": {
+      "canonical": "ppt-webdev-php-063",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "User-Defined Namespaces",
+        "Built-in Namespaces",
+        "Global Namespace",
+        "PHP Sessions"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-064": {
+      "canonical": "ppt-webdev-php-064",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "User-Defined Namespaces",
+        "Global Namespace",
+        "PHP Sessions",
+        "Built-in Namespaces"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-065": {
+      "canonical": "ppt-webdev-php-065",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "User-Defined Namespaces",
+        "Global Namespace",
+        "Built-in Namespaces",
+        "PHP Sessions"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-066": {
+      "canonical": "ppt-webdev-php-066",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-7",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "PHP Classes",
+        "Exceptions",
+        "PHP Objects",
+        "PHP Namespaces"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-067": {
+      "canonical": "ppt-webdev-php-067",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-7",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Basic PHP Syntax",
+        "Components of a For Loop",
+        "Exception Handling Keywords",
+        "Session Functions"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-068": {
+      "canonical": "ppt-webdev-php-068",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-7",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Case",
+        "Break",
+        "Default",
+        "Throw"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-069": {
+      "canonical": "ppt-webdev-php-069",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-7",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Throw",
+        "Catch",
+        "Finally",
+        "Try"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-070": {
+      "canonical": "ppt-webdev-php-070",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-7",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Catch",
+        "session_start()",
+        "session_destroy()",
+        "Throw"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-071": {
+      "canonical": "ppt-webdev-php-071",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-7",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Throw",
+        "Try",
+        "Catch",
+        "Finally"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-072": {
+      "canonical": "ppt-webdev-php-072",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-8",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Session Start",
+        "Input Handling",
+        "Session Storage",
+        "Session End"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-073": {
+      "canonical": "ppt-webdev-php-073",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-8",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Steps of Input Handling",
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Exception Handling Keywords"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-074": {
+      "canonical": "ppt-webdev-php-074",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-8",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Receive Input",
+        "Prepare Input",
+        "Validate Input",
+        "Process Input"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-075": {
+      "canonical": "ppt-webdev-php-075",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-8",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Receive Input",
+        "Validate Input",
+        "Prepare Input",
+        "Process Input"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-076": {
+      "canonical": "ppt-webdev-php-076",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-8",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Validate Input",
+        "Receive Input",
+        "Prepare Input",
+        "Process Input"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-077": {
+      "canonical": "ppt-webdev-php-077",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-8",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Receive Input",
+        "Prepare Input",
+        "Validate Input",
+        "Process Input"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-078": {
+      "canonical": "ppt-webdev-php-078",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-8",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Receive Input",
+        "Prepare Input",
+        "Validate Input",
+        "Display the Result"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-php-079": {
+      "canonical": "ppt-webdev-php-079",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-php-8",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Session Functions",
+        "Important Input Handling Functions",
+        "Components of a For Loop",
+        "Exception Handling Keywords"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-001": {
+      "canonical": "ppt-webdev-css-001",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "CSS Cascade",
+        "CSS Box Model",
+        "Flexbox",
+        "Media Queries"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-002": {
+      "canonical": "ppt-webdev-css-002",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Source Order",
+        "CSS Box Model",
+        "CSS Specificity",
+        "Media Queries"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-003": {
+      "canonical": "ppt-webdev-css-003",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Components of the Box Model",
+        "Factors That Determine Which CSS Rule Wins",
+        "Flexbox Key Properties",
+        "Grid Properties"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-004": {
+      "canonical": "ppt-webdev-css-004",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Specificity",
+        "Importance",
+        "Source Order",
+        "Screen-Size Breakpoints"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-005": {
+      "canonical": "ppt-webdev-css-005",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Source Order",
+        "Specificity",
+        "Importance",
+        "Screen-Size Breakpoints"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-006": {
+      "canonical": "ppt-webdev-css-006",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "CSS Specificity",
+        "CSS Box Model",
+        "Media Queries",
+        "Source Order"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-007": {
+      "canonical": "ppt-webdev-css-007",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Components of the Box Model",
+        "Selector Specificity",
+        "Flexbox Key Properties",
+        "Grid Properties"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-008": {
+      "canonical": "ppt-webdev-css-008",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Inline Styles",
+        "ID Selectors",
+        "Class / Attribute Selectors",
+        "Element Selectors"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-009": {
+      "canonical": "ppt-webdev-css-009",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "ID Selectors",
+        "Inline Styles",
+        "Class / Attribute Selectors",
+        "Element Selectors"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-010": {
+      "canonical": "ppt-webdev-css-010",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Class / Attribute Selectors",
+        "Inline Styles",
+        "ID Selectors",
+        "Element Selectors"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-011": {
+      "canonical": "ppt-webdev-css-011",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Inline Styles",
+        "Element Selectors",
+        "ID Selectors",
+        "Class / Attribute Selectors"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-012": {
+      "canonical": "ppt-webdev-css-012",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "CSS Cascade",
+        "Flexbox",
+        "CSS Box Model",
+        "Media Queries"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-013": {
+      "canonical": "ppt-webdev-css-013",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Factors That Determine Which CSS Rule Wins",
+        "Flexbox Key Properties",
+        "Components of the Box Model",
+        "Grid Properties"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-014": {
+      "canonical": "ppt-webdev-css-014",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Padding",
+        "Border",
+        "Margin",
+        "Content"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-015": {
+      "canonical": "ppt-webdev-css-015",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Padding",
+        "Content",
+        "Border",
+        "Margin"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-016": {
+      "canonical": "ppt-webdev-css-016",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Content",
+        "Padding",
+        "Margin",
+        "Border"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-017": {
+      "canonical": "ppt-webdev-css-017",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Margin",
+        "Content",
+        "Padding",
+        "Border"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-018": {
+      "canonical": "ppt-webdev-css-018",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "CSS Cascade",
+        "CSS Box Model",
+        "Flexbox",
+        "Media Queries"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-019": {
+      "canonical": "ppt-webdev-css-019",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Two-Dimensional Layout",
+        "CSS Box Model",
+        "CSS Frameworks",
+        "One-Dimensional Layout"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-020": {
+      "canonical": "ppt-webdev-css-020",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Flexbox Key Properties",
+        "Factors That Determine Which CSS Rule Wins",
+        "Components of the Box Model",
+        "Grid Properties"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-021": {
+      "canonical": "ppt-webdev-css-021",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Justify Content",
+        "Align Items",
+        "Flex Direction",
+        "Flex Wrap"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-022": {
+      "canonical": "ppt-webdev-css-022",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Flex Direction",
+        "Align Items",
+        "Justify Content",
+        "Flex Wrap"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-023": {
+      "canonical": "ppt-webdev-css-023",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Flex Direction",
+        "Justify Content",
+        "Align Items",
+        "Flex Wrap"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-024": {
+      "canonical": "ppt-webdev-css-024",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Flex Direction",
+        "Justify Content",
+        "Align Items",
+        "Flex Wrap"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-025": {
+      "canonical": "ppt-webdev-css-025",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Flex Grow",
+        "Flex Direction",
+        "Gap",
+        "Flex Wrap"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-026": {
+      "canonical": "ppt-webdev-css-026",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Flex Direction",
+        "Justify Content",
+        "Flex Grow",
+        "Align Items"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-027": {
+      "canonical": "ppt-webdev-css-027",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Flexbox",
+        "Media Queries",
+        "CSS Frameworks",
+        "CSS Grid"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-028": {
+      "canonical": "ppt-webdev-css-028",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "One-Dimensional Layout",
+        "CSS Box Model",
+        "CSS Frameworks",
+        "Two-Dimensional Layout"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-029": {
+      "canonical": "ppt-webdev-css-029",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Factors That Determine Which CSS Rule Wins",
+        "Components of the Box Model",
+        "Flexbox Key Properties",
+        "Grid Properties"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-030": {
+      "canonical": "ppt-webdev-css-030",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Grid Template Columns",
+        "Grid Template Rows",
+        "Gap",
+        "Flex Direction"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-031": {
+      "canonical": "ppt-webdev-css-031",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Grid Template Columns",
+        "Gap",
+        "Flex Direction",
+        "Grid Template Rows"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-032": {
+      "canonical": "ppt-webdev-css-032",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Grid Template Columns",
+        "Gap",
+        "Grid Template Rows",
+        "Flex Direction"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-033": {
+      "canonical": "ppt-webdev-css-033",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Factors That Determine Which CSS Rule Wins",
+        "Components of the Box Model",
+        "Flexbox vs. CSS Grid",
+        "Bootstrap vs. Tailwind CSS"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-034": {
+      "canonical": "ppt-webdev-css-034",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Media Queries",
+        "CSS Cascade",
+        "CSS Box Model",
+        "Flexbox"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-035": {
+      "canonical": "ppt-webdev-css-035",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "CSS Box Model",
+        "Selector Specificity",
+        "Mobile-First Design",
+        "CSS Frameworks"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-036": {
+      "canonical": "ppt-webdev-css-036",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "CSS Box Model",
+        "Selector Specificity",
+        "Responsive Design",
+        "CSS Frameworks"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-037": {
+      "canonical": "ppt-webdev-css-037",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Importance",
+        "Specificity",
+        "Source Order",
+        "Screen-Size Breakpoints"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-038": {
+      "canonical": "ppt-webdev-css-038",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Flexbox",
+        "CSS Grid",
+        "Media Queries",
+        "CSS Frameworks"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-039": {
+      "canonical": "ppt-webdev-css-039",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Tailwind CSS",
+        "Bootstrap 5",
+        "Flexbox",
+        "CSS Grid"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-040": {
+      "canonical": "ppt-webdev-css-040",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Ready-Made Components",
+        "Utility-First Design",
+        "One-Dimensional Layout",
+        "Two-Dimensional Layout"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-041": {
+      "canonical": "ppt-webdev-css-041",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Tailwind CSS",
+        "Bootstrap 5",
+        "Flexbox",
+        "CSS Grid"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-042": {
+      "canonical": "ppt-webdev-css-042",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Ready-Made Components",
+        "One-Dimensional Layout",
+        "Utility-First Design",
+        "Two-Dimensional Layout"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-css-043": {
+      "canonical": "ppt-webdev-css-043",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-css-6",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Flexbox vs. CSS Grid",
+        "Factors That Determine Which CSS Rule Wins",
+        "Components of the Box Model",
+        "Bootstrap vs. Tailwind CSS"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-001": {
+      "canonical": "ppt-webdev-html-001",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML5",
+        "Web Accessibility",
+        "HTML (HyperText Markup Language)",
+        "SEO (Search Engine Optimization)"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-002": {
+      "canonical": "ppt-webdev-html-002",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML (HyperText Markup Language)",
+        "HTML5",
+        "Web Accessibility",
+        "SEO (Search Engine Optimization)"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-003": {
+      "canonical": "ppt-webdev-html-003",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Main Features of HTML5",
+        "Common Semantic Elements",
+        "Types of HTML Lists",
+        "HTML Input Types"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-004": {
+      "canonical": "ppt-webdev-html-004",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Native Multimedia",
+        "Improved Forms",
+        "Semantic Elements",
+        "Web APIs"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-005": {
+      "canonical": "ppt-webdev-html-005",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Semantic Elements",
+        "Native Multimedia",
+        "Improved Forms",
+        "Web APIs"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-006": {
+      "canonical": "ppt-webdev-html-006",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Semantic Elements",
+        "Native Multimedia",
+        "Improved Forms",
+        "Web APIs"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-007": {
+      "canonical": "ppt-webdev-html-007",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Web APIs",
+        "Semantic Elements",
+        "Native Multimedia",
+        "Improved Forms"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-008": {
+      "canonical": "ppt-webdev-html-008",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Basic HTML5 Document Structure",
+        "Basic Accessibility Principles",
+        "HTML, CSS, and JavaScript",
+        "HTML Elements Related to SEO"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-009": {
+      "canonical": "ppt-webdev-html-009",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML Tables",
+        "Semantic HTML",
+        "HTML Forms",
+        "Web Accessibility"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-010": {
+      "canonical": "ppt-webdev-html-010",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Common Semantic Elements",
+        "Main Features of HTML5",
+        "Types of HTML Lists",
+        "HTML Input Types"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-011": {
+      "canonical": "ppt-webdev-html-011",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Article",
+        "Aside",
+        "Footer",
+        "Header"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-012": {
+      "canonical": "ppt-webdev-html-012",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Navigation",
+        "Section",
+        "Article",
+        "Aside"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-013": {
+      "canonical": "ppt-webdev-html-013",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Section",
+        "Main",
+        "Article",
+        "Aside"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-014": {
+      "canonical": "ppt-webdev-html-014",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Navigation",
+        "Section",
+        "Article",
+        "Aside"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-015": {
+      "canonical": "ppt-webdev-html-015",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Header",
+        "Aside",
+        "Footer",
+        "Article"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-016": {
+      "canonical": "ppt-webdev-html-016",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Header",
+        "Article",
+        "Footer",
+        "Aside"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-017": {
+      "canonical": "ppt-webdev-html-017",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Header",
+        "Article",
+        "Footer",
+        "Aside"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-018": {
+      "canonical": "ppt-webdev-html-018",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML, CSS, and JavaScript",
+        "Basic HTML5 Document Structure",
+        "Basic Accessibility Principles",
+        "HTML Elements Related to SEO"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-019": {
+      "canonical": "ppt-webdev-html-019",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML Element",
+        "Head Element",
+        "Body Element",
+        "DOCTYPE"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-020": {
+      "canonical": "ppt-webdev-html-020",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "DOCTYPE",
+        "HTML Element",
+        "Head Element",
+        "Body Element"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-021": {
+      "canonical": "ppt-webdev-html-021",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "DOCTYPE",
+        "Head Element",
+        "HTML Element",
+        "Body Element"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-022": {
+      "canonical": "ppt-webdev-html-022",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML Element",
+        "Title Element",
+        "Head Element",
+        "Body Element"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-023": {
+      "canonical": "ppt-webdev-html-023",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "DOCTYPE",
+        "HTML Element",
+        "Body Element",
+        "Head Element"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-024": {
+      "canonical": "ppt-webdev-html-024",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Heading Element",
+        "Paragraph Element",
+        "Title Element",
+        "Body Element"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-025": {
+      "canonical": "ppt-webdev-html-025",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-1",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Heading Element",
+        "Paragraph Element",
+        "Title Element",
+        "Body Element"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-026": {
+      "canonical": "ppt-webdev-html-026",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML Links / Hyperlinks",
+        "HTML Lists",
+        "HTML Tables",
+        "HTML Forms"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-027": {
+      "canonical": "ppt-webdev-html-027",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Basic HTML5 Document Structure",
+        "HTML Table Structure",
+        "Hyperlink Syntax",
+        "Basic Form Structure"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-028": {
+      "canonical": "ppt-webdev-html-028",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Href Attribute",
+        "Link Text",
+        "Table Element",
+        "Anchor Tag"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-029": {
+      "canonical": "ppt-webdev-html-029",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Anchor Tag",
+        "Link Text",
+        "Href Attribute",
+        "Table Element"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-030": {
+      "canonical": "ppt-webdev-html-030",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Link Text",
+        "Anchor Tag",
+        "Href Attribute",
+        "Table Element"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-031": {
+      "canonical": "ppt-webdev-html-031",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Types of HTML Lists",
+        "HTML Elements Used as Links",
+        "HTML Table Structure",
+        "HTML Input Types"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-032": {
+      "canonical": "ppt-webdev-html-032",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML Links / Hyperlinks",
+        "HTML Tables",
+        "HTML Lists",
+        "HTML Forms"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-033": {
+      "canonical": "ppt-webdev-html-033",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Main Features of HTML5",
+        "Types of HTML Lists",
+        "Common Semantic Elements",
+        "HTML Input Types"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-034": {
+      "canonical": "ppt-webdev-html-034",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Unordered List",
+        "Ordered List",
+        "Description List",
+        "HTML Tables"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-035": {
+      "canonical": "ppt-webdev-html-035",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Unordered List",
+        "Description List",
+        "HTML Tables",
+        "Ordered List"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-036": {
+      "canonical": "ppt-webdev-html-036",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Unordered List",
+        "Description List",
+        "Ordered List",
+        "HTML Tables"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-037": {
+      "canonical": "ppt-webdev-html-037",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Common Semantic Elements",
+        "HTML Table Structure",
+        "HTML List Elements",
+        "HTML Input Types"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-038": {
+      "canonical": "ppt-webdev-html-038",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Description Term (dt)",
+        "Description Details (dd)",
+        "Table Row",
+        "List Item (li)"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-039": {
+      "canonical": "ppt-webdev-html-039",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Description Term (dt)",
+        "List Item (li)",
+        "Description Details (dd)",
+        "Table Row"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-040": {
+      "canonical": "ppt-webdev-html-040",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "List Item (li)",
+        "Description Details (dd)",
+        "Description Term (dt)",
+        "Table Row"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-041": {
+      "canonical": "ppt-webdev-html-041",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML Tables",
+        "Semantic HTML",
+        "HTML Forms",
+        "Web Accessibility"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-042": {
+      "canonical": "ppt-webdev-html-042",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Basic HTML5 Document Structure",
+        "Basic Form Structure",
+        "HTML Table Structure",
+        "Hyperlink Syntax"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-043": {
+      "canonical": "ppt-webdev-html-043",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Table Element",
+        "Anchor Tag",
+        "Href Attribute",
+        "Link Text"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-044": {
+      "canonical": "ppt-webdev-html-044",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "List Item (li)",
+        "Table Row",
+        "Description Term (dt)",
+        "Description Details (dd)"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-045": {
+      "canonical": "ppt-webdev-html-045",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Table Element",
+        "Table Header",
+        "Table Row",
+        "Table Data"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-046": {
+      "canonical": "ppt-webdev-html-046",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Table Element",
+        "Table Row",
+        "Table Data",
+        "Table Header"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-047": {
+      "canonical": "ppt-webdev-html-047",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Types of HTML Lists",
+        "HTML Input Types",
+        "HTML Media",
+        "Basic Accessibility Principles"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-048": {
+      "canonical": "ppt-webdev-html-048",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML Audio",
+        "HTML Video",
+        "HTML Tables",
+        "HTML Images"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-049": {
+      "canonical": "ppt-webdev-html-049",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Image Element",
+        "Source Attribute",
+        "Alternative Text Attribute",
+        "Href Attribute"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-050": {
+      "canonical": "ppt-webdev-html-050",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Image Element",
+        "Source Attribute",
+        "Alternative Text Attribute",
+        "Href Attribute"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-051": {
+      "canonical": "ppt-webdev-html-051",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Image Element",
+        "Source Attribute",
+        "Href Attribute",
+        "Alternative Text Attribute"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-052": {
+      "canonical": "ppt-webdev-html-052",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML Images",
+        "HTML Video",
+        "HTML Audio",
+        "HTML Tables"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-053": {
+      "canonical": "ppt-webdev-html-053",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Video Media Types",
+        "Audio Media Types",
+        "HTML Input Types",
+        "Types of HTML Lists"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-054": {
+      "canonical": "ppt-webdev-html-054",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Form Attributes",
+        "Audio Attributes",
+        "HTML Table Structure",
+        "HTML Input Types"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-055": {
+      "canonical": "ppt-webdev-html-055",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Autoplay",
+        "Muted",
+        "Controls",
+        "Source Attribute"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-056": {
+      "canonical": "ppt-webdev-html-056",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Autoplay",
+        "Controls",
+        "Muted",
+        "Source Attribute"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-057": {
+      "canonical": "ppt-webdev-html-057",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Controls",
+        "Muted",
+        "Autoplay",
+        "Source Attribute"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-058": {
+      "canonical": "ppt-webdev-html-058",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML Video",
+        "HTML Images",
+        "HTML Audio",
+        "HTML Tables"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-059": {
+      "canonical": "ppt-webdev-html-059",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Video Media Types",
+        "Audio Media Types",
+        "HTML Input Types",
+        "Types of HTML Lists"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-060": {
+      "canonical": "ppt-webdev-html-060",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Form Attributes",
+        "HTML Table Structure",
+        "HTML Input Types",
+        "Video Attributes"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-061": {
+      "canonical": "ppt-webdev-html-061",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Controls",
+        "Width and Height",
+        "Autoplay",
+        "Muted"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-062": {
+      "canonical": "ppt-webdev-html-062",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Width and Height",
+        "Autoplay",
+        "Muted",
+        "Controls"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-063": {
+      "canonical": "ppt-webdev-html-063",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Width and Height",
+        "Autoplay",
+        "Controls",
+        "Muted"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-064": {
+      "canonical": "ppt-webdev-html-064",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-2",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Width and Height",
+        "Muted",
+        "Controls",
+        "Autoplay"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-065": {
+      "canonical": "ppt-webdev-html-065",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML Forms",
+        "Semantic HTML",
+        "HTML Tables",
+        "Web Accessibility"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-066": {
+      "canonical": "ppt-webdev-html-066",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Basic Form Structure",
+        "Basic HTML5 Document Structure",
+        "HTML Table Structure",
+        "Hyperlink Syntax"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-067": {
+      "canonical": "ppt-webdev-html-067",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Label Element",
+        "Form Element",
+        "Input Element",
+        "Button Element"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-068": {
+      "canonical": "ppt-webdev-html-068",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Form Element",
+        "Input Element",
+        "Button Element",
+        "Label Element"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-069": {
+      "canonical": "ppt-webdev-html-069",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Form Element",
+        "Label Element",
+        "Input Element",
+        "Button Element"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-070": {
+      "canonical": "ppt-webdev-html-070",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Button Element",
+        "Form Element",
+        "Label Element",
+        "Input Element"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-071": {
+      "canonical": "ppt-webdev-html-071",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Main Features of HTML5",
+        "Common Semantic Elements",
+        "HTML Input Types",
+        "Types of HTML Lists"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-072": {
+      "canonical": "ppt-webdev-html-072",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Password Input",
+        "Email Input",
+        "Number Input",
+        "Text Input"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-073": {
+      "canonical": "ppt-webdev-html-073",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Password Input",
+        "Text Input",
+        "Email Input",
+        "Number Input"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-074": {
+      "canonical": "ppt-webdev-html-074",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Text Input",
+        "Password Input",
+        "Number Input",
+        "Email Input"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-075": {
+      "canonical": "ppt-webdev-html-075",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Text Input",
+        "Password Input",
+        "Number Input",
+        "Email Input"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-076": {
+      "canonical": "ppt-webdev-html-076",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Date Input",
+        "Text Input",
+        "Password Input",
+        "Email Input"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-077": {
+      "canonical": "ppt-webdev-html-077",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Text Input",
+        "Radio Input",
+        "Password Input",
+        "Email Input"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-078": {
+      "canonical": "ppt-webdev-html-078",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Checkbox Input",
+        "Text Input",
+        "Password Input",
+        "Email Input"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-079": {
+      "canonical": "ppt-webdev-html-079",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "File Input",
+        "Text Input",
+        "Password Input",
+        "Email Input"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-080": {
+      "canonical": "ppt-webdev-html-080",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Text Input",
+        "Submit Input",
+        "Password Input",
+        "Email Input"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-081": {
+      "canonical": "ppt-webdev-html-081",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Types of HTML Lists",
+        "HTML Table Structure",
+        "Other Form Elements",
+        "HTML Input Types"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-082": {
+      "canonical": "ppt-webdev-html-082",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Button",
+        "Select and Option",
+        "File Input",
+        "Textarea"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-083": {
+      "canonical": "ppt-webdev-html-083",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Textarea",
+        "Button",
+        "Select and Option",
+        "File Input"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-084": {
+      "canonical": "ppt-webdev-html-084",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Textarea",
+        "Button",
+        "Select and Option",
+        "File Input"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-085": {
+      "canonical": "ppt-webdev-html-085",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Audio Attributes",
+        "HTML Table Structure",
+        "HTML Input Types",
+        "Form Attributes"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-086": {
+      "canonical": "ppt-webdev-html-086",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Method",
+        "Name",
+        "Action",
+        "ID"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-087": {
+      "canonical": "ppt-webdev-html-087",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Method",
+        "Action",
+        "Name",
+        "ID"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-088": {
+      "canonical": "ppt-webdev-html-088",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Name",
+        "Action",
+        "Method",
+        "ID"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-089": {
+      "canonical": "ppt-webdev-html-089",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Action",
+        "ID",
+        "Method",
+        "Name"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-090": {
+      "canonical": "ppt-webdev-html-090",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Action",
+        "Method",
+        "Value",
+        "Name"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-091": {
+      "canonical": "ppt-webdev-html-091",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Placeholder",
+        "Action",
+        "Method",
+        "Name"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-092": {
+      "canonical": "ppt-webdev-html-092",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Required",
+        "Action",
+        "Method",
+        "Name"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-093": {
+      "canonical": "ppt-webdev-html-093",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Disabled",
+        "Action",
+        "Method",
+        "Name"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-094": {
+      "canonical": "ppt-webdev-html-094",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Action",
+        "Method",
+        "Name",
+        "Readonly"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-095": {
+      "canonical": "ppt-webdev-html-095",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML Input Types",
+        "HTML5 Form Validation",
+        "Types of HTML Lists",
+        "Basic Accessibility Principles"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-096": {
+      "canonical": "ppt-webdev-html-096",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Minimum and Maximum Values",
+        "Pattern Validation",
+        "Minimum and Maximum Length",
+        "Required Validation"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-097": {
+      "canonical": "ppt-webdev-html-097",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Required Validation",
+        "Pattern Validation",
+        "Minimum and Maximum Length",
+        "Minimum and Maximum Values"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-098": {
+      "canonical": "ppt-webdev-html-098",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Pattern Validation",
+        "Required Validation",
+        "Minimum and Maximum Values",
+        "Minimum and Maximum Length"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-099": {
+      "canonical": "ppt-webdev-html-099",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Required Validation",
+        "Minimum and Maximum Values",
+        "Minimum and Maximum Length",
+        "Pattern Validation"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-100": {
+      "canonical": "ppt-webdev-html-100",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Email Validation",
+        "Required Validation",
+        "Minimum and Maximum Values",
+        "Pattern Validation"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-101": {
+      "canonical": "ppt-webdev-html-101",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML Input Types",
+        "Client-Side Validation",
+        "Types of HTML Lists",
+        "Basic Accessibility Principles"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-102": {
+      "canonical": "ppt-webdev-html-102",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-3",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Assistive Technologies",
+        "Accessible Links",
+        "Accessible Forms",
+        "HTML Tables"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-103": {
+      "canonical": "ppt-webdev-html-103",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Web Accessibility",
+        "Assistive Technologies",
+        "Semantic HTML",
+        "SEO (Search Engine Optimization)"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-104": {
+      "canonical": "ppt-webdev-html-104",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Importance of Web Accessibility",
+        "Importance of SEO",
+        "Types of HTML Lists",
+        "HTML Input Types"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-105": {
+      "canonical": "ppt-webdev-html-105",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Accessible Forms",
+        "Assistive Technologies",
+        "Web Accessibility",
+        "Accessible Links"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-106": {
+      "canonical": "ppt-webdev-html-106",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML, CSS, and JavaScript",
+        "Basic Accessibility Principles",
+        "Basic HTML5 Document Structure",
+        "HTML Elements Related to SEO"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-107": {
+      "canonical": "ppt-webdev-html-107",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Clear Content Structure",
+        "Keyboard Accessibility",
+        "Meaningful Links",
+        "Alternative Text"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-108": {
+      "canonical": "ppt-webdev-html-108",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Keyboard Accessibility",
+        "Clear Content Structure",
+        "Meaningful Links",
+        "Alternative Text"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-109": {
+      "canonical": "ppt-webdev-html-109",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Keyboard Accessibility",
+        "Meaningful Links",
+        "Clear Content Structure",
+        "Alternative Text"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-110": {
+      "canonical": "ppt-webdev-html-110",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Keyboard Accessibility",
+        "Alternative Text",
+        "Clear Content Structure",
+        "Meaningful Links"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-111": {
+      "canonical": "ppt-webdev-html-111",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Keyboard Accessibility",
+        "Clear Content Structure",
+        "Meaningful Links",
+        "Proper Headings"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-112": {
+      "canonical": "ppt-webdev-html-112",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Accessible Forms",
+        "Keyboard Accessibility",
+        "Clear Content Structure",
+        "Meaningful Links"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-113": {
+      "canonical": "ppt-webdev-html-113",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Text Readability and Contrast",
+        "Keyboard Accessibility",
+        "Clear Content Structure",
+        "Meaningful Links"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-114": {
+      "canonical": "ppt-webdev-html-114",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Headings and Document Structure",
+        "Alternative Text (Alt Text)",
+        "Accessible Links",
+        "Accessibility and Forms"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-115": {
+      "canonical": "ppt-webdev-html-115",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Types of HTML Lists",
+        "HTML Input Types",
+        "Proper Heading Hierarchy",
+        "Form Attributes"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-116": {
+      "canonical": "ppt-webdev-html-116",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Alternative Text (Alt Text)",
+        "Accessible Links",
+        "Assistive Technologies",
+        "Web Accessibility"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-117": {
+      "canonical": "ppt-webdev-html-117",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Decorative Images",
+        "Descriptive Alt Text",
+        "Accessible Links",
+        "Accessibility and Forms"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-118": {
+      "canonical": "ppt-webdev-html-118",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Descriptive Alt Text",
+        "Decorative Images",
+        "Accessible Links",
+        "Accessibility and Forms"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-119": {
+      "canonical": "ppt-webdev-html-119",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Accessible Forms",
+        "Accessible Links",
+        "Web Accessibility",
+        "Assistive Technologies"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-120": {
+      "canonical": "ppt-webdev-html-120",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Accessibility and Forms",
+        "Assistive Technologies",
+        "Accessible Links",
+        "Alternative Text (Alt Text)"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-121": {
+      "canonical": "ppt-webdev-html-121",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Required Fields",
+        "Clear Instructions",
+        "Labels",
+        "Error Identification"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-122": {
+      "canonical": "ppt-webdev-html-122",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Labels",
+        "Clear Instructions",
+        "Error Identification",
+        "Required Fields"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-123": {
+      "canonical": "ppt-webdev-html-123",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Labels",
+        "Required Fields",
+        "Clear Instructions",
+        "Error Identification"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-124": {
+      "canonical": "ppt-webdev-html-124",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Labels",
+        "Required Fields",
+        "Clear Instructions",
+        "Error Identification"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-125": {
+      "canonical": "ppt-webdev-html-125",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-4",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Labels",
+        "Keyboard Navigation",
+        "Required Fields",
+        "Clear Instructions"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-126": {
+      "canonical": "ppt-webdev-html-126",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Web Accessibility",
+        "Semantic HTML",
+        "SEO (Search Engine Optimization)",
+        "HTML Tables"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-127": {
+      "canonical": "ppt-webdev-html-127",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Importance of Web Accessibility",
+        "Importance of SEO",
+        "Types of HTML Lists",
+        "HTML Input Types"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-128": {
+      "canonical": "ppt-webdev-html-128",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "HTML Elements Related to SEO",
+        "HTML, CSS, and JavaScript",
+        "Basic HTML5 Document Structure",
+        "Basic Accessibility Principles"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-129": {
+      "canonical": "ppt-webdev-html-129",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Semantic Elements",
+        "Headings",
+        "Descriptive Links",
+        "Alternative Text"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-130": {
+      "canonical": "ppt-webdev-html-130",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Headings",
+        "Descriptive Links",
+        "Semantic Elements",
+        "Alternative Text"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-131": {
+      "canonical": "ppt-webdev-html-131",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Descriptive Links",
+        "Headings",
+        "Semantic Elements",
+        "Alternative Text"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-132": {
+      "canonical": "ppt-webdev-html-132",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Headings",
+        "Semantic Elements",
+        "Descriptive Links",
+        "Alternative Text"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-133": {
+      "canonical": "ppt-webdev-html-133",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Headings",
+        "Semantic Elements",
+        "Meaningful Page Content",
+        "Descriptive Links"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-134": {
+      "canonical": "ppt-webdev-html-134",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Headings",
+        "Semantic Elements",
+        "Descriptive Links",
+        "Title Element"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-135": {
+      "canonical": "ppt-webdev-html-135",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Headings",
+        "Semantic Elements",
+        "Meta Element",
+        "Descriptive Links"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-136": {
+      "canonical": "ppt-webdev-html-136",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Proper Heading Hierarchy",
+        "Descriptive HTML Title",
+        "Basic Accessibility Principles",
+        "HTML5 Form Validation"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ppt-webdev-html-137": {
+      "canonical": "ppt-webdev-html-137",
+      "subject": "webdev",
+      "section": "3-4",
+      "topic": "webdev-html-5",
+      "type": "choice",
+      "keyChanged": false,
+      "options": [
+        "Relationship Between Semantic HTML, Accessibility, and SEO",
+        "Basic HTML5 Document Structure",
+        "HTML5 Form Validation",
+        "Proper Heading Hierarchy"
+      ],
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
     }
   },
   "legacySets": [],
-  "coverageNote": "The three supplied presentations match the BSIT 3-4 reported groups. All sections currently uses these available decks too; other sections’ presentations have not been supplied."
+  "coverageNote": "Each subject has three supplied presentations matching the BSIT 3-4 reported groups. All sections currently uses the same available decks for that subject; other sections’ presentations have not been supplied."
 };

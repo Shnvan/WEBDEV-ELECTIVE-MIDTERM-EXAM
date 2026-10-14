@@ -1,0 +1,4943 @@
+{
+  "reviewedOn": "2026-10-14",
+  "basis": "All 259 entries compared with the supplied PDFs; 67 rendered pages inspected for columns, tables, diagrams and code annotations.",
+  "entries": {
+    "ppt-webdev-php-001": {
+      "pages": [
+        15
+      ],
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "pdfWording": "- is a set of rules that define how PHP code should be written. It includes rules for declaring variables, writing functions, and using control structures. PHP structure refers to the overall organization of a PHP script, including the order in which different elements appear.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "PHP Functions",
+        "PHP Arrays",
+        "PHP Sessions"
+      ]
+    },
+    "ppt-webdev-php-002": {
+      "pages": [
+        16
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "<?php → starts the PHP code\n$name = \"Kate\"; → variable\necho \"Hello, \" . $name; → used to display output\n?> → ends the PHP code",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Components of a For Loop",
+        "Session Functions",
+        "Exception Handling Keywords"
+      ]
+    },
+    "ppt-webdev-php-003": {
+      "pages": [
+        16
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "<?php → starts the PHP code\n?> → ends the PHP code",
+      "blankText": "",
+      "clarification": "A closing ?> tag is optional, and normally omitted in a file containing only PHP code. The excerpt transcribes the slide’s annotated example.",
+      "references": [
+        {
+          "label": "PHP manual: PHP tags",
+          "url": "https://www.php.net/manual/en/language.basic-syntax.phptags.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Variables",
+        "Output Statements",
+        "Comparison Operators"
+      ]
+    },
+    "ppt-webdev-php-004": {
+      "pages": [
+        16
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "$name = \"Kate\"; → variable",
+      "blankText": "variable",
+      "clarification": "This entry follows the annotated syntax example; the separate Variables entry follows the definition on page 17.",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "PHP Opening and Closing Tags",
+        "Output Statements",
+        "Comparison Operators"
+      ]
+    },
+    "ppt-webdev-php-005": {
+      "pages": [
+        16
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "echo \"Hello, \" . $name; → used to display output",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "PHP Opening and Closing Tags",
+        "Variables",
+        "Comparison Operators"
+      ]
+    },
+    "ppt-webdev-php-006": {
+      "pages": [
+        17
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Variables store information that can be used in a program.",
+      "blankText": "Variables",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Operators",
+        "Comparison Operators",
+        "PHP Functions"
+      ]
+    },
+    "ppt-webdev-php-007": {
+      "pages": [
+        17
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "$name = \"Kate\"; → String",
+      "blankText": "String",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Integer",
+        "Float",
+        "PHP Arrays"
+      ],
+      "questionLead": "Which data type completes the slide annotation?"
+    },
+    "ppt-webdev-php-008": {
+      "pages": [
+        17
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "$age = 20; → Integer",
+      "blankText": "Integer",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "String",
+        "Float",
+        "PHP Arrays"
+      ],
+      "questionLead": "Which data type completes the slide annotation?"
+    },
+    "ppt-webdev-php-009": {
+      "pages": [
+        17
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "$price = 99.50; → Float",
+      "blankText": "Float",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "String",
+        "Integer",
+        "PHP Arrays"
+      ],
+      "questionLead": "Which data type completes the slide annotation?"
+    },
+    "ppt-webdev-php-010": {
+      "pages": [
+        18
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Operators are symbols used to perform operations or compare values.",
+      "blankText": "Operators",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "PHP Functions",
+        "PHP Sessions",
+        "PHP Namespaces"
+      ]
+    },
+    "ppt-webdev-php-011": {
+      "pages": [
+        18
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "== → Equal\n!= → NOT Equal\n> → Greater than\n< → Less than\n>= → Greater than or equal\n<= → Less than or equal",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "PHP Opening and Closing Tags",
+        "Variables",
+        "Output Statements"
+      ]
+    },
+    "ppt-webdev-php-012": {
+      "pages": [
+        20,
+        21,
+        23,
+        24
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "CONDITIONAL STATEMENTS\nSWITCH STATEMENT\nloops",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "PHP Functions",
+        "PHP Arrays",
+        "PHP Sessions"
+      ]
+    },
+    "ppt-webdev-php-013": {
+      "pages": [
+        21
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Conditional statements allow PHP to make decisions.\nif / elseif / else",
+      "blankText": "Conditional statements",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Switch Statement",
+        "PHP Functions",
+        "PHP Arrays"
+      ]
+    },
+    "ppt-webdev-php-014": {
+      "pages": [
+        21
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "if – condition is true",
+      "blankText": "if",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Else",
+        "Break",
+        "Default"
+      ]
+    },
+    "ppt-webdev-php-015": {
+      "pages": [
+        21
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "else – condition is false",
+      "blankText": "else",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "If",
+        "Break",
+        "Default"
+      ]
+    },
+    "ppt-webdev-php-016": {
+      "pages": [
+        21
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "elseif – when there are multiple conditions.",
+      "blankText": "elseif",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Else",
+        "Break",
+        "Default"
+      ]
+    },
+    "ppt-webdev-php-017": {
+      "pages": [
+        23
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Used to compare one value with multiple possible cases.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Conditional Statements",
+        "PHP Functions",
+        "PHP Arrays"
+      ]
+    },
+    "ppt-webdev-php-018": {
+      "pages": [
+        23
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "case – specifies a possible value",
+      "blankText": "case",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Break",
+        "Default",
+        "Throw"
+      ]
+    },
+    "ppt-webdev-php-019": {
+      "pages": [
+        23
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "break – stops the switch",
+      "blankText": "break",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "If",
+        "Else",
+        "Default"
+      ]
+    },
+    "ppt-webdev-php-020": {
+      "pages": [
+        23
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "default – runs when no case matches",
+      "blankText": "default",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "If",
+        "Else",
+        "Break"
+      ]
+    },
+    "ppt-webdev-php-021": {
+      "pages": [
+        24
+      ],
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "pdfWording": "are fundamental control structures used to execute the same block of code repeatedly as long as a specific condition is met.\nfor loop\nwhile loop\ndo-while loop",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Switch Statement",
+        "PHP Functions",
+        "PHP Arrays"
+      ]
+    },
+    "ppt-webdev-php-022": {
+      "pages": [
+        25
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "for loop is used when you know exactly how many times you want to iterate through a block of code.",
+      "blankText": "for loop",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Switch Statement",
+        "PHP Functions",
+        "PHP Arrays"
+      ]
+    },
+    "ppt-webdev-php-023": {
+      "pages": [
+        27
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Repeats code while a condition is true.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Switch Statement",
+        "PHP Functions",
+        "PHP Arrays"
+      ]
+    },
+    "ppt-webdev-php-024": {
+      "pages": [
+        28
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "do while is an exit control loop. It will always execute the code block once before checking the condition. If the condition is true, it repeats.",
+      "blankText": "do while",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "For Loop",
+        "While Loop",
+        "Switch Statement"
+      ]
+    },
+    "ppt-webdev-php-025": {
+      "pages": [
+        25
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "Initialization: Sets the initial value of the loop variable.\nCondition: Checks if the loop should continue.\nIncrement/Decrement: Changes the loop variable after each iteration.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Basic PHP Syntax",
+        "Session Functions",
+        "Exception Handling Keywords"
+      ]
+    },
+    "ppt-webdev-php-026": {
+      "pages": [
+        25
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Initialization: Sets the initial value of the loop variable.",
+      "blankText": "Initialization",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Condition",
+        "Increment / Decrement",
+        "Case"
+      ]
+    },
+    "ppt-webdev-php-027": {
+      "pages": [
+        25
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Condition: Checks if the loop should continue.",
+      "blankText": "Condition",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Initialization",
+        "Increment / Decrement",
+        "Case"
+      ]
+    },
+    "ppt-webdev-php-028": {
+      "pages": [
+        25
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Increment/Decrement: Changes the loop variable after each iteration.",
+      "blankText": "Increment/Decrement",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Initialization",
+        "Condition",
+        "Case"
+      ]
+    },
+    "ppt-webdev-php-029": {
+      "pages": [
+        30
+      ],
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "pdfWording": "A function is a block of code designed to perform a specific task.\nFunctions help make code reusable, organized, and easier to maintain.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "PHP Syntax",
+        "PHP Arrays",
+        "PHP Sessions"
+      ]
+    },
+    "ppt-webdev-php-030": {
+      "pages": [
+        30
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Built-in functions — already provided by PHP",
+      "blankText": "Built-in functions",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "User-Defined Functions",
+        "GET Method",
+        "POST Method"
+      ]
+    },
+    "ppt-webdev-php-031": {
+      "pages": [
+        30
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "User-defined functions — created by the programmer",
+      "blankText": "User-defined functions",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Built-in Functions",
+        "GET Method",
+        "POST Method"
+      ]
+    },
+    "ppt-webdev-php-032": {
+      "pages": [
+        32
+      ],
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "pdfWording": "An array in PHP is a variable that can store multiple values in a single variable.\nInstead of creating separate variables for each value, we can group related values together in an array.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Operators",
+        "PHP Syntax",
+        "PHP Functions"
+      ],
+      "practiceWording": "a variable that can store multiple values in a single variable."
+    },
+    "ppt-webdev-php-033": {
+      "pages": [
+        32
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Indexed Arrays - numerical index",
+      "blankText": "Indexed Arrays",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Associative Arrays",
+        "Multidimensional Arrays",
+        "PHP Objects"
+      ]
+    },
+    "ppt-webdev-php-034": {
+      "pages": [
+        32
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Associative Arrays - named keys",
+      "blankText": "Associative Arrays",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Indexed Arrays",
+        "Multidimensional Arrays",
+        "PHP Objects"
+      ]
+    },
+    "ppt-webdev-php-035": {
+      "pages": [
+        32
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Multidimensional Arrays - arrays inside another array",
+      "blankText": "Multidimensional Arrays",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Indexed Arrays",
+        "Associative Arrays",
+        "PHP Objects"
+      ]
+    },
+    "ppt-webdev-php-036": {
+      "pages": [
+        35
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "GET and POST are HTTP request methods used to send or receive data between a web browser and a server.",
+      "blankText": "HTTP request methods",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "PHP Sessions",
+        "PHP Classes",
+        "PHP Namespaces"
+      ]
+    },
+    "ppt-webdev-php-037": {
+      "pages": [
+        35
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Sends data through the URL. The data can be seen in the address bar.\nCommonly used for searching or requesting information.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Built-in Functions",
+        "User-Defined Functions",
+        "POST Method"
+      ]
+    },
+    "ppt-webdev-php-038": {
+      "pages": [
+        35
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Sends data through the request body, so it does not normally appear in the URL. Commonly used for forms such as login, registration, and submitting information.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Built-in Functions",
+        "User-Defined Functions",
+        "GET Method"
+      ]
+    },
+    "ppt-webdev-php-039": {
+      "pages": [
+        38
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "GET: Sends data through the URL\nPOST: Sends data through the request body\nGET: Uses $_GET in PHP\nPOST: Uses $_POST in PHP\nGET: Commonly used for searching\nPOST: Commonly used for submitting forms",
+      "blankText": "",
+      "clarification": "The diagram compares typical form use. POST data is not automatically encrypted; a POST URL may still have query parameters.",
+      "references": [
+        {
+          "label": "MDN: POST requests",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods/POST"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Types of PHP Objects"
+      ]
+    },
+    "ppt-webdev-php-040": {
+      "pages": [
+        40
+      ],
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "pdfWording": "A session is a way for PHP to store information about a user while they are using a website.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "PHP Syntax",
+        "Operators",
+        "Comparison Operators"
+      ]
+    },
+    "ppt-webdev-php-041": {
+      "pages": [
+        40
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "PHP sessions are used to keep important information about a user available while they navigate through different pages of a website. Without sessions, a website would not automatically remember the user from one page to the next.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Types of PHP Objects"
+      ]
+    },
+    "ppt-webdev-php-042": {
+      "pages": [
+        41
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Login → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "blankText": "",
+      "clarification": "This is the slide’s simplified login/logout sequence; sessions can also begin without a login.",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Types of PHP Objects"
+      ]
+    },
+    "ppt-webdev-php-043": {
+      "pages": [
+        41
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Login → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "blankText": "Session Starts",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Session Storage",
+        "Session End",
+        "Input Handling"
+      ],
+      "questionLead": "Which session stage fills the blank in this sequence?"
+    },
+    "ppt-webdev-php-044": {
+      "pages": [
+        41
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Login → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "blankText": "Information is Stored",
+      "clarification": "“Session Storage” in your list corresponds to “Information is Stored” in the slide sequence.",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Session Start",
+        "Session End",
+        "Input Handling"
+      ],
+      "questionLead": "Which session stage fills the blank in this sequence?"
+    },
+    "ppt-webdev-php-045": {
+      "pages": [
+        41
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Login → Session Starts → Information is Stored → Move Between Pages → Website Remembers You → Logout → Session Ends",
+      "blankText": "Session Ends",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Session Start",
+        "Session Storage",
+        "Input Handling"
+      ],
+      "questionLead": "Which session stage fills the blank in this sequence?"
+    },
+    "ppt-webdev-php-046": {
+      "pages": [
+        42
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "session_start() starts a new session or continues an existing session.\nsession_destroy() ends the current session (log out).",
+      "blankText": "",
+      "clarification": "session_destroy() destroys session data but does not itself unset current session variables or remove the session cookie.",
+      "references": [
+        {
+          "label": "PHP manual: session_destroy",
+          "url": "https://www.php.net/manual/en/function.session-destroy.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Basic PHP Syntax",
+        "Components of a For Loop",
+        "Exception Handling Keywords"
+      ]
+    },
+    "ppt-webdev-php-047": {
+      "pages": [
+        42
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "session_start() starts a new session or continues an existing session.",
+      "blankText": "session_start()",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "session_destroy()",
+        "Throw",
+        "Catch"
+      ]
+    },
+    "ppt-webdev-php-048": {
+      "pages": [
+        42
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "session_destroy() ends the current session (log out).",
+      "blankText": "session_destroy()",
+      "clarification": "Destroying session data does not itself unset $_SESSION or remove the session cookie. A full logout must handle those separately.",
+      "references": [
+        {
+          "label": "PHP manual: session_destroy",
+          "url": "https://www.php.net/manual/en/function.session-destroy.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "session_start()",
+        "Throw",
+        "Catch"
+      ]
+    },
+    "ppt-webdev-php-049": {
+      "pages": [
+        44
+      ],
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "pdfWording": "A class is a blueprint of code designed to define properties and methods.\nClasses help make code reusable, organized, and easier to maintain.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTTP Request Methods",
+        "PHP Sessions",
+        "PHP Namespaces"
+      ]
+    },
+    "ppt-webdev-php-050": {
+      "pages": [
+        45
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "User-defined Classes - Created by User\nBuilt-in Classes - Provided by PHP\nAbstract Classes - Cannot be used to create objects\nFinal Classes - Cannot extend or inherited by other Class\nReadonly Classes - All locked and cannot be change\nAnonymous Classes - Used for temporary or one-time Objects.",
+      "blankText": "",
+      "clarification": "These labels are the slide’s grouping. Readonly restricts property reassignment after initialization; anonymous classes are not restricted to a single use.",
+      "references": [
+        {
+          "label": "PHP manual: classes and readonly",
+          "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+        },
+        {
+          "label": "PHP manual: anonymous classes",
+          "url": "https://www.php.net/manual/en/language.oop5.anonymous.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Components of a For Loop",
+        "Session Functions",
+        "Exception Handling Keywords"
+      ]
+    },
+    "ppt-webdev-php-051": {
+      "pages": [
+        45
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "User-defined Classes - Created by User",
+      "blankText": "User-defined Classes",
+      "clarification": "User-defined classes can also be abstract, final, readonly, or anonymous. The slide’s categories are not mutually exclusive.",
+      "references": [
+        {
+          "label": "PHP manual: classes and readonly",
+          "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+        },
+        {
+          "label": "PHP manual: anonymous classes",
+          "url": "https://www.php.net/manual/en/language.oop5.anonymous.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Built-in Classes",
+        "Built-in Functions",
+        "Built-in Objects"
+      ],
+      "questionLead": "Which PHP class label completes this line from the slide?"
+    },
+    "ppt-webdev-php-052": {
+      "pages": [
+        45
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Built-in Classes - Provided by PHP",
+      "blankText": "Built-in Classes",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "User-Defined Classes",
+        "User-Defined Functions",
+        "User-Defined Objects"
+      ],
+      "questionLead": "Which PHP class label completes this line from the slide?"
+    },
+    "ppt-webdev-php-053": {
+      "pages": [
+        45
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Abstract Classes - Cannot be used to create objects",
+      "blankText": "Abstract Classes",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Final Classes",
+        "Readonly Classes",
+        "Anonymous Classes"
+      ],
+      "questionLead": "Which PHP class label completes this line from the slide?"
+    },
+    "ppt-webdev-php-054": {
+      "pages": [
+        45
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Final Classes - Cannot extend or inherited by other Class",
+      "blankText": "Final Classes",
+      "clarification": "A final class cannot be extended. It can itself extend another non-final class; the slide’s wording is simplified.",
+      "references": [
+        {
+          "label": "PHP manual: classes and readonly",
+          "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Abstract Classes",
+        "Readonly Classes",
+        "Anonymous Classes"
+      ],
+      "questionLead": "Which PHP class label completes this line from the slide?"
+    },
+    "ppt-webdev-php-055": {
+      "pages": [
+        45
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Readonly Classes - All locked and cannot be change",
+      "blankText": "Readonly Classes",
+      "clarification": "Readonly classes are not completely frozen objects. Their declared properties are readonly and typed, and dynamic properties are prohibited.",
+      "references": [
+        {
+          "label": "PHP manual: classes and readonly",
+          "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Abstract Classes",
+        "Final Classes",
+        "Anonymous Classes"
+      ],
+      "questionLead": "Which PHP class label completes this line from the slide?"
+    },
+    "ppt-webdev-php-056": {
+      "pages": [
+        45
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Anonymous Classes - Used for temporary or one-time Objects.",
+      "blankText": "Anonymous Classes",
+      "clarification": "An anonymous class has no programmer-supplied class name. Its objects need not be temporary or used only once.",
+      "references": [
+        {
+          "label": "PHP manual: classes and readonly",
+          "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+        },
+        {
+          "label": "PHP manual: anonymous classes",
+          "url": "https://www.php.net/manual/en/language.oop5.anonymous.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Abstract Classes",
+        "Final Classes",
+        "Readonly Classes"
+      ],
+      "questionLead": "Which PHP class label completes this line from the slide?"
+    },
+    "ppt-webdev-php-057": {
+      "pages": [
+        46
+      ],
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "pdfWording": "An object is an instance of a class designed to hold specific data and perform actions.\nObjects help make code modular, interactive, and easier to manage.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Indexed Arrays",
+        "Associative Arrays",
+        "Multidimensional Arrays"
+      ]
+    },
+    "ppt-webdev-php-058": {
+      "pages": [
+        46
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "User-defined Objects - Created by user\nBuilt-in Objects - Created by PHP\nAnonymous Objects - Created by nameless classes",
+      "blankText": "",
+      "clarification": "These are informal categories used by the slides. Objects are instances of classes; “anonymous” here refers to an anonymous class.",
+      "references": [
+        {
+          "label": "PHP manual: classes and readonly",
+          "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+        },
+        {
+          "label": "PHP manual: anonymous classes",
+          "url": "https://www.php.net/manual/en/language.oop5.anonymous.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "GET vs. POST",
+        "Components of a For Loop",
+        "Types of PHP Classes"
+      ]
+    },
+    "ppt-webdev-php-059": {
+      "pages": [
+        46
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "User-defined Objects - Created by user",
+      "blankText": "User-defined Objects",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Built-in Objects",
+        "Built-in Classes",
+        "Built-in Functions"
+      ],
+      "questionLead": "Which object label completes this line from the slide?"
+    },
+    "ppt-webdev-php-060": {
+      "pages": [
+        46
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Built-in Objects - Created by PHP",
+      "blankText": "Built-in Objects",
+      "clarification": "In this deck, a built-in object means an instance of a built-in class. User code can still create it using new.",
+      "references": [
+        {
+          "label": "PHP manual: classes and readonly",
+          "url": "https://www.php.net/manual/en/language.oop5.basic.php"
+        },
+        {
+          "label": "PHP manual: anonymous classes",
+          "url": "https://www.php.net/manual/en/language.oop5.anonymous.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "User-Defined Objects",
+        "User-Defined Classes",
+        "User-Defined Functions"
+      ],
+      "questionLead": "Which object label completes this line from the slide?"
+    },
+    "ppt-webdev-php-061": {
+      "pages": [
+        46
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Anonymous Objects - Created by nameless classes",
+      "blankText": "Anonymous Objects",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Built-in Objects",
+        "Final Classes",
+        "Readonly Classes"
+      ],
+      "questionLead": "Which object label completes this line from the slide?"
+    },
+    "ppt-webdev-php-062": {
+      "pages": [
+        48
+      ],
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "pdfWording": "A namespace is a virtual folder designed to organize classes and prevent naming conflicts.\nNamespaces help make code structured, organized, and easier to autoload.",
+      "blankText": "",
+      "clarification": "A namespace organizes names, not actual filesystem folders. Directory mapping and autoloading require additional conventions or configuration.",
+      "references": [
+        {
+          "label": "PHP manual: namespaces",
+          "url": "https://www.php.net/manual/en/language.namespaces.definition.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Operators",
+        "PHP Functions",
+        "PHP Sessions"
+      ]
+    },
+    "ppt-webdev-php-063": {
+      "pages": [
+        48
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "User-defined namespaces - Are folders created by user",
+      "blankText": "User-defined namespaces",
+      "clarification": "User-defined namespaces are name declarations, not physical folders.",
+      "references": [
+        {
+          "label": "PHP manual: namespaces",
+          "url": "https://www.php.net/manual/en/language.namespaces.definition.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Built-in Namespaces",
+        "Global Namespace",
+        "PHP Sessions"
+      ]
+    },
+    "ppt-webdev-php-064": {
+      "pages": [
+        48
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Built-in namespaces - Created by PHP",
+      "blankText": "Built-in namespaces",
+      "clarification": "This is the slide’s label. Core PHP classes normally live in the global namespace; “built-in namespaces” is not a general PHP namespace category.",
+      "references": [
+        {
+          "label": "PHP manual: namespaces",
+          "url": "https://www.php.net/manual/en/language.namespaces.definition.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "User-Defined Namespaces",
+        "Global Namespace",
+        "PHP Sessions"
+      ]
+    },
+    "ppt-webdev-php-065": {
+      "pages": [
+        48
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Global namespaces - It’s in the root folder",
+      "blankText": "Global namespaces",
+      "clarification": "The global namespace means names declared without a namespace, not a root directory.",
+      "references": [
+        {
+          "label": "PHP manual: namespaces",
+          "url": "https://www.php.net/manual/en/language.namespaces.definition.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "User-Defined Namespaces",
+        "Built-in Namespaces",
+        "PHP Sessions"
+      ]
+    },
+    "ppt-webdev-php-066": {
+      "pages": [
+        50
+      ],
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "pdfWording": "An exception is an unexpected problem that occurs while a PHP script is running.",
+      "blankText": "",
+      "clarification": "This is a beginner description. An exception is thrown to interrupt normal control flow; not every PHP runtime problem is automatically an exception.",
+      "references": [
+        {
+          "label": "PHP manual: try/catch",
+          "url": "https://www.php.net/manual/en/control-structures.try-catch.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "PHP Classes",
+        "PHP Objects",
+        "PHP Namespaces"
+      ]
+    },
+    "ppt-webdev-php-067": {
+      "pages": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "THROW\ncreate and send exceptions when a problem occurs\nTRY\nused to test code that might cause an exception\nCATCH\nused to handle an exception when an error occurs inside the try block\nFINALLY\nused for code that always runs whether or not an error occurs",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Basic PHP Syntax",
+        "Components of a For Loop",
+        "Session Functions"
+      ]
+    },
+    "ppt-webdev-php-068": {
+      "pages": [
+        51
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "create and send exceptions when a problem occurs",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Case",
+        "Break",
+        "Default"
+      ]
+    },
+    "ppt-webdev-php-069": {
+      "pages": [
+        52
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "used to test code that might cause an exception",
+      "blankText": "",
+      "clarification": "try executes code that may throw; it is not a separate test run of that code.",
+      "references": [
+        {
+          "label": "PHP manual: try/catch",
+          "url": "https://www.php.net/manual/en/control-structures.try-catch.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Throw",
+        "Catch",
+        "Finally"
+      ]
+    },
+    "ppt-webdev-php-070": {
+      "pages": [
+        53
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "used to handle an exception when an error occurs inside the try block",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "session_start()",
+        "session_destroy()",
+        "Throw"
+      ]
+    },
+    "ppt-webdev-php-071": {
+      "pages": [
+        54
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "used for code that always runs whether or not an error occurs",
+      "blankText": "",
+      "clarification": "finally runs as part of normal exception handling even when no exception is thrown. Program termination can prevent subsequent code from running.",
+      "references": [
+        {
+          "label": "PHP manual: finally",
+          "url": "https://www.php.net/manual/en/control-structures.finally.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Throw",
+        "Try",
+        "Catch"
+      ]
+    },
+    "ppt-webdev-php-072": {
+      "pages": [
+        65
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Input handling in PHP involves receiving, checking, processing, and safely displaying data provided by users.\nWhen data is submitted through a form, PHP can access it using the $_POST array.",
+      "blankText": "Input handling",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Session Start",
+        "Session Storage",
+        "Session End"
+      ]
+    },
+    "ppt-webdev-php-073": {
+      "pages": [
+        65
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "Receive Input\nPrepare It\nValidate It\nProcess It\nDisplay the Result",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Components of a For Loop",
+        "Types of PHP Classes",
+        "Exception Handling Keywords"
+      ]
+    },
+    "ppt-webdev-php-074": {
+      "pages": [
+        65
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Receive Input → Prepare It → Validate It → Process It → Display the Result",
+      "blankText": "Receive Input",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Prepare Input",
+        "Validate Input",
+        "Process Input"
+      ],
+      "questionLead": "Which input-handling step fills the blank in the slide sequence?"
+    },
+    "ppt-webdev-php-075": {
+      "pages": [
+        65
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Receive Input → Prepare It → Validate It → Process It → Display the Result",
+      "blankText": "Prepare It",
+      "clarification": "Your list uses “Prepare Input”; the slide uses “Prepare It.”",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Receive Input",
+        "Validate Input",
+        "Process Input"
+      ],
+      "questionLead": "Which input-handling step fills the blank in the slide sequence?"
+    },
+    "ppt-webdev-php-076": {
+      "pages": [
+        65
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Receive Input → Prepare It → Validate It → Process It → Display the Result",
+      "blankText": "Validate It",
+      "clarification": "Your list uses “Validate Input”; the slide uses “Validate It.”",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Receive Input",
+        "Prepare Input",
+        "Process Input"
+      ],
+      "questionLead": "Which input-handling step fills the blank in the slide sequence?"
+    },
+    "ppt-webdev-php-077": {
+      "pages": [
+        65
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Receive Input → Prepare It → Validate It → Process It → Display the Result",
+      "blankText": "Process It",
+      "clarification": "Your list uses “Process Input”; the slide uses “Process It.”",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Receive Input",
+        "Prepare Input",
+        "Validate Input"
+      ],
+      "questionLead": "Which input-handling step fills the blank in the slide sequence?"
+    },
+    "ppt-webdev-php-078": {
+      "pages": [
+        65
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Receive Input → Prepare It → Validate It → Process It → Display the Result",
+      "blankText": "Display the Result",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Receive Input",
+        "Prepare Input",
+        "Validate Input"
+      ],
+      "questionLead": "Which input-handling step fills the blank in the slide sequence?"
+    },
+    "ppt-webdev-php-079": {
+      "pages": [
+        66
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "$_POST → receives submitted data\ntrim() → removes unnecessary spaces\nif conditions → checks if input is empty or valid\nhtmlspecialchars() → helps display user input\nArrays → can store multiple errors\nforeach → can display collected errors",
+      "blankText": "",
+      "clarification": "The slide groups input-handling tools under “functions.” $_POST is a superglobal, if/foreach are control structures, and arrays are a data type; trim() and htmlspecialchars() are functions.",
+      "references": [
+        {
+          "label": "PHP manual: predefined variables",
+          "url": "https://www.php.net/manual/en/reserved.variables.php"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Session Functions",
+        "Components of a For Loop",
+        "Exception Handling Keywords"
+      ]
+    },
+    "ppt-webdev-css-001": {
+      "pages": [
+        4
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "“Cascade” means CSS reads your rules and stacks them up, then decides which one “wins” when two rules target the same element. Three factors settle the fight, in this order:\nImportance\nSpecificity\nSource order",
+      "blankText": "Cascade",
+      "clarification": "The slide is simplified: origin, importance and cascade layers are considered before specificity. Normal inline styles do not beat all !important declarations; transitions and other cascade rules also matter.",
+      "references": [
+        {
+          "label": "MDN: CSS cascade",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Introduction"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "CSS Box Model",
+        "Flexbox",
+        "Media Queries"
+      ]
+    },
+    "ppt-webdev-css-002": {
+      "pages": [
+        5
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "an ID selector is simply more specific than a class or an element selector, so it wins regardless of order.",
+      "blankText": "",
+      "clarification": "This selector comparison assumes competing declarations have the same relevant origin, importance and cascade-layer precedence.",
+      "references": [
+        {
+          "label": "MDN: CSS cascade",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Introduction"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Source Order",
+        "CSS Box Model",
+        "Media Queries"
+      ]
+    },
+    "ppt-webdev-css-003": {
+      "pages": [
+        4
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "Importance\n!important rules & inline styles beat everything else\nSpecificity\nMore specific selectors (ID > class > tag) win\nSource order\nIf it's a tie, the rule written last wins",
+      "blankText": "",
+      "clarification": "The slide is simplified: origin, importance and cascade layers are considered before specificity. Normal inline styles do not beat all !important declarations; transitions and other cascade rules also matter.",
+      "references": [
+        {
+          "label": "MDN: CSS cascade",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Introduction"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Components of the Box Model",
+        "Flexbox Key Properties",
+        "Grid Properties"
+      ]
+    },
+    "ppt-webdev-css-004": {
+      "pages": [
+        4
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "!important rules & inline styles beat everything else",
+      "blankText": "",
+      "clarification": "The slide is simplified: origin, importance and cascade layers are considered before specificity. Normal inline styles do not beat all !important declarations; transitions and other cascade rules also matter.",
+      "references": [
+        {
+          "label": "MDN: CSS cascade",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Introduction"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Specificity",
+        "Source Order",
+        "Screen-Size Breakpoints"
+      ]
+    },
+    "ppt-webdev-css-005": {
+      "pages": [
+        4
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "More specific selectors (ID > class > tag) win",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Source Order",
+        "Importance",
+        "Screen-Size Breakpoints"
+      ]
+    },
+    "ppt-webdev-css-006": {
+      "pages": [
+        4
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "If it's a tie, the rule written last wins",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "CSS Specificity",
+        "CSS Box Model",
+        "Media Queries"
+      ]
+    },
+    "ppt-webdev-css-007": {
+      "pages": [
+        4
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "SPECIFICITY, HIGH → LOW\nInline style\nstyle=\"color:red\"\nID selector\n#header\nClass / attribute\n.btn-primary\nElement selector\np, div, h1",
+      "blankText": "",
+      "clarification": "This is a beginner priority chart. Inline style declarations participate in the cascade separately from selector specificity; origin, importance and layers are considered first.",
+      "references": [
+        {
+          "label": "MDN: CSS cascade",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Introduction"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Components of the Box Model",
+        "Flexbox Key Properties",
+        "Grid Properties"
+      ]
+    },
+    "ppt-webdev-css-008": {
+      "pages": [
+        4
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Inline style\nstyle=\"color:red\"",
+      "blankText": "Inline style",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "ID Selectors",
+        "Class / Attribute Selectors",
+        "Element Selectors"
+      ]
+    },
+    "ppt-webdev-css-009": {
+      "pages": [
+        4
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "ID selector\n#header",
+      "blankText": "ID selector",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Inline Styles",
+        "Class / Attribute Selectors",
+        "Element Selectors"
+      ]
+    },
+    "ppt-webdev-css-010": {
+      "pages": [
+        4
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Class / attribute\n.btn-primary",
+      "blankText": "Class / attribute",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Inline Styles",
+        "ID Selectors",
+        "Element Selectors"
+      ]
+    },
+    "ppt-webdev-css-011": {
+      "pages": [
+        4
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Element selector\np, div, h1",
+      "blankText": "Element selector",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Inline Styles",
+        "ID Selectors",
+        "Class / Attribute Selectors"
+      ]
+    },
+    "ppt-webdev-css-012": {
+      "pages": [
+        6
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Every HTML element is a rectangular box. CSS lets you control each layer of that box:\nContent\nThe actual text or image\nPadding\nSpace inside the border\nBorder\nThe line around the padding\nMargin\nSpace outside the border",
+      "blankText": "",
+      "clarification": "Some elements generate no box, or more than one box. The slide illustrates the usual rectangular CSS box model.",
+      "references": [
+        {
+          "label": "MDN: display and box generation",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/display"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "CSS Cascade",
+        "Flexbox",
+        "Media Queries"
+      ]
+    },
+    "ppt-webdev-css-013": {
+      "pages": [
+        6
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "Content\nPadding\nBorder\nMargin",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Factors That Determine Which CSS Rule Wins",
+        "Flexbox Key Properties",
+        "Grid Properties"
+      ]
+    },
+    "ppt-webdev-css-014": {
+      "pages": [
+        6
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "The actual text or image",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Padding",
+        "Border",
+        "Margin"
+      ]
+    },
+    "ppt-webdev-css-015": {
+      "pages": [
+        6
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Space inside the border",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Content",
+        "Border",
+        "Margin"
+      ]
+    },
+    "ppt-webdev-css-016": {
+      "pages": [
+        6
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "The line around the padding",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Content",
+        "Padding",
+        "Margin"
+      ]
+    },
+    "ppt-webdev-css-017": {
+      "pages": [
+        6
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Space outside the border",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Content",
+        "Padding",
+        "Border"
+      ]
+    },
+    "ppt-webdev-css-018": {
+      "pages": [
+        8
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Flexbox arranges items in a single row or column, and makes it easy to space, align, and reorder them —great for navbars, cards in a row, or centering content.",
+      "blankText": "Flexbox",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "CSS Cascade",
+        "CSS Box Model",
+        "Media Queries"
+      ]
+    },
+    "ppt-webdev-css-019": {
+      "pages": [
+        8
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Flexbox: One-Dimensional Layout",
+      "blankText": "One-Dimensional Layout",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "questionLead": "Complete the layout dimension named on the slide.",
+      "distractors": [
+        "Two-Dimensional Layout",
+        "CSS Box Model",
+        "CSS Frameworks"
+      ]
+    },
+    "ppt-webdev-css-020": {
+      "pages": [
+        9
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "flex-direction\njustify-content\nalign-items\nflex-wrap\ngap\nflex-grow",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Factors That Determine Which CSS Rule Wins",
+        "Components of the Box Model",
+        "Grid Properties"
+      ]
+    },
+    "ppt-webdev-css-021": {
+      "pages": [
+        9
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "flex-direction\nrow / column\nWhich way items line up",
+      "blankText": "flex-direction",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Justify Content",
+        "Align Items",
+        "Flex Wrap"
+      ]
+    },
+    "ppt-webdev-css-022": {
+      "pages": [
+        9
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "justify-content\nspace-between / center\nSpacing along the main axis",
+      "blankText": "justify-content",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Flex Direction",
+        "Align Items",
+        "Flex Wrap"
+      ]
+    },
+    "ppt-webdev-css-023": {
+      "pages": [
+        9
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "align-items\ncenter / stretch\nAlignment across the cross axis",
+      "blankText": "align-items",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Flex Direction",
+        "Justify Content",
+        "Flex Wrap"
+      ]
+    },
+    "ppt-webdev-css-024": {
+      "pages": [
+        9
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "flex-wrap\nwrap / nowrap\nWhether items wrap to a new line",
+      "blankText": "flex-wrap",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Flex Direction",
+        "Justify Content",
+        "Align Items"
+      ]
+    },
+    "ppt-webdev-css-025": {
+      "pages": [
+        9
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "gap\n1rem, 16px\nSpace between items",
+      "blankText": "gap",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Flex Grow",
+        "Flex Direction",
+        "Flex Wrap"
+      ]
+    },
+    "ppt-webdev-css-026": {
+      "pages": [
+        9
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "flex-grow\n0, 1, 2…\nHow much an item expands to fill space",
+      "blankText": "flex-grow",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Flex Direction",
+        "Justify Content",
+        "Align Items"
+      ]
+    },
+    "ppt-webdev-css-027": {
+      "pages": [
+        10
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "While Flexbox handles one direction at a time, Grid controls rows and columns together —perfect for full page layouts, photo galleries, and dashboards.",
+      "blankText": "Grid",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Flexbox",
+        "Media Queries",
+        "CSS Frameworks"
+      ]
+    },
+    "ppt-webdev-css-028": {
+      "pages": [
+        10
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "CSS Grid: Two-Dimensional Layout",
+      "blankText": "Two-Dimensional Layout",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "questionLead": "Complete the layout dimension named on the slide.",
+      "distractors": [
+        "One-Dimensional Layout",
+        "CSS Box Model",
+        "CSS Frameworks"
+      ]
+    },
+    "ppt-webdev-css-029": {
+      "pages": [
+        10
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "grid-template-columns: 1fr 3fr;\ngrid-template-rows: auto 1fr;\ngap: 1rem;",
+      "blankText": "",
+      "clarification": "The supporting slide gives a code example, not separate definitions of these properties.",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Factors That Determine Which CSS Rule Wins",
+        "Components of the Box Model",
+        "Flexbox Key Properties"
+      ]
+    },
+    "ppt-webdev-css-030": {
+      "pages": [
+        10
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "grid-template-columns: 1fr 3fr;",
+      "blankText": "grid-template-columns",
+      "clarification": "This property defines the grid columns; the supplied slide uses two column sizes, 1fr and 3fr.",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "questionLead": "Which property sets the columns in this slide?",
+      "distractors": [
+        "Grid Template Rows",
+        "Gap",
+        "Flex Direction"
+      ]
+    },
+    "ppt-webdev-css-031": {
+      "pages": [
+        10
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "grid-template-rows: auto 1fr;",
+      "blankText": "grid-template-rows",
+      "clarification": "This property defines the grid rows; the supplied slide uses auto and 1fr.",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "questionLead": "Which property sets the rows in this slide?",
+      "distractors": [
+        "Grid Template Columns",
+        "Gap",
+        "Flex Direction"
+      ]
+    },
+    "ppt-webdev-css-032": {
+      "pages": [
+        10
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "gap: 1rem;",
+      "blankText": "gap",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Grid Template Columns",
+        "Grid Template Rows",
+        "Flex Direction"
+      ]
+    },
+    "ppt-webdev-css-033": {
+      "pages": [
+        11
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Flexbox: One dimension (row OR column)\nCSS Grid: Two dimensions (rows AND columns)\nCan they mix? Yes — use Grid for the page, Flexbox inside each grid cell",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Factors That Determine Which CSS Rule Wins",
+        "Components of the Box Model",
+        "Bootstrap vs. Tailwind CSS"
+      ]
+    },
+    "ppt-webdev-css-034": {
+      "pages": [
+        12
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "A media query lets CSS apply different rules depending on screen size.",
+      "blankText": "media query",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "CSS Cascade",
+        "CSS Box Model",
+        "Flexbox"
+      ]
+    },
+    "ppt-webdev-css-035": {
+      "pages": [
+        12
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "“Mobile-first” means we write the base styles for small screens, then add rules for bigger screens as needed.",
+      "blankText": "Mobile-first",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "CSS Box Model",
+        "Selector Specificity",
+        "CSS Frameworks"
+      ]
+    },
+    "ppt-webdev-css-036": {
+      "pages": [
+        3,
+        12
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Build pages that look good on phones first, then scale up smoothly to tablets and desktops using Flexbox, Grid, and media queries.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "CSS Box Model",
+        "Selector Specificity",
+        "CSS Frameworks"
+      ]
+    },
+    "ppt-webdev-css-037": {
+      "pages": [
+        12
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Phone: < 576px\nTablet: ≥ 768px\nDesktop: ≥ 992px",
+      "blankText": "",
+      "clarification": "These are the example thresholds printed in the deck, not universal device sizes.",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Importance",
+        "Specificity",
+        "Source Order"
+      ]
+    },
+    "ppt-webdev-css-038": {
+      "pages": [
+        13
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Both are popular CSS frameworks that speed up styling — but they work in very different ways.",
+      "blankText": "CSS frameworks",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Flexbox",
+        "CSS Grid",
+        "Media Queries"
+      ]
+    },
+    "ppt-webdev-css-039": {
+      "pages": [
+        13
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Ready-made components\nComes with pre-built components: navbars, buttons, cards, modals\nYou add CSS classes like btn, container, row, col-md-6\nFaster for beginners —less custom CSS to write\nSites can look similar unless you customize the theme",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Tailwind CSS",
+        "Flexbox",
+        "CSS Grid"
+      ]
+    },
+    "ppt-webdev-css-040": {
+      "pages": [
+        13
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Bootstrap 5\nReady-made components\nComes with pre-built components: navbars, buttons, cards, modals",
+      "blankText": "Ready-made components",
+      "clarification": "This entry is the Bootstrap component approach; the Bootstrap 5 entry remains separate.",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Utility-First Design",
+        "One-Dimensional Layout",
+        "Two-Dimensional Layout"
+      ]
+    },
+    "ppt-webdev-css-041": {
+      "pages": [
+        13
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Utility-first building blocks\nGives small utility classes: flex, p-4, text-center, bg-blue-500\nYou combine classes directly in HTML to build your own look\nMore flexible & unique designs, but a steeper learning curve\nVery popular in modern React / Vue / Laravel projects",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Bootstrap 5",
+        "Flexbox",
+        "CSS Grid"
+      ]
+    },
+    "ppt-webdev-css-042": {
+      "pages": [
+        13
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Tailwind CSS\nUtility-first building blocks\nGives small utility classes: flex, p-4, text-center, bg-blue-500",
+      "blankText": "Utility-first",
+      "clarification": "“Utility-First Design” in your list corresponds to “Utility-first building blocks” on the slide.",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Ready-Made Components",
+        "One-Dimensional Layout",
+        "Two-Dimensional Layout"
+      ]
+    },
+    "ppt-webdev-css-043": {
+      "pages": [
+        13
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Bootstrap 5: Ready-made components\nTailwind CSS: Utility-first building blocks\nBoth are popular CSS frameworks that speed up styling — but they work in very different ways.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Flexbox vs. CSS Grid",
+        "Factors That Determine Which CSS Rule Wins",
+        "Components of the Box Model"
+      ]
+    },
+    "ppt-webdev-html-001": {
+      "pages": [
+        14
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "HTML (HyperText Markup Language) is the standard markup language used to create and structure content on the web. It defines the meaning and structure of web content using tags and elements.",
+      "blankText": "HTML (HyperText Markup Language)",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTML5",
+        "Web Accessibility",
+        "SEO (Search Engine Optimization)"
+      ]
+    },
+    "ppt-webdev-html-002": {
+      "pages": [
+        15
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "HTML5 is the modern major version of HTML. It expanded HTML beyond basic page structure by standardizing semantic elements, native multimedia, improved form controls, graphics support, and browser APIs for richer web applications.",
+      "blankText": "HTML5",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTML (HyperText Markup Language)",
+        "Web Accessibility",
+        "SEO (Search Engine Optimization)"
+      ]
+    },
+    "ppt-webdev-html-003": {
+      "pages": [
+        15
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "Semantic Elements\nNative multimedia\nImproved forms\nWeb APIs",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Common Semantic Elements",
+        "Types of HTML Lists",
+        "HTML Input Types"
+      ]
+    },
+    "ppt-webdev-html-004": {
+      "pages": [
+        15
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Semantic Elements such as <header>, <nav>, <main>, <section>, <article>, <aside>, and <footer>, which communicate the role of the content.",
+      "blankText": "Semantic Elements",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Native Multimedia",
+        "Improved Forms",
+        "Web APIs"
+      ]
+    },
+    "ppt-webdev-html-005": {
+      "pages": [
+        15
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Native multimedia through <audio> and <video>, reducing reliance on external graphics and visual content.",
+      "blankText": "Native multimedia",
+      "clarification": "Native audio/video reduce dependence on external media plugins; the slide says “external graphics and visual content.”",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Semantic Elements",
+        "Improved Forms",
+        "Web APIs"
+      ]
+    },
+    "ppt-webdev-html-006": {
+      "pages": [
+        15
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Improved forms, including input types such as email, date, number, and range, which helps browser provide more approriate controls and validation",
+      "blankText": "Improved forms",
+      "clarification": "The original slide spells “approriate”; the intended spelling is appropriate.",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Semantic Elements",
+        "Native Multimedia",
+        "Web APIs"
+      ]
+    },
+    "ppt-webdev-html-007": {
+      "pages": [
+        15
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Web APIs such as web storage, drag and drop, and geolocation, which enable more interactive browser-based applications",
+      "blankText": "Web APIs",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Semantic Elements",
+        "Native Multimedia",
+        "Improved Forms"
+      ]
+    },
+    "ppt-webdev-html-008": {
+      "pages": [
+        16
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "HTML: Defines content, structure, and meaning\nCSS: Controls presentation and layout\nJavaScript: Adds behavior and interactivity",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Basic HTML5 Document Structure",
+        "Basic Accessibility Principles",
+        "HTML Elements Related to SEO"
+      ]
+    },
+    "ppt-webdev-html-009": {
+      "pages": [
+        17
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Semantic HTML uses elements whose names communicate the role and purpose of their content.",
+      "blankText": "Semantic HTML",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTML Tables",
+        "HTML Forms",
+        "Web Accessibility"
+      ]
+    },
+    "ppt-webdev-html-010": {
+      "pages": [
+        18
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "<header> → Introductory content or navigation links\n<nav> → Navigation links\n<main> → The dominant content of the document\n<section> → A thematic grouping of content\n<article> → Independent, self-contained content\n<aside> → Content indirectly related to the main content\n<footer> → Footer information such as copyright or contact details",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Main Features of HTML5",
+        "Types of HTML Lists",
+        "HTML Input Types"
+      ]
+    },
+    "ppt-webdev-html-011": {
+      "pages": [
+        18
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<header> → Introductory content or navigation links",
+      "blankText": "<header>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Article",
+        "Aside",
+        "Footer"
+      ]
+    },
+    "ppt-webdev-html-012": {
+      "pages": [
+        18
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<nav> → Navigation links",
+      "blankText": "<nav>;Navigation",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Section",
+        "Article",
+        "Aside"
+      ]
+    },
+    "ppt-webdev-html-013": {
+      "pages": [
+        18
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<main> → The dominant content of the document",
+      "blankText": "<main>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Section",
+        "Article",
+        "Aside"
+      ]
+    },
+    "ppt-webdev-html-014": {
+      "pages": [
+        18
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<section> → A thematic grouping of content",
+      "blankText": "<section>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Navigation",
+        "Article",
+        "Aside"
+      ]
+    },
+    "ppt-webdev-html-015": {
+      "pages": [
+        18
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<article> → Independent, self-contained content",
+      "blankText": "<article>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Header",
+        "Aside",
+        "Footer"
+      ]
+    },
+    "ppt-webdev-html-016": {
+      "pages": [
+        18
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<aside> → Content indirectly related to the main content",
+      "blankText": "<aside>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Header",
+        "Article",
+        "Footer"
+      ]
+    },
+    "ppt-webdev-html-017": {
+      "pages": [
+        18
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<footer> → Footer information such as copyright or contact details",
+      "blankText": "<footer>;Footer",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Header",
+        "Article",
+        "Aside"
+      ]
+    },
+    "ppt-webdev-html-018": {
+      "pages": [
+        19
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "<!DOCTYPE html>\n<html>\n<head>\n<title>My Website</title>\n</head>\n<body>\n<h1>Hello World</h1>\n<p>Welcome to my Website!</p>\n<body>\n</html>",
+      "blankText": "",
+      "clarification": "The slide repeats <body> where a closing </body> should be. The original code is retained as text, not executed.",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTML, CSS, and JavaScript",
+        "Basic Accessibility Principles",
+        "HTML Elements Related to SEO"
+      ]
+    },
+    "ppt-webdev-html-019": {
+      "pages": [
+        20
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<!DOCTYPE html> → Declares the document as an HTML5 document, enabling standards mode in browsers.",
+      "blankText": "<!DOCTYPE html>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTML Element",
+        "Head Element",
+        "Body Element"
+      ]
+    },
+    "ppt-webdev-html-020": {
+      "pages": [
+        20
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<html> → The root element that wraps the entire page content",
+      "blankText": "<html>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "DOCTYPE",
+        "Head Element",
+        "Body Element"
+      ]
+    },
+    "ppt-webdev-html-021": {
+      "pages": [
+        20
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<head> → Contains metadata such as the page title, character encoding, CSS links, and other non-visible information.",
+      "blankText": "<head>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "DOCTYPE",
+        "HTML Element",
+        "Body Element"
+      ]
+    },
+    "ppt-webdev-html-022": {
+      "pages": [
+        21
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<title> → Defines the title of the page, displayed in the browser tab or window title bar.",
+      "blankText": "<title>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTML Element",
+        "Head Element",
+        "Body Element"
+      ]
+    },
+    "ppt-webdev-html-023": {
+      "pages": [
+        21
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<body> → Contains all visible content of the page, such as headings, paragraphs, images, and links.",
+      "blankText": "<body>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "DOCTYPE",
+        "HTML Element",
+        "Head Element"
+      ]
+    },
+    "ppt-webdev-html-024": {
+      "pages": [
+        21
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<h1> is used for the main title of a webpage, while <p> is used for regular blocks of text.",
+      "blankText": "<h1>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Paragraph Element",
+        "Title Element",
+        "Body Element"
+      ]
+    },
+    "ppt-webdev-html-025": {
+      "pages": [
+        21
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<h1> is used for the main title of a webpage, while <p> is used for regular blocks of text.",
+      "blankText": "<p>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Heading Element",
+        "Title Element",
+        "Body Element"
+      ]
+    },
+    "ppt-webdev-html-026": {
+      "pages": [
+        23
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "HTML links, or hyperlinks, allow users to navigate from one webpage or document to another.\nThey are clickable elements on a webpage.\nWhen you hover over a link, the cursor usually changes into a hand pointer.",
+      "blankText": "HTML links;hyperlinks",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTML Lists",
+        "HTML Tables",
+        "HTML Forms"
+      ]
+    },
+    "ppt-webdev-html-027": {
+      "pages": [
+        24
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "<a href=\"url\">link text</a>",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Basic HTML5 Document Structure",
+        "HTML Table Structure",
+        "Basic Form Structure"
+      ]
+    },
+    "ppt-webdev-html-028": {
+      "pages": [
+        24
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "The <a> tag / anchor tag is used to create hyperlinks in HTML.",
+      "blankText": "<a> tag / anchor tag",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Href Attribute",
+        "Link Text",
+        "Table Element"
+      ]
+    },
+    "ppt-webdev-html-029": {
+      "pages": [
+        24
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "href / hypertext reference attribute → specifies where the link will lead",
+      "blankText": "href / hypertext reference attribute",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Anchor Tag",
+        "Link Text",
+        "Table Element"
+      ]
+    },
+    "ppt-webdev-html-030": {
+      "pages": [
+        24
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Link text → the clickable text visible to the user",
+      "blankText": "Link text",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Anchor Tag",
+        "Href Attribute",
+        "Table Element"
+      ]
+    },
+    "ppt-webdev-html-031": {
+      "pages": [
+        25
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "As an image:\n<a href=\"https://example.com\">\n<img src=\"image.jpg\" alt=\"Example\">\n</a>\nAs a button:\n<a href=\"https://example.com\">\n<button>Visit Website</button>\n</a>",
+      "blankText": "",
+      "clarification": "The source nests a button inside a link. Interactive content should not be nested this way; use a styled link for navigation or a button for an action.",
+      "references": [
+        {
+          "label": "WHATWG: anchor content model",
+          "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Types of HTML Lists",
+        "HTML Table Structure",
+        "HTML Input Types"
+      ]
+    },
+    "ppt-webdev-html-032": {
+      "pages": [
+        26
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "HTML lists are used to group related items together. It has 3 types:",
+      "blankText": "HTML lists",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTML Links / Hyperlinks",
+        "HTML Tables",
+        "HTML Forms"
+      ]
+    },
+    "ppt-webdev-html-033": {
+      "pages": [
+        26
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "Unordered List\nOrdered List\nDescription List",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Main Features of HTML5",
+        "Common Semantic Elements",
+        "HTML Input Types"
+      ]
+    },
+    "ppt-webdev-html-034": {
+      "pages": [
+        27
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "An unordered list displays items using bullet points.\nUse an unordered list when the sequence of the items does not matter",
+      "blankText": "unordered list",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Ordered List",
+        "Description List",
+        "HTML Tables"
+      ]
+    },
+    "ppt-webdev-html-035": {
+      "pages": [
+        28
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Displays items in a specific sequence using numbers.\nUse an ordered list when the sequence of the items is essential to understanding the information.",
+      "blankText": "ordered list",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Unordered List",
+        "Description List",
+        "HTML Tables"
+      ]
+    },
+    "ppt-webdev-html-036": {
+      "pages": [
+        29
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Pairs a term with its description or definition.\nUse a description list when you need to display pairs of related data",
+      "blankText": "description list",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Unordered List",
+        "Ordered List",
+        "HTML Tables"
+      ]
+    },
+    "ppt-webdev-html-037": {
+      "pages": [
+        27,
+        29
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "<li> → defines each list item\n<dt> → defines the term or name\n<dd> → provides the description of the term",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Common Semantic Elements",
+        "HTML Table Structure",
+        "HTML Input Types"
+      ]
+    },
+    "ppt-webdev-html-038": {
+      "pages": [
+        27
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<li> → defines each list item",
+      "blankText": "<li>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Description Term (dt)",
+        "Description Details (dd)",
+        "Table Row"
+      ]
+    },
+    "ppt-webdev-html-039": {
+      "pages": [
+        29
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<dt> → defines the term or name",
+      "blankText": "<dt>",
+      "clarification": "“with the details indented” belongs to the rendered list description, not a requirement of the <dt> element.",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "List Item (li)",
+        "Description Details (dd)",
+        "Table Row"
+      ]
+    },
+    "ppt-webdev-html-040": {
+      "pages": [
+        29
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<dd> → provides the description of the term",
+      "blankText": "<dd>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "List Item (li)",
+        "Description Term (dt)",
+        "Table Row"
+      ]
+    },
+    "ppt-webdev-html-041": {
+      "pages": [
+        30
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "HTML tables are used to organize related data into rows and columns.\nTables should be used for tabular data, not to arrange the layout of a webpage.",
+      "blankText": "HTML tables",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Semantic HTML",
+        "HTML Forms",
+        "Web Accessibility"
+      ]
+    },
+    "ppt-webdev-html-042": {
+      "pages": [
+        31
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "<table> → creates the table\n<tr> → creates a table row\n<th> → creates a header cell\n<td> → creates a data cell",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Basic HTML5 Document Structure",
+        "Basic Form Structure",
+        "Hyperlink Syntax"
+      ]
+    },
+    "ppt-webdev-html-043": {
+      "pages": [
+        31
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<table> → creates the table",
+      "blankText": "<table>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Anchor Tag",
+        "Href Attribute",
+        "Link Text"
+      ]
+    },
+    "ppt-webdev-html-044": {
+      "pages": [
+        31
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<tr> → creates a table row",
+      "blankText": "table row",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "List Item (li)",
+        "Description Term (dt)",
+        "Description Details (dd)"
+      ]
+    },
+    "ppt-webdev-html-045": {
+      "pages": [
+        31
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<th> → creates a header cell",
+      "blankText": "<th>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Table Element",
+        "Table Row",
+        "Table Data"
+      ]
+    },
+    "ppt-webdev-html-046": {
+      "pages": [
+        31
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<td> → creates a data cell",
+      "blankText": "<td>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Table Element",
+        "Table Row",
+        "Table Header"
+      ]
+    },
+    "ppt-webdev-html-047": {
+      "pages": [
+        33,
+        34,
+        37
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "I. PICTURE\nII. AUDIO\nIII. VIDEO",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Types of HTML Lists",
+        "HTML Input Types",
+        "Basic Accessibility Principles"
+      ]
+    },
+    "ppt-webdev-html-048": {
+      "pages": [
+        33
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "The <img> tag is used to display an image on a webpage. It is an empty element that has no closing tag",
+      "blankText": "<img>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTML Audio",
+        "HTML Video",
+        "HTML Tables"
+      ]
+    },
+    "ppt-webdev-html-049": {
+      "pages": [
+        33
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<img> → creates a space for the image to be displayed",
+      "blankText": "<img>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Source Attribute",
+        "Alternative Text Attribute",
+        "Href Attribute"
+      ]
+    },
+    "ppt-webdev-html-050": {
+      "pages": [
+        33
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "src / source → specifies the image's location or file path",
+      "blankText": "src / source",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Image Element",
+        "Alternative Text Attribute",
+        "Href Attribute"
+      ]
+    },
+    "ppt-webdev-html-051": {
+      "pages": [
+        33
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "alt → provides alternative text describing the image",
+      "blankText": "alt →",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Image Element",
+        "Source Attribute",
+        "Href Attribute"
+      ]
+    },
+    "ppt-webdev-html-052": {
+      "pages": [
+        34
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "The <audio> element is used to play audio files directly on a webpage.",
+      "blankText": "<audio>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTML Images",
+        "HTML Video",
+        "HTML Tables"
+      ]
+    },
+    "ppt-webdev-html-053": {
+      "pages": [
+        35
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "MP3 → audio/mpeg → Music, general audio\nOGG → audio/ogg → Web audio, open-source projects\nWAV → audio/wav → High-quality, uncompressed audio",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Video Media Types",
+        "HTML Input Types",
+        "Types of HTML Lists"
+      ]
+    },
+    "ppt-webdev-html-054": {
+      "pages": [
+        34,
+        36
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "controls → displays controls such as play, pause, and volume\nThe autoplay attribute to starts the audio file automatically.\nThe muted attribute makes the audio or video start without sound.",
+      "blankText": "",
+      "clarification": "The PDF says “attribute to starts.” Autoplay requests automatic playback, but browser policies can block it, especially for media with audible sound.",
+      "references": [
+        {
+          "label": "MDN: autoplay and browser policies",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Form Attributes",
+        "HTML Table Structure",
+        "HTML Input Types"
+      ]
+    },
+    "ppt-webdev-html-055": {
+      "pages": [
+        34
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "controls → displays controls such as play, pause, and volume",
+      "blankText": "controls",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Autoplay",
+        "Muted",
+        "Source Attribute"
+      ]
+    },
+    "ppt-webdev-html-056": {
+      "pages": [
+        36
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "The autoplay attribute to starts the audio file automatically.",
+      "blankText": "autoplay",
+      "clarification": "The PDF says “attribute to starts.” Autoplay requests automatic playback, but browser policies can block it, especially for media with audible sound.",
+      "references": [
+        {
+          "label": "MDN: autoplay and browser policies",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Controls",
+        "Muted",
+        "Source Attribute"
+      ]
+    },
+    "ppt-webdev-html-057": {
+      "pages": [
+        36
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "The muted attribute makes the audio or video start without sound.",
+      "blankText": "muted",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Controls",
+        "Autoplay",
+        "Source Attribute"
+      ]
+    },
+    "ppt-webdev-html-058": {
+      "pages": [
+        37
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "The <video> element is used to display and play videos directly on a webpage.",
+      "blankText": "<video>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTML Images",
+        "HTML Audio",
+        "HTML Tables"
+      ]
+    },
+    "ppt-webdev-html-059": {
+      "pages": [
+        38
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "MP4 → video/mp4 → Movies, tutorials, social media, general web video\nWebM → video/webm → Web-based video, websites, streaming\nOGG → video/ogg → Web video, open-source projects, less commonly used",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Audio Media Types",
+        "HTML Input Types",
+        "Types of HTML Lists"
+      ]
+    },
+    "ppt-webdev-html-060": {
+      "pages": [
+        37,
+        39
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "width → Sets the video's width\nheight → Sets the video's height\ncontrols → Adds play, pause, volume, and other controls\nThe autoplay attribute to starts the video file automatically.\nThe muted attribute makes the video start without sound.",
+      "blankText": "",
+      "clarification": "The PDF says “attribute to starts.” Autoplay requests automatic playback, but browser policies can block it, especially for media with audible sound.",
+      "references": [
+        {
+          "label": "MDN: autoplay and browser policies",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Form Attributes",
+        "HTML Table Structure",
+        "HTML Input Types"
+      ]
+    },
+    "ppt-webdev-html-061": {
+      "pages": [
+        37
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "width → Sets the video's width\nheight → Sets the video's height",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Controls",
+        "Autoplay",
+        "Muted"
+      ]
+    },
+    "ppt-webdev-html-062": {
+      "pages": [
+        37
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "controls → Adds play, pause, volume, and other controls",
+      "blankText": "controls",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Width and Height",
+        "Autoplay",
+        "Muted"
+      ]
+    },
+    "ppt-webdev-html-063": {
+      "pages": [
+        39
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "The autoplay attribute to starts the video file automatically.",
+      "blankText": "autoplay",
+      "clarification": "The PDF says “attribute to starts.” Autoplay requests automatic playback, but browser policies can block it, especially for media with audible sound.",
+      "references": [
+        {
+          "label": "MDN: autoplay and browser policies",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Width and Height",
+        "Controls",
+        "Muted"
+      ]
+    },
+    "ppt-webdev-html-064": {
+      "pages": [
+        39
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "The muted attribute makes the video start without sound.",
+      "blankText": "muted",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Width and Height",
+        "Controls",
+        "Autoplay"
+      ]
+    },
+    "ppt-webdev-html-065": {
+      "pages": [
+        44
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "HTML forms are the primary tool used by websites to collect data and input from visitors. Without them, the internet would be a one-way street where you could only read content rather than actively participate.\nForms bridge the gap between user interaction and backend processing, turning static web pages into interactive, dynamic applications.",
+      "blankText": "HTML forms",
+      "clarification": "HTML forms collect and submit data; safe handling also requires server-side validation and appropriate transport/output handling.",
+      "references": [
+        {
+          "label": "W3C WAI: validating input",
+          "url": "https://www.w3.org/WAI/tutorials/forms/validation/"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Semantic HTML",
+        "HTML Tables",
+        "Web Accessibility"
+      ]
+    },
+    "ppt-webdev-html-066": {
+      "pages": [
+        45
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "<form>\n<label for=\"name\">Name:</label>\n<input type=\"text\" id=\"name\" name=\"name\">\n<button type=\"submit\">Submit</button>\n</form>",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Basic HTML5 Document Structure",
+        "HTML Table Structure",
+        "Hyperlink Syntax"
+      ]
+    },
+    "ppt-webdev-html-067": {
+      "pages": [
+        46
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "The wrapper or container for the entire form. It groups all the inputs and buttons together so the browser knows they belong to the same interactive section.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Label Element",
+        "Input Element",
+        "Button Element"
+      ]
+    },
+    "ppt-webdev-html-068": {
+      "pages": [
+        46
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "The text caption for a specific input field. In your code, the for=\"name\" attribute links it directly to the input with id=\"name\". This tells screen readers exactly what the input is for and allows users to click the text to focus on the input field.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Form Element",
+        "Input Element",
+        "Button Element"
+      ]
+    },
+    "ppt-webdev-html-069": {
+      "pages": [
+        47
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "The interactive field where a user types or selects data. The attribute type=\"text\" specifically turns it into a single-line text box.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Form Element",
+        "Label Element",
+        "Button Element"
+      ]
+    },
+    "ppt-webdev-html-070": {
+      "pages": [
+        47
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "The clickable element used to trigger an action. Setting type=\"submit\" tells the browser to process and send the form's collected data when clicked.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Form Element",
+        "Label Element",
+        "Input Element"
+      ]
+    },
+    "ppt-webdev-html-071": {
+      "pages": [
+        48
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "<input type=\"text\">\n<input type=\"password\">\n<input type=\"email\">\n<input type=\"number\">\n<input type=\"date\">\n<input type=\"radio\">\n<input type=\"checkbox\">\n<input type=\"file\">\n<input type=\"submit\">",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Main Features of HTML5",
+        "Common Semantic Elements",
+        "Types of HTML Lists"
+      ]
+    },
+    "ppt-webdev-html-072": {
+      "pages": [
+        49
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Use for general, single-line text inputs that don't fit into a specialized category. Examples include names, usernames, or search terms.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Password Input",
+        "Email Input",
+        "Number Input"
+      ]
+    },
+    "ppt-webdev-html-073": {
+      "pages": [
+        49
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Use whenever a user types sensitive credentials. The browser automatically masks the characters with dots or stars to protect them from onlookers.",
+      "blankText": "",
+      "clarification": "Masking password characters hides them from onlookers; it does not encrypt the submitted value.",
+      "references": [
+        {
+          "label": "MDN: input types and attributes",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Text Input",
+        "Email Input",
+        "Number Input"
+      ]
+    },
+    "ppt-webdev-html-074": {
+      "pages": [
+        49
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Use specifically for gathering email addresses. It forces the browser to validate that the text follows a standard format (e.g., contains an \"@\") and pulls up an optimized keyboard on mobile devices.",
+      "blankText": "",
+      "clarification": "Email input checks syntax, not whether an address exists. Required fields still need the required attribute, and server-side validation remains necessary.",
+      "references": [
+        {
+          "label": "W3C WAI: validating input",
+          "url": "https://www.w3.org/WAI/tutorials/forms/validation/"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Text Input",
+        "Password Input",
+        "Number Input"
+      ]
+    },
+    "ppt-webdev-html-075": {
+      "pages": [
+        50
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Use when you need numerical entries, such as quantities or ages. It rejects non-numeric characters and often provides small arrow buttons to increment or decrement the value.",
+      "blankText": "",
+      "clarification": "Browser controls differ; client-side number constraints do not replace server-side validation.",
+      "references": [
+        {
+          "label": "W3C WAI: validating input",
+          "url": "https://www.w3.org/WAI/tutorials/forms/validation/"
+        },
+        {
+          "label": "MDN: input types and attributes",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Text Input",
+        "Password Input",
+        "Email Input"
+      ]
+    },
+    "ppt-webdev-html-076": {
+      "pages": [
+        50
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Use for scheduling or selecting specific calendar dates. It opens a standardized native calendar picker widget tailored to the user's browser or device.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Text Input",
+        "Password Input",
+        "Email Input"
+      ]
+    },
+    "ppt-webdev-html-077": {
+      "pages": [
+        51
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Use when a user must pick exactly one option from a predefined group (e.g., choosing a shipping method). Selecting one will automatically deselect any other option in that group.",
+      "blankText": "",
+      "clarification": "Radio buttons form a group using the same name; selecting one deselects the other buttons in that group.",
+      "references": [
+        {
+          "label": "MDN: input types and attributes",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Text Input",
+        "Password Input",
+        "Email Input"
+      ]
+    },
+    "ppt-webdev-html-078": {
+      "pages": [
+        51
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Use when a user can select multiple options from a list, or for a single binary choice (e.g., agreeing to terms of service).",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Text Input",
+        "Password Input",
+        "Email Input"
+      ]
+    },
+    "ppt-webdev-html-079": {
+      "pages": [
+        52
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Use when the user needs to upload something from their local device memory, such as photos, documents, or spreadsheets.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Text Input",
+        "Password Input",
+        "Email Input"
+      ]
+    },
+    "ppt-webdev-html-080": {
+      "pages": [
+        52
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Use to create the button that packages all the filled-out form data and sends it over to the server for processing.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Text Input",
+        "Password Input",
+        "Email Input"
+      ]
+    },
+    "ppt-webdev-html-081": {
+      "pages": [
+        53
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "Textarea\nButton\nSelect and Option",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Types of HTML Lists",
+        "HTML Table Structure",
+        "HTML Input Types"
+      ]
+    },
+    "ppt-webdev-html-082": {
+      "pages": [
+        53
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Creates a large, multi-line box where users can type long messages or paragraphs.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Button",
+        "Select and Option",
+        "File Input"
+      ]
+    },
+    "ppt-webdev-html-083": {
+      "pages": [
+        53
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Creates a clickable button that sends the filled-out form data to a server or web page action.",
+      "blankText": "button",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Textarea",
+        "Select and Option",
+        "File Input"
+      ]
+    },
+    "ppt-webdev-html-084": {
+      "pages": [
+        53
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Creates a drop-down menu. The <select> tag is the container, and each <option> tag inside it is a choice the user can pick, like \"Philippines\" or \"Japan\".",
+      "blankText": "<select>;<option>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Textarea",
+        "Button",
+        "File Input"
+      ]
+    },
+    "ppt-webdev-html-085": {
+      "pages": [
+        54,
+        55
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "action\nmethod\nname\nid\nvalue\nplaceholder\nrequired\ndisabled\nreadonly",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Audio Attributes",
+        "HTML Table Structure",
+        "HTML Input Types"
+      ]
+    },
+    "ppt-webdev-html-086": {
+      "pages": [
+        54
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "action: Specifies the URL or file path where the form's data should be sent when submitted.",
+      "blankText": "action",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Method",
+        "Name",
+        "ID"
+      ]
+    },
+    "ppt-webdev-html-087": {
+      "pages": [
+        54
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "method: Defines the HTTP method (typically GET or POST) used to send the form data to the server.",
+      "blankText": "method",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Action",
+        "Name",
+        "ID"
+      ]
+    },
+    "ppt-webdev-html-088": {
+      "pages": [
+        54
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "name: Assigns a unique identifier to the element, which is used as the key when sending the form data to the server.",
+      "blankText": "name:",
+      "clarification": "Form controls can share a name (for example a radio group). A name is a submission key and is not required to be unique.",
+      "references": [
+        {
+          "label": "MDN: input types and attributes",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Action",
+        "Method",
+        "ID"
+      ]
+    },
+    "ppt-webdev-html-089": {
+      "pages": [
+        54
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "id: Provides a completely unique identifier for the element across the entire web page, primarily used for styling with CSS or targeting with JavaScript.",
+      "blankText": "id:",
+      "clarification": "IDs should be unique and are also used for label associations and fragment links, not only styling or JavaScript.",
+      "references": [
+        {
+          "label": "MDN: input types and attributes",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Action",
+        "Method",
+        "Name"
+      ]
+    },
+    "ppt-webdev-html-090": {
+      "pages": [
+        54
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "value: Sets the initial or current content inside an input field.",
+      "blankText": "value:",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Action",
+        "Method",
+        "Name"
+      ]
+    },
+    "ppt-webdev-html-091": {
+      "pages": [
+        55
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "placeholder: Displays a faint, temporary hint or example text inside an empty input field before the user starts typing.",
+      "blankText": "placeholder",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Action",
+        "Method",
+        "Name"
+      ]
+    },
+    "ppt-webdev-html-092": {
+      "pages": [
+        55
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "required: Forces the user to fill out or select the field before they are allowed to submit the form.",
+      "blankText": "required",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Action",
+        "Method",
+        "Name"
+      ]
+    },
+    "ppt-webdev-html-093": {
+      "pages": [
+        55
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "disabled: Shuts down the element so the user cannot interact with it, and prevents its value from being submitted with the form.",
+      "blankText": "disabled",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Action",
+        "Method",
+        "Name"
+      ]
+    },
+    "ppt-webdev-html-094": {
+      "pages": [
+        55
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "readonly: Allows the user to see and select the text inside a field but prevents them from changing it, while still allowing the value to be submitted.",
+      "blankText": "readonly",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Action",
+        "Method",
+        "Name"
+      ]
+    },
+    "ppt-webdev-html-095": {
+      "pages": [
+        56,
+        57
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "required\nEnsures a field cannot be left blank before submission.\nmin / max\nSets lower and upper numeric or date limits for number/range/date inputs.\npattern\nRestricts text to letters only (uppercase and lowercase) using a regular expression pattern.\nminlength and maxlength\nRestricts the minimum and maximum character lengths for text strings.\ntype=\"email\"\nAutomatically validates that the entered text follows a standard email format",
+      "blankText": "",
+      "clarification": "The letters-only restriction comes from the particular [A-Za-z]+ pattern shown in the slide; pattern validation can express other rules.",
+      "references": [
+        {
+          "label": "W3C WAI: validating input",
+          "url": "https://www.w3.org/WAI/tutorials/forms/validation/"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTML Input Types",
+        "Types of HTML Lists",
+        "Basic Accessibility Principles"
+      ]
+    },
+    "ppt-webdev-html-096": {
+      "pages": [
+        56
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Ensures a field cannot be left blank before submission.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Minimum and Maximum Values",
+        "Pattern Validation",
+        "Minimum and Maximum Length"
+      ]
+    },
+    "ppt-webdev-html-097": {
+      "pages": [
+        56
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Sets lower and upper numeric or date limits for number/range/date inputs.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Required Validation",
+        "Pattern Validation",
+        "Minimum and Maximum Length"
+      ]
+    },
+    "ppt-webdev-html-098": {
+      "pages": [
+        56
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Restricts text to letters only (uppercase and lowercase) using a regular expression pattern.",
+      "blankText": "pattern",
+      "clarification": "This describes the slide’s specific [A-Za-z]+ example, not every possible pattern value.",
+      "references": [
+        {
+          "label": "W3C WAI: validating input",
+          "url": "https://www.w3.org/WAI/tutorials/forms/validation/"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Required Validation",
+        "Minimum and Maximum Values",
+        "Minimum and Maximum Length"
+      ]
+    },
+    "ppt-webdev-html-099": {
+      "pages": [
+        56
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Restricts the minimum and maximum character lengths for text strings.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Required Validation",
+        "Minimum and Maximum Values",
+        "Pattern Validation"
+      ]
+    },
+    "ppt-webdev-html-100": {
+      "pages": [
+        57
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Automatically validates that the entered text follows a standard email format",
+      "blankText": "",
+      "clarification": "This is a syntax check. It does not establish that the email address exists or can receive messages.",
+      "references": [
+        {
+          "label": "W3C WAI: validating input",
+          "url": "https://www.w3.org/WAI/tutorials/forms/validation/"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Required Validation",
+        "Minimum and Maximum Values",
+        "Pattern Validation"
+      ]
+    },
+    "ppt-webdev-html-101": {
+      "pages": [
+        58
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "HTML5 provide basic client-side validation without JavaScript by using declarative attributes and semantic input types directly in markup, eliminating the need for JavaScript for standard checks.\nWhen a user submits a form, the browser automatically checks the input elements against specified constraint rules. If any field fails validation, the browser blocks submission and displays a native error bubble.",
+      "blankText": "client-side validation",
+      "clarification": "The source says “HTML5 provide.” Client-side validation can be bypassed and is not a replacement for server-side validation.",
+      "references": [
+        {
+          "label": "W3C WAI: validating input",
+          "url": "https://www.w3.org/WAI/tutorials/forms/validation/"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTML Input Types",
+        "Types of HTML Lists",
+        "Basic Accessibility Principles"
+      ]
+    },
+    "ppt-webdev-html-102": {
+      "pages": [
+        59
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "Proper <label> usage\nDescriptive labels\nRequired fields\nClear instructions\nAppropriate input types\nError messages\nKeyboard accessibility",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Assistive Technologies",
+        "Accessible Links",
+        "HTML Tables"
+      ]
+    },
+    "ppt-webdev-html-103": {
+      "pages": [
+        67
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Web Accessibility refers to the design and development of websites that can be accessed, understood, navigated, and used by all individuals, including persons with disabilities.",
+      "blankText": "Web Accessibility",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Assistive Technologies",
+        "Semantic HTML",
+        "SEO (Search Engine Optimization)"
+      ]
+    },
+    "ppt-webdev-html-104": {
+      "pages": [
+        67
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "Ensures equal access to online information and services.\nProvides a more inclusive and usable web experience.\nSupports users with different abilities and needs.\nEnables compatibility with assistive technologies.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Importance of SEO",
+        "Types of HTML Lists",
+        "HTML Input Types"
+      ]
+    },
+    "ppt-webdev-html-105": {
+      "pages": [
+        67
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Assistive technologies are tools that help individuals interact with digital content.\nScreen Readers – software that converts on-screen text and information into speech or Braille.",
+      "blankText": "Assistive technologies",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Accessible Forms",
+        "Web Accessibility",
+        "Accessible Links"
+      ]
+    },
+    "ppt-webdev-html-106": {
+      "pages": [
+        68
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "Keyboard Accessibility\nClear Content Structure\nMeaningful Links\nAlternative Text\nProper Headings\nAccessible Forms\nText Readability and Contrast",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTML, CSS, and JavaScript",
+        "Basic HTML5 Document Structure",
+        "HTML Elements Related to SEO"
+      ]
+    },
+    "ppt-webdev-html-107": {
+      "pages": [
+        68
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Keyboard Accessibility - Websites should be fully navigable and operable using a keyboard.",
+      "blankText": "Keyboard Accessibility",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Clear Content Structure",
+        "Meaningful Links",
+        "Alternative Text"
+      ]
+    },
+    "ppt-webdev-html-108": {
+      "pages": [
+        68
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Clear Content Structure - Content should be logically organized and presented in an understandable manner.",
+      "blankText": "Clear Content Structure",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Keyboard Accessibility",
+        "Meaningful Links",
+        "Alternative Text"
+      ]
+    },
+    "ppt-webdev-html-109": {
+      "pages": [
+        68
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Meaningful Links - Link text should clearly indicate its destination or purpose.",
+      "blankText": "Meaningful Links",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Keyboard Accessibility",
+        "Clear Content Structure",
+        "Alternative Text"
+      ]
+    },
+    "ppt-webdev-html-110": {
+      "pages": [
+        68
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Alternative Text - Meaningful images should have appropriate text descriptions.",
+      "blankText": "Alternative Text",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Keyboard Accessibility",
+        "Clear Content Structure",
+        "Meaningful Links"
+      ]
+    },
+    "ppt-webdev-html-111": {
+      "pages": [
+        68
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Proper Headings - Headings should follow a logical hierarchy to organize page content.",
+      "blankText": "Proper Headings",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Keyboard Accessibility",
+        "Clear Content Structure",
+        "Meaningful Links"
+      ]
+    },
+    "ppt-webdev-html-112": {
+      "pages": [
+        68
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Accessible Forms - Forms should provide clear labels, instructions, required fields, and error messages.",
+      "blankText": "Accessible Forms",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Keyboard Accessibility",
+        "Clear Content Structure",
+        "Meaningful Links"
+      ]
+    },
+    "ppt-webdev-html-113": {
+      "pages": [
+        68
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Text Readability and Contrast - Text should be sufficiently readable and have adequate contrast with its background.",
+      "blankText": "Text Readability and Contrast",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Keyboard Accessibility",
+        "Clear Content Structure",
+        "Meaningful Links"
+      ]
+    },
+    "ppt-webdev-html-114": {
+      "pages": [
+        69
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Headings should be used to establish structure and meaning, not merely to increase the visual size of text.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Alternative Text (Alt Text)",
+        "Accessible Links",
+        "Accessibility and Forms"
+      ]
+    },
+    "ppt-webdev-html-115": {
+      "pages": [
+        69
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "<h1> – identifies the main topic or title of the page.\n<h2> – identifies major sections.\n<h3> – identifies subsections under an <h2>.\n<h4> to <h6> – provide additional levels of organization when necessary.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Types of HTML Lists",
+        "HTML Input Types",
+        "Form Attributes"
+      ]
+    },
+    "ppt-webdev-html-116": {
+      "pages": [
+        70
+      ],
+      "contentKind": "definition",
+      "questionStyle": "identify",
+      "pdfWording": "It is a textual description associated with an image that communicates its relevant purpose or meaning.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Accessible Links",
+        "Assistive Technologies",
+        "Web Accessibility"
+      ]
+    },
+    "ppt-webdev-html-117": {
+      "pages": [
+        70
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Descriptive alt text should be provided when an image:\nContains important information.\nCommunicates a specific meaning.\nSupports or contributes to the surrounding content.",
+      "blankText": "Descriptive alt text",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Decorative Images",
+        "Accessible Links",
+        "Accessibility and Forms"
+      ]
+    },
+    "ppt-webdev-html-118": {
+      "pages": [
+        70
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Images that are purely decorative and provide no meaningful information may use:\nalt=\"\"\nThis allows assistive technologies to ignore the decorative image.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Descriptive Alt Text",
+        "Accessible Links",
+        "Accessibility and Forms"
+      ]
+    },
+    "ppt-webdev-html-119": {
+      "pages": [
+        71
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "It is a textual description associated with an image that communicates its relevant purpose or meaning.\nMeaningful link text:\nClearly communicates the purpose of a link.\nHelps users understand where the link leads.\nAllows screen-reader users to understand links independently of surrounding text.\nImproves website navigation and usability.",
+      "blankText": "",
+      "clarification": "The opening sentence on this slide repeats the alternative-text definition. Practice uses the meaningful-link bullets, not that incorrect opening sentence.",
+      "references": [
+        {
+          "label": "W3C WAI: page structure",
+          "url": "https://www.w3.org/WAI/tutorials/page-structure/"
+        }
+      ],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "practiceWording": "Meaningful link text:\nClearly communicates the purpose of a link.\nHelps users understand where the link leads.\nAllows screen-reader users to understand links independently of surrounding text.\nImproves website navigation and usability.",
+      "distractors": [
+        "Accessible Forms",
+        "Web Accessibility",
+        "Assistive Technologies"
+      ]
+    },
+    "ppt-webdev-html-120": {
+      "pages": [
+        72
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Forms should be designed so that users can understand the required information and complete the form successfully.\nTo make forms clear, predictable, accessible, and easy to complete.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Assistive Technologies",
+        "Accessible Links",
+        "Alternative Text (Alt Text)"
+      ]
+    },
+    "ppt-webdev-html-121": {
+      "pages": [
+        72
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Labels - Each input field should have a clear and descriptive label.",
+      "blankText": "Labels",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Required Fields",
+        "Clear Instructions",
+        "Error Identification"
+      ]
+    },
+    "ppt-webdev-html-122": {
+      "pages": [
+        72
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Required Fields - Required information should be clearly identified.",
+      "blankText": "Required Fields",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Labels",
+        "Clear Instructions",
+        "Error Identification"
+      ]
+    },
+    "ppt-webdev-html-123": {
+      "pages": [
+        72
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Clear Instructions - Users should be provided with understandable instructions regarding the expected information or format.",
+      "blankText": "Clear Instructions",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Labels",
+        "Required Fields",
+        "Error Identification"
+      ]
+    },
+    "ppt-webdev-html-124": {
+      "pages": [
+        72
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Error Identification - Errors should be clearly identified and accompanied by useful information on how to correct them.",
+      "blankText": "Error Identification",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Labels",
+        "Required Fields",
+        "Clear Instructions"
+      ]
+    },
+    "ppt-webdev-html-125": {
+      "pages": [
+        72
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Keyboard Navigation -Users should be able to move between form controls and complete the form using a keyboard.",
+      "blankText": "Keyboard Navigation",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Labels",
+        "Required Fields",
+        "Clear Instructions"
+      ]
+    },
+    "ppt-webdev-html-126": {
+      "pages": [
+        73
+      ],
+      "contentKind": "definition",
+      "questionStyle": "fill-blank",
+      "pdfWording": "SEO (Search Engine Optimization) is the process of improving a website so that search engines can effectively discover, understand, and index its conten",
+      "blankText": "SEO (Search Engine Optimization)",
+      "clarification": "The original slide ends with “conten”; the intended word is content.",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Web Accessibility",
+        "Semantic HTML",
+        "HTML Tables"
+      ]
+    },
+    "ppt-webdev-html-127": {
+      "pages": [
+        73
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "Improves the discoverability of webpages.\nHelps search engines understand website content.\nOrganizes information in a clear and meaningful manner.\nHelps relevant content become easier for users to find.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Importance of Web Accessibility",
+        "Types of HTML Lists",
+        "HTML Input Types"
+      ]
+    },
+    "ppt-webdev-html-128": {
+      "pages": [
+        74
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "heading",
+      "pdfWording": "<title>\n<meta>\nHeadings\nSemantic Elements\nDescriptive Links\nAlternative Text\nMeaningful Page Content",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "HTML, CSS, and JavaScript",
+        "Basic HTML5 Document Structure",
+        "Basic Accessibility Principles"
+      ]
+    },
+    "ppt-webdev-html-129": {
+      "pages": [
+        74
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Headings - Elements such as <h1>, <h2>, and <h3> organize and structure page content.",
+      "blankText": "Headings",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Semantic Elements",
+        "Descriptive Links",
+        "Alternative Text"
+      ]
+    },
+    "ppt-webdev-html-130": {
+      "pages": [
+        74
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Semantic Elements - Elements such as <header>, <nav>, <main>, <section>, <article>, and <footer> communicate the meaning and structure of different parts of a webpage.",
+      "blankText": "Semantic Elements",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Headings",
+        "Descriptive Links",
+        "Alternative Text"
+      ]
+    },
+    "ppt-webdev-html-131": {
+      "pages": [
+        74
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Descriptive Links - Clearly describe the destination or purpose of links.",
+      "blankText": "Descriptive Links",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Headings",
+        "Semantic Elements",
+        "Alternative Text"
+      ]
+    },
+    "ppt-webdev-html-132": {
+      "pages": [
+        74
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Alternative Text - Provides textual descriptions for meaningful images.",
+      "blankText": "Alternative Text",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Headings",
+        "Semantic Elements",
+        "Descriptive Links"
+      ]
+    },
+    "ppt-webdev-html-133": {
+      "pages": [
+        74
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "Meaningful Page Content - Clear, relevant, and well-structured content helps search engines interpret the subject and purpose of a webpage.",
+      "blankText": "Meaningful Page Content",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Headings",
+        "Semantic Elements",
+        "Descriptive Links"
+      ]
+    },
+    "ppt-webdev-html-134": {
+      "pages": [
+        74
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<title>\nDefines the title of a webpage and provides information about the page topic.",
+      "blankText": "<title>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Headings",
+        "Semantic Elements",
+        "Descriptive Links"
+      ]
+    },
+    "ppt-webdev-html-135": {
+      "pages": [
+        74
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "fill-blank",
+      "pdfWording": "<meta>\nProvides additional information about the webpage.",
+      "blankText": "<meta>",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Headings",
+        "Semantic Elements",
+        "Descriptive Links"
+      ]
+    },
+    "ppt-webdev-html-136": {
+      "pages": [
+        75
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "A descriptive title:\nHelps users identify the purpose of a webpage.\nProvides search engines with information about the page topic.\nMakes webpage content more understandable and identifiable.",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Proper Heading Hierarchy",
+        "Basic Accessibility Principles",
+        "HTML5 Form Validation"
+      ]
+    },
+    "ppt-webdev-html-137": {
+      "pages": [
+        76
+      ],
+      "contentKind": "slide-excerpt",
+      "questionStyle": "identify",
+      "pdfWording": "Semantic HTML\n↓\nClearer document structure\n↓\nBetter accessibility\n↓\nBetter understanding by search engines\n↓\nBetter overall web experience",
+      "blankText": "",
+      "clarification": "",
+      "references": [],
+      "reviewed": true,
+      "distractorsReviewed": true,
+      "distractors": [
+        "Basic HTML5 Document Structure",
+        "HTML5 Form Validation",
+        "Proper Heading Hierarchy"
+      ],
+      "questionLead": "Which relationship is shown by this slide’s diagram?"
+    }
+  }
+}

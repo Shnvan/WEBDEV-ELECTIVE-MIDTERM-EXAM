@@ -1,0 +1,32 @@
+[
+  {
+    "id": "webdev-php",
+    "subject": "webdev",
+    "label": "Group 5 · PHP Fundamentals",
+    "filename": "Group 5 - PHP FUNDAMENTALS.pdf",
+    "pages": 69,
+    "sha256": "cce5d1caa9c0c82ca9c268322ade0364903e47e4ed3508446a77d4b4235e7a42",
+    "section": "3-4",
+    "sectionBasis": "Matches the existing BSIT 3-4 Group 5 PHP, Group 9 CSS and Group 2 HTML quiz topics."
+  },
+  {
+    "id": "webdev-css",
+    "subject": "webdev",
+    "label": "Group 9 · CSS3 & Responsive Design",
+    "filename": "Group 9 - CSS3 & Responsive Design.pdf",
+    "pages": 15,
+    "sha256": "19001aae55f2a5641a3b82371ba8edd2100e1908d79c2a71158ab41b291193ae",
+    "section": "3-4",
+    "sectionBasis": "Matches the existing BSIT 3-4 Group 5 PHP, Group 9 CSS and Group 2 HTML quiz topics."
+  },
+  {
+    "id": "webdev-html",
+    "subject": "webdev",
+    "label": "Group 2 · HTML, Accessibility & SEO",
+    "filename": "Group 2 - Web Dev Reporting.pdf",
+    "pages": 77,
+    "sha256": "a2a2dd35505bd6209ead119039bd73a12d3c53a13e93f9977acd70387be44336",
+    "section": "3-4",
+    "sectionBasis": "Matches the existing BSIT 3-4 Group 5 PHP, Group 9 CSS and Group 2 HTML quiz topics."
+  }
+]

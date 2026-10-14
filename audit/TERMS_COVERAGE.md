@@ -1,12 +1,12 @@
 # Elective PPT term coverage
 
-230 entries from the supplied main-term list, across 13 topics and 3 PDFs. Every entry was manually compared with the PDF text; 50 column, table, diagram and formula pages were checked visually, plus supplemental layout checks. PDF wording retains original spelling and statements. Line wrapping, letter spacing, table separators and diagram/formula layout are transcribed for readable text. Only answer text is blanked in practice. Clarifications are separate from quotations. Repeated names remain in their topic contexts.
+230 supplied-list entries · 13 topics · 3 PDFs. All entries were manually compared with the source text; 58 rendered pages were inspected for columns, tables, diagrams, formulas or annotated code. Original spelling and statements are preserved. Line wrapping, letter spacing, table separators and diagram/code layout are transcribed into readable text. Clarifications are separate from quotations. Repeated terms retain their original contexts.
 
-All questions are multiple choice: 107 identification, 74 fill-in-the-blank, and 49 slide-heading identification. Choices were reviewed for answer ambiguity. This source comparison is separate from application tests.
+All questions are four-choice multiple choice: 107 identification, 74 fill-in-the-blank and 49 slide-heading identification. Manually selected choices avoid competing synonyms or broad/specific versions of the same concept. Source review is separate from application tests.
 
-Progress compatibility explicitly maps the previous bank (terms-v1-ee458ebfc423) by stable ID, prior signature, answer meaning and prior choices. Checked wrong choices removed from the new options remain visible as historical responses; unmappable drafts reopen.
+Each subject has three supplied presentations matching the BSIT 3-4 reported groups. All sections currently uses the same available decks for that subject; other sections’ presentations have not been supplied.
 
-The three supplied presentations match the BSIT 3-4 reported groups. All sections currently uses these available decks too; other sections’ presentations have not been supplied.
+Existing Elective IDs, question signatures and compatibility mappings are retained. New WebDev entries have independent IDs and subject-specific progress positions. Quiz-compilation progress remains separate.
 
 ## Group 3 · Audio Classification
 
@@ -153,6 +153,8 @@ _______ - which acts as our activation function
 Choices: A. ReLU Function [answer] · B. Input Layer · C. Convolutional Layer · D. Pooling Layers
 
 Correction / clarification: ReLU means Rectified Linear Unit; f(x) = max(0, x).
+
+Reference: [Keras: ReLU](https://keras.io/api/layers/activation_layers/relu/)
 
 #### 9. Pooling Layers (ppt-audio-009)
 
@@ -559,6 +561,8 @@ CAPTURING THE SOUND'S SPECTRAL ENVELOPE IS A COMMON TECHNIQUE IN SPEECH AND MUSI
 Choices: A. Spectral Features · B. MFCCs [answer] · C. Zero-Crossing Rate · D. Chroma Features
 
 Correction / clarification: MFCCs stands for Mel-Frequency Cepstral Coefficients. Page 36 spells the heading “MEL-FREQUECY CAPSTRAL COEFFICIENTS”; the original description is retained.
+
+Reference: [librosa: MFCCs](https://librosa.org/doc/0.11.0/generated/librosa.feature.mfcc.html)
 
 #### 31. Spectral Features (ppt-audio-031)
 
@@ -2330,6 +2334,8 @@ Choices: A. Accuracy [answer] · B. Precision · C. Recall · D. F1-Score
 
 Correction / clarification: Accuracy = (TP + TN) / (TP + TN + FP + FN).
 
+Reference: [scikit-learn: model evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html)
+
 #### 121. Precision (ppt-images-073)
 
 PDF pages: 75 · definition · fill-blank
@@ -2354,6 +2360,8 @@ Choices: A. Accuracy · B. Recall · C. Precision [answer] · D. F1-Score
 
 Correction / clarification: Precision = TP / (TP + FP).
 
+Reference: [scikit-learn: model evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html)
+
 #### 122. Recall (ppt-images-074)
 
 PDF pages: 77 · definition · fill-blank
@@ -2377,6 +2385,8 @@ _______ = TP / (TP + FN)
 Choices: A. Accuracy · B. Recall [answer] · C. Precision · D. F1-Score
 
 Correction / clarification: Recall = TP / (TP + FN).
+
+Reference: [scikit-learn: model evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html)
 
 #### 123. F1-Score (ppt-images-075)
 
@@ -2403,6 +2413,8 @@ OR _______ = 2TP / (2TP + FP + FN)
 Choices: A. Accuracy · B. Precision · C. Recall · D. F1-Score [answer]
 
 Correction / clarification: The main F1 formulas on the slide are correct. Its separate “Why?” graphic uses a plus sign between precision and recall; a sum is not the harmonic mean.
+
+Reference: [scikit-learn: model evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html)
 
 #### 124. Bias-Variance Tradeoff (ppt-images-076)
 
@@ -3748,6 +3760,8 @@ Choices: A. Standardization · B. Label Encoding · C. One-Hot Encoding · D. No
 
 Correction / clarification: x_scaled = (x - min) / (max - min). Handle a constant feature separately. Fit scaling parameters on training data.
 
+Reference: [scikit-learn: preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)
+
 #### 189. Standardization (ppt-datasets-052)
 
 PDF pages: 47 · definition · identify
@@ -3767,6 +3781,8 @@ Z = (X − μ) / σ
 Choices: A. Normalization · B. Label Encoding · C. One-Hot Encoding · D. Standardization [answer]
 
 Correction / clarification: The PDF spells “standarized.” Standardization does not make a distribution Gaussian, and SVMs or linear regression do not generally require Gaussian input features.
+
+Reference: [scikit-learn: preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)
 
 #### 190. Encoding Categorical Data (ppt-datasets-053)
 
@@ -3808,6 +3824,8 @@ Choices: A. Scaling · B. Label Encoding [answer] · C. Normalization · D. Stan
 
 Correction / clarification: Integer codes can suggest an ordering to some models; choose encoding appropriate to the data and model.
 
+Reference: [scikit-learn: preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)
+
 #### 192. One-Hot Encoding (ppt-datasets-055)
 
 PDF pages: 49 · definition · identify
@@ -3823,6 +3841,8 @@ What term is described?
 Creating a separate binary column (0 or 1) for every unique category in a feature, preventing algorithms from assuming a non-existent rank between unordered nominal categories.
 
 Choices: A. Scaling · B. One-Hot Encoding [answer] · C. Normalization · D. Standardization
+
+Reference: [scikit-learn: preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)
 
 #### 193. Feature Selection (ppt-datasets-056)
 
@@ -4068,6 +4088,8 @@ Choices: A. Histograms · B. Bar Graphs · C. Scatter Plots · D. Box Plots [ans
 
 Correction / clarification: The slide illustrates minimum/maximum whiskers. Other conventions, such as Tukey's 1.5-IQR rule, use different whisker endpoints.
 
+Reference: [Matplotlib: box plots](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html)
+
 #### 205. Scatter Plots (ppt-datasets-068)
 
 PDF pages: 68 · definition · identify
@@ -4111,6 +4133,8 @@ Negative _______: One variable increases while the other decreases.
 Choices: A. Correlation [answer] · B. Cross-Tabulation · C. Covariance · D. Spatial Analysis
 
 Correction / clarification: For Pearson correlation, zero means no linear association, not necessarily no relationship. Association alone does not establish causation.
+
+Reference: [SciPy: Pearson correlation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.pearsonr.html)
 
 #### 207. Cross-Tabulation (ppt-datasets-070)
 
@@ -4563,4 +4587,6 @@ R (Coefficient of Determination): Proportion of variance in the target explained
 Choices: A. Classification Metrics · B. Regression Metrics [answer] · C. Types of EDA · D. Data Quality Considerations
 
 Correction / clarification: The PDF omits the square in MSE: the correct formula is MSE = (1/n) Σ(yᵢ − ŷᵢ)². RMSE = sqrt(MSE). Coefficient of determination is R², and it can be negative; it is not always limited to 0–1.
+
+Reference: [scikit-learn: model evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html)
 

@@ -1,0 +1,3075 @@
+{
+  "topics": [
+    {
+      "id": "webdev-php-1",
+      "sourceId": "webdev-php",
+      "subject": "webdev",
+      "title": "PHP Syntax"
+    },
+    {
+      "id": "webdev-php-2",
+      "sourceId": "webdev-php",
+      "subject": "webdev",
+      "title": "Control Structures"
+    },
+    {
+      "id": "webdev-php-3",
+      "sourceId": "webdev-php",
+      "subject": "webdev",
+      "title": "Functions and Arrays"
+    },
+    {
+      "id": "webdev-php-4",
+      "sourceId": "webdev-php",
+      "subject": "webdev",
+      "title": "GET and POST"
+    },
+    {
+      "id": "webdev-php-5",
+      "sourceId": "webdev-php",
+      "subject": "webdev",
+      "title": "PHP Sessions"
+    },
+    {
+      "id": "webdev-php-6",
+      "sourceId": "webdev-php",
+      "subject": "webdev",
+      "title": "Classes, Objects, and Namespaces"
+    },
+    {
+      "id": "webdev-php-7",
+      "sourceId": "webdev-php",
+      "subject": "webdev",
+      "title": "Exception Handling"
+    },
+    {
+      "id": "webdev-php-8",
+      "sourceId": "webdev-php",
+      "subject": "webdev",
+      "title": "Input Handling"
+    },
+    {
+      "id": "webdev-css-1",
+      "sourceId": "webdev-css",
+      "subject": "webdev",
+      "title": "The Cascade and Specificity"
+    },
+    {
+      "id": "webdev-css-2",
+      "sourceId": "webdev-css",
+      "subject": "webdev",
+      "title": "The Box Model"
+    },
+    {
+      "id": "webdev-css-3",
+      "sourceId": "webdev-css",
+      "subject": "webdev",
+      "title": "Flexbox"
+    },
+    {
+      "id": "webdev-css-4",
+      "sourceId": "webdev-css",
+      "subject": "webdev",
+      "title": "CSS Grid"
+    },
+    {
+      "id": "webdev-css-5",
+      "sourceId": "webdev-css",
+      "subject": "webdev",
+      "title": "Media Queries and Responsive Design"
+    },
+    {
+      "id": "webdev-css-6",
+      "sourceId": "webdev-css",
+      "subject": "webdev",
+      "title": "CSS Frameworks"
+    },
+    {
+      "id": "webdev-html-1",
+      "sourceId": "webdev-html",
+      "subject": "webdev",
+      "title": "Introduction to HTML5"
+    },
+    {
+      "id": "webdev-html-2",
+      "sourceId": "webdev-html",
+      "subject": "webdev",
+      "title": "Links, Lists, Tables, and Media"
+    },
+    {
+      "id": "webdev-html-3",
+      "sourceId": "webdev-html",
+      "subject": "webdev",
+      "title": "HTML Forms"
+    },
+    {
+      "id": "webdev-html-4",
+      "sourceId": "webdev-html",
+      "subject": "webdev",
+      "title": "Web Accessibility"
+    },
+    {
+      "id": "webdev-html-5",
+      "sourceId": "webdev-html",
+      "subject": "webdev",
+      "title": "Search Engine Optimization"
+    }
+  ],
+  "terms": [
+    {
+      "id": "ppt-webdev-php-001",
+      "term": "PHP Syntax",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-1",
+      "pages": [
+        14,
+        15
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-002",
+      "term": "Basic PHP Syntax",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-1",
+      "pages": [
+        16
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-003",
+      "term": "PHP Opening and Closing Tags",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-1",
+      "pages": [
+        16
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-004",
+      "term": "Variables",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-1",
+      "pages": [
+        16
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-005",
+      "term": "Output Statements",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-1",
+      "pages": [
+        16
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-006",
+      "term": "Variables",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-1",
+      "pages": [
+        17
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-007",
+      "term": "String",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-1",
+      "pages": [
+        17
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-008",
+      "term": "Integer",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-1",
+      "pages": [
+        17
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-009",
+      "term": "Float",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-1",
+      "pages": [
+        17
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-010",
+      "term": "Operators",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-1",
+      "pages": [
+        18,
+        19
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-011",
+      "term": "Comparison Operators",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-1",
+      "pages": [
+        18,
+        19
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-012",
+      "term": "Control Structures",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        20
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-013",
+      "term": "Conditional Statements",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        21,
+        22
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-014",
+      "term": "If",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        21,
+        22
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-015",
+      "term": "Else",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        21,
+        22
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-016",
+      "term": "Elseif",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        21,
+        22
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-017",
+      "term": "Switch Statement",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        23
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-018",
+      "term": "Case",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        23
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-019",
+      "term": "Break",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        23
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-020",
+      "term": "Default",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        23
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-021",
+      "term": "Loops",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-022",
+      "term": "For Loop",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        25,
+        26
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-023",
+      "term": "While Loop",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        27
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-024",
+      "term": "Do-While Loop",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        28
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-025",
+      "term": "Components of a For Loop",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        25
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-026",
+      "term": "Initialization",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        25
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-027",
+      "term": "Condition",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        25
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-028",
+      "term": "Increment / Decrement",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-2",
+      "pages": [
+        25
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-029",
+      "term": "PHP Functions",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-3",
+      "pages": [
+        30
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-030",
+      "term": "Built-in Functions",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-3",
+      "pages": [
+        30
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-031",
+      "term": "User-Defined Functions",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-3",
+      "pages": [
+        30
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-032",
+      "term": "PHP Arrays",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-3",
+      "pages": [
+        32
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-033",
+      "term": "Indexed Arrays",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-3",
+      "pages": [
+        32
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-034",
+      "term": "Associative Arrays",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-3",
+      "pages": [
+        32
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-035",
+      "term": "Multidimensional Arrays",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-3",
+      "pages": [
+        32
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-036",
+      "term": "HTTP Request Methods",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-4",
+      "pages": [
+        35
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-037",
+      "term": "GET Method",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-4",
+      "pages": [
+        35
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-038",
+      "term": "POST Method",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-4",
+      "pages": [
+        35
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-039",
+      "term": "GET vs. POST",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-4",
+      "pages": [
+        38
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-040",
+      "term": "PHP Sessions",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-5",
+      "pages": [
+        40
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-041",
+      "term": "Purpose of Sessions",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-5",
+      "pages": [
+        40
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-042",
+      "term": "Session Lifecycle",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-5",
+      "pages": [
+        41
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-043",
+      "term": "Session Start",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-5",
+      "pages": [
+        41
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-044",
+      "term": "Session Storage",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-5",
+      "pages": [
+        41
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-045",
+      "term": "Session End",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-5",
+      "pages": [
+        41
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-046",
+      "term": "Session Functions",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-5",
+      "pages": [
+        42
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-047",
+      "term": "session_start()",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-5",
+      "pages": [
+        42
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-048",
+      "term": "session_destroy()",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-5",
+      "pages": [
+        42
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-049",
+      "term": "PHP Classes",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        44
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-050",
+      "term": "Types of PHP Classes",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        45
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-051",
+      "term": "User-Defined Classes",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        45
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-052",
+      "term": "Built-in Classes",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        45
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-053",
+      "term": "Abstract Classes",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        45
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-054",
+      "term": "Final Classes",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        45
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-055",
+      "term": "Readonly Classes",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        45
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-056",
+      "term": "Anonymous Classes",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        45
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-057",
+      "term": "PHP Objects",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        46
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-058",
+      "term": "Types of PHP Objects",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        46
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-059",
+      "term": "User-Defined Objects",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        46
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-060",
+      "term": "Built-in Objects",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        46
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-061",
+      "term": "Anonymous Objects",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        46
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-062",
+      "term": "PHP Namespaces",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        48
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-063",
+      "term": "User-Defined Namespaces",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        48
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-064",
+      "term": "Built-in Namespaces",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        48
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-065",
+      "term": "Global Namespace",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-6",
+      "pages": [
+        48
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-066",
+      "term": "Exceptions",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-7",
+      "pages": [
+        49,
+        50
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-067",
+      "term": "Exception Handling Keywords",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-7",
+      "pages": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-068",
+      "term": "Throw",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-7",
+      "pages": [
+        51
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-069",
+      "term": "Try",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-7",
+      "pages": [
+        52
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-070",
+      "term": "Catch",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-7",
+      "pages": [
+        53
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-071",
+      "term": "Finally",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-7",
+      "pages": [
+        54
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-072",
+      "term": "Input Handling",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-8",
+      "pages": [
+        64,
+        65
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-073",
+      "term": "Steps of Input Handling",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-8",
+      "pages": [
+        65
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-php-074",
+      "term": "Receive Input",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-8",
+      "pages": [
+        65
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-075",
+      "term": "Prepare Input",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-8",
+      "pages": [
+        65
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-076",
+      "term": "Validate Input",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-8",
+      "pages": [
+        65
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-077",
+      "term": "Process Input",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-8",
+      "pages": [
+        65
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-078",
+      "term": "Display the Result",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-8",
+      "pages": [
+        65
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-php-079",
+      "term": "Important Input Handling Functions",
+      "subject": "webdev",
+      "sourceId": "webdev-php",
+      "topicId": "webdev-php-8",
+      "pages": [
+        66
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-001",
+      "term": "CSS Cascade",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-1",
+      "pages": [
+        4
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-002",
+      "term": "CSS Specificity",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-1",
+      "pages": [
+        4,
+        5
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-003",
+      "term": "Factors That Determine Which CSS Rule Wins",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-1",
+      "pages": [
+        4
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-004",
+      "term": "Importance",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-1",
+      "pages": [
+        4
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-005",
+      "term": "Specificity",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-1",
+      "pages": [
+        4
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-006",
+      "term": "Source Order",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-1",
+      "pages": [
+        4
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-007",
+      "term": "Selector Specificity",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-1",
+      "pages": [
+        4
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-008",
+      "term": "Inline Styles",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-1",
+      "pages": [
+        4
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-009",
+      "term": "ID Selectors",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-1",
+      "pages": [
+        4
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-010",
+      "term": "Class / Attribute Selectors",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-1",
+      "pages": [
+        4
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-011",
+      "term": "Element Selectors",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-1",
+      "pages": [
+        4
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-012",
+      "term": "CSS Box Model",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-2",
+      "pages": [
+        6
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-013",
+      "term": "Components of the Box Model",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-2",
+      "pages": [
+        6
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-014",
+      "term": "Content",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-2",
+      "pages": [
+        6
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-015",
+      "term": "Padding",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-2",
+      "pages": [
+        6
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-016",
+      "term": "Border",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-2",
+      "pages": [
+        6
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-017",
+      "term": "Margin",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-2",
+      "pages": [
+        6
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-018",
+      "term": "Flexbox",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-3",
+      "pages": [
+        8
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-019",
+      "term": "One-Dimensional Layout",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-3",
+      "pages": [
+        8
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-020",
+      "term": "Flexbox Key Properties",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-3",
+      "pages": [
+        9
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-021",
+      "term": "Flex Direction",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-3",
+      "pages": [
+        9
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-022",
+      "term": "Justify Content",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-3",
+      "pages": [
+        9
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-023",
+      "term": "Align Items",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-3",
+      "pages": [
+        9
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-024",
+      "term": "Flex Wrap",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-3",
+      "pages": [
+        9
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-025",
+      "term": "Gap",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-3",
+      "pages": [
+        9
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-026",
+      "term": "Flex Grow",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-3",
+      "pages": [
+        9
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-027",
+      "term": "CSS Grid",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-4",
+      "pages": [
+        10
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-028",
+      "term": "Two-Dimensional Layout",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-4",
+      "pages": [
+        10
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-029",
+      "term": "Grid Properties",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-4",
+      "pages": [
+        10
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-030",
+      "term": "Grid Template Columns",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-4",
+      "pages": [
+        10
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-031",
+      "term": "Grid Template Rows",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-4",
+      "pages": [
+        10
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-032",
+      "term": "Gap",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-4",
+      "pages": [
+        10
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-033",
+      "term": "Flexbox vs. CSS Grid",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-4",
+      "pages": [
+        11
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-034",
+      "term": "Media Queries",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-5",
+      "pages": [
+        12
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-035",
+      "term": "Mobile-First Design",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-5",
+      "pages": [
+        12
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-036",
+      "term": "Responsive Design",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-5",
+      "pages": [
+        12
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-037",
+      "term": "Screen-Size Breakpoints",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-5",
+      "pages": [
+        12
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-038",
+      "term": "CSS Frameworks",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-6",
+      "pages": [
+        13
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-039",
+      "term": "Bootstrap 5",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-6",
+      "pages": [
+        13
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-040",
+      "term": "Ready-Made Components",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-6",
+      "pages": [
+        13
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-041",
+      "term": "Tailwind CSS",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-6",
+      "pages": [
+        13
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-css-042",
+      "term": "Utility-First Design",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-6",
+      "pages": [
+        13
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-css-043",
+      "term": "Bootstrap vs. Tailwind CSS",
+      "subject": "webdev",
+      "sourceId": "webdev-css",
+      "topicId": "webdev-css-6",
+      "pages": [
+        13
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-001",
+      "term": "HTML (HyperText Markup Language)",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        14
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-002",
+      "term": "HTML5",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        15
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-003",
+      "term": "Main Features of HTML5",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        15
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-004",
+      "term": "Semantic Elements",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        15
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-005",
+      "term": "Native Multimedia",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        15
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-006",
+      "term": "Improved Forms",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        15
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-007",
+      "term": "Web APIs",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        15
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-008",
+      "term": "HTML, CSS, and JavaScript",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        16
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-009",
+      "term": "Semantic HTML",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        17,
+        18
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-010",
+      "term": "Common Semantic Elements",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        18
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-011",
+      "term": "Header",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        18
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-012",
+      "term": "Navigation",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        18
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-013",
+      "term": "Main",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        18
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-014",
+      "term": "Section",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        18
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-015",
+      "term": "Article",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        18
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-016",
+      "term": "Aside",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        18
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-017",
+      "term": "Footer",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        18
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-018",
+      "term": "Basic HTML5 Document Structure",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-019",
+      "term": "DOCTYPE",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-020",
+      "term": "HTML Element",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-021",
+      "term": "Head Element",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-022",
+      "term": "Title Element",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-023",
+      "term": "Body Element",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-024",
+      "term": "Heading Element",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-025",
+      "term": "Paragraph Element",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-1",
+      "pages": [
+        19,
+        20,
+        21
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-026",
+      "term": "HTML Links / Hyperlinks",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        23
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-027",
+      "term": "Hyperlink Syntax",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        24
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-028",
+      "term": "Anchor Tag",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        24
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-029",
+      "term": "Href Attribute",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        24
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-030",
+      "term": "Link Text",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        24
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-031",
+      "term": "HTML Elements Used as Links",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        25
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-032",
+      "term": "HTML Lists",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        26
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-033",
+      "term": "Types of HTML Lists",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-034",
+      "term": "Unordered List",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        27
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-035",
+      "term": "Ordered List",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        28
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-036",
+      "term": "Description List",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        29
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-037",
+      "term": "HTML List Elements",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        27,
+        28,
+        29
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-038",
+      "term": "List Item (li)",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        27,
+        28,
+        29
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-039",
+      "term": "Description Term (dt)",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        27,
+        28,
+        29
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-040",
+      "term": "Description Details (dd)",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        27,
+        28,
+        29
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-041",
+      "term": "HTML Tables",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        30
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-042",
+      "term": "HTML Table Structure",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        31
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-043",
+      "term": "Table Element",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        31
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-044",
+      "term": "Table Row",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        31
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-045",
+      "term": "Table Header",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        31
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-046",
+      "term": "Table Data",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        31
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-047",
+      "term": "HTML Media",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-048",
+      "term": "HTML Images",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        33
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-049",
+      "term": "Image Element",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        33
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-050",
+      "term": "Source Attribute",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        33
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-051",
+      "term": "Alternative Text Attribute",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        33
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-052",
+      "term": "HTML Audio",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        34
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-053",
+      "term": "Audio Media Types",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        35
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-054",
+      "term": "Audio Attributes",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-055",
+      "term": "Controls",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-056",
+      "term": "Autoplay",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-057",
+      "term": "Muted",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        34,
+        35,
+        36
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-058",
+      "term": "HTML Video",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        37
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-059",
+      "term": "Video Media Types",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        38
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-060",
+      "term": "Video Attributes",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        37,
+        38,
+        39
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-061",
+      "term": "Width and Height",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        37,
+        38,
+        39
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-062",
+      "term": "Controls",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        37,
+        38,
+        39
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-063",
+      "term": "Autoplay",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        37,
+        38,
+        39
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-064",
+      "term": "Muted",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-2",
+      "pages": [
+        37,
+        38,
+        39
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-065",
+      "term": "HTML Forms",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        44
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-066",
+      "term": "Basic Form Structure",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        45,
+        46,
+        47
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-067",
+      "term": "Form Element",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        45,
+        46,
+        47
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-068",
+      "term": "Label Element",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        45,
+        46,
+        47
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-069",
+      "term": "Input Element",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        45,
+        46,
+        47
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-070",
+      "term": "Button Element",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        45,
+        46,
+        47
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-071",
+      "term": "HTML Input Types",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-072",
+      "term": "Text Input",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        49
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-073",
+      "term": "Password Input",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        49
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-074",
+      "term": "Email Input",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        49
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-075",
+      "term": "Number Input",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        50
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-076",
+      "term": "Date Input",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        50
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-077",
+      "term": "Radio Input",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        51
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-078",
+      "term": "Checkbox Input",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        51
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-079",
+      "term": "File Input",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        52
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-080",
+      "term": "Submit Input",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        52
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-081",
+      "term": "Other Form Elements",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        53
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-082",
+      "term": "Textarea",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        53
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-083",
+      "term": "Button",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        53
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-084",
+      "term": "Select and Option",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        53
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-085",
+      "term": "Form Attributes",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        54,
+        55
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-086",
+      "term": "Action",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        54,
+        55
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-087",
+      "term": "Method",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        54,
+        55
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-088",
+      "term": "Name",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        54,
+        55
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-089",
+      "term": "ID",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        54,
+        55
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-090",
+      "term": "Value",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        54,
+        55
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-091",
+      "term": "Placeholder",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        54,
+        55
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-092",
+      "term": "Required",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        54,
+        55
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-093",
+      "term": "Disabled",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        54,
+        55
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-094",
+      "term": "Readonly",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        54,
+        55
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-095",
+      "term": "HTML5 Form Validation",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        56,
+        57,
+        58
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-096",
+      "term": "Required Validation",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        56,
+        57,
+        58
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-097",
+      "term": "Minimum and Maximum Values",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        56,
+        57,
+        58
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-098",
+      "term": "Pattern Validation",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        56,
+        57,
+        58
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-099",
+      "term": "Minimum and Maximum Length",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        56,
+        57,
+        58
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-100",
+      "term": "Email Validation",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        56,
+        57,
+        58
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-101",
+      "term": "Client-Side Validation",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        58
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-102",
+      "term": "Accessible Forms",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-3",
+      "pages": [
+        59
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-103",
+      "term": "Web Accessibility",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        67
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-104",
+      "term": "Importance of Web Accessibility",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        67
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-105",
+      "term": "Assistive Technologies",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        67
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-106",
+      "term": "Basic Accessibility Principles",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        68
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-107",
+      "term": "Keyboard Accessibility",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        68
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-108",
+      "term": "Clear Content Structure",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        68
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-109",
+      "term": "Meaningful Links",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        68
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-110",
+      "term": "Alternative Text",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        68
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-111",
+      "term": "Proper Headings",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        68
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-112",
+      "term": "Accessible Forms",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        68
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-113",
+      "term": "Text Readability and Contrast",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        68
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-114",
+      "term": "Headings and Document Structure",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        69
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-115",
+      "term": "Proper Heading Hierarchy",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        69
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-116",
+      "term": "Alternative Text (Alt Text)",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        70
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-117",
+      "term": "Descriptive Alt Text",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        70
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-118",
+      "term": "Decorative Images",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        70
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-119",
+      "term": "Accessible Links",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        71
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-120",
+      "term": "Accessibility and Forms",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        72
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-121",
+      "term": "Labels",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        72
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-122",
+      "term": "Required Fields",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        72
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-123",
+      "term": "Clear Instructions",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        72
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-124",
+      "term": "Error Identification",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        72
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-125",
+      "term": "Keyboard Navigation",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-4",
+      "pages": [
+        72
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-126",
+      "term": "SEO (Search Engine Optimization)",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-5",
+      "pages": [
+        73
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-127",
+      "term": "Importance of SEO",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-5",
+      "pages": [
+        73
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-128",
+      "term": "HTML Elements Related to SEO",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-5",
+      "pages": [
+        74
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-129",
+      "term": "Headings",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-5",
+      "pages": [
+        74
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-130",
+      "term": "Semantic Elements",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-5",
+      "pages": [
+        74
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-131",
+      "term": "Descriptive Links",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-5",
+      "pages": [
+        74
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-132",
+      "term": "Alternative Text",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-5",
+      "pages": [
+        74
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-133",
+      "term": "Meaningful Page Content",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-5",
+      "pages": [
+        74
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-134",
+      "term": "Title Element",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-5",
+      "pages": [
+        74
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-135",
+      "term": "Meta Element",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-5",
+      "pages": [
+        74
+      ],
+      "inheritedPages": true
+    },
+    {
+      "id": "ppt-webdev-html-136",
+      "term": "Descriptive HTML Title",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-5",
+      "pages": [
+        75
+      ],
+      "inheritedPages": false
+    },
+    {
+      "id": "ppt-webdev-html-137",
+      "term": "Relationship Between Semantic HTML, Accessibility, and SEO",
+      "subject": "webdev",
+      "sourceId": "webdev-html",
+      "topicId": "webdev-html-5",
+      "pages": [
+        76
+      ],
+      "inheritedPages": false
+    }
+  ]
+}

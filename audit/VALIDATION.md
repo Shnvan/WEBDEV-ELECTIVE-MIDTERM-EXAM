@@ -1,5 +1,13 @@
 # Validation record — 2026-10-14
 
+## WebDev presentation reviewer
+
+Read the text of all three supplied WebDev PDFs (69 PHP, 15 CSS and 77 HTML pages). Compared every supplied-list entry with its source and inspected 67 rendered pages where columns, tables, diagrams or annotated code required visual checking. Coverage is 259 entries in 19 topics: PHP 79/8, CSS 43/6 and HTML/accessibility/SEO 137/5. The coverage report contains original passages, exact pages, all question styles/choices and separate corrections. Distractors were reviewed for overlapping categories; class/object labels qualify the exact slide line because the course taxonomy is not mutually exclusive. Practice uses the meaningful-link bullets where the source incorrectly repeats an alternative-text definition.
+
+Twenty-two application suites pass, including all 259 new questions, four-option marking/locking, wrong-answer reloads, both scopes, topic/menu filtering, inert HTML/PHP snippets, storage failures and subject-reset isolation. The existing 201 quiz-compilation prompts and 230 Elective PPT questions remain covered. A separate comparison against the prior committed bank confirms all 230 Elective question objects and signatures are unchanged. The quiz bank and original source PDFs are unchanged. Bank/report generation is deterministic. Application tests do not replace manual content review.
+
+Both themes passed 24 responsive checks on a long PHP class list and code-heavy HTML definitions at 320, 360, 720, 768, 1440 and 1920 viewport widths, with no page-level horizontal overflow. The 720 CSS-pixel viewport models a 1440-pixel desktop at 200% reflow; the in-app browser does not expose browser zoom. Mobile light code/clarification and desktop light/dark practice were inspected visually. Real-browser checks confirmed the 259-entry material card, correct PHP Syntax and String-annotation responses, keyboard tab focus, the complete 259-card/19-topic walkthrough and mobile Flexbox filtering. Sixteen distinct primary reference URLs returned HTTP 200; their status record is saved separately.
+
 ## Original PDF wording revision
 
 Manually compared all 230 entries with the original slide text. Rendered and inspected 58 pages where columns, tables, diagrams or formulas required visual checking. Kept original spelling, statements and formulas in the quoted passages; transcribed layout into readable text. Explicit distractors were reviewed to avoid synonymous or overlapping alternatives, including scaling versus normalization. The coverage report records every passage, page, question style, choice and separate correction note. No source document or quiz-compilation answer content changed.

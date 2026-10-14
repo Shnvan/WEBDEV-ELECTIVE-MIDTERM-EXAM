@@ -4,7 +4,7 @@ Web Development and AI & Machine Learning practice with the DBA-inspired palette
 
 Live site: https://webdev-elect-midterm-exam.vercel.app/
 
-The flow is **Subject → All sections / BSIT 3-4 only → Quiz compilation / PPT topics & terms**. The quiz option opens the combined Practice set immediately. The Elective PPT option opens a separate 230-entry presentation reviewer; WebDev PPTs remain Coming soon. Topics organize quiz questions; there is no further section or compilation chooser. Review material is also accessible from the breadcrumb, study sidebar and hamburger menu.
+The flow is **Subject → All sections / BSIT 3-4 only → Quiz compilation / PPT topics & terms**. The quiz option opens the combined Practice set immediately. PPT review has **230 Elective entries** and **259 WebDev entries**, with independent subject progress inside the presentation store. Topics organize questions; there is no further section or compilation chooser. Review material is also accessible from the breadcrumb, study sidebar and hamburger menu.
 
 Practice retains drafts, locks checked first attempts, and supports a fresh attempt for the selected topic or collection. Questions & answers shows the complete unique collection, answers, explanations, code images/transcripts, source attribution, primary references, topic filters, and search. Reading answers never submits a response. Each topic retains its practice cursor and walkthrough reading anchor.
 
@@ -44,6 +44,14 @@ The supplied deck groups correspond to the existing BSIT 3-4 reported topics. Bo
 `data/terms-outline.json` records the supplied list; `data/terms-slide-content.json` contains reviewed original passages, question styles, explicit distractors, clarification notes and prior-version compatibility; `data/terms-sources.json` records filenames, page counts and hashes. `scripts/build_terms.cjs` creates `data/terms-bank.js` and [the complete coverage report](audit/TERMS_COVERAGE.md). `npm run build` builds and packages both banks. PDF extraction/rendering is a reading/authoring step, not required by the production build.
 
 PPT drafts, answers, cursors, reading anchors and resets use `study-room-terms-v1`, independently of quiz-compilation progress. The existing theme preference applies to both. Explicitly compatible wording revisions keep checked responses by answer meaning, including wrong historical choices no longer offered. Such responses are shown as saved answers and remain locked. Unmappable drafts retain their previous text for recovery; incompatible keys or unknown signatures reopen only affected responses.
+
+## WebDev PPT topics & terms
+
+The supplied Group 5 PHP (69 pages), Group 9 CSS (15 pages) and Group 2 HTML/accessibility/SEO (77 pages) decks provide **259 list entries across 19 topics**: PHP 79/8, CSS 43/6 and HTML 137/5. The outline order and repeated names in different contexts are preserved. Every entry has original PDF wording, source pages and four manually reviewed choices; code annotations, tables and diagrams are transcribed as inert text. Corrections appear separately and link to primary technical documentation.
+
+WebDev routes are `#/webdev/scope/terms/practice` and `#/webdev/scope/terms/answers`, with optional topic IDs. Both subjects now derive counts and sidebar/menu groups from their own source metadata. The supplied WebDev groups match the existing BSIT 3-4 quiz groups; All sections currently contains the same three available WebDev decks. Search and topic filters reset when changing subjects; attempts and reading positions are retained.
+
+The new `data/webdev-terms-outline.json`, `data/webdev-terms-slide-content.json` and `data/webdev-terms-sources.json` separate the supplied list, reviewed content/choices and file provenance. The shared builder produces 489 total presentation entries while keeping the original Elective questions and signatures unchanged. [WebDev coverage](audit/WEBDEV_TERMS_COVERAGE.md) records all passages, styles, options, notes and references. No activities or new example-program questions are added beyond the supplied term list.
 
 ## Saved-progress compatibility
 

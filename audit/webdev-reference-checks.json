@@ -1,0 +1,117 @@
+{
+  "checkedOn": "2026-10-14",
+  "checks": [
+    {
+      "label": "PHP manual: PHP tags",
+      "url": "https://www.php.net/manual/en/language.basic-syntax.phptags.php",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://www.php.net/manual/en/language.basic-syntax.phptags.php"
+    },
+    {
+      "label": "MDN: POST requests",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods/POST",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods/POST"
+    },
+    {
+      "label": "PHP manual: session_destroy",
+      "url": "https://www.php.net/manual/en/function.session-destroy.php",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://www.php.net/manual/en/function.session-destroy.php"
+    },
+    {
+      "label": "PHP manual: classes and readonly",
+      "url": "https://www.php.net/manual/en/language.oop5.basic.php",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://www.php.net/manual/en/language.oop5.basic.php"
+    },
+    {
+      "label": "PHP manual: anonymous classes",
+      "url": "https://www.php.net/manual/en/language.oop5.anonymous.php",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://www.php.net/manual/en/language.oop5.anonymous.php"
+    },
+    {
+      "label": "PHP manual: namespaces",
+      "url": "https://www.php.net/manual/en/language.namespaces.definition.php",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://www.php.net/manual/en/language.namespaces.definition.php"
+    },
+    {
+      "label": "PHP manual: try/catch",
+      "url": "https://www.php.net/manual/en/control-structures.try-catch.php",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://www.php.net/manual/en/control-structures.try-catch.php"
+    },
+    {
+      "label": "PHP manual: finally",
+      "url": "https://www.php.net/manual/en/control-structures.finally.php",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://www.php.net/manual/en/control-structures.finally.php"
+    },
+    {
+      "label": "PHP manual: predefined variables",
+      "url": "https://www.php.net/manual/en/reserved.variables.php",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://www.php.net/manual/en/reserved.variables.php"
+    },
+    {
+      "label": "MDN: CSS cascade",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Introduction",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Introduction"
+    },
+    {
+      "label": "MDN: display and box generation",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/display",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/display"
+    },
+    {
+      "label": "WHATWG: anchor content model",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://html.spec.whatwg.org/multipage/text-level-semantics.html"
+    },
+    {
+      "label": "MDN: autoplay and browser policies",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay"
+    },
+    {
+      "label": "W3C WAI: validating input",
+      "url": "https://www.w3.org/WAI/tutorials/forms/validation/",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://www.w3.org/WAI/tutorials/forms/validation/"
+    },
+    {
+      "label": "MDN: input types and attributes",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input"
+    },
+    {
+      "label": "W3C WAI: page structure",
+      "url": "https://www.w3.org/WAI/tutorials/page-structure/",
+      "status": 200,
+      "ok": true,
+      "resolvedUrl": "https://www.w3.org/WAI/tutorials/page-structure/"
+    }
+  ]
+}

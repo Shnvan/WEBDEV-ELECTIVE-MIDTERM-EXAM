@@ -37,15 +37,16 @@ for(const q of all){
  const canonical=membership.get(q.id)||q.id;
  if(canonical!==q.id)continue;
  const ids=merged.get(canonical)?.ids||[q.id],d=audit.decisions[q.id];assert(d&&d.references.length&&d.note,q.id);
- const answer=q.type==='choice'?q.options[d.correct]:q.answer;
+ const key=d.status==='unresolved'?q.correct:d.correct;
+ const answer=q.type==='choice'?q.options[key]:q.answer;
  const sources=ids.map(id=>{
   const source=byId.get(id),comp=raw.find(c=>c.id===source.sourceId);
   return {id,sourceId:source.sourceId,section:source.section,label:comp.label,group:source.group,number:source.number,page:source.page||null};
  });
- const item={...JSON.parse(JSON.stringify(q)),correct:d.correct,answer,topic:topic(q),aliases:ids,sources,
+ const item={...JSON.parse(JSON.stringify(q)),correct:key,answer,topic:topic(q),aliases:ids,sources,
   sections:[...new Set(sources.map(s=>s.section).filter(Boolean))],
   audit:{status:d.status,note:d.note,originalAnswer:d.originalSourceAnswer||(q.type==='choice'?String.fromCharCode(65+q.correct)+'. '+q.options[q.correct]:q.answer),verifiedAnswer:d.verifiedAnswer,references:d.references.map(id=>audit.sources[id])},
-  scored:!['unresolved','written-self-review'].includes(d.status),practice:d.status!=='unresolved'};
+  scored:d.status!=='written-self-review',practice:true,scoringBasis:d.status==='unresolved'?'source-key':d.status==='written-self-review'?'self-review':'verified'};
  item.signature=crypto.createHash('sha256').update(JSON.stringify([item.prompt,item.options,item.correct,item.answer,item.type,item.audit.status])).digest('hex').slice(0,16);
  questions.push(item);
  for(const id of ids){
@@ -62,16 +63,16 @@ for(const q of all){
 assert.equal(Object.keys(aliases).length,201);
 for(const q of questions)assert(topics[q.subject].some(t=>t.id===q.topic),q.id);
 const version='audited-v2-'+crypto.createHash('sha256').update(JSON.stringify([questions,audit.duplicateGroups])).digest('hex').slice(0,12);
-const bank={version,reviewedOn:audit.reviewedOn,duplicatePolicy:audit.duplicatePolicy,rawCount:all.length,topics,questions,aliases,
+const bank={version,reviewedOn:audit.reviewedOn,duplicatePolicy:audit.duplicatePolicy,practicePolicy:audit.practicePolicy,rawCount:all.length,topics,questions,aliases,
  legacySets:raw.map(c=>({id:c.id,subject:c.subject,section:c.section,ids:c.questions.map(q=>q.id),groups:Object.fromEntries([...new Set(c.questions.map(q=>q.groupId))].map(g=>[g,c.questions.filter(q=>q.groupId===g).map(q=>q.id)]))}))};
 fs.writeFileSync(path.join(root,'data/review-bank.js'),'window.REVIEW_BANK = '+JSON.stringify(bank,null,2)+';\n');
-const count=(items)=>({unique:items.length,scored:items.filter(q=>q.scored).length,written:items.filter(q=>q.audit.status==='written-self-review').length,unresolved:items.filter(q=>q.audit.status==='unresolved').length,practice:items.filter(q=>q.practice).length});
+const count=(items)=>({unique:items.length,scored:items.filter(q=>q.scored).length,written:items.filter(q=>q.audit.status==='written-self-review').length,unresolved:items.filter(q=>q.audit.status==='unresolved').length,sourceKey:items.filter(q=>q.scoringBasis==='source-key').length,practice:items.filter(q=>q.practice).length});
 const summary={version,raw:all.length,duplicateGroups:audit.duplicateGroups.length,duplicatesRemoved:all.length-questions.length,...count(questions),scopes:{}};
 for(const subject of ['webdev','elective'])for(const scope of ['all','34'])summary.scopes[subject+'-'+scope]=count(questions.filter(q=>q.subject===subject&&(scope==='all'||q.sections.includes('3-4'))));
 fs.mkdirSync(path.join(root,'audit'),{recursive:true});
 fs.writeFileSync(path.join(root,'audit/summary.json'),JSON.stringify(summary,null,2)+'\n');
 const md=s=>String(s??'').replace(/\|/g,'\\|').replace(/\n/g,' ').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-let report=`# Quiz answer audit\n\nReviewed on ${audit.reviewedOn}. ${all.length} original source questions were individually reviewed. ${all.length-questions.length} exact duplicate repetitions were merged into ${questions.length} unique questions: ${summary.scored} objective scored questions, ${summary.written} written self-review prompt, and ${summary.unresolved} unresolved questions retained in Questions & answers only.\n\nThe review compares the claims and available choices with primary references. It does not certify the contents of presentations that have not been supplied. HTTP availability checks and application tests are separate evidence.\n\nOne confirmed wrong highlighted key is recorded from the user-provided hyperlink screenshot: B uses src, whereas C uses href. The old website already used C; that correct existing attempt does not need reopening. Other original keys below are the imported keys or the explicitly inferred keys documented in the prior README.\n\n## Items requiring clarification\n\n`;
+let report=`# Quiz answer audit\n\nReviewed on ${audit.reviewedOn}. ${all.length} original source questions were individually reviewed. ${all.length-questions.length} exact duplicate repetitions were merged into ${questions.length} unique questions: ${summary.scored} key-scored questions and ${summary.written} written self-review prompt. All ${questions.length} questions are included in Practice at the user’s request. ${summary.unresolved} items still need clarification and use their supplied answer keys for practice scoring; their audit status remains unresolved.\n\nThe review compares the claims and available choices with primary references. It does not certify the contents of presentations that have not been supplied. HTTP availability checks and application tests are separate evidence.\n\nOne confirmed wrong highlighted key is recorded from the user-provided hyperlink screenshot: B uses src, whereas C uses href. The old website already used C; that correct existing attempt does not need reopening. Other original keys below are the imported keys or the explicitly inferred keys documented in the prior README.\n\n## Items requiring clarification\n\n`;
 for(const q of all)if(audit.decisions[q.id].status==='unresolved')report+=`- **${q.id}** — ${md(audit.decisions[q.id].note)}\n`;
 report+='\n## Exact duplicate review\n\n'+audit.duplicatePolicy+'\n\n';
 if(!audit.duplicateGroups.length)report+='No exact duplicates were found. All 201 source questions are retained separately. Twenty previously merged questions were restored after the user clarified the rule; audit/duplicate-review.json records every reviewed former group.\n';

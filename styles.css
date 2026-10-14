@@ -27,3 +27,4 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.choice-card{transition:none}}
 .walkthrough-topic{font-size:25px;margin:26px 0 18px;color:var(--fg)}
 #main:focus{outline:none}.migration-draft{font-size:13px;padding:14px;border-left:3px solid var(--accent);background:var(--surface);margin-bottom:20px;overflow-wrap:anywhere}
+.source-key-notice{font-size:12px;color:var(--muted);padding:10px 14px;border-left:3px solid var(--accent);background:var(--surface);margin-bottom:20px}.walkthrough-options li.supplied-option{border-color:var(--accent);background:var(--surface)}.supplied-option .answer-indicator{color:var(--fg)}.source-key-label{font-size:12px;font-weight:600}

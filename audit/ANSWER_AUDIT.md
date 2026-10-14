@@ -1,6 +1,6 @@
 # Quiz answer audit
 
-Reviewed on 2026-10-14. 201 original source questions were individually reviewed. 0 exact duplicate repetitions were merged into 201 unique questions: 185 objective scored questions, 1 written self-review prompt, and 15 unresolved questions retained in Questions & answers only.
+Reviewed on 2026-10-14. 201 original source questions were individually reviewed. 0 exact duplicate repetitions were merged into 201 unique questions: 200 key-scored questions and 1 written self-review prompt. All 201 questions are included in Practice at the user’s request. 15 items still need clarification and use their supplied answer keys for practice scoring; their audit status remains unresolved.
 
 The review compares the claims and available choices with primary references. It does not certify the contents of presentations that have not been supplied. HTTP availability checks and application tests are separate evidence.
 

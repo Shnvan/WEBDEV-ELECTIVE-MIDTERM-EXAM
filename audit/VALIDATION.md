@@ -1,5 +1,11 @@
 # Validation record — 2026-10-14
 
+## Full practice inclusion
+
+The user requested all 30 BSIT 3-4 Elective questions in Practice and the complete WebDev collections too. All 201 source prompts now appear in Practice: 200 questions scored against their keys and one written self-review. This supersedes the earlier exclusion policy below. Counts are Elective BSIT 3-4: 30; Elective all sections: 70; WebDev BSIT 3-4: 26; WebDev all sections: 131. The WebDev written prompt numbered 6–10 is still one original prompt.
+
+The 15 unresolved audit decisions are unchanged. Those questions use their supplied keys, with “Matches the supplied key” / “Different from the supplied key” feedback and visible clarification notes. They are included in progress and scoring. Application tests check every prompt, full counts for all four routes, key marking, notes, and locked source-key attempts. Compatible saved responses remain unchanged because question wording, choices, answers and signatures are unchanged.
+
 ## Duplicate-rule correction
 
 The user clarified that duplicates mean the same question and answer, preferably the same choices. All 201 source questions and every previously merged group were rechecked using exact wording, answer text, choice sets and code/image context. No exact duplicates were found. All 20 formerly merged prompts are restored separately; `duplicate-review.json` records the comparisons. The builder now rejects merges with different wording, answers, choices or code/image context.

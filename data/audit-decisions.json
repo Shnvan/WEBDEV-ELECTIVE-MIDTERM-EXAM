@@ -2292,5 +2292,6 @@
     }
   },
   "duplicateGroups": [],
-  "duplicatePolicy": "Same question wording and answer, with matching choices and code/image context. Related concepts or paraphrases are separate questions."
+  "duplicatePolicy": "Same question wording and answer, with matching choices and code/image context. Related concepts or paraphrases are separate questions.",
+  "practicePolicy": "include-all-source-keys"
 }

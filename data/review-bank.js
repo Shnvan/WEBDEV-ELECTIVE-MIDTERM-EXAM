@@ -1,7 +1,8 @@
 window.REVIEW_BANK = {
-  "version": "audited-v2-c2ec9bad2a85",
+  "version": "audited-v2-a15751517515",
   "reviewedOn": "2026-10-14",
   "duplicatePolicy": "Same question wording and answer, with matching choices and code/image context. Related concepts or paraphrases are separate questions.",
+  "practicePolicy": "include-all-source-keys",
   "rawCount": 201,
   "topics": {
     "webdev": [
@@ -95,6 +96,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "3fc6a7eb20e52d6d"
     },
     {
@@ -150,6 +152,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "6ca3ce3da068ab20"
     },
     {
@@ -205,6 +208,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "45636178ccb372c4"
     },
     {
@@ -265,6 +269,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "cee7311df34fe7d5"
     },
     {
@@ -320,6 +325,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "c15f0e2cab074ac2"
     },
     {
@@ -371,6 +377,7 @@ window.REVIEW_BANK = {
       },
       "scored": false,
       "practice": true,
+      "scoringBasis": "self-review",
       "signature": "e1d122cb7a14f2af"
     },
     {
@@ -426,6 +433,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "c60ee6fef0f009b0"
     },
     {
@@ -481,6 +489,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "447e5eb9890abc40"
     },
     {
@@ -536,6 +545,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "ca58a40a2c572cbb"
     },
     {
@@ -591,6 +601,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "83c21e74831520cb"
     },
     {
@@ -646,6 +657,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "1fe27a6f6c9c2118"
     },
     {
@@ -702,6 +714,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "f63fcf25a2968e43"
     },
     {
@@ -757,6 +770,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "34e95d2cab7baae5"
     },
     {
@@ -817,6 +831,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "d424da52af06f6ca"
     },
     {
@@ -878,6 +893,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "3a3779f69c1c3008"
     },
     {
@@ -938,6 +954,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "b3f15ef393d84829"
     },
     {
@@ -993,6 +1010,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "9fa3b81c4448afcb"
     },
     {
@@ -1048,6 +1066,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "706ecf7d85cd94ce"
     },
     {
@@ -1108,6 +1127,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "6bf1feb4feee6d40"
     },
     {
@@ -1163,6 +1183,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "571aba6619c7c920"
     },
     {
@@ -1226,8 +1247,9 @@ window.REVIEW_BANK = {
           }
         ]
       },
-      "scored": false,
-      "practice": false,
+      "scored": true,
+      "practice": true,
+      "scoringBasis": "source-key",
       "signature": "121f98e0feaeb474"
     },
     {
@@ -1283,6 +1305,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "91b92a3002c8b79d"
     },
     {
@@ -1338,6 +1361,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "c5d514968cb27096"
     },
     {
@@ -1392,6 +1416,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "44f65a7be7098d70"
     },
     {
@@ -1446,6 +1471,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "204418fb8f93ba9b"
     },
     {
@@ -1500,6 +1526,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "780b9e3886e4ea12"
     },
     {
@@ -1555,6 +1582,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "3c405060eef7f300"
     },
     {
@@ -1610,6 +1638,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "4f37a983acdcc322"
     },
     {
@@ -1665,6 +1694,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "b369b97d9ea04489"
     },
     {
@@ -1720,6 +1750,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "cb3df62db4bec46a"
     },
     {
@@ -1775,6 +1806,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "d67af89f5de7ba32"
     },
     {
@@ -1830,6 +1862,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "dfe98bd7c417a30b"
     },
     {
@@ -1885,6 +1918,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "690b0c4e401df40a"
     },
     {
@@ -1940,6 +1974,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "0cc1d51df2fba924"
     },
     {
@@ -1995,6 +2030,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "b30c3290d79cb8e5"
     },
     {
@@ -2050,6 +2086,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "c58b01269f89cdfc"
     },
     {
@@ -2105,6 +2142,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "b9ed2092dd3d1cd7"
     },
     {
@@ -2164,6 +2202,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "4c092918477a16c8"
     },
     {
@@ -2219,6 +2258,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "390446c2d0bf9fef"
     },
     {
@@ -2278,6 +2318,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "a331c46a90d5e3dc"
     },
     {
@@ -2333,6 +2374,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "ed9ce4385cf275a1"
     },
     {
@@ -2396,8 +2438,9 @@ window.REVIEW_BANK = {
           }
         ]
       },
-      "scored": false,
-      "practice": false,
+      "scored": true,
+      "practice": true,
+      "scoringBasis": "source-key",
       "signature": "63e2da24bf0f91eb"
     },
     {
@@ -2451,8 +2494,9 @@ window.REVIEW_BANK = {
           }
         ]
       },
-      "scored": false,
-      "practice": false,
+      "scored": true,
+      "practice": true,
+      "scoringBasis": "source-key",
       "signature": "662448f49754ba41"
     },
     {
@@ -2506,8 +2550,9 @@ window.REVIEW_BANK = {
           }
         ]
       },
-      "scored": false,
-      "practice": false,
+      "scored": true,
+      "practice": true,
+      "scoringBasis": "source-key",
       "signature": "4f14b2ac26b456d5"
     },
     {
@@ -2563,6 +2608,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "f2bdd37a53154fcb"
     },
     {
@@ -2618,6 +2664,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "457d881468d145ef"
     },
     {
@@ -2673,6 +2720,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "f136c6d298be1ff5"
     },
     {
@@ -2728,6 +2776,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "75cd54611bdbf206"
     },
     {
@@ -2783,6 +2832,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "5618786c3197cf80"
     },
     {
@@ -2843,6 +2893,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "6a8c0deb34722f59"
     },
     {
@@ -2898,6 +2949,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "bb3b31594df9b9fa"
     },
     {
@@ -2953,6 +3005,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "56db4b3769c35b46"
     },
     {
@@ -3008,6 +3061,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "960a45c503d1df14"
     },
     {
@@ -3063,6 +3117,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "dadcbd4bc0bab7a2"
     },
     {
@@ -3118,6 +3173,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "114a9407d8bd9b9b"
     },
     {
@@ -3173,6 +3229,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "18f250d0e7dd83ab"
     },
     {
@@ -3228,6 +3285,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "ef08f852e7e8c287"
     },
     {
@@ -3283,6 +3341,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "a875b189023680db"
     },
     {
@@ -3338,6 +3397,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "c6c509b81f3a939b"
     },
     {
@@ -3393,6 +3453,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "d3fec5ddd5237926"
     },
     {
@@ -3448,6 +3509,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "43faba09abca90b4"
     },
     {
@@ -3503,6 +3565,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "d81ac1f7b1eb4768"
     },
     {
@@ -3563,6 +3626,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "509d039e125ef4d8"
     },
     {
@@ -3628,6 +3692,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "ea016dfaccdffbff"
     },
     {
@@ -3683,6 +3748,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "f7ff7d090ce2517a"
     },
     {
@@ -3748,6 +3814,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "e26ba86a444c4e83"
     },
     {
@@ -3803,6 +3870,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "07339aee5579b8c1"
     },
     {
@@ -3863,6 +3931,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "62feec82272f0f17"
     },
     {
@@ -3918,6 +3987,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "02691a6e80e1a7ae"
     },
     {
@@ -3973,6 +4043,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "5a59c41c0c3b25a4"
     },
     {
@@ -4028,6 +4099,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "49a84ca889cb6567"
     },
     {
@@ -4088,6 +4160,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "cbdd17eed300daba"
     },
     {
@@ -4143,6 +4216,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "130961bf43aafa2f"
     },
     {
@@ -4198,6 +4272,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "5c7274282de9b49a"
     },
     {
@@ -4256,8 +4331,9 @@ window.REVIEW_BANK = {
           }
         ]
       },
-      "scored": false,
-      "practice": false,
+      "scored": true,
+      "practice": true,
+      "scoringBasis": "source-key",
       "signature": "f6d6f6fa6501598b"
     },
     {
@@ -4313,6 +4389,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "91b95d56ce132a58"
     },
     {
@@ -4366,8 +4443,9 @@ window.REVIEW_BANK = {
           }
         ]
       },
-      "scored": false,
-      "practice": false,
+      "scored": true,
+      "practice": true,
+      "scoringBasis": "source-key",
       "signature": "401098f731f8a7a2"
     },
     {
@@ -4423,6 +4501,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "668c2815d4258dca"
     },
     {
@@ -4478,6 +4557,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "b579b9ec2b99f0b6"
     },
     {
@@ -4533,6 +4613,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "1c5779fdc5368f02"
     },
     {
@@ -4588,6 +4669,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "017458289694a53c"
     },
     {
@@ -4643,6 +4725,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "0be5aab881d687de"
     },
     {
@@ -4698,6 +4781,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "5c15d39f86f6efe6"
     },
     {
@@ -4753,6 +4837,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "356ea5235c4d3f4b"
     },
     {
@@ -4808,6 +4893,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "7578fd02cd4d91c2"
     },
     {
@@ -4863,6 +4949,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "41813e93f36d3a68"
     },
     {
@@ -4923,6 +5010,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "179e0ccbd0030354"
     },
     {
@@ -4978,6 +5066,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "a8b69e766b771010"
     },
     {
@@ -5033,6 +5122,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "2082a4a3cb7dd9c1"
     },
     {
@@ -5086,8 +5176,9 @@ window.REVIEW_BANK = {
           }
         ]
       },
-      "scored": false,
-      "practice": false,
+      "scored": true,
+      "practice": true,
+      "scoringBasis": "source-key",
       "signature": "7713f59378520c4d"
     },
     {
@@ -5143,6 +5234,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "dbabe5351ed7f171"
     },
     {
@@ -5198,6 +5290,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "368b1a127d94906d"
     },
     {
@@ -5253,6 +5346,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "706990cfbfea78b4"
     },
     {
@@ -5308,6 +5402,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "83ce369efbeded0c"
     },
     {
@@ -5363,6 +5458,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "02ef572acfe83b01"
     },
     {
@@ -5418,6 +5514,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "ebb2654e0d4eaf91"
     },
     {
@@ -5471,6 +5568,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "b9c8a46d9dbaf2c5"
     },
     {
@@ -5524,6 +5622,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "dfe604931b01167d"
     },
     {
@@ -5577,6 +5676,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "dbdb9fe8a4a21719"
     },
     {
@@ -5630,6 +5730,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "f8acf43cc2c18afd"
     },
     {
@@ -5683,6 +5784,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "ffbb117f17c62ccf"
     },
     {
@@ -5736,6 +5838,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "3b3c2f02e2b9644a"
     },
     {
@@ -5789,6 +5892,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "1ddc7824f740a3a2"
     },
     {
@@ -5842,6 +5946,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "7e19062584702806"
     },
     {
@@ -5895,6 +6000,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "b65275f45ebcf7db"
     },
     {
@@ -5948,6 +6054,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "dc21fbbd437c63b3"
     },
     {
@@ -6001,6 +6108,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "092cc6d91c522784"
     },
     {
@@ -6054,6 +6162,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "1ed22725b3758eb0"
     },
     {
@@ -6107,6 +6216,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "e5c2f975ec4d3ef9"
     },
     {
@@ -6160,6 +6270,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "5bc6a56667036160"
     },
     {
@@ -6213,6 +6324,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "8d060d7769421905"
     },
     {
@@ -6266,6 +6378,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "5e00844291821825"
     },
     {
@@ -6319,6 +6432,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "71a68a8f6d639110"
     },
     {
@@ -6372,6 +6486,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "73905c3dbbfaa6ff"
     },
     {
@@ -6425,6 +6540,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "a02c51ed79b7ab93"
     },
     {
@@ -6478,6 +6594,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "eebacf19f612f8a2"
     },
     {
@@ -6531,6 +6648,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "52867ce01b95bf14"
     },
     {
@@ -6584,6 +6702,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "5221564c7216498a"
     },
     {
@@ -6637,6 +6756,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "488946324e513def"
     },
     {
@@ -6695,6 +6815,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "8af5ac8c95587cfc"
     },
     {
@@ -6748,6 +6869,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "670a65fe366fcaa8"
     },
     {
@@ -6801,6 +6923,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "c639476384ba9a39"
     },
     {
@@ -6854,6 +6977,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "2dbb194e60fa0371"
     },
     {
@@ -6907,6 +7031,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "c0b3cfdd59b8513d"
     },
     {
@@ -6960,6 +7085,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "26697e74b1183e05"
     },
     {
@@ -7013,6 +7139,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "d7c8fb224525ed20"
     },
     {
@@ -7069,8 +7196,9 @@ window.REVIEW_BANK = {
           }
         ]
       },
-      "scored": false,
-      "practice": false,
+      "scored": true,
+      "practice": true,
+      "scoringBasis": "source-key",
       "signature": "573dde4ef0b32fc9"
     },
     {
@@ -7124,6 +7252,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "756630987a01c9ff"
     },
     {
@@ -7187,6 +7316,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "1c10977714890a5a"
     },
     {
@@ -7240,6 +7370,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "f7e3eec0811222c2"
     },
     {
@@ -7293,6 +7424,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "2d8ca6efb17e4ba0"
     },
     {
@@ -7348,6 +7480,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "0f51132a432a919b"
     },
     {
@@ -7403,6 +7536,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "19d1ac183e8df57b"
     },
     {
@@ -7458,6 +7592,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "14145f030b469c45"
     },
     {
@@ -7511,8 +7646,9 @@ window.REVIEW_BANK = {
           }
         ]
       },
-      "scored": false,
-      "practice": false,
+      "scored": true,
+      "practice": true,
+      "scoringBasis": "source-key",
       "signature": "2eb91ce45ad806ec"
     },
     {
@@ -7568,6 +7704,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "6d0561d2b404847d"
     },
     {
@@ -7623,6 +7760,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "34021db9521cfa89"
     },
     {
@@ -7678,6 +7816,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "15b207979ebf0f6e"
     },
     {
@@ -7733,6 +7872,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "846023003d51563a"
     },
     {
@@ -7788,6 +7928,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "b10f0d922e93dc74"
     },
     {
@@ -7843,6 +7984,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "1af6e948052aeec5"
     },
     {
@@ -7898,6 +8040,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "79c419e8e9cc2aa6"
     },
     {
@@ -7958,6 +8101,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "10b6a81e46aa9c51"
     },
     {
@@ -8013,6 +8157,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "5bda7987935b19aa"
     },
     {
@@ -8073,6 +8218,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "ecda42bd49fcd257"
     },
     {
@@ -8128,6 +8274,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "996e1630ee6e3216"
     },
     {
@@ -8183,6 +8330,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "431373147413a8b6"
     },
     {
@@ -8238,6 +8386,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "4dd50311acf81b1b"
     },
     {
@@ -8293,6 +8442,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "03be2e68cd7ecac7"
     },
     {
@@ -8348,6 +8498,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "d52e6f7010d79d69"
     },
     {
@@ -8403,6 +8554,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "4712129980def521"
     },
     {
@@ -8457,6 +8609,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "3cef011ef1cb7f7d"
     },
     {
@@ -8516,6 +8669,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "237d9ff300c6f687"
     },
     {
@@ -8575,6 +8729,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "c777d122050377c0"
     },
     {
@@ -8627,8 +8782,9 @@ window.REVIEW_BANK = {
           }
         ]
       },
-      "scored": false,
-      "practice": false,
+      "scored": true,
+      "practice": true,
+      "scoringBasis": "source-key",
       "signature": "b20f23b1310f54c3"
     },
     {
@@ -8688,6 +8844,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "fbeabe46ed7243f6"
     },
     {
@@ -8745,8 +8902,9 @@ window.REVIEW_BANK = {
           }
         ]
       },
-      "scored": false,
-      "practice": false,
+      "scored": true,
+      "practice": true,
+      "scoringBasis": "source-key",
       "signature": "e9500a8bd2c91617"
     },
     {
@@ -8801,6 +8959,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "554ade5ec40af13d"
     },
     {
@@ -8855,6 +9014,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "b00ef8833d307e4b"
     },
     {
@@ -8909,6 +9069,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "8d420d7c291b4032"
     },
     {
@@ -8968,6 +9129,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "9676d4c7a9c88ff5"
     },
     {
@@ -9028,6 +9190,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "cf28e2547671032d"
     },
     {
@@ -9081,8 +9244,9 @@ window.REVIEW_BANK = {
           }
         ]
       },
-      "scored": false,
-      "practice": false,
+      "scored": true,
+      "practice": true,
+      "scoringBasis": "source-key",
       "signature": "0b58fc2603fdc29f"
     },
     {
@@ -9138,6 +9302,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "f6495f2a1633634f"
     },
     {
@@ -9196,8 +9361,9 @@ window.REVIEW_BANK = {
           }
         ]
       },
-      "scored": false,
-      "practice": false,
+      "scored": true,
+      "practice": true,
+      "scoringBasis": "source-key",
       "signature": "a592cdf4a6af3892"
     },
     {
@@ -9253,6 +9419,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "fc24908bcce16245"
     },
     {
@@ -9308,6 +9475,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "1df5ea23149f6a1c"
     },
     {
@@ -9368,6 +9536,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "6769d165cb8029f3"
     },
     {
@@ -9423,6 +9592,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "f0b1207693af36b8"
     },
     {
@@ -9478,6 +9648,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "bc32140fff986a5a"
     },
     {
@@ -9538,6 +9709,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "1f3b62fd38b592f9"
     },
     {
@@ -9593,6 +9765,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "731c2924dfa87cc1"
     },
     {
@@ -9646,8 +9819,9 @@ window.REVIEW_BANK = {
           }
         ]
       },
-      "scored": false,
-      "practice": false,
+      "scored": true,
+      "practice": true,
+      "scoringBasis": "source-key",
       "signature": "0d36843765f37459"
     },
     {
@@ -9703,6 +9877,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "9b600249f546c9ca"
     },
     {
@@ -9763,6 +9938,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "ba43cab417a0082a"
     },
     {
@@ -9818,6 +9994,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "b876221274658d6c"
     },
     {
@@ -9873,6 +10050,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "db0454cb842a4768"
     },
     {
@@ -9928,6 +10106,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "68c06205ac135edd"
     },
     {
@@ -9988,6 +10167,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "e512509daf625a70"
     },
     {
@@ -10046,6 +10226,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "9e5fb061b1d1f9df"
     },
     {
@@ -10101,6 +10282,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "88cf170ea3b52782"
     },
     {
@@ -10156,6 +10338,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "7fa315894c883774"
     },
     {
@@ -10216,6 +10399,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "fad24d929acfbfb4"
     },
     {
@@ -10271,6 +10455,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "62d46acde7c5e960"
     },
     {
@@ -10326,6 +10511,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "7ebdc2212645adc4"
     },
     {
@@ -10381,6 +10567,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "52b960786a0cd042"
     },
     {
@@ -10436,6 +10623,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "16b9fe1e9461bf5d"
     },
     {
@@ -10496,6 +10684,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "c94fd8ed1cce9225"
     },
     {
@@ -10549,8 +10738,9 @@ window.REVIEW_BANK = {
           }
         ]
       },
-      "scored": false,
-      "practice": false,
+      "scored": true,
+      "practice": true,
+      "scoringBasis": "source-key",
       "signature": "849e5afe28327824"
     },
     {
@@ -10611,6 +10801,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "66d8b2c78c5e7afc"
     },
     {
@@ -10671,6 +10862,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "1c3fbe5c3b6f6cbc"
     },
     {
@@ -10726,6 +10918,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "c9ffbf53d9775fb3"
     },
     {
@@ -10781,6 +10974,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "46ed861ea057964e"
     },
     {
@@ -10836,6 +11030,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "24003ca8a6cfd6d4"
     },
     {
@@ -10891,6 +11086,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "effda2d0bfa442ed"
     },
     {
@@ -10946,6 +11142,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "53dad8540dd5c1e8"
     },
     {
@@ -11006,6 +11203,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "428a7ce33f3d3654"
     },
     {
@@ -11061,6 +11259,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "3cb31149bdb9dd10"
     },
     {
@@ -11116,6 +11315,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "3f2a5707125b631f"
     },
     {
@@ -11176,6 +11376,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "cfb9c76c21c358a5"
     },
     {
@@ -11241,6 +11442,7 @@ window.REVIEW_BANK = {
       },
       "scored": true,
       "practice": true,
+      "scoringBasis": "verified",
       "signature": "03f2962243a25245"
     }
   ],
@@ -12046,7 +12248,7 @@ window.REVIEW_BANK = {
         0,
         1,
         2,
-        2
+        3
       ]
     },
     "webdev-33-2-17": {

@@ -38,3 +38,7 @@ Evidence screenshots:
 - [Mobile home, light](screenshots/home-mobile-light.png)
 
 Original documents and the DBA project were not modified. PPT-derived questions remain unavailable until presentations are supplied.
+
+## Deployment packaging
+
+The first GitHub-triggered Vercel deployment reported failure. Authenticated build logs were unavailable in this session. Explicit static build/output settings were added to remove framework/output-directory inference. `npm run build` now generates `public/`, verifies byte equality for all six application files, and includes the source code images. The output directory is ignored by Git; original bank and audit records remain in the repository. This packaging check is separate from production verification.

@@ -31,7 +31,7 @@ Original wording and choices are retained. Explanations qualify simplified wordi
 - `scripts/build_bank.cjs`: validates coverage and generates `data/review-bank.js`, the full audit report, and `audit/summary.json` from imports plus decisions.
 - `audit/source-checks.json`: dated HTTP/term evidence. Availability checks do not establish semantic correctness; the manual judgments are in the report.
 
-Rebuild with `npm run build`. Review changed source material before updating decisions; the builder fails when a new question lacks a decision. No presentation-derived questions have been added.
+Rebuild with `npm run build`. This regenerates the audited bank and copies the application and assets into the ignored `public/` deployment directory. `vercel.json` explicitly selects this static output and build command. To regenerate only the bank and report, run `node scripts/build_bank.cjs`. Review changed source material before updating decisions; the builder fails when a new question lacks a decision. No presentation-derived questions have been added.
 
 ## Saved-progress compatibility
 

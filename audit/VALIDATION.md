@@ -1,5 +1,11 @@
 # Validation record — 2026-10-14
 
+## Review-material choice restored
+
+The latest requested flow is Subject → All sections / BSIT 3-4 only → Quiz compilation / PPT topics & terms. This selection appears for both subjects and both scopes at `#/subject/scope/materials`. Quiz compilation opens the full combined practice collection; PPT topics & terms opens Coming soon until presentations are supplied. Breadcrumbs, sidebar and menu provide a return to the material choice, with saved attempts and cursor preserved.
+
+Eleven application suites pass, including both choices for all four subject/scope combinations, return navigation, existing practice/answer links, legacy quiz redirects, and draft/cursor preservation through the material screen. The bank, counts, answer decisions and progress signatures are unchanged. Browser checks confirmed the 30-question Elective route, PPT return navigation and the material return link. Both themes at 320, 768 and 1440 CSS-pixel widths on material, PPT and practice screens passed 18 checks without page-level horizontal overflow; desktop light and mobile dark layouts were visually inspected.
+
 ## Full practice inclusion
 
 The user requested all 30 BSIT 3-4 Elective questions in Practice and the complete WebDev collections too. All 201 source prompts now appear in Practice: 200 questions scored against their keys and one written self-review. This supersedes the earlier exclusion policy below. Counts are Elective BSIT 3-4: 30; Elective all sections: 70; WebDev BSIT 3-4: 26; WebDev all sections: 131. The WebDev written prompt numbered 6–10 is still one original prompt.

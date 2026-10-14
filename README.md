@@ -4,7 +4,7 @@ Web Development and AI & Machine Learning practice with the DBA-inspired palette
 
 Live site: https://webdev-elect-midterm-exam.vercel.app/
 
-The flow is **Subject → All sections / BSIT 3-4 only → Practice**. Each scope opens its combined collection immediately. Topics organize the questions; there are no compilation-selection screens. The hamburger drawer includes navigation and PPT terms, marked Coming soon until presentations are supplied.
+The flow is **Subject → All sections / BSIT 3-4 only → Quiz compilation / PPT topics & terms**. The quiz option opens the combined Practice set immediately. The PPT option opens Coming soon until presentations are supplied. Topics organize quiz questions; there is no further section or compilation chooser. Review material is also accessible from the breadcrumb, study sidebar and hamburger menu.
 
 Practice retains drafts, locks checked first attempts, and supports a fresh attempt for the selected topic or collection. Questions & answers shows the complete unique collection, answers, explanations, code images/transcripts, source attribution, primary references, topic filters, and search. Reading answers never submits a response. Each topic retains its practice cursor and walkthrough reading anchor.
 
@@ -37,7 +37,7 @@ Rebuild with `npm run build`. This regenerates the audited bank and copies the a
 
 The existing `study-room-progress-v1` storage key now contains version 2 data, storing answer text and question signatures. Migration translates old option indices through each source's choices to the representative answer meaning. Compatible checked responses remain locked; corrected keys, incompatible mappings, changed questions, and conflicting merged responses reopen only affected items. Unrelated responses and `study-room-theme` are preserved. The update banner explains migration. Responses to previous representatives are preserved; restored questions begin unanswered rather than inheriting a response to a differently worded question. An unmappable answer is retained as `previousValue` for recovery.
 
-Legacy scope, compilation-list, and source-specific quiz URLs redirect to combined practice. Old topic links resolve to the corresponding subject topic. Progress shared across scopes uses the same canonical question; resetting a question resets it everywhere it appears. Storage failures leave the current in-memory practice usable and show a save warning.
+Scope URLs open the review-material choice. Legacy compilation-list and source-specific quiz URLs redirect to combined practice; existing practice and answer-tab URLs remain valid. Old topic links resolve to the corresponding subject topic. Progress shared across scopes uses the same canonical question; resetting a question resets it everywhere it appears. Storage failures leave the current in-memory practice usable and show a save warning.
 
 ## Run and validate
 
